@@ -171,7 +171,7 @@
             var ee = t.n($)
               , ne = function(e) {
                 var n = (e || {}).data;
-                return 0 === Number(n.code) && n ? Promise.resolve(n) : Promise.reject(n)
+                return n && 0 === Number(n.code) ? Promise.resolve(n) : Promise.reject(n)
             }
               , te = function(e) {
                 return function(n) {
@@ -8058,7 +8058,7 @@
                     }
                     ), []),
                     {
-                        isAllowToLoadApp: true
+                        isAllowToLoadApp: true||Lt(window)&&Boolean(e)&&!(window.location!=window.parent.location)
                     }
                 }().isAllowToLoadApp;
                 return (0,
@@ -8504,8 +8504,8 @@
         a.push = n.bind(null, a.push.bind(a))
     }
     )();
-    var a = t.O(void 0, [2695, 8536, 5145, 7524, 9334, 1076, 2418, 8283, 2582, 5861, 4757, 1912, 9590], ( () => t(58288)));
+    var a = t.O(void 0, [2443, 8536, 5145, 8638, 9334, 1076, 2418, 8283, 2582, 5861, 9633, 1912, 9118], ( () => t(58288)));
     a = t.O(a)
 }
 )();
-//# sourceMappingURL=https://static-daily.okg.com/crash/okfe/growth/telegram-mini-app/index.fea274a1.js.map
+//# sourceMappingURL=https://static-daily.okg.com/crash/okfe/growth/telegram-mini-app/index.fc3a525a.js.map
