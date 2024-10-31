@@ -1,29 +1,29 @@
 ( () => {
     var e = {
-        58288: (e, n, t) => {
+        58288: (e, t, n) => {
             "use strict";
-            var a = t(87363)
-              , r = t.n(a);
+            var a = n(87363)
+              , r = n.n(a);
             const s = ReactRouterDOM;
-            t(75139);
-            var i = t(73271)
-              , o = t(53949)
-              , c = (t(78599),
-            t(74165))
-              , l = t(15861)
-              , u = t(70885)
-              , d = t(7763)
-              , _ = t(46541)
-              , m = t(1677)
-              , p = t(27173)
-              , f = (t(92643),
-            t(8786))
+            n(75139);
+            var i = n(73271)
+              , o = n(53949)
+              , c = (n(78599),
+            n(74165))
+              , l = n(15861)
+              , u = n(70885)
+              , d = n(7763)
+              , _ = n(46541)
+              , p = n(1677)
+              , m = n(27173)
+              , f = (n(92643),
+            n(8786))
               , x = function() {
-                var e, n, t = ((null === (e = window.Telegram) || void 0 === e || null === (n = e.WebApp) || void 0 === n ? void 0 : n.initDataUnsafe) || {}).user, a = {
+                var e, t, n = ((null === (e = window.Telegram) || void 0 === e || null === (t = e.WebApp) || void 0 === t ? void 0 : t.initDataUnsafe) || {}).user, a = {
                     en: "en_US",
                     "zh-hans": "zh_CN",
                     "zh-hant": "zh_TW"
-                }[(null === t || void 0 === t ? void 0 : t.language_code) || "en"] || "en_US";
+                }[(null === n || void 0 === n ? void 0 : n.language_code) || "en"] || "en_US";
                 return f.Z.set("locale", a),
                 window._okGlobal && (window._okGlobal.locale = a),
                 {
@@ -35,26 +35,26 @@
             const h = "App_container__p+0qT"
               , v = "App_navbar__zvxzr"
               , g = "App_content__Jjurs";
-            var k = t(1413);
+            var k = n(1413);
             const j = "ComPaddingLayout_common-padding-layout__0gGbM";
-            var N = t(45263)
+            var N = n(45263)
               , C = function(e) {
-                return function(n) {
+                return function(t) {
                     return (0,
                     N.jsx)("div", {
                         className: j,
                         children: (0,
                         N.jsx)(e, (0,
-                        k.Z)({}, n))
+                        k.Z)({}, t))
                     })
                 }
             }
-              , w = t(44925)
-              , b = t(95640)
-              , y = t.n(b)
-              , Z = t(14300)
-              , P = t(7562)
-              , T = (t(96809),
+              , w = n(44925)
+              , b = n(95640)
+              , y = n.n(b)
+              , Z = n(14300)
+              , P = n(7562)
+              , T = (n(96809),
             {
                 act: function() {}
             });
@@ -91,13 +91,13 @@
                 return (0,
                 a.useContext)(B)
             }
-              , R = function(e) {
-                var n = e.children
-                  , t = (0,
+              , L = function(e) {
+                var t = e.children
+                  , n = (0,
                 a.useMemo)((function() {
-                    var e, n, t = (null === (e = window.Telegram) || void 0 === e || null === (n = e.WebApp) || void 0 === n ? void 0 : n.initDataUnsafe) || {
+                    var e, t, n = (null === (e = window.Telegram) || void 0 === e || null === (t = e.WebApp) || void 0 === t ? void 0 : t.initDataUnsafe) || {
                         user: {}
-                    }, a = t.user, r = t.start_param;
+                    }, a = n.user, r = n.start_param;
                     if (a) {
                         var s = a.id
                           , i = a.username
@@ -122,81 +122,81 @@
                 }
                 ), [])
                   , r = (0,
-                a.useState)(t)
+                a.useState)(n)
                   , s = (0,
                 u.Z)(r, 1)[0];
                 return (0,
                 N.jsx)(B.Provider, {
                     value: s,
-                    children: n
+                    children: t
                 })
             }
-              , L = "/mini-app/racer"
+              , R = "/mini-app/racer"
               , A = "/mini-app/racer/referrals"
               , D = "/mini-app/racer/tasks"
               , F = "/mini-app/racer/tasks/partner"
-              , U = "/mini-app/racer/leaderboard"
-              , M = "/mini-app/racer/license"
-              , G = "/mini-app/racer/license/grades"
-              , W = "/mini-app/racer/license/airdrop"
-              , V = t(83108)
-              , H = t(76983)
-              , Y = t(96833)
-              , K = (t(14268),
-            t(83295),
-            t(29361),
-            t(4860))
-              , z = t(4422)
-              , X = t(72202)
-              , J = function(e, n) {
-                e ? p.Z.success({
-                    title: n || (0,
+              , W = "/mini-app/racer/leaderboard"
+              , U = "/mini-app/racer/license"
+              , M = "/mini-app/racer/license/grades"
+              , G = "/mini-app/racer/license/airdrop"
+              , V = n(83108)
+              , H = n(76983)
+              , Y = n(96833)
+              , K = (n(14268),
+            n(83295),
+            n(29361),
+            n(4860))
+              , X = n(4422)
+              , z = n(72202)
+              , J = function(e, t) {
+                e ? m.Z.success({
+                    title: t || (0,
                     Z.O4)("ok_game_okxracer_success"),
-                    placement: p.Z.DIRECTION.topRight,
+                    placement: m.Z.DIRECTION.topRight,
                     showClose: !1
-                }) : p.Z.error({
-                    title: n || (0,
+                }) : m.Z.error({
+                    title: t || (0,
                     Z.O4)("ok_game_okxracer_failed"),
-                    placement: p.Z.DIRECTION.topRight,
+                    placement: m.Z.DIRECTION.topRight,
                     showClose: !1
                 })
             }
               , q = function(e) {
-                var n = null === e || void 0 === e ? void 0 : e.error_message;
-                J(!1, n || (0,
+                var t = null === e || void 0 === e ? void 0 : e.error_message;
+                J(!1, t || (0,
                 Z.O4)("ok_game_okxracer_error_high_traffic"))
             }
-              , Q = t(60378);
+              , Q = n(60378);
             const $ = utils.ont;
-            var ee = t.n($)
-              , ne = function(e) {
-                var n = (e || {}).data;
-                return n && 0 === Number(n.code) ? Promise.resolve(n) : Promise.reject(n)
-            }
+            var ee = n.n($)
               , te = function(e) {
-                return function(n) {
+                var t = (e || {}).data;
+                return t && 0 === Number(t.code) ? Promise.resolve(t) : Promise.reject(t)
+            }
+              , ne = function(e) {
+                return function(t) {
                     if (!(0,
                     Q.y)()) {
-                        var t = n || {}
-                          , a = t.status
-                          , r = t.data || {}
+                        var n = t || {}
+                          , a = n.status
+                          , r = n.data || {}
                           , s = r.msg
                           , i = r.code;
-                        z.k.warn("Request error, url=".concat(e, " status=").concat(a, " msg=").concat(s, " code=").concat(i), n)
+                        X.k.warn("Request error, url=".concat(e, " status=").concat(a, " msg=").concat(s, " code=").concat(i), t)
                     }
-                    return Promise.reject(n)
+                    return Promise.reject(t)
                 }
             }
               , ae = function() {
                 var e = (0,
                 l.Z)((0,
-                c.Z)().mark((function e(n, t) {
+                c.Z)().mark((function e(t, n) {
                     return (0,
                     c.Z)().wrap((function(e) {
                         for (; ; )
                             switch (e.prev = e.next) {
                             case 0:
-                                return e.abrupt("return", ee().get(n, t).then(ne, te(n)));
+                                return e.abrupt("return", ee().get(t, n).then(te, ne(t)));
                             case 1:
                             case "end":
                                 return e.stop()
@@ -205,20 +205,20 @@
                     ), e)
                 }
                 )));
-                return function(n, t) {
+                return function(t, n) {
                     return e.apply(this, arguments)
                 }
             }()
               , re = function() {
                 var e = (0,
                 l.Z)((0,
-                c.Z)().mark((function e(n, t) {
+                c.Z)().mark((function e(t, n) {
                     return (0,
                     c.Z)().wrap((function(e) {
                         for (; ; )
                             switch (e.prev = e.next) {
                             case 0:
-                                return e.abrupt("return", ee().getWithCache(n, t).then(ne, te(n)));
+                                return e.abrupt("return", ee().getWithCache(t, n).then(te, ne(t)));
                             case 1:
                             case "end":
                                 return e.stop()
@@ -227,20 +227,20 @@
                     ), e)
                 }
                 )));
-                return function(n, t) {
+                return function(t, n) {
                     return e.apply(this, arguments)
                 }
             }()
               , se = function() {
                 var e = (0,
                 l.Z)((0,
-                c.Z)().mark((function e(n, t, a) {
+                c.Z)().mark((function e(t, n, a) {
                     return (0,
                     c.Z)().wrap((function(e) {
                         for (; ; )
                             switch (e.prev = e.next) {
                             case 0:
-                                return e.abrupt("return", ee().post(n, t, a).then(ne, te(n)));
+                                return e.abrupt("return", ee().post(t, n, a).then(te, ne(t)));
                             case 1:
                             case "end":
                                 return e.stop()
@@ -249,20 +249,20 @@
                     ), e)
                 }
                 )));
-                return function(n, t, a) {
+                return function(t, n, a) {
                     return e.apply(this, arguments)
                 }
             }()
               , ie = function() {
                 var e = (0,
                 l.Z)((0,
-                c.Z)().mark((function e(n, t, a) {
+                c.Z)().mark((function e(t, n, a) {
                     return (0,
                     c.Z)().wrap((function(e) {
                         for (; ; )
                             switch (e.prev = e.next) {
                             case 0:
-                                return e.abrupt("return", ee().put(n, t, a).then(ne, te(n)));
+                                return e.abrupt("return", ee().put(t, n, a).then(te, ne(t)));
                             case 1:
                             case "end":
                                 return e.stop()
@@ -271,20 +271,20 @@
                     ), e)
                 }
                 )));
-                return function(n, t, a) {
+                return function(t, n, a) {
                     return e.apply(this, arguments)
                 }
             }()
               , oe = function() {
                 var e = (0,
                 l.Z)((0,
-                c.Z)().mark((function e(n, t) {
+                c.Z)().mark((function e(t, n) {
                     return (0,
                     c.Z)().wrap((function(e) {
                         for (; ; )
                             switch (e.prev = e.next) {
                             case 0:
-                                return e.abrupt("return", ee().delete(n, t).then(ne, te(n)));
+                                return e.abrupt("return", ee().delete(t, n).then(te, ne(t)));
                             case 1:
                             case "end":
                                 return e.stop()
@@ -293,14 +293,14 @@
                     ), e)
                 }
                 )));
-                return function(n, t) {
+                return function(t, n) {
                     return e.apply(this, arguments)
                 }
             }()
               , ce = function() {
                 var e = (0,
                 l.Z)((0,
-                c.Z)().mark((function e(n, t, a) {
+                c.Z)().mark((function e(t, n, a) {
                     var r;
                     return (0,
                     c.Z)().wrap((function(e) {
@@ -308,15 +308,15 @@
                             switch (e.prev = e.next) {
                             case 0:
                                 return r = new FormData,
-                                Object.entries(null !== t && void 0 !== t ? t : {}).forEach((function(e) {
-                                    var n = (0,
+                                Object.entries(null !== n && void 0 !== n ? n : {}).forEach((function(e) {
+                                    var t = (0,
                                     u.Z)(e, 2)
-                                      , t = n[0]
-                                      , a = n[1];
-                                    a instanceof Blob ? r.append(t, a) : r.append(t, String(a))
+                                      , n = t[0]
+                                      , a = t[1];
+                                    a instanceof Blob ? r.append(n, a) : r.append(n, String(a))
                                 }
                                 )),
-                                e.abrupt("return", se(n, r, a));
+                                e.abrupt("return", se(t, r, a));
                             case 3:
                             case "end":
                                 return e.stop()
@@ -325,7 +325,7 @@
                     ), e)
                 }
                 )));
-                return function(n, t, a) {
+                return function(t, n, a) {
                     return e.apply(this, arguments)
                 }
             }();
@@ -337,8 +337,8 @@
                 postForm: ce,
                 delete: oe
             };
-            var ue = t(15671)
-              , de = t(43144)
+            var ue = n(15671)
+              , de = n(43144)
               , _e = function() {
                 function e() {
                     (0,
@@ -349,17 +349,17 @@
                 return (0,
                 de.Z)(e, [{
                     key: "setItem",
-                    value: function(e, n) {
+                    value: function(e, t) {
                         this.store.set(e, {
-                            value: n,
+                            value: t,
                             timestamp: Date.now()
                         })
                     }
                 }, {
                     key: "getItem",
                     value: function(e) {
-                        var n = this.store.get(e);
-                        return n ? n.value : void 0
+                        var t = this.store.get(e);
+                        return t ? t.value : void 0
                     }
                 }, {
                     key: "removeItem",
@@ -378,9 +378,9 @@
                     }
                 }, {
                     key: "isItemExpired",
-                    value: function(e, n) {
-                        var t = this.store.get(e);
-                        return !t || Date.now() - t.timestamp > n
+                    value: function(e, t) {
+                        var n = this.store.get(e);
+                        return !n || Date.now() - n.timestamp > t
                     }
                 }], [{
                     key: "getInstance",
@@ -391,50 +391,50 @@
                 }])
             }();
             _e.instance = void 0;
-            const me = _e.getInstance();
-            function pe(e, n) {
+            const pe = _e.getInstance();
+            function me(e, t) {
                 return function() {
-                    var t = (0,
+                    var n = (0,
                     l.Z)((0,
-                    c.Z)().mark((function t(a, r) {
+                    c.Z)().mark((function n(a, r) {
                         var s;
                         return (0,
-                        c.Z)().wrap((function(t) {
+                        c.Z)().wrap((function(n) {
                             for (; ; )
-                                switch (t.prev = t.next) {
+                                switch (n.prev = n.next) {
                                 case 0:
                                     if (s = "cache_".concat(a, "_").concat(JSON.stringify(r)),
-                                    !me.hasItem(s) || me.isItemExpired(s, n)) {
-                                        t.next = 3;
+                                    !pe.hasItem(s) || pe.isItemExpired(s, t)) {
+                                        n.next = 3;
                                         break
                                     }
-                                    return t.abrupt("return", e(a, r, !0));
+                                    return n.abrupt("return", e(a, r, !0));
                                 case 3:
-                                    return t.abrupt("return", e(a, r, !1));
+                                    return n.abrupt("return", e(a, r, !1));
                                 case 4:
                                 case "end":
-                                    return t.stop()
+                                    return n.stop()
                                 }
                         }
-                        ), t)
+                        ), n)
                     }
                     )));
-                    return function(e, n) {
-                        return t.apply(this, arguments)
+                    return function(e, t) {
+                        return n.apply(this, arguments)
                     }
                 }()
             }
             function fe() {
-                var e, n;
-                return (null === (e = window.Telegram) || void 0 === e || null === (n = e.WebApp) || void 0 === n ? void 0 : n.initData) || ""
+                var e, t;
+                return (null === (e = window.Telegram) || void 0 === e || null === (t = e.WebApp) || void 0 === t ? void 0 : t.initData) || ""
             }
-            function xe(e, n, t) {
+            function xe(e, t, n) {
                 return he.apply(this, arguments)
             }
             function he() {
                 return (he = (0,
                 l.Z)((0,
-                c.Z)().mark((function e(n, t, a) {
+                c.Z)().mark((function e(t, n, a) {
                     var r;
                     return (0,
                     c.Z)().wrap((function(e) {
@@ -442,7 +442,7 @@
                             switch (e.prev = e.next) {
                             case 0:
                                 return e.next = 2,
-                                le.get(n, (0,
+                                le.get(t, (0,
                                 k.Z)((0,
                                 k.Z)({}, a || {}), {}, {
                                     headers: {
@@ -451,7 +451,7 @@
                                 }));
                             case 2:
                                 return r = e.sent,
-                                me.setItem(t, r),
+                                pe.setItem(n, r),
                                 e.abrupt("return", r);
                             case 5:
                             case "end":
@@ -462,31 +462,31 @@
                 }
                 )))).apply(this, arguments)
             }
-            function ve(e, n, t) {
+            function ve(e, t, n) {
                 return ge.apply(this, arguments)
             }
             function ge() {
                 return (ge = (0,
                 l.Z)((0,
-                c.Z)().mark((function e(n, t, a) {
+                c.Z)().mark((function e(t, n, a) {
                     var r, s;
                     return (0,
                     c.Z)().wrap((function(e) {
                         for (; ; )
                             switch (e.prev = e.next) {
                             case 0:
-                                if (r = "cache_".concat(n, "_").concat(JSON.stringify(t)),
-                                !a || !me.hasItem(r)) {
+                                if (r = "cache_".concat(t, "_").concat(JSON.stringify(n)),
+                                !a || !pe.hasItem(r)) {
                                     e.next = 5;
                                     break
                                 }
-                                return s = me.getItem(r),
-                                xe(n, r, t).then((function() {}
+                                return s = pe.getItem(r),
+                                xe(t, r, n).then((function() {}
                                 )).catch((function() {}
                                 )),
                                 e.abrupt("return", s);
                             case 5:
-                                return e.abrupt("return", xe(n, r, t));
+                                return e.abrupt("return", xe(t, r, n));
                             case 6:
                             case "end":
                                 return e.stop()
@@ -496,13 +496,13 @@
                 }
                 )))).apply(this, arguments)
             }
-            function ke(e, n, t, a) {
+            function ke(e, t, n, a) {
                 return je.apply(this, arguments)
             }
             function je() {
                 return (je = (0,
                 l.Z)((0,
-                c.Z)().mark((function e(n, t, a, r) {
+                c.Z)().mark((function e(t, n, a, r) {
                     var s;
                     return (0,
                     c.Z)().wrap((function(e) {
@@ -510,7 +510,7 @@
                             switch (e.prev = e.next) {
                             case 0:
                                 return e.next = 2,
-                                le.post(n, t, (0,
+                                le.post(t, n, (0,
                                 k.Z)((0,
                                 k.Z)({}, r || {}), {}, {
                                     headers: {
@@ -519,7 +519,7 @@
                                 }));
                             case 2:
                                 return s = e.sent,
-                                me.setItem(a, s),
+                                pe.setItem(a, s),
                                 e.abrupt("return", s);
                             case 5:
                             case "end":
@@ -530,31 +530,31 @@
                 }
                 )))).apply(this, arguments)
             }
-            function Ne(e, n, t, a) {
+            function Ne(e, t, n, a) {
                 return Ce.apply(this, arguments)
             }
             function Ce() {
                 return (Ce = (0,
                 l.Z)((0,
-                c.Z)().mark((function e(n, t, a, r) {
+                c.Z)().mark((function e(t, n, a, r) {
                     var s, i;
                     return (0,
                     c.Z)().wrap((function(e) {
                         for (; ; )
                             switch (e.prev = e.next) {
                             case 0:
-                                if (s = "cache_".concat(n, "_").concat(JSON.stringify(t)),
-                                !me.hasItem(s) || !a) {
+                                if (s = "cache_".concat(t, "_").concat(JSON.stringify(n)),
+                                !pe.hasItem(s) || !a) {
                                     e.next = 5;
                                     break
                                 }
-                                return i = me.getItem(s),
-                                ke(n, t, s, r).then((function() {}
+                                return i = pe.getItem(s),
+                                ke(t, n, s, r).then((function() {}
                                 )).catch((function() {}
                                 )),
                                 e.abrupt("return", i);
                             case 5:
-                                return e.abrupt("return", ke(n, t, s, r));
+                                return e.abrupt("return", ke(t, n, s, r));
                             case 6:
                             case "end":
                                 return e.stop()
@@ -568,13 +568,13 @@
               , be = function() {
                 var e = (0,
                 l.Z)((0,
-                c.Z)().mark((function e(n) {
+                c.Z)().mark((function e(t) {
                     return (0,
                     c.Z)().wrap((function(e) {
                         for (; ; )
                             switch (e.prev = e.next) {
                             case 0:
-                                return e.abrupt("return", Ne("".concat(we, "/game/racer/info"), n));
+                                return e.abrupt("return", Ne("".concat(we, "/game/racer/info"), t));
                             case 1:
                             case "end":
                                 return e.stop()
@@ -583,20 +583,20 @@
                     ), e)
                 }
                 )));
-                return function(n) {
+                return function(t) {
                     return e.apply(this, arguments)
                 }
             }()
               , ye = function() {
                 var e = (0,
                 l.Z)((0,
-                c.Z)().mark((function e(n) {
+                c.Z)().mark((function e(t) {
                     return (0,
                     c.Z)().wrap((function(e) {
                         for (; ; )
                             switch (e.prev = e.next) {
                             case 0:
-                                return e.abrupt("return", Ne("".concat(we, "/game/racer/assess"), n));
+                                return e.abrupt("return", Ne("".concat(we, "/game/racer/assess"), t));
                             case 1:
                             case "end":
                                 return e.stop()
@@ -605,14 +605,14 @@
                     ), e)
                 }
                 )));
-                return function(n) {
+                return function(t) {
                     return e.apply(this, arguments)
                 }
             }()
               , Ze = function() {
                 var e = (0,
                 l.Z)((0,
-                c.Z)().mark((function e(n, t) {
+                c.Z)().mark((function e(t, n) {
                     var a, r;
                     return (0,
                     c.Z)().wrap((function(e) {
@@ -622,8 +622,8 @@
                                 return e.prev = 0,
                                 e.next = 3,
                                 ve("".concat(we, "/game/racer/invitee-list"), {
-                                    params: n
-                                }, t);
+                                    params: t
+                                }, n);
                             case 3:
                                 if (a = e.sent,
                                 !(r = a.data)) {
@@ -646,25 +646,25 @@
                     ), e, null, [[0, 10]])
                 }
                 )));
-                return function(n, t) {
+                return function(t, n) {
                     return e.apply(this, arguments)
                 }
             }()
               , Pe = function() {
                 var e = (0,
                 l.Z)((0,
-                c.Z)().mark((function e(n) {
-                    var t, a, r;
+                c.Z)().mark((function e(t) {
+                    var n, a, r;
                     return (0,
                     c.Z)().wrap((function(e) {
                         for (; ; )
                             switch (e.prev = e.next) {
                             case 0:
                                 return e.prev = 0,
-                                t = pe(ve, 1e4),
+                                n = me(ve, 1e4),
                                 e.next = 4,
-                                t("".concat(we, "/game/racer/leaderboard/friends"), {
-                                    params: n
+                                n("".concat(we, "/game/racer/leaderboard/friends"), {
+                                    params: t
                                 });
                             case 4:
                                 if (a = e.sent,
@@ -688,25 +688,25 @@
                     ), e, null, [[0, 11]])
                 }
                 )));
-                return function(n) {
+                return function(t) {
                     return e.apply(this, arguments)
                 }
             }()
               , Te = function() {
                 var e = (0,
                 l.Z)((0,
-                c.Z)().mark((function e(n) {
-                    var t, a, r;
+                c.Z)().mark((function e(t) {
+                    var n, a, r;
                     return (0,
                     c.Z)().wrap((function(e) {
                         for (; ; )
                             switch (e.prev = e.next) {
                             case 0:
                                 return e.prev = 0,
-                                t = pe(ve, 3e5),
+                                n = me(ve, 3e5),
                                 e.next = 4,
-                                t("".concat(we, "/game/racer/leaderboard/global"), {
-                                    params: n
+                                n("".concat(we, "/game/racer/leaderboard/global"), {
+                                    params: t
                                 });
                             case 4:
                                 if (a = e.sent,
@@ -730,7 +730,7 @@
                     ), e, null, [[0, 11]])
                 }
                 )));
-                return function(n) {
+                return function(t) {
                     return e.apply(this, arguments)
                 }
             }()
@@ -745,13 +745,13 @@
               , Se = function() {
                 var e = (0,
                 l.Z)((0,
-                c.Z)().mark((function e(n) {
+                c.Z)().mark((function e(t) {
                     return (0,
                     c.Z)().wrap((function(e) {
                         for (; ; )
                             switch (e.prev = e.next) {
                             case 0:
-                                return e.abrupt("return", ve("".concat(we, "/game/racer/boosts"), {}, n));
+                                return e.abrupt("return", ve("".concat(we, "/game/racer/boosts"), {}, t));
                             case 1:
                             case "end":
                                 return e.stop()
@@ -760,20 +760,20 @@
                     ), e)
                 }
                 )));
-                return function(n) {
+                return function(t) {
                     return e.apply(this, arguments)
                 }
             }()
               , Ee = function() {
                 var e = (0,
                 l.Z)((0,
-                c.Z)().mark((function e(n) {
+                c.Z)().mark((function e(t) {
                     return (0,
                     c.Z)().wrap((function(e) {
                         for (; ; )
                             switch (e.prev = e.next) {
                             case 0:
-                                return e.abrupt("return", Ne("".concat(we, "/game/racer/boost"), n));
+                                return e.abrupt("return", Ne("".concat(we, "/game/racer/boost"), t));
                             case 1:
                             case "end":
                                 return e.stop()
@@ -782,20 +782,20 @@
                     ), e)
                 }
                 )));
-                return function(n) {
+                return function(t) {
                     return e.apply(this, arguments)
                 }
             }()
               , Be = function() {
                 var e = (0,
                 l.Z)((0,
-                c.Z)().mark((function e(n) {
+                c.Z)().mark((function e(t) {
                     return (0,
                     c.Z)().wrap((function(e) {
                         for (; ; )
                             switch (e.prev = e.next) {
                             case 0:
-                                return e.abrupt("return", ve("".concat(we, "/game/racer/group-tasks"), {}, n));
+                                return e.abrupt("return", ve("".concat(we, "/game/racer/group-tasks"), {}, t));
                             case 1:
                             case "end":
                                 return e.stop()
@@ -804,20 +804,20 @@
                     ), e)
                 }
                 )));
-                return function(n) {
+                return function(t) {
                     return e.apply(this, arguments)
                 }
             }()
               , Ie = function() {
                 var e = (0,
                 l.Z)((0,
-                c.Z)().mark((function e(n) {
+                c.Z)().mark((function e(t) {
                     return (0,
                     c.Z)().wrap((function(e) {
                         for (; ; )
                             switch (e.prev = e.next) {
                             case 0:
-                                return e.abrupt("return", Ne("".concat(we, "/game/racer/task"), n));
+                                return e.abrupt("return", Ne("".concat(we, "/game/racer/task"), t));
                             case 1:
                             case "end":
                                 return e.stop()
@@ -826,20 +826,20 @@
                     ), e)
                 }
                 )));
-                return function(n) {
+                return function(t) {
                     return e.apply(this, arguments)
                 }
             }()
-              , Re = function() {
+              , Le = function() {
                 var e = (0,
                 l.Z)((0,
-                c.Z)().mark((function e(n) {
+                c.Z)().mark((function e(t) {
                     return (0,
                     c.Z)().wrap((function(e) {
                         for (; ; )
                             switch (e.prev = e.next) {
                             case 0:
-                                return e.abrupt("return", Ne("".concat(we, "/game/racer/task-context"), n));
+                                return e.abrupt("return", Ne("".concat(we, "/game/racer/task-context"), t));
                             case 1:
                             case "end":
                                 return e.stop()
@@ -848,11 +848,11 @@
                     ), e)
                 }
                 )));
-                return function(n) {
+                return function(t) {
                     return e.apply(this, arguments)
                 }
             }()
-              , Le = function(e) {
+              , Re = function(e) {
                 return e[e.NotStarted = 0] = "NotStarted",
                 e[e.InProgress = 1] = "InProgress",
                 e[e.Ended = 2] = "Ended",
@@ -862,18 +862,18 @@
                 var e = (0,
                 l.Z)((0,
                 c.Z)().mark((function e() {
-                    var n, t, a, r, s, i = arguments;
+                    var t, n, a, r, s, i = arguments;
                     return (0,
                     c.Z)().wrap((function(e) {
                         for (; ; )
                             switch (e.prev = e.next) {
                             case 0:
-                                return n = i.length > 0 && void 0 !== i[0] && i[0],
-                                t = i.length > 1 && void 0 !== i[1] ? i[1] : {
+                                return t = i.length > 0 && void 0 !== i[0] && i[0],
+                                n = i.length > 1 && void 0 !== i[1] ? i[1] : {
                                     isRecheckBinding: !1
                                 },
                                 e.next = 4,
-                                Ne("".concat(we, "/game/racer/account-binding"), t, n);
+                                Ne("".concat(we, "/game/racer/account-binding"), n, t);
                             case 4:
                                 if (a = e.sent,
                                 r = a.code,
@@ -907,19 +907,19 @@
                 var e = (0,
                 l.Z)((0,
                 c.Z)().mark((function e() {
-                    var n, t, a, r, s = arguments;
+                    var t, n, a, r, s = arguments;
                     return (0,
                     c.Z)().wrap((function(e) {
                         for (; ; )
                             switch (e.prev = e.next) {
                             case 0:
-                                return n = s.length > 0 && void 0 !== s[0] && s[0],
+                                return t = s.length > 0 && void 0 !== s[0] && s[0],
                                 e.next = 3,
-                                ve("".concat(we, "/game/racer/campaigns"), {}, n);
+                                ve("".concat(we, "/game/racer/campaigns"), {}, t);
                             case 3:
-                                if (t = e.sent,
-                                a = t.code,
-                                r = t.data,
+                                if (n = e.sent,
+                                a = n.code,
+                                r = n.data,
                                 0 !== a || !r) {
                                     e.next = 8;
                                     break
@@ -943,14 +943,14 @@
                 var e = (0,
                 l.Z)((0,
                 c.Z)().mark((function e() {
-                    var n, t = arguments;
+                    var t, n = arguments;
                     return (0,
                     c.Z)().wrap((function(e) {
                         for (; ; )
                             switch (e.prev = e.next) {
                             case 0:
-                                return n = t.length > 0 && void 0 !== t[0] && t[0],
-                                e.abrupt("return", ve("".concat(we, "/game/racer/airdrop/tasks"), {}, n));
+                                return t = n.length > 0 && void 0 !== n[0] && n[0],
+                                e.abrupt("return", ve("".concat(we, "/game/racer/airdrop/tasks"), {}, t));
                             case 2:
                             case "end":
                                 return e.stop()
@@ -963,67 +963,67 @@
                     return e.apply(this, arguments)
                 }
             }()
-              , Ue = t(55528);
-            function Me(e) {
-                for (var n = arguments.length, t = new Array(n > 1 ? n - 1 : 0), a = 1; a < n; a++)
-                    t[a - 1] = arguments[a];
+              , We = n(55528);
+            function Ue(e) {
+                for (var t = arguments.length, n = new Array(t > 1 ? t - 1 : 0), a = 1; a < t; a++)
+                    n[a - 1] = arguments[a];
                 return function() {
-                    for (var n = arguments.length, a = new Array(n), r = 0; r < n; r++)
+                    for (var t = arguments.length, a = new Array(t), r = 0; r < t; r++)
                         a[r] = arguments[r];
-                    return e.apply(void 0, t.concat(a))
+                    return e.apply(void 0, n.concat(a))
                 }
             }
-            var Ge = {
-                Rewards: Me(Ae, !0),
-                Friends: Me(Pe, {
+            var Me = {
+                Rewards: Ue(Ae, !0),
+                Friends: Ue(Pe, {
                     pageNo: 1
                 }),
-                Boost: Me(Se, !0),
-                Task: Me(Be, !0),
-                Invitee: Me(Ze, {
+                Boost: Ue(Se, !0),
+                Task: Ue(Be, !0),
+                Invitee: Ue(Ze, {
                     pageNo: 1
                 }, !0),
-                Global: Me(Te, {
+                Global: Ue(Te, {
                     pageNo: 1
                 })
             }
-              , We = ["Rewards", "Friends", "Boost", "Task", "Invitee", "Global"]
+              , Ge = ["Rewards", "Friends", "Boost", "Task", "Invitee", "Global"]
               , Ve = function() {
                 var e = (0,
                 l.Z)((0,
-                c.Z)().mark((function e(n) {
-                    var t;
+                c.Z)().mark((function e(t) {
+                    var n;
                     return (0,
                     c.Z)().wrap((function(e) {
                         for (; ; )
                             switch (e.prev = e.next) {
                             case 0:
-                                if (0 !== n.length) {
+                                if (0 !== t.length) {
                                     e.next = 2;
                                     break
                                 }
                                 return e.abrupt("return");
                             case 2:
-                                return t = n.shift(),
+                                return n = t.shift(),
                                 e.prev = 3,
                                 e.next = 6,
                                 new Promise((function(e) {
-                                    var n = Math.floor(1e3 * Ue.k.mathRandom()) + 500;
-                                    setTimeout(e, n)
+                                    var t = Math.floor(1e3 * We.k.mathRandom()) + 500;
+                                    setTimeout(e, t)
                                 }
                                 ));
                             case 6:
-                                t && Ge[t] && (a = Ge[t],
+                                n && Me[n] && (a = Me[n],
                                 "requestIdleCallback"in window ? requestIdleCallback(a) : setTimeout(a, 0)),
                                 e.next = 12;
                                 break;
                             case 9:
                                 e.prev = 9,
                                 e.t0 = e.catch(3),
-                                e.t0 instanceof Error && z.k.error("mini app okx racer, executeRequestsRecursively-error ".concat(e.t0.message), e.t0);
+                                e.t0 instanceof Error && X.k.error("mini app okx racer, executeRequestsRecursively-error ".concat(e.t0.message), e.t0);
                             case 12:
                                 return e.next = 14,
-                                Ve(n);
+                                Ve(t);
                             case 14:
                             case "end":
                                 return e.stop()
@@ -1033,13 +1033,13 @@
                     ), e, null, [[3, 9]])
                 }
                 )));
-                return function(n) {
+                return function(t) {
                     return e.apply(this, arguments)
                 }
             }();
             function He() {
-                Ve(We).catch((function(e) {
-                    e instanceof Error && z.k.error("mini app okx racer, initPreRequest-error ".concat(e.message), {
+                Ve(Ge).catch((function(e) {
+                    e instanceof Error && X.k.error("mini app okx racer, initPreRequest-error ".concat(e.message), {
                         e: e
                     })
                 }
@@ -1073,12 +1073,12 @@
                 return (0,
                 a.useContext)(Ye)
             }
-              , ze = function(e) {
-                var n, t = e.children, r = (0,
+              , Xe = function(e) {
+                var t, n = e.children, r = (0,
                 a.useState)(0), s = (0,
                 u.Z)(r, 2), i = s[0], o = s[1], d = (0,
                 a.useState)(0), _ = (0,
-                u.Z)(d, 2), m = _[0], p = _[1], f = (0,
+                u.Z)(d, 2), p = _[0], m = _[1], f = (0,
                 a.useState)(0), x = (0,
                 u.Z)(f, 2), h = x[0], v = x[1], g = (0,
                 a.useState)(0), k = (0,
@@ -1087,20 +1087,20 @@
                 u.Z)(w, 2), y = b[0], P = b[1], T = (0,
                 a.useState)(0), O = (0,
                 u.Z)(T, 2), S = O[0], E = O[1], B = (0,
-                a.useState)(0), R = (0,
-                u.Z)(B, 2), L = R[0], A = R[1], D = (0,
+                a.useState)(0), L = (0,
+                u.Z)(B, 2), R = L[0], A = L[1], D = (0,
                 a.useState)(""), F = (0,
-                u.Z)(D, 2), U = F[0], M = F[1], G = (0,
-                a.useState)({}), W = (0,
-                u.Z)(G, 2), V = W[0], H = W[1], Y = (0,
+                u.Z)(D, 2), W = F[0], U = F[1], M = (0,
+                a.useState)({}), G = (0,
+                u.Z)(M, 2), V = G[0], H = G[1], Y = (0,
                 a.useState)(!0), q = (0,
-                u.Z)(Y, 2), Q = q[0], $ = q[1], ee = I(), ne = ee.username, te = ee.startParam, ae = (0,
+                u.Z)(Y, 2), Q = q[0], $ = q[1], ee = I(), te = ee.username, ne = ee.startParam, ae = (0,
                 a.useState)(""), re = (0,
                 u.Z)(ae, 2), se = re[0], ie = re[1], oe = (0,
                 a.useState)(!1), ce = (0,
                 u.Z)(oe, 2), le = ce[0], ue = ce[1], de = (0,
                 a.useState)(0), _e = (0,
-                u.Z)(de, 2), me = _e[0], pe = _e[1], fe = (0,
+                u.Z)(de, 2), pe = _e[0], me = _e[1], fe = (0,
                 a.useState)(!1), xe = (0,
                 u.Z)(fe, 2), he = xe[0], ve = xe[1], ge = (0,
                 a.useState)(), ke = (0,
@@ -1108,11 +1108,11 @@
                 a.useState)(!1), we = (0,
                 u.Z)(Ce, 2), ye = we[0], Ze = we[1], Pe = (0,
                 a.useState)(!1), Te = (0,
-                u.Z)(Pe, 2), Oe = Te[0], Se = Te[1], Ee = null !== (n = new K.Z((te || "").replace("_", "=")).get("linkCode")) && void 0 !== n ? n : "", Be = (0,
+                u.Z)(Pe, 2), Oe = Te[0], Se = Te[1], Ee = null !== (t = new K.Z((ne || "").replace("_", "=")).get("linkCode")) && void 0 !== t ? t : "", Be = (0,
                 a.useCallback)((0,
                 l.Z)((0,
                 c.Z)().mark((function e() {
-                    var n, t;
+                    var t, n;
                     return (0,
                     c.Z)().wrap((function(e) {
                         for (; ; )
@@ -1121,28 +1121,28 @@
                                 return e.prev = 0,
                                 e.next = 3,
                                 be({
-                                    extUserName: ne,
+                                    extUserName: te,
                                     linkCode: Ee
                                 });
                             case 3:
-                                n = e.sent,
-                                (t = n.data) && (o(Math.max(t.balancePoints, 0)),
-                                p(Math.max(t.accumPoints, 0)),
-                                v(t.basePoint),
-                                C(t.autopilotPointsPerHour),
-                                M(t.linkCode),
-                                P(t.numChances),
-                                A(t.secondToRefresh),
-                                E(t.numChancesTotal),
-                                ue(!t.isUnderRiskControl && t.isShowAutopilotGainedPoint),
-                                Se(Boolean(t.context.isShowNewbieCredit)),
-                                ve(t.isUnderRiskControl),
-                                pe(t.autopilotPoints),
+                                t = e.sent,
+                                (n = t.data) && (o(Math.max(n.balancePoints, 0)),
+                                m(Math.max(n.accumPoints, 0)),
+                                v(n.basePoint),
+                                C(n.autopilotPointsPerHour),
+                                U(n.linkCode),
+                                P(n.numChances),
+                                A(n.secondToRefresh),
+                                E(n.numChancesTotal),
+                                ue(!n.isUnderRiskControl && n.isShowAutopilotGainedPoint),
+                                Se(Boolean(n.context.isShowNewbieCredit)),
+                                ve(n.isUnderRiskControl),
+                                me(n.autopilotPoints),
                                 Ne({
-                                    activityEndTime: t.context.activityEndTime,
-                                    isShowActivityFlag: t.context.isShowActivityFlag && !t.isUnderRiskControl
+                                    activityEndTime: n.context.activityEndTime,
+                                    isShowActivityFlag: n.context.isShowActivityFlag && !n.isUnderRiskControl
                                 }),
-                                H(t.context),
+                                H(n.context),
                                 $(!1)),
                                 e.next = 11;
                                 break;
@@ -1158,7 +1158,7 @@
                     }
                     ), e, null, [[0, 8]])
                 }
-                ))), [Ee, ne]);
+                ))), [Ee, te]);
                 (0,
                 a.useEffect)((function() {
                     Ze(Boolean(null === je || void 0 === je ? void 0 : je.isShowActivityFlag))
@@ -1167,20 +1167,20 @@
                 (0,
                 a.useEffect)((function() {
                     Be().then(He).catch((function(e) {
-                        e instanceof Error && z.k.error("mini app racer init load failed ".concat(e.message), e)
+                        e instanceof Error && X.k.error("mini app racer init load failed ".concat(e.message), e)
                     }
                     ))
                 }
                 ), [Be]),
                 (0,
                 a.useEffect)((function() {
-                    var e = new X.Z(L);
-                    return L > 0 ? (e.start(),
-                    e.addEventListener(X.Z.Event.UPDATE, (function(e) {
+                    var e = new z.Z(R);
+                    return R > 0 ? (e.start(),
+                    e.addEventListener(z.Z.Event.UPDATE, (function(e) {
                         ie("".concat(e.minute, ":").concat(e.second))
                     }
                     )),
-                    e.addEventListener(X.Z.Event.FINISH, (function() {
+                    e.addEventListener(z.Z.Event.FINISH, (function() {
                         ie(""),
                         Be()
                     }
@@ -1190,7 +1190,7 @@
                         null === e || void 0 === e || e.end()
                     }
                 }
-                ), [L, Be]),
+                ), [R, Be]),
                 (0,
                 a.useEffect)((function() {
                     function e() {
@@ -1209,7 +1209,7 @@
                     A(e.secondToRefresh)
                 }
                 ), [])
-                  , Re = (0,
+                  , Le = (0,
                 a.useCallback)((0,
                 l.Z)((0,
                 c.Z)().mark((function e() {
@@ -1228,7 +1228,7 @@
                     ), e)
                 }
                 ))), [Be])
-                  , Le = (0,
+                  , Re = (0,
                 a.useCallback)((function() {
                     ue(!1)
                 }
@@ -1251,23 +1251,23 @@
                     ))
                 }
                 ), [])
-                  , Ue = (0,
+                  , We = (0,
                 a.useMemo)((function() {
                     return {
                         isLoading: Q,
                         points: i,
-                        accumPoints: m,
+                        accumPoints: p,
                         numChances: y,
                         numChancesTotal: S,
                         countdownDisplay: se,
                         updateGameInfo: Ie,
-                        linkCode: U,
-                        updateGameInfoFromServer: Re,
+                        linkCode: W,
+                        updateGameInfoFromServer: Le,
                         isShowAutopilotGainedPoint: le,
-                        autopilotPoints: me,
+                        autopilotPoints: pe,
                         isShowNewbie: Oe,
                         hideNewbie: Ae,
-                        hideAutopilotSheet: Le,
+                        hideAutopilotSheet: Re,
                         isShowRiskControlSheet: he,
                         hideRiskControlSheet: De,
                         activity: je,
@@ -1278,15 +1278,15 @@
                         autopilotPointsPerHour: j
                     }
                 }
-                ), [Q, i, m, y, S, se, Ie, U, Re, le, me, Le, Oe, Ae, he, De, je, ye, Fe, V, h, j]);
+                ), [Q, i, p, y, S, se, Ie, W, Le, le, pe, Re, Oe, Ae, he, De, je, ye, Fe, V, h, j]);
                 return (0,
                 N.jsx)(Ye.Provider, {
-                    value: Ue,
-                    children: t
+                    value: We,
+                    children: n
                 })
             }
-              , Xe = t(56824);
-            t(8911);
+              , ze = n(56824);
+            n(8911);
             const Je = {
                 "top-padding": "BottomSheet_top-padding__r99dG",
                 topPadding: "BottomSheet_top-padding__r99dG",
@@ -1301,7 +1301,7 @@
             }
               , Qe = function(e) {
                 return (0,
-                N.jsx)(Xe.default, (0,
+                N.jsx)(ze.default, (0,
                 k.Z)((0,
                 k.Z)({}, qe), {}, {
                     topContent: e.title ? void 0 : (0,
@@ -1312,7 +1312,7 @@
                 }, e))
             }
               , $e = function(e) {
-                var n = Xe.default.show((0,
+                var t = ze.default.show((0,
                 k.Z)((0,
                 k.Z)({}, qe), {}, {
                     topContent: e.title ? void 0 : (0,
@@ -1320,19 +1320,19 @@
                         className: Je.topPadding
                     }),
                     onClose: function() {
-                        n.destroy()
+                        t.destroy()
                     }
                 }, e));
-                return n
+                return t
             };
-            const en = "PrimaryButton_button__SJFHA"
-              , nn = "PrimaryButton_buttonText__19AJ7";
-            var tn = ["text", "className"]
-              , an = function(e) {
-                var n = e.text
-                  , t = e.className
+            const et = "PrimaryButton_button__SJFHA"
+              , tt = "PrimaryButton_buttonText__19AJ7";
+            var nt = ["text", "className"]
+              , at = function(e) {
+                var t = e.text
+                  , n = e.className
                   , a = (0,
-                w.Z)(e, tn);
+                w.Z)(e, nt);
                 return (0,
                 N.jsx)(H.default, (0,
                 k.Z)((0,
@@ -1340,23 +1340,23 @@
                     category: H.default.CATEGORY.fill,
                     type: H.default.TYPE.primary,
                     size: H.default.SIZE.lg,
-                    className: y()(en, t),
-                    contentClassName: nn
+                    className: y()(et, n),
+                    contentClassName: tt
                 }, a), {}, {
-                    children: n
+                    children: t
                 }))
             }
-              , rn = t(4942);
-            const sn = "Timer_timer__j+KcR"
-              , on = "Timer_show__GFyz+"
-              , cn = "Timer_label__nxjo+"
-              , ln = "Timer_separator__CFi1G"
-              , un = "Timer_timerValue__CaRO2";
-            var dn = function(e) {
-                var n = e.endTime
-                  , t = e.label
+              , rt = n(4942);
+            const st = "Timer_timer__j+KcR"
+              , it = "Timer_show__GFyz+"
+              , ot = "Timer_label__nxjo+"
+              , ct = "Timer_separator__CFi1G"
+              , lt = "Timer_timerValue__CaRO2";
+            var ut = function(e) {
+                var t = e.endTime
+                  , n = e.label
                   , r = (0,
-                a.useRef)(new X.Z.Absolute(n,{
+                a.useRef)(new z.Z.Absolute(t,{
                     interval: 1
                 }))
                   , s = (0,
@@ -1368,7 +1368,7 @@
                 return (0,
                 a.useEffect)((function() {
                     var e = r.current;
-                    return e.start().addEventListener(X.Z.Event.UPDATE, (function(e) {
+                    return e.start().addEventListener(z.Z.Event.UPDATE, (function(e) {
                         c(e)
                     }
                     )),
@@ -1379,82 +1379,82 @@
                 ), []),
                 (0,
                 N.jsxs)("div", {
-                    className: y()(sn, (0,
-                    rn.Z)({}, on, o)),
-                    children: [t && (0,
+                    className: y()(st, (0,
+                    rt.Z)({}, it, o)),
+                    children: [n && (0,
                     N.jsx)("span", {
-                        className: cn,
-                        children: t
+                        className: ot,
+                        children: n
                     }), Number(null === o || void 0 === o ? void 0 : o.day) > 0 && (0,
                     N.jsxs)(N.Fragment, {
                         children: [(0,
                         N.jsx)("span", {
-                            className: un,
+                            className: lt,
                             children: null === o || void 0 === o ? void 0 : o.day
                         }), (0,
                         N.jsx)("span", {
-                            className: ln,
+                            className: ct,
                             children: ":"
                         })]
                     }), (0,
                     N.jsx)("span", {
-                        className: un,
+                        className: lt,
                         children: null === o || void 0 === o ? void 0 : o.hour
                     }), (0,
                     N.jsx)("span", {
-                        className: ln,
+                        className: ct,
                         children: ":"
                     }), (0,
                     N.jsx)("span", {
-                        className: un,
+                        className: lt,
                         children: null === o || void 0 === o ? void 0 : o.minute
                     }), (0,
                     N.jsx)("span", {
-                        className: ln,
+                        className: ct,
                         children: ":"
                     }), (0,
                     N.jsx)("span", {
-                        className: un,
+                        className: lt,
                         children: null === o || void 0 === o ? void 0 : o.second
                     })]
                 })
             };
-            const _n = "EventPopover_eventPopoverWrapper__65bP-"
-              , mn = "EventPopover_eventPopover__B0CAq"
-              , pn = "EventPopover_eventPopoverDesc__+lNFw"
-              , fn = "EventPopover_eventPopoverBtn__BKIwS"
-              , xn = "EventPopover_eventPopoverBtnIcon__ao8J5"
-              , hn = "EventPopover_eventPopoverArrow__M+sYF"
-              , vn = "EventPopover_eventDetailsContainer__G1KfS"
-              , gn = "EventPopover_title__Tie4q"
-              , kn = "EventPopover_description__tVAy9"
-              , jn = "EventPopover_disclaimer__jFZC3"
-              , Nn = "EventPopover_continueBtn__S2Sj-"
-              , Cn = "EventPopover_eventDetails__5xDB0"
-              , wn = "EventPopover_eventImg__0yapf";
-            var bn = function(e) {
-                var n = e.children
-                  , t = Ke()
-                  , a = t.activity
-                  , r = t.isShowActivityDetails
-                  , s = t.toggleActivityDetailsBottomSheet
+            const dt = "EventPopover_eventPopoverWrapper__65bP-"
+              , _t = "EventPopover_eventPopover__B0CAq"
+              , pt = "EventPopover_eventPopoverDesc__+lNFw"
+              , mt = "EventPopover_eventPopoverBtn__BKIwS"
+              , ft = "EventPopover_eventPopoverBtnIcon__ao8J5"
+              , xt = "EventPopover_eventPopoverArrow__M+sYF"
+              , ht = "EventPopover_eventDetailsContainer__G1KfS"
+              , vt = "EventPopover_title__Tie4q"
+              , gt = "EventPopover_description__tVAy9"
+              , kt = "EventPopover_disclaimer__jFZC3"
+              , jt = "EventPopover_continueBtn__S2Sj-"
+              , Nt = "EventPopover_eventDetails__5xDB0"
+              , Ct = "EventPopover_eventImg__0yapf";
+            var wt = function(e) {
+                var t = e.children
+                  , n = Ke()
+                  , a = n.activity
+                  , r = n.isShowActivityDetails
+                  , s = n.toggleActivityDetailsBottomSheet
                   , i = Number(null === a || void 0 === a ? void 0 : a.activityEndTime);
                 return (0,
                 N.jsxs)(N.Fragment, {
                     children: [(0,
                     N.jsx)(V.Z, {
                         zIndex: 998,
-                        layerClassName: _n,
-                        popperClassName: mn,
+                        layerClassName: dt,
+                        popperClassName: _t,
                         disabled: !(null !== a && void 0 !== a && a.isShowActivityFlag),
                         show: null === a || void 0 === a ? void 0 : a.isShowActivityFlag,
                         hideArrow: !0,
-                        descClassName: pn,
+                        descClassName: pt,
                         description: (0,
                         N.jsxs)(N.Fragment, {
                             children: [(0,
                             N.jsx)(H.default, {
-                                className: fn,
+                                className: mt,
                                 type: H.default.TYPE.primary,
                                 category: H.default.CATEGORY.text,
                                 htmlType: "button",
@@ -1462,14 +1462,14 @@
                                 icon: (0,
                                 N.jsx)(P.Z, {
                                     iconName: "okds-arrow-chevron-right-centered-md",
-                                    className: xn
+                                    className: ft
                                 }),
                                 iconType: H.default.ICON_POSITION.tailing,
                                 children: (0,
                                 Z.O4)("ok_game_okxracer_tag_phase3_double_points")
                             }), (0,
                             N.jsx)("svg", {
-                                className: hn,
+                                className: xt,
                                 width: "8",
                                 height: "4",
                                 viewBox: "0 0 8 4",
@@ -1481,7 +1481,7 @@
                                 })
                             })]
                         }),
-                        children: n
+                        children: t
                     }), (0,
                     N.jsx)(Qe, {
                         noContentPadding: !0,
@@ -1491,39 +1491,39 @@
                         },
                         children: (0,
                         N.jsxs)("div", {
-                            className: vn,
+                            className: ht,
                             children: [(0,
                             N.jsxs)("div", {
-                                className: Cn,
+                                className: Nt,
                                 children: [(0,
                                 N.jsx)(Y.Z, {
-                                    pictureClassName: wn,
-                                    className: wn,
+                                    pictureClassName: Ct,
+                                    className: Ct,
                                     src: "".concat(o.Z.cdnBaseUrl, "/cdn/assets/imgs/248/88BF03D669EA1F25.png")
                                 }), (0,
                                 N.jsx)("h2", {
-                                    className: gn,
+                                    className: vt,
                                     children: (0,
                                     Z.O4)("ok_game_okxracer_title_phase3_5mil_points")
                                 }), (0,
                                 N.jsx)("p", {
-                                    className: kn,
+                                    className: gt,
                                     children: (0,
                                     Z.O4)("ok_game_okxracer_text_phase3_correct_top")
                                 }), (0,
-                                N.jsx)(dn, {
+                                N.jsx)(ut, {
                                     endTime: i,
                                     label: (0,
                                     Z.O4)("ok_game_okxracer_text_phase3_ends_in")
                                 }), (0,
                                 N.jsx)("p", {
-                                    className: jn,
+                                    className: kt,
                                     children: (0,
                                     Z.O4)("ok_game_okxracer_text_phase3_no_dbl_points")
                                 })]
                             }), (0,
-                            N.jsx)(an, {
-                                className: Nn,
+                            N.jsx)(at, {
+                                className: jt,
                                 onClick: function() {
                                     s()
                                 },
@@ -1534,81 +1534,81 @@
                     })]
                 })
             };
-            const yn = "Navbar_navbar__LF3-M"
-              , Zn = "Navbar_link__qX0Sf"
-              , Pn = "Navbar_active__TCbF8"
-              , Tn = "Navbar_linkIcon__GtH54"
-              , On = "Navbar_linkText__Szxi-"
-              , Sn = "Navbar_newIndicator__IrNNw";
-            var En = ["children", "className"]
-              , Bn = ["iconName", "label", "onClick", "showNewIndicator"]
-              , In = function(e) {
-                var n = e.children
-                  , t = e.className
+            const bt = "Navbar_navbar__LF3-M"
+              , yt = "Navbar_link__qX0Sf"
+              , Zt = "Navbar_active__TCbF8"
+              , Pt = "Navbar_linkIcon__GtH54"
+              , Tt = "Navbar_linkText__Szxi-"
+              , Ot = "Navbar_newIndicator__IrNNw";
+            var St = ["children", "className"]
+              , Et = ["iconName", "label", "onClick", "showNewIndicator"]
+              , Bt = function(e) {
+                var t = e.children
+                  , n = e.className
                   , a = (0,
-                w.Z)(e, En)
+                w.Z)(e, St)
                   , r = (0,
                 s.useLocation)().hash;
                 return (0,
                 N.jsx)(s.Link, {
-                    className: t,
+                    className: n,
                     to: "".concat(a.to).concat(r),
                     onClick: a.onClick,
-                    children: n
+                    children: t
                 })
             }
-              , Rn = function(e) {
-                var n = e.iconName
-                  , t = e.label
+              , It = function(e) {
+                var t = e.iconName
+                  , n = e.label
                   , a = e.onClick
                   , r = e.showNewIndicator
                   , i = void 0 !== r && r
                   , o = (0,
-                w.Z)(e, Bn)
+                w.Z)(e, Et)
                   , c = (0,
                 s.useRouteMatch)({
                     path: o.to,
-                    exact: o.to === L
+                    exact: o.to === R
                 });
                 return (0,
-                N.jsxs)(In, {
-                    className: y()(Zn, c && Pn),
+                N.jsxs)(Bt, {
+                    className: y()(yt, c && Zt),
                     to: o.to,
                     onClick: a,
                     children: [(0,
                     N.jsx)(P.Z, {
-                        iconName: n,
-                        className: Tn
+                        iconName: t,
+                        className: Pt
                     }), i && (0,
                     N.jsx)("span", {
-                        className: Sn
+                        className: Ot
                     }), (0,
                     N.jsx)("span", {
-                        className: On,
-                        children: t
+                        className: Tt,
+                        children: n
                     })]
                 })
             }
-              , Ln = function() {
+              , Lt = function() {
                 var e = {
                     telegramid: I().uid
                 };
                 return (0,
                 N.jsxs)("div", {
-                    className: yn,
+                    className: bt,
                     children: [(0,
-                    N.jsx)(bn, {
+                    N.jsx)(wt, {
                         children: (0,
-                        N.jsx)(Rn, {
+                        N.jsx)(It, {
                             iconName: "okx-growth-home",
-                            to: L,
+                            to: R,
                             label: (0,
                             Z.O4)("ok_game_okxracer_home")
                         })
                     }), (0,
-                    N.jsx)(Rn, {
+                    N.jsx)(It, {
                         iconName: "okx-growth-leaderboard",
-                        to: U,
+                        to: W,
                         label: (0,
                         Z.O4)("ok_game_okxracer_leaderboard"),
                         onClick: function() {
@@ -1627,7 +1627,7 @@
                             }(e)
                         }
                     }), (0,
-                    N.jsx)(Rn, {
+                    N.jsx)(It, {
                         iconName: "okx-growth-task",
                         to: D,
                         label: (0,
@@ -1648,7 +1648,7 @@
                             }(e)
                         }
                     }), (0,
-                    N.jsx)(Rn, {
+                    N.jsx)(It, {
                         iconName: "okx-growth-friends",
                         to: A,
                         label: (0,
@@ -1669,58 +1669,64 @@
                             }(e)
                         }
                     }), (0,
-                    N.jsx)(Rn, {
+                    N.jsx)(It, {
                         iconName: "okx-growth-surprises",
-                        to: M,
+                        to: U,
                         label: (0,
                         Z.O4)("ok_game_okxracer_surprises"),
                         showNewIndicator: !0
                     })]
                 })
             };
-            var An = {
+            var Rt = {
                 BOT_NAME: "OKX_official_bot",
                 MINI_APP_NAME: "OKX_Racer"
             }
-              , Dn = function(e) {
+              , At = function(e) {
                 return e[e.unfinished = 0] = "unfinished",
                 e[e.finished = 1] = "finished",
                 e
             }({})
-              , Fn = function(e) {
+              , Dt = function(e) {
                 return e[e.task = 0] = "task",
                 e[e.boost = 1] = "boost",
                 e[e.DailyTask = 2] = "DailyTask",
                 e[e.DailyBoost = 3] = "DailyBoost",
                 e
+            }({})
+              , Ft = "lastConnectWalletType"
+              , Wt = function(e) {
+                return e.TgWallet = "OKX Mini Wallet",
+                e.OkxApp = "OKX Wallet",
+                e
             }({});
-            function Un(e) {
+            function Ut(e) {
                 return "TelegramWebviewProxy"in e && function(e) {
                     return "object" === typeof e && null !== e && !Array.isArray(e)
                 }(e.TelegramWebviewProxy) && "postEvent"in e.TelegramWebviewProxy && "function" === typeof e.TelegramWebviewProxy.postEvent
             }
-            const Mn = "RiskControl_title__h9Z0T";
-            var Gn = function() {
+            const Mt = "RiskControl_title__h9Z0T";
+            var Gt = function() {
                 var e = Ke()
-                  , n = e.isShowRiskControlSheet
-                  , t = e.hideRiskControlSheet;
+                  , t = e.isShowRiskControlSheet
+                  , n = e.hideRiskControlSheet;
                 return (0,
                 N.jsx)(Qe, {
-                    visible: n,
-                    onClose: t,
+                    visible: t,
+                    onClose: n,
                     children: (0,
                     N.jsx)("div", {
-                        className: Mn,
+                        className: Mt,
                         children: (0,
                         Z.O4)("ok_game_okxracer_risk_control")
                     })
                 })
             }
-              , Wn = t(8031)
-              , Vn = new (function() {
+              , Vt = n(8031)
+              , Ht = new (function() {
                 return (0,
                 de.Z)((function e() {
-                    var n = this;
+                    var t = this;
                     (0,
                     ue.Z)(this, e),
                     this.instId = "BTC-USDT",
@@ -1735,25 +1741,25 @@
                     this.handleList = [],
                     this.connection = void 0,
                     this.initConnect = function() {
-                        n.connection.onSocketConnected((function() {
-                            n.onConnected()
+                        t.connection.onSocketConnected((function() {
+                            t.onConnected()
                         }
                         )),
-                        n.connection.connect(),
-                        n.addPageHideEvent()
+                        t.connection.connect(),
+                        t.addPageHideEvent()
                     }
                     ,
                     this.onConnected = function() {
-                        n.connection.sendChannel(JSON.stringify(n.channelSubscribe)),
-                        n.connection.setPushDataResolver(n.onResolve)
+                        t.connection.sendChannel(JSON.stringify(t.channelSubscribe)),
+                        t.connection.setPushDataResolver(t.onResolve)
                     }
                     ,
                     this.onResolve = function(e) {
-                        var t = e.arg
+                        var n = e.arg
                           , a = e.data;
-                        if (t.channel === n.channel && t.instId === n.instId) {
+                        if (n.channel === t.channel && n.instId === t.instId) {
                             var r = ((null === a || void 0 === a ? void 0 : a[0]) || {}).last;
-                            r && n.handleList.forEach((function(e) {
+                            r && t.handleList.forEach((function(e) {
                                 e(Number(r))
                             }
                             ))
@@ -1761,14 +1767,14 @@
                     }
                     ,
                     this.disconnect = function() {
-                        n.connection.disconnect()
+                        t.connection.disconnect()
                     }
                     ,
                     this.addCallback = function(e) {
-                        n.handleList.push(e)
+                        t.handleList.push(e)
                     }
                     ,
-                    this.connection = new Wn.Z({
+                    this.connection = new Vt.Z({
                         connectUrl: "wss://wspri.okx.com:8443/ws/v5/ipublic"
                     }),
                     this.initConnect()
@@ -1785,32 +1791,32 @@
                     }
                 }])
             }())
-              , Hn = (0,
-            a.createContext)(Vn)
-              , Yn = function(e) {
-                var n = e.children;
+              , Yt = (0,
+            a.createContext)(Ht)
+              , Kt = function(e) {
+                var t = e.children;
                 return (0,
-                N.jsx)(Hn.Provider, {
-                    value: Vn,
-                    children: n
+                N.jsx)(Yt.Provider, {
+                    value: Ht,
+                    children: t
                 })
             }
-              , Kn = (0,
+              , Xt = (0,
             a.createContext)(null)
-              , zn = function() {
+              , zt = function() {
                 return (0,
-                a.useContext)(Kn)
+                a.useContext)(Xt)
             }
-              , Xn = function(e) {
-                var n = e.children
-                  , t = (0,
+              , Jt = function(e) {
+                var t = e.children
+                  , n = (0,
                 a.useState)(null)
                   , r = (0,
-                u.Z)(t, 2)
+                u.Z)(n, 2)
                   , s = r[0]
                   , i = r[1]
                   , o = (0,
-                a.useContext)(Hn);
+                a.useContext)(Yt);
                 return (0,
                 a.useEffect)((function() {
                     o.addCallback((function(e) {
@@ -1820,56 +1826,56 @@
                 }
                 ), [o]),
                 (0,
-                N.jsx)(Kn.Provider, {
+                N.jsx)(Xt.Provider, {
                     value: s,
-                    children: n
+                    children: t
                 })
             }
-              , Jn = t(46430)
-              , qn = "racer"
-              , Qn = function() {
+              , qt = n(46430)
+              , Qt = "racer"
+              , $t = function() {
                 var e;
                 if (!(0,
                 Q.y)())
-                    return Jn.Z.getInstance(qn) || Jn.Z.init({
-                        project: qn
+                    return qt.Z.getInstance(Qt) || qt.Z.init({
+                        project: Qt
                     }),
-                    null !== (e = Jn.Z.getInstance(qn)) && void 0 !== e ? e : Jn.Z
+                    null !== (e = qt.Z.getInstance(Qt)) && void 0 !== e ? e : qt.Z
             }
-              , $n = "guessRecords_new";
-            function et(e) {
-                var n = Qn().get($n) || [];
-                n.unshift(e),
-                Qn().set($n, n.slice(0, 5))
+              , en = "guessRecords_new";
+            function tn(e) {
+                var t = $t().get(en) || [];
+                t.unshift(e),
+                $t().set(en, t.slice(0, 5))
             }
-            var nt = function(e) {
+            var nn = function(e) {
                 return e.UP = "up",
                 e.DOWN = "down",
                 e.NONE = "none",
                 e
             }({})
-              , tt = {
+              , an = {
                 countdown: 5,
                 onButtonClick: function() {},
                 result: null,
                 isPending: !1,
-                currentTrend: nt.NONE,
+                currentTrend: nn.NONE,
                 multiplier: 1,
                 basePoints: 10,
-                predict: nt.NONE,
+                predict: nn.NONE,
                 changeRate: null,
                 prevPrice: null,
                 currentPrice: null
             }
-              , at = (0,
-            a.createContext)(tt)
-              , rt = function() {
+              , rn = (0,
+            a.createContext)(an)
+              , sn = function() {
                 return (0,
-                a.useContext)(at)
+                a.useContext)(rn)
             }
-              , st = function(e) {
-                var n = e.children
-                  , t = I().uid
+              , on = function(e) {
+                var t = e.children
+                  , n = I().uid
                   , r = (0,
                 a.useState)(!1)
                   , s = (0,
@@ -1880,8 +1886,8 @@
                 a.useState)(5)
                   , _ = (0,
                 u.Z)(d, 2)
-                  , m = _[0]
-                  , p = _[1]
+                  , p = _[0]
+                  , m = _[1]
                   , f = (0,
                 a.useState)(null)
                   , x = (0,
@@ -1895,20 +1901,20 @@
                   , j = k[0]
                   , C = k[1]
                   , w = (0,
-                a.useState)(nt.NONE)
+                a.useState)(nn.NONE)
                   , b = (0,
                 u.Z)(w, 2)
                   , y = b[0]
                   , P = b[1]
-                  , T = zn()
+                  , T = zt()
                   , S = Ke().updateGameInfo
                   , E = (0,
-                a.useRef)(nt.NONE)
+                a.useRef)(nn.NONE)
                   , B = (0,
                 a.useRef)(1)
-                  , R = (0,
-                a.useRef)(10)
                   , L = (0,
+                a.useRef)(10)
+                  , R = (0,
                 a.useRef)(null)
                   , A = (0,
                 a.useRef)(null)
@@ -1918,35 +1924,35 @@
                 a.useCallback)((0,
                 l.Z)((0,
                 c.Z)().mark((function e() {
-                    var n, t, a;
+                    var t, n, a;
                     return (0,
                     c.Z)().wrap((function(e) {
                         for (; ; )
                             switch (e.prev = e.next) {
                             case 0:
                                 return e.prev = 0,
-                                n = E.current === nt.UP ? 1 : 0,
+                                t = E.current === nn.UP ? 1 : 0,
                                 e.next = 4,
                                 ye({
-                                    predict: n
+                                    predict: t
                                 });
                             case 4:
-                                t = e.sent,
-                                (a = t.data) && (C(a.won),
+                                n = e.sent,
+                                (a = n.data) && (C(a.won),
                                 S({
                                     points: a.balancePoints,
                                     numChances: a.numChance,
                                     secondToRefresh: a.secondToRefresh
                                 }),
                                 B.current = a.multiplier,
-                                R.current = a.basePoint,
-                                L.current = Number(a.changeRate),
+                                L.current = a.basePoint,
+                                R.current = Number(a.changeRate),
                                 A.current = a.prevPrice,
                                 D.current = a.currentPrice,
-                                et({
+                                tn({
                                     curCombo: a.curCombo,
                                     won: a.won,
-                                    predict: n,
+                                    predict: t,
                                     date: (new Date).valueOf()
                                 })),
                                 e.next = 14;
@@ -1955,12 +1961,12 @@
                                 e.prev = 9,
                                 e.t0 = e.catch(0),
                                 C(null),
-                                L.current = null,
+                                R.current = null,
                                 J(!1, (0,
                                 Z.O4)("ok_game_okxracer_error_high_traffic"));
                             case 14:
                                 return e.prev = 14,
-                                E.current = nt.NONE,
+                                E.current = nn.NONE,
                                 o(!1),
                                 e.finish(14);
                             case 18:
@@ -1975,11 +1981,11 @@
                 a.useEffect)((function() {
                     var e = null;
                     if (i) {
-                        var n = 5;
-                        p(n),
+                        var t = 5;
+                        m(t),
                         e = setInterval((function() {
-                            p(n -= 1),
-                            0 === n && (e && clearInterval(e),
+                            m(t -= 1),
+                            0 === t && (e && clearInterval(e),
                             v(null),
                             F())
                         }
@@ -1995,21 +2001,21 @@
                     if (i && T)
                         if (h) {
                             var e = T > h;
-                            P(T === h ? nt.NONE : e ? nt.UP : nt.DOWN)
+                            P(T === h ? nn.NONE : e ? nn.UP : nn.DOWN)
                         } else
                             v(T)
                 }
                 ), [h, i, T]);
-                var U = (0,
+                var W = (0,
                 a.useCallback)((function(e) {
                     C(null),
                     o(!0),
                     E.current = e,
-                    L.current = null;
-                    var n = {
-                        telegramid: t
+                    R.current = null;
+                    var t = {
+                        telegramid: n
                     };
-                    e === nt.UP && function() {
+                    e === nn.UP && function() {
                         var e = (arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {}).telegramid;
                         O.act({
                             action: "OkxRacerLandingPage_PricePrediction_Moon_Click",
@@ -2021,8 +2027,8 @@
                             elementType: "",
                             ampProject: "okx"
                         })
-                    }(n),
-                    e === nt.DOWN && function() {
+                    }(t),
+                    e === nn.DOWN && function() {
                         var e = (arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {}).telegramid;
                         O.act({
                             action: "OkxRacerLandingPage_PricePrediction_Doom_Click",
@@ -2034,71 +2040,71 @@
                             elementType: "",
                             ampProject: "okx"
                         })
-                    }(n)
+                    }(t)
                 }
                 ), [])
-                  , M = (0,
+                  , U = (0,
                 a.useMemo)((function() {
                     return {
-                        countdown: m,
-                        onButtonClick: U,
+                        countdown: p,
+                        onButtonClick: W,
                         result: j,
                         isPending: i,
                         currentTrend: y,
                         multiplier: B.current,
-                        basePoints: R.current,
+                        basePoints: L.current,
                         predict: E.current,
-                        changeRate: L.current,
+                        changeRate: R.current,
                         prevPrice: A.current,
                         currentPrice: D.current
                     }
                 }
-                ), [m, y, i, B, U, j]);
+                ), [p, y, i, B, W, j]);
                 return (0,
-                N.jsx)(at.Provider, {
-                    value: M,
-                    children: n
+                N.jsx)(rn.Provider, {
+                    value: U,
+                    children: t
                 })
             };
-            const it = "NewCampaigns_container__gO1Ko"
-              , ot = "NewCampaigns_img__Or37G"
-              , ct = "NewCampaigns_title__Lx+PB"
-              , lt = "NewCampaigns_desc__U9VKz"
-              , ut = "NewCampaigns_btn__xIIk1";
-            var dt = function() {
+            const cn = "NewCampaigns_container__gO1Ko"
+              , ln = "NewCampaigns_img__Or37G"
+              , un = "NewCampaigns_title__Lx+PB"
+              , dn = "NewCampaigns_desc__U9VKz"
+              , _n = "NewCampaigns_btn__xIIk1";
+            var pn = function() {
                 var e = (0,
                 s.useHistory)()
-                  , n = (0,
+                  , t = (0,
                 s.useLocation)()
-                  , t = !1
+                  , n = !1
                   , a = function() {};
                 return (0,
                 N.jsxs)(Qe, {
-                    visible: t,
+                    visible: n,
                     onClose: a,
-                    containerClassName: it,
+                    containerClassName: cn,
                     children: [(0,
                     N.jsx)(Y.Z, {
-                        pictureClassName: ot,
-                        className: ot,
+                        pictureClassName: ln,
+                        className: ln,
                         src: "".concat(o.Z.cdnBaseUrl, "/cdn/assets/imgs/249/AE73AAA266A93F81.png")
                     }), (0,
                     N.jsx)("p", {
-                        className: ct,
+                        className: un,
                         children: (0,
                         Z.O4)("ok_game_okxracer_title_phase421_exciting_act")
                     }), (0,
                     N.jsx)("p", {
-                        className: lt,
+                        className: dn,
                         children: (0,
                         Z.O4)("ok_game_okxracer_text_phase421_verify_join_verified")
                     }), (0,
-                    N.jsx)(an, {
-                        className: ut,
+                    N.jsx)(at, {
+                        className: _n,
                         onClick: function() {
                             e.push({
-                                pathname: M,
-                                hash: n.hash
+                                pathname: U,
+                                hash: t.hash
                             })
                         },
                         text: (0,
@@ -2106,66 +2112,66 @@
                     })]
                 })
             }
-              , _t = t(94595)
-              , mt = t(96450)
-              , pt = 2e3
-              , ft = 500;
-            function xt(e) {
-                return (Math.abs(e) < 1e-4 ? mt.yx.ceilTruncate : mt.yx.floorTruncate)(e, 4)
+              , mn = n(94595)
+              , fn = n(96450)
+              , xn = 2e3
+              , hn = 500;
+            function vn(e) {
+                return (Math.abs(e) < 1e-4 ? fn.yx.ceilTruncate : fn.yx.floorTruncate)(e, 4)
             }
-            const ht = "GuessResult_container__ECdpL"
-              , vt = "GuessResult_title__fzYxg"
-              , gt = "GuessResult_multiplier__yRHWm"
-              , kt = "GuessResult_description__R2fup"
-              , jt = "GuessResult_detailsIcon__ZE7Ry"
-              , Nt = "GuessResult_changeRateContainer__a5-N7"
-              , Ct = "GuessResult_label__+b5Nz"
-              , wt = "GuessResult_changeRate__yhVz3"
-              , bt = "GuessResult_up__5vYDR"
-              , yt = "GuessResult_down__fa-oP"
-              , Zt = "GuessResult_priceChange__xr6e8"
-              , Pt = "GuessResult_price__Vk+bY";
-            function Tt(e) {
+            const gn = "GuessResult_container__ECdpL"
+              , kn = "GuessResult_title__fzYxg"
+              , jn = "GuessResult_multiplier__yRHWm"
+              , Nn = "GuessResult_description__R2fup"
+              , Cn = "GuessResult_detailsIcon__ZE7Ry"
+              , wn = "GuessResult_changeRateContainer__a5-N7"
+              , bn = "GuessResult_label__+b5Nz"
+              , yn = "GuessResult_changeRate__yhVz3"
+              , Zn = "GuessResult_up__5vYDR"
+              , Pn = "GuessResult_down__fa-oP"
+              , Tn = "GuessResult_priceChange__xr6e8"
+              , On = "GuessResult_price__Vk+bY";
+            function Sn(e) {
                 return (0,
-                _t.xG)((0,
-                _t.uf)(mt.yx.truncate(e, 1, !0)), {
+                mn.xG)((0,
+                mn.uf)(fn.yx.truncate(e, 1, !0)), {
                     code: "USD",
                     currencyDisplay: "narrowSymbol"
                 })
             }
-            var Ot = function(e) {
-                var n = e.className
-                  , t = rt()
-                  , r = t.result
-                  , s = t.multiplier
-                  , i = t.changeRate
-                  , o = t.prevPrice
-                  , c = t.currentPrice
+            var En = function(e) {
+                var t = e.className
+                  , n = sn()
+                  , r = n.result
+                  , s = n.multiplier
+                  , i = n.changeRate
+                  , o = n.prevPrice
+                  , c = n.currentPrice
                   , l = (0,
                 a.useState)(!1)
                   , d = (0,
                 u.Z)(l, 2)
                   , _ = d[0]
-                  , m = d[1];
+                  , p = d[1];
                 return (0,
                 a.useEffect)((function() {
-                    var e, n;
+                    var e, t;
                     if (null !== r) {
-                        var t, a, s, i;
-                        if (null !== (t = window) && void 0 !== t && null !== (a = t.Telegram) && void 0 !== a && a.WebApp)
+                        var n, a, s, i;
+                        if (null !== (n = window) && void 0 !== n && null !== (a = n.Telegram) && void 0 !== a && a.WebApp)
                             null === (s = window.Telegram.WebApp.HapticFeedback) || void 0 === s || null === (i = s.notificationOccurred) || void 0 === i || i.call(s, r ? "success" : "error");
                         e = setTimeout((function() {
-                            m(!0),
-                            n = setTimeout((function() {
-                                m(!1)
+                            p(!0),
+                            t = setTimeout((function() {
+                                p(!1)
                             }
-                            ), pt)
+                            ), xn)
                         }
-                        ), ft)
+                        ), hn)
                     }
                     return function() {
                         clearTimeout(e),
-                        clearTimeout(n)
+                        clearTimeout(t)
                     }
                 }
                 ), [r]),
@@ -2173,60 +2179,60 @@
                 N.jsx)(N.Fragment, {
                     children: _ && (0,
                     N.jsxs)("div", {
-                        className: y()(n, ht),
+                        className: y()(t, gn),
                         children: [(0,
                         N.jsx)("p", {
-                            className: gt,
+                            className: jn,
                             children: r ? (0,
                             N.jsxs)("span", {
-                                className: jt,
+                                className: Cn,
                                 children: ["\ud83d\udd25".repeat(Math.min(s, 4)), s > 1 ? "x".concat(s) : ""]
                             }) : (0,
                             N.jsx)("span", {
-                                className: jt,
+                                className: Cn,
                                 children: "\ud83e\udd72"
                             })
                         }), (0,
                         N.jsx)("h2", {
-                            className: vt,
+                            className: kn,
                             children: (0,
                             Z.O4)(r ? "ok_game_okxracer_win" : "ok_game_okxracer_lose")
                         }), (0,
                         N.jsxs)("div", {
-                            className: kt,
+                            className: Nn,
                             children: [null !== i && (0,
                             N.jsxs)("p", {
-                                className: Nt,
+                                className: wn,
                                 children: [(0,
                                 N.jsx)("span", {
-                                    className: Ct,
+                                    className: bn,
                                     children: (0,
                                     Z.O4)("ok_game_okxracer_btc_price")
                                 }), (0,
                                 N.jsx)("span", {
-                                    className: y()(wt, (0,
-                                    rn.Z)((0,
-                                    rn.Z)({}, bt, i > 0), yt, i < 0)),
+                                    className: y()(yn, (0,
+                                    rt.Z)((0,
+                                    rt.Z)({}, Zn, i > 0), Pn, i < 0)),
                                     children: (0,
-                                    _t.uf)(xt(i), {
+                                    mn.uf)(vn(i), {
                                         style: "percent",
                                         signDisplay: !0
                                     })
                                 })]
                             }), o && c && (0,
                             N.jsx)("p", {
-                                className: Zt,
+                                className: Tn,
                                 children: (0,
                                 Z.Lg)("ok_game_okxracer_price_change", {
                                     previousPrice: (0,
                                     N.jsx)("span", {
-                                        className: Pt,
-                                        children: Tt(o)
+                                        className: On,
+                                        children: Sn(o)
                                     }),
                                     currentPrice: (0,
                                     N.jsx)("span", {
-                                        className: Pt,
-                                        children: Tt(c)
+                                        className: On,
+                                        children: Sn(c)
                                     })
                                 })
                             })]
@@ -2234,76 +2240,76 @@
                     })
                 })
             };
-            const St = "TncButton_termsAndConditions__MyIpV";
-            var Et = function(e) {
-                var n = e.className;
+            const Bn = "TncButton_termsAndConditions__MyIpV";
+            var In = function(e) {
+                var t = e.className;
                 return (0,
                 N.jsx)("button", {
-                    className: y()(St, n),
+                    className: y()(Bn, t),
                     onClick: function() {
-                        var e, n;
-                        null === (e = window) || void 0 === e || null === (n = e.Telegram) || void 0 === n || n.WebApp.openLink("/help/okx-racer-terms-and-conditions")
+                        var e, t;
+                        null === (e = window) || void 0 === e || null === (t = e.Telegram) || void 0 === t || t.WebApp.openLink("/help/okx-racer-terms-and-conditions")
                     },
                     type: "button",
                     children: (0,
                     Z.O4)("ok_game_okxracer_tnc")
                 })
             };
-            const Bt = "AutoPilot_title__NJa0C"
-              , It = "AutoPilot_button__Sg42v";
-            var Rt = function() {
+            const Ln = "AutoPilot_title__NJa0C"
+              , Rn = "AutoPilot_button__Sg42v";
+            var An = function() {
                 var e = Ke()
-                  , n = e.isShowAutopilotGainedPoint
-                  , t = e.autopilotPoints
+                  , t = e.isShowAutopilotGainedPoint
+                  , n = e.autopilotPoints
                   , a = e.hideAutopilotSheet;
                 return (0,
                 N.jsxs)(Qe, {
-                    visible: n,
+                    visible: t,
                     onClose: a,
                     children: [(0,
                     N.jsx)("div", {
-                        className: Bt,
+                        className: Ln,
                         children: (0,
                         Z.O4)("ok_game_okxracer_title_autodrive_earned_points", {
                             number: (0,
-                            _t.uf)(t)
+                            mn.uf)(n)
                         })
                     }), (0,
-                    N.jsx)(an, {
-                        className: It,
+                    N.jsx)(at, {
+                        className: Rn,
                         onClick: a,
                         text: (0,
                         Z.O4)("ok_game_okxracer_btn_autodrive_continue_racing")
                     })]
                 })
             };
-            const Lt = "BackgroundVideo_container__J5sO2"
-              , At = "BackgroundVideo_muteButton__04Huj"
-              , Dt = "BackgroundVideo_muteButtonIcon__jW8Xs"
-              , Ft = "BackgroundVideo_staticImage__EpRTb"
-              , Ut = "BackgroundVideo_hide__ZXYN9";
-            var Mt, Gt, Wt, Vt, Ht, Yt, Kt = "backgroundVideoSoundOn", zt = "/cdn/assets/imgs/247/8C3F56E142FF9E9B.png", Xt = [{
+            const Dn = "BackgroundVideo_container__J5sO2"
+              , Fn = "BackgroundVideo_muteButton__04Huj"
+              , Wn = "BackgroundVideo_muteButtonIcon__jW8Xs"
+              , Un = "BackgroundVideo_staticImage__EpRTb"
+              , Mn = "BackgroundVideo_hide__ZXYN9";
+            var Gn, Vn, Hn, Yn, Kn, Xn, zn = "backgroundVideoSoundOn", Jn = "/cdn/assets/imgs/247/8C3F56E142FF9E9B.png", qn = [{
                 src: "/cdn/assets/files/247/766B45A8C0029E3D.webm",
                 type: "video/webm"
             }, {
                 src: "/cdn/assets/files/247/1CD8CBA05FC5A0A5.mp4",
                 type: "video/mp4"
-            }], Jt = [{
+            }], Qn = [{
                 src: "/cdn/assets/files/247/C524742B60C368EB.webm",
                 type: "video/webm"
             }, {
                 src: "/cdn/assets/files/247/FD71D56636980B09.mp4",
                 type: "video/mp4"
-            }], qt = {
+            }], $n = {
                 playsInline: !0,
                 controls: !1,
                 preload: "auto",
-                poster: "".concat(o.Z.cdnBaseUrl).concat(zt)
-            }, Qt = function() {
-                var e = rt().isPending
-                  , n = (0,
-                a.useRef)(null)
+                poster: "".concat(o.Z.cdnBaseUrl).concat(Jn)
+            }, ea = function() {
+                var e = sn().isPending
                   , t = (0,
+                a.useRef)(null)
+                  , n = (0,
                 a.useRef)(null)
                   , r = (0,
                 a.useState)(!1)
@@ -2316,17 +2322,17 @@
                   , d = (0,
                 u.Z)(l, 2)
                   , _ = d[0]
-                  , m = d[1]
-                  , p = (0,
+                  , p = d[1]
+                  , m = (0,
                 a.useState)(!1)
                   , f = (0,
-                u.Z)(p, 2)
+                u.Z)(m, 2)
                   , x = f[0]
                   , h = f[1]
-                  , v = Qn()
+                  , v = $t()
                   , g = (0,
                 a.useState)((function() {
-                    var e = v.get(Kt);
+                    var e = v.get(zn);
                     return Boolean(!e)
                 }
                 ))
@@ -2336,23 +2342,23 @@
                   , w = j[1];
                 (0,
                 a.useEffect)((function() {
-                    n.current && (e && (h(!1),
-                    n.current.currentTime = 0,
-                    n.current.play().then((function() {
+                    t.current && (e && (h(!1),
+                    t.current.currentTime = 0,
+                    t.current.play().then((function() {
                         c(!0)
                     }
                     )).catch((function() {
                         c(!1)
                     }
                     ))),
-                    n.current.onended = function() {
+                    t.current.onended = function() {
                         var e;
                         h(!0),
-                        null === (e = t.current) || void 0 === e || e.play().then((function() {
-                            m(!0)
+                        null === (e = n.current) || void 0 === e || e.play().then((function() {
+                            p(!0)
                         }
                         )).catch((function() {
-                            m(!1)
+                            p(!1)
                         }
                         ))
                     }
@@ -2364,17 +2370,17 @@
                   , T = i && (!x || !_);
                 return (0,
                 N.jsxs)("div", {
-                    className: Lt,
+                    className: Dn,
                     children: [(0,
                     N.jsx)(H.default, {
                         category: H.default.CATEGORY.fill,
                         type: H.default.TYPE.quaternary,
                         size: H.default.SIZE.md,
-                        className: At,
+                        className: Fn,
                         strictCircle: !0,
                         onClick: function() {
                             w((function(e) {
-                                return v.set(Kt, e),
+                                return v.set(zn, e),
                                 !e
                             }
                             ))
@@ -2382,23 +2388,23 @@
                         children: (0,
                         N.jsx)(P.Z, {
                             iconName: C ? "okx-growth-music-off" : "okx-growth-music-on",
-                            className: Dt
+                            className: Wn
                         })
                     }), (0,
                     N.jsx)(Y.Z, {
-                        className: y()(Ft, (0,
-                        rn.Z)({}, Ut, !b)),
-                        src: "".concat(o.Z.cdnBaseUrl).concat(zt)
+                        className: y()(Un, (0,
+                        rt.Z)({}, Mn, !b)),
+                        src: "".concat(o.Z.cdnBaseUrl).concat(Jn)
                     }), (0,
                     N.jsx)("video", (0,
                     k.Z)((0,
-                    k.Z)({}, qt), {}, {
+                    k.Z)({}, $n), {}, {
                         className: y()((0,
-                        rn.Z)({}, Ut, !Z)),
-                        ref: t,
+                        rt.Z)({}, Mn, !Z)),
+                        ref: n,
                         loop: !0,
                         muted: !0,
-                        children: Xt.map((function(e) {
+                        children: qn.map((function(e) {
                             return (0,
                             N.jsx)("source", {
                                 src: "".concat(o.Z.cdnBaseUrl).concat(e.src),
@@ -2409,12 +2415,12 @@
                     })), (0,
                     N.jsx)("video", (0,
                     k.Z)((0,
-                    k.Z)({}, qt), {}, {
+                    k.Z)({}, $n), {}, {
                         className: y()((0,
-                        rn.Z)({}, Ut, !T)),
-                        ref: n,
+                        rt.Z)({}, Mn, !T)),
+                        ref: t,
                         muted: C,
-                        children: Jt.map((function(e) {
+                        children: Qn.map((function(e) {
                             return (0,
                             N.jsx)("source", {
                                 src: "".concat(o.Z.cdnBaseUrl).concat(e.src),
@@ -2424,79 +2430,79 @@
                         ))
                     }))]
                 })
-            }, $t = ["title", "titleId"];
-            function ea() {
-                return ea = Object.assign ? Object.assign.bind() : function(e) {
-                    for (var n = 1; n < arguments.length; n++) {
-                        var t = arguments[n];
-                        for (var a in t)
-                            ({}).hasOwnProperty.call(t, a) && (e[a] = t[a])
+            }, ta = ["title", "titleId"];
+            function na() {
+                return na = Object.assign ? Object.assign.bind() : function(e) {
+                    for (var t = 1; t < arguments.length; t++) {
+                        var n = arguments[t];
+                        for (var a in n)
+                            ({}).hasOwnProperty.call(n, a) && (e[a] = n[a])
                     }
                     return e
                 }
                 ,
-                ea.apply(null, arguments)
+                na.apply(null, arguments)
             }
-            function na(e, n) {
-                var t = e.title
+            function aa(e, t) {
+                var n = e.title
                   , r = e.titleId
-                  , s = function(e, n) {
+                  , s = function(e, t) {
                     if (null == e)
                         return {};
-                    var t, a, r = function(e, n) {
+                    var n, a, r = function(e, t) {
                         if (null == e)
                             return {};
-                        var t = {};
+                        var n = {};
                         for (var a in e)
                             if ({}.hasOwnProperty.call(e, a)) {
-                                if (n.includes(a))
+                                if (t.includes(a))
                                     continue;
-                                t[a] = e[a]
+                                n[a] = e[a]
                             }
-                        return t
-                    }(e, n);
+                        return n
+                    }(e, t);
                     if (Object.getOwnPropertySymbols) {
                         var s = Object.getOwnPropertySymbols(e);
                         for (a = 0; a < s.length; a++)
-                            t = s[a],
-                            n.includes(t) || {}.propertyIsEnumerable.call(e, t) && (r[t] = e[t])
+                            n = s[a],
+                            t.includes(n) || {}.propertyIsEnumerable.call(e, n) && (r[n] = e[n])
                     }
                     return r
-                }(e, $t);
-                return a.createElement("svg", ea({
+                }(e, ta);
+                return a.createElement("svg", na({
                     width: 166,
                     height: 60,
                     viewBox: "0 0 166 60",
                     fill: "none",
                     xmlns: "http://www.w3.org/2000/svg",
-                    ref: n,
+                    ref: t,
                     "aria-labelledby": r
-                }, s), t ? a.createElement("title", {
+                }, s), n ? a.createElement("title", {
                     id: r
-                }, t) : null, Mt || (Mt = a.createElement("path", {
+                }, n) : null, Gn || (Gn = a.createElement("path", {
                     d: "M3 16.3433C3 11.925 6.58172 8.34326 11 8.34326H155C159.418 8.34326 163 11.925 163 16.3433V44.3433C163 50.9707 157.627 56.3433 151 56.3433H15C8.37258 56.3433 3 50.9707 3 44.3433V16.3433Z",
                     fill: "#A60014"
-                })), Gt || (Gt = a.createElement("path", {
+                })), Vn || (Vn = a.createElement("path", {
                     d: "M11 6.84326C5.75329 6.84326 1.5 11.0966 1.5 16.3433V44.3433C1.5 51.7991 7.54415 57.8433 15 57.8433H151C158.456 57.8433 164.5 51.7991 164.5 44.3433V16.3433C164.5 11.0966 160.247 6.84326 155 6.84326H11Z",
                     stroke: "white",
                     strokeWidth: 3
-                })), Wt || (Wt = a.createElement("g", {
+                })), Hn || (Hn = a.createElement("g", {
                     filter: "url(#filter0_i_738_19404)"
                 }, a.createElement("path", {
                     className: "default",
                     d: "M3 8.34277C3 3.9245 6.58172 0.342773 11 0.342773H155C159.418 0.342773 163 3.9245 163 8.34277V40.3428C163 44.7611 159.418 48.3428 155 48.3428H11C6.58172 48.3428 3 44.7611 3 40.3428V8.34277Z",
                     fill: "#F5384F"
-                }))), Vt || (Vt = a.createElement("path", {
+                }))), Yn || (Yn = a.createElement("path", {
                     fillRule: "evenodd",
                     clipRule: "evenodd",
                     d: "M3 38.3428V40.3432C3 44.7615 6.58172 48.3432 11 48.3432H155C159.418 48.3432 163 44.7615 163 40.3432V38.3428C163 42.7611 159.418 46.3428 155 46.3428H11C6.58172 46.3428 3 42.7611 3 38.3428Z",
                     fill: "url(#paint0_linear_738_19404)"
-                })), Ht || (Ht = a.createElement("path", {
+                })), Kn || (Kn = a.createElement("path", {
                     className: "pressed",
                     transform: "translate(2 4)",
                     d: "M0 8.49951C0 4.08123 3.58172 0.499512 8 0.499512H152C156.418 0.499512 160 4.08123 160 8.49951V40.4995C160 44.9178 156.418 48.4995 152 48.4995H8C3.58172 48.4995 0 44.9178 0 40.4995V8.49951Z",
                     fill: "url(#paint0_linear_738_19552)"
-                })), Yt || (Yt = a.createElement("defs", null, a.createElement("filter", {
+                })), Xn || (Xn = a.createElement("defs", null, a.createElement("filter", {
                     id: "filter0_i_738_19404",
                     x: 3,
                     y: .342773,
@@ -2562,81 +2568,81 @@
                     stopColor: "#A60014"
                 })))))
             }
-            var ta = a.forwardRef(na);
-            t.p;
-            var aa, ra, sa, ia, oa, ca, la = ["title", "titleId"];
-            function ua() {
-                return ua = Object.assign ? Object.assign.bind() : function(e) {
-                    for (var n = 1; n < arguments.length; n++) {
-                        var t = arguments[n];
-                        for (var a in t)
-                            ({}).hasOwnProperty.call(t, a) && (e[a] = t[a])
+            var ra = a.forwardRef(aa);
+            n.p;
+            var sa, ia, oa, ca, la, ua, da = ["title", "titleId"];
+            function _a() {
+                return _a = Object.assign ? Object.assign.bind() : function(e) {
+                    for (var t = 1; t < arguments.length; t++) {
+                        var n = arguments[t];
+                        for (var a in n)
+                            ({}).hasOwnProperty.call(n, a) && (e[a] = n[a])
                     }
                     return e
                 }
                 ,
-                ua.apply(null, arguments)
+                _a.apply(null, arguments)
             }
-            function da(e, n) {
-                var t = e.title
+            function pa(e, t) {
+                var n = e.title
                   , r = e.titleId
-                  , s = function(e, n) {
+                  , s = function(e, t) {
                     if (null == e)
                         return {};
-                    var t, a, r = function(e, n) {
+                    var n, a, r = function(e, t) {
                         if (null == e)
                             return {};
-                        var t = {};
+                        var n = {};
                         for (var a in e)
                             if ({}.hasOwnProperty.call(e, a)) {
-                                if (n.includes(a))
+                                if (t.includes(a))
                                     continue;
-                                t[a] = e[a]
+                                n[a] = e[a]
                             }
-                        return t
-                    }(e, n);
+                        return n
+                    }(e, t);
                     if (Object.getOwnPropertySymbols) {
                         var s = Object.getOwnPropertySymbols(e);
                         for (a = 0; a < s.length; a++)
-                            t = s[a],
-                            n.includes(t) || {}.propertyIsEnumerable.call(e, t) && (r[t] = e[t])
+                            n = s[a],
+                            t.includes(n) || {}.propertyIsEnumerable.call(e, n) && (r[n] = e[n])
                     }
                     return r
-                }(e, la);
-                return a.createElement("svg", ua({
+                }(e, da);
+                return a.createElement("svg", _a({
                     width: 166,
                     height: 60,
                     viewBox: "0 0 166 60",
                     fill: "none",
                     xmlns: "http://www.w3.org/2000/svg",
-                    ref: n,
+                    ref: t,
                     "aria-labelledby": r
-                }, s), t ? a.createElement("title", {
+                }, s), n ? a.createElement("title", {
                     id: r
-                }, t) : null, aa || (aa = a.createElement("path", {
+                }, n) : null, sa || (sa = a.createElement("path", {
                     d: "M3 16.3433C3 11.925 6.58172 8.34326 11 8.34326H155C159.418 8.34326 163 11.925 163 16.3433V44.3433C163 50.9707 157.627 56.3433 151 56.3433H15C8.37258 56.3433 3 50.9707 3 44.3433V16.3433Z",
                     fill: "#01933B"
-                })), ra || (ra = a.createElement("path", {
+                })), ia || (ia = a.createElement("path", {
                     d: "M11 6.84326C5.75329 6.84326 1.5 11.0966 1.5 16.3433V44.3433C1.5 51.7991 7.54415 57.8433 15 57.8433H151C158.456 57.8433 164.5 51.7991 164.5 44.3433V16.3433C164.5 11.0966 160.247 6.84326 155 6.84326H11Z",
                     stroke: "white",
                     strokeWidth: 3
-                })), sa || (sa = a.createElement("g", {
+                })), oa || (oa = a.createElement("g", {
                     filter: "url(#filter0_i_738_19392)"
                 }, a.createElement("path", {
                     className: "default",
                     d: "M3 8.34277C3 3.9245 6.58172 0.342773 11 0.342773H155C159.418 0.342773 163 3.9245 163 8.34277V40.3428C163 44.7611 159.418 48.3428 155 48.3428H11C6.58172 48.3428 3 44.7611 3 40.3428V8.34277Z",
                     fill: "#00BC4B"
-                }))), ia || (ia = a.createElement("path", {
+                }))), ca || (ca = a.createElement("path", {
                     fillRule: "evenodd",
                     clipRule: "evenodd",
                     d: "M3 38.3428V40.3432C3 44.7615 6.58172 48.3432 11 48.3432H155C159.418 48.3432 163 44.7615 163 40.3432V38.3428C163 42.7611 159.418 46.3428 155 46.3428H11C6.58172 46.3428 3 42.7611 3 38.3428Z",
                     fill: "url(#paint0_linear_738_19392)"
-                })), oa || (oa = a.createElement("path", {
+                })), la || (la = a.createElement("path", {
                     className: "pressed",
                     transform: "translate(2 4)",
                     d: "M0 8.49951C0 4.08123 3.58172 0.499512 8 0.499512H152C156.418 0.499512 160 4.08123 160 8.49951V40.4995C160 44.9178 156.418 48.4995 152 48.4995H8C3.58172 48.4995 0 44.9178 0 40.4995V8.49951Z",
                     fill: "url(#paint0_linear_738_19488)"
-                })), ca || (ca = a.createElement("defs", null, a.createElement("filter", {
+                })), ua || (ua = a.createElement("defs", null, a.createElement("filter", {
                     id: "filter0_i_738_19392",
                     x: 3,
                     y: .342773,
@@ -2704,9 +2710,9 @@
                     stopColor: "#01933B"
                 }))))))
             }
-            var _a = a.forwardRef(da);
-            t.p;
-            const ma = {
+            var ma = a.forwardRef(pa);
+            n.p;
+            const fa = {
                 instructions: "ButtonContainer_instructions__PczCp",
                 hide: "ButtonContainer_hide__sU3Rh",
                 btnContainer: "ButtonContainer_btnContainer__Nnclb",
@@ -2716,12 +2722,12 @@
                 btnGraphic: "ButtonContainer_btnGraphic__LFUin",
                 arrow: "ButtonContainer_arrow__Q5suA"
             };
-            var pa, fa = function(e) {
-                var n = e.className
-                  , t = rt()
-                  , r = t.onButtonClick
-                  , s = t.isPending
-                  , i = t.predict
+            var xa, ha = function(e) {
+                var t = e.className
+                  , n = sn()
+                  , r = n.onButtonClick
+                  , s = n.isPending
+                  , i = n.predict
                   , o = Ke().numChances
                   , c = (0,
                 a.useState)()
@@ -2741,122 +2747,122 @@
                     }
                 }
                 ), [s]);
-                var m = function(e) {
-                    var n, t, a;
-                    s || d || (_(e === nt.UP ? nt.DOWN : nt.UP),
-                    null !== (n = window) && void 0 !== n && null !== (t = n.Telegram) && void 0 !== t && null !== (a = t.WebApp) && void 0 !== a && a.HapticFeedback && window.Telegram.WebApp.HapticFeedback.impactOccurred("heavy"),
+                var p = function(e) {
+                    var t, n, a;
+                    s || d || (_(e === nn.UP ? nn.DOWN : nn.UP),
+                    null !== (t = window) && void 0 !== t && null !== (n = t.Telegram) && void 0 !== n && null !== (a = n.WebApp) && void 0 !== a && a.HapticFeedback && window.Telegram.WebApp.HapticFeedback.impactOccurred("heavy"),
                     r(e))
                 }
-                  , p = o <= 0;
+                  , m = o <= 0;
                 return (0,
                 N.jsxs)("div", {
-                    className: n,
+                    className: t,
                     children: [(0,
                     N.jsx)("p", {
-                        className: y()(ma.instructions, s && ma.hide),
+                        className: y()(fa.instructions, s && fa.hide),
                         children: (0,
                         Z.O4)("ok_game_okxracer_prompt_start_guess", {
                             countDown: 5
                         })
                     }), (0,
                     N.jsxs)("div", {
-                        className: ma.btnContainer,
+                        className: fa.btnContainer,
                         children: [(0,
                         N.jsxs)("button", {
-                            disabled: p || d === nt.UP,
+                            disabled: m || d === nn.UP,
                             onClick: function() {
-                                return m(nt.UP)
+                                return p(nn.UP)
                             },
                             type: "button",
-                            className: y()(ma.btn, ma.upBtn, (0,
-                            rn.Z)({}, ma.pressed, i === nt.UP)),
+                            className: y()(fa.btn, fa.upBtn, (0,
+                            rt.Z)({}, fa.pressed, i === nn.UP)),
                             children: [(0,
-                            N.jsx)(_a, {
-                                className: y()(ma.btnGraphic, ma.upBtnGraphic)
+                            N.jsx)(ma, {
+                                className: y()(fa.btnGraphic, fa.upBtnGraphic)
                             }), (0,
                             N.jsxs)("span", {
-                                className: ma.btnText,
+                                className: fa.btnText,
                                 children: [(0,
                                 Z.O4)("ok_game_okxracer_prompt_price_up"), (0,
                                 N.jsx)(P.Z, {
                                     iconName: "okx-growth-up-new",
-                                    className: ma.arrow
+                                    className: fa.arrow
                                 })]
                             })]
                         }), (0,
                         N.jsxs)("button", {
-                            disabled: p || d === nt.DOWN,
+                            disabled: m || d === nn.DOWN,
                             onClick: function() {
-                                return m(nt.DOWN)
+                                return p(nn.DOWN)
                             },
                             type: "button",
-                            className: y()(ma.btn, ma.downBtn, (0,
-                            rn.Z)({}, ma.pressed, i === nt.DOWN)),
+                            className: y()(fa.btn, fa.downBtn, (0,
+                            rt.Z)({}, fa.pressed, i === nn.DOWN)),
                             children: [(0,
-                            N.jsx)(ta, {
-                                className: y()(ma.btnGraphic, ma.downBtnGraphic)
+                            N.jsx)(ra, {
+                                className: y()(fa.btnGraphic, fa.downBtnGraphic)
                             }), (0,
                             N.jsxs)("span", {
-                                className: ma.btnText,
+                                className: fa.btnText,
                                 children: [(0,
                                 Z.O4)("ok_game_okxracer_prompt_price_down"), (0,
                                 N.jsx)(P.Z, {
                                     iconName: "okx-growth-down-new",
-                                    className: ma.arrow
+                                    className: fa.arrow
                                 })]
                             })]
                         })]
                     })]
                 })
-            }, xa = ["title", "titleId"];
-            function ha() {
-                return ha = Object.assign ? Object.assign.bind() : function(e) {
-                    for (var n = 1; n < arguments.length; n++) {
-                        var t = arguments[n];
-                        for (var a in t)
-                            ({}).hasOwnProperty.call(t, a) && (e[a] = t[a])
+            }, va = ["title", "titleId"];
+            function ga() {
+                return ga = Object.assign ? Object.assign.bind() : function(e) {
+                    for (var t = 1; t < arguments.length; t++) {
+                        var n = arguments[t];
+                        for (var a in n)
+                            ({}).hasOwnProperty.call(n, a) && (e[a] = n[a])
                     }
                     return e
                 }
                 ,
-                ha.apply(null, arguments)
+                ga.apply(null, arguments)
             }
-            function va(e, n) {
-                var t = e.title
+            function ka(e, t) {
+                var n = e.title
                   , r = e.titleId
-                  , s = function(e, n) {
+                  , s = function(e, t) {
                     if (null == e)
                         return {};
-                    var t, a, r = function(e, n) {
+                    var n, a, r = function(e, t) {
                         if (null == e)
                             return {};
-                        var t = {};
+                        var n = {};
                         for (var a in e)
                             if ({}.hasOwnProperty.call(e, a)) {
-                                if (n.includes(a))
+                                if (t.includes(a))
                                     continue;
-                                t[a] = e[a]
+                                n[a] = e[a]
                             }
-                        return t
-                    }(e, n);
+                        return n
+                    }(e, t);
                     if (Object.getOwnPropertySymbols) {
                         var s = Object.getOwnPropertySymbols(e);
                         for (a = 0; a < s.length; a++)
-                            t = s[a],
-                            n.includes(t) || {}.propertyIsEnumerable.call(e, t) && (r[t] = e[t])
+                            n = s[a],
+                            t.includes(n) || {}.propertyIsEnumerable.call(e, n) && (r[n] = e[n])
                     }
                     return r
-                }(e, xa);
-                return a.createElement("svg", ha({
+                }(e, va);
+                return a.createElement("svg", ga({
                     viewBox: "0 0 375 183",
                     fill: "none",
                     xmlns: "http://www.w3.org/2000/svg",
                     xmlnsXlink: "http://www.w3.org/1999/xlink",
-                    ref: n,
+                    ref: t,
                     "aria-labelledby": r
-                }, s), t ? a.createElement("title", {
+                }, s), n ? a.createElement("title", {
                     id: r
-                }, t) : null, pa || (pa = a.createElement("g", {
+                }, n) : null, xa || (xa = a.createElement("g", {
                     transform: "translate(24 12)"
                 }, a.createElement("rect", {
                     className: "track",
@@ -2910,112 +2916,112 @@
                     stopOpacity: 0
                 }))))))
             }
-            var ga = a.forwardRef(va);
-            t.p;
-            var ka = t(31301);
-            t(27668);
-            const ja = "FuelIndicator_fuelContainer__QIskL"
-              , Na = "FuelIndicator_toTasksIcon__Y7exC"
-              , Ca = "FuelIndicator_line__tWBfm"
-              , wa = "FuelIndicator_description__EaUsa"
-              , ba = "FuelIndicator_fuelIcon__I38Ss"
-              , ya = "FuelIndicator_maxChances__OMSHl"
-              , Za = "FuelIndicator_earnPtsMsg__PjtcT";
-            var Pa, Ta, Oa = function(e) {
-                var n = e.className
-                  , t = Ke()
-                  , a = t.numChances
-                  , r = t.numChancesTotal;
+            var ja = a.forwardRef(ka);
+            n.p;
+            var Na = n(31301);
+            n(27668);
+            const Ca = "FuelIndicator_fuelContainer__QIskL"
+              , wa = "FuelIndicator_toTasksIcon__Y7exC"
+              , ba = "FuelIndicator_line__tWBfm"
+              , ya = "FuelIndicator_description__EaUsa"
+              , Za = "FuelIndicator_fuelIcon__I38Ss"
+              , Pa = "FuelIndicator_maxChances__OMSHl"
+              , Ta = "FuelIndicator_earnPtsMsg__PjtcT";
+            var Oa, Sa, Ea = function(e) {
+                var t = e.className
+                  , n = Ke()
+                  , a = n.numChances
+                  , r = n.numChancesTotal;
                 return (0,
                 N.jsxs)("div", {
-                    className: y()(n, ja),
+                    className: y()(t, Ca),
                     children: [(0,
                     N.jsx)("span", {
-                        className: ba,
+                        className: Za,
                         children: "\u26fd\ufe0f"
                     }), a > 0 ? (0,
-                    N.jsx)(ka.Z.Line, {
-                        className: Ca,
+                    N.jsx)(Na.Z.Line, {
+                        className: ba,
                         markColor: "#fff",
                         trackColor: "#272727",
                         percent: a / r * 100
                     }, r) : (0,
-                    N.jsx)(In, {
+                    N.jsx)(Bt, {
                         to: D,
-                        className: Za,
+                        className: Ta,
                         children: (0,
                         Z.O4)("ok_game_okxracer_earn_pts_desc")
                     }), (0,
                     N.jsxs)("p", {
-                        className: wa,
+                        className: ya,
                         children: [a, "\xa0", void 0 !== r && 0 !== r && (0,
                         N.jsxs)(N.Fragment, {
                             children: ["/\xa0", (0,
                             N.jsx)("span", {
-                                className: ya,
+                                className: Pa,
                                 children: r
                             })]
                         })]
                     }), (0,
-                    N.jsx)(In, {
+                    N.jsx)(Bt, {
                         to: D,
                         children: (0,
                         N.jsx)(P.Z, {
                             iconName: "okx-growth-chevrons-right",
-                            className: Na
+                            className: wa
                         })
                     })]
                 })
-            }, Sa = ["title", "titleId"];
-            function Ea() {
-                return Ea = Object.assign ? Object.assign.bind() : function(e) {
-                    for (var n = 1; n < arguments.length; n++) {
-                        var t = arguments[n];
-                        for (var a in t)
-                            ({}).hasOwnProperty.call(t, a) && (e[a] = t[a])
+            }, Ba = ["title", "titleId"];
+            function Ia() {
+                return Ia = Object.assign ? Object.assign.bind() : function(e) {
+                    for (var t = 1; t < arguments.length; t++) {
+                        var n = arguments[t];
+                        for (var a in n)
+                            ({}).hasOwnProperty.call(n, a) && (e[a] = n[a])
                     }
                     return e
                 }
                 ,
-                Ea.apply(null, arguments)
+                Ia.apply(null, arguments)
             }
-            function Ba(e, n) {
-                var t = e.title
+            function La(e, t) {
+                var n = e.title
                   , r = e.titleId
-                  , s = function(e, n) {
+                  , s = function(e, t) {
                     if (null == e)
                         return {};
-                    var t, a, r = function(e, n) {
+                    var n, a, r = function(e, t) {
                         if (null == e)
                             return {};
-                        var t = {};
+                        var n = {};
                         for (var a in e)
                             if ({}.hasOwnProperty.call(e, a)) {
-                                if (n.includes(a))
+                                if (t.includes(a))
                                     continue;
-                                t[a] = e[a]
+                                n[a] = e[a]
                             }
-                        return t
-                    }(e, n);
+                        return n
+                    }(e, t);
                     if (Object.getOwnPropertySymbols) {
                         var s = Object.getOwnPropertySymbols(e);
                         for (a = 0; a < s.length; a++)
-                            t = s[a],
-                            n.includes(t) || {}.propertyIsEnumerable.call(e, t) && (r[t] = e[t])
+                            n = s[a],
+                            t.includes(n) || {}.propertyIsEnumerable.call(e, n) && (r[n] = e[n])
                     }
                     return r
-                }(e, Sa);
-                return a.createElement("svg", Ea({
+                }(e, Ba);
+                return a.createElement("svg", Ia({
                     width: 170,
                     height: 37,
                     viewBox: "0 0 170 37",
                     fill: "none",
                     xmlns: "http://www.w3.org/2000/svg",
-                    ref: n,
+                    ref: t,
                     "aria-labelledby": r
-                }, s), t ? a.createElement("title", {
+                }, s), n ? a.createElement("title", {
                     id: r
-                }, t) : null, Pa || (Pa = a.createElement("rect", {
+                }, n) : null, Oa || (Oa = a.createElement("rect", {
                     x: 2.5,
                     y: -2.5,
                     width: 164,
@@ -3024,7 +3030,7 @@
                     transform: "matrix(1 0 0 -1 0.5 31.3428)",
                     stroke: "url(#paint0_linear_563_49992)",
                     strokeWidth: 5
-                })), Ta || (Ta = a.createElement("defs", null, a.createElement("linearGradient", {
+                })), Sa || (Sa = a.createElement("defs", null, a.createElement("linearGradient", {
                     id: "paint0_linear_563_49992",
                     x1: 84,
                     y1: 28.5652,
@@ -3036,123 +3042,123 @@
                     stopColor: "#909090"
                 })))))
             }
-            var Ia = a.forwardRef(Ba);
-            t.p;
-            const Ra = "RefuelTimer_container__wtALO"
-              , La = "RefuelTimer_description__sD+HM"
-              , Aa = "RefuelTimer_timer__LL1+c";
-            var Da = function(e) {
-                var n = e.className
-                  , t = Ke().countdownDisplay;
+            var Ra = a.forwardRef(La);
+            n.p;
+            const Aa = "RefuelTimer_container__wtALO"
+              , Da = "RefuelTimer_description__sD+HM"
+              , Fa = "RefuelTimer_timer__LL1+c";
+            var Wa = function(e) {
+                var t = e.className
+                  , n = Ke().countdownDisplay;
                 return (0,
                 N.jsxs)("div", {
-                    className: y()(n, Ra),
+                    className: y()(t, Aa),
                     children: [(0,
-                    N.jsx)(Ia, {}), (0,
+                    N.jsx)(Ra, {}), (0,
                     N.jsx)("p", {
-                        className: La,
+                        className: Da,
                         children: (0,
                         Z.Lg)("ok_game_okxracer_nx_refill_time", {
                             countDown: (0,
                             N.jsx)("span", {
-                                className: Aa,
-                                children: t
+                                className: Fa,
+                                children: n
                             })
                         })
                     })]
                 })
             };
-            const Fa = "CoinPrice_raceTrack__NZO2t"
-              , Ua = "CoinPrice_run__f0UIF"
-              , Ma = "CoinPrice_coinPriceContainer__YbeUE"
-              , Ga = "CoinPrice_content__a-5Jl"
-              , Wa = "CoinPrice_fuelIndicator__p+f1I"
-              , Va = "CoinPrice_refuelTimer__tbWMw"
-              , Ha = "CoinPrice_hide__bHhxJ"
-              , Ya = "CoinPrice_label__yTNy0"
-              , Ka = "CoinPrice_value__ZjRZz"
-              , za = "CoinPrice_slotMachine__hUQKt"
-              , Xa = "SlotMachine_row__a4TO0"
-              , Ja = "SlotMachine_animate__-G4TR"
-              , qa = "SlotMachine_column__aR0VE"
-              , Qa = "SlotMachine_arrows__m1dhv"
-              , $a = "SlotMachine_columnContainer__a76pd"
-              , er = "SlotMachine_background__b9TMg"
-              , nr = "SlotMachine_slot__jwCvC"
-              , tr = "SlotMachine_staticColumn__O5zfB"
-              , ar = "SlotMachine_sm__ZRCig"
-              , rr = "SlotMachine_arrow__qOYmf"
-              , sr = "SlotMachine_wentUp__z48TO"
-              , ir = "SlotMachine_down__aYC8C"
-              , or = "SlotMachine_stable__CDMLP"
-              , cr = "SlotMachine_wentDown__1fYUS"
-              , lr = "SlotMachine_up__IuiYV";
-            var ur = function(e) {
-                var n = e.animate
-                  , t = e.result
-                  , a = void 0 === t ? 0 : t
+            const Ua = "CoinPrice_raceTrack__NZO2t"
+              , Ma = "CoinPrice_run__f0UIF"
+              , Ga = "CoinPrice_coinPriceContainer__YbeUE"
+              , Va = "CoinPrice_content__a-5Jl"
+              , Ha = "CoinPrice_fuelIndicator__p+f1I"
+              , Ya = "CoinPrice_refuelTimer__tbWMw"
+              , Ka = "CoinPrice_hide__bHhxJ"
+              , Xa = "CoinPrice_label__yTNy0"
+              , za = "CoinPrice_value__ZjRZz"
+              , Ja = "CoinPrice_slotMachine__hUQKt"
+              , qa = "SlotMachine_row__a4TO0"
+              , Qa = "SlotMachine_animate__-G4TR"
+              , $a = "SlotMachine_column__aR0VE"
+              , er = "SlotMachine_arrows__m1dhv"
+              , tr = "SlotMachine_columnContainer__a76pd"
+              , nr = "SlotMachine_background__b9TMg"
+              , ar = "SlotMachine_slot__jwCvC"
+              , rr = "SlotMachine_staticColumn__O5zfB"
+              , sr = "SlotMachine_sm__ZRCig"
+              , ir = "SlotMachine_arrow__qOYmf"
+              , or = "SlotMachine_wentUp__z48TO"
+              , cr = "SlotMachine_down__aYC8C"
+              , lr = "SlotMachine_stable__CDMLP"
+              , ur = "SlotMachine_wentDown__1fYUS"
+              , dr = "SlotMachine_up__IuiYV";
+            var _r = function(e) {
+                var t = e.animate
+                  , n = e.result
+                  , a = void 0 === n ? 0 : n
                   , r = e.columnStyle;
                 return (0,
                 N.jsxs)("div", {
-                    className: $a,
+                    className: tr,
                     children: [(0,
                     N.jsx)("div", {
-                        className: er
+                        className: nr
                     }), (0,
                     N.jsxs)("div", {
-                        className: qa,
+                        className: $a,
                         style: r,
                         children: [(0,
                         N.jsx)("p", {
-                            className: nr,
+                            className: ar,
                             children: a
-                        }), n && (0,
+                        }), t && (0,
                         N.jsxs)(N.Fragment, {
                             children: [(0,
                             N.jsx)("p", {
-                                className: nr,
+                                className: ar,
                                 children: "1"
                             }), (0,
                             N.jsx)("p", {
-                                className: nr,
+                                className: ar,
                                 children: "2"
                             }), (0,
                             N.jsx)("p", {
-                                className: nr,
+                                className: ar,
                                 children: "3"
                             }), (0,
                             N.jsx)("p", {
-                                className: nr,
+                                className: ar,
                                 children: "4"
                             }), (0,
                             N.jsx)("p", {
-                                className: nr,
+                                className: ar,
                                 children: "5"
                             }), (0,
                             N.jsx)("p", {
-                                className: nr,
+                                className: ar,
                                 children: "6"
                             }), (0,
                             N.jsx)("p", {
-                                className: nr,
+                                className: ar,
                                 children: "7"
                             }), (0,
                             N.jsx)("p", {
-                                className: nr,
+                                className: ar,
                                 children: "8"
                             }), (0,
                             N.jsx)("p", {
-                                className: nr,
+                                className: ar,
                                 children: "9"
                             })]
                         })]
                     })]
                 })
             }
-              , dr = function() {
-                var e = rt()
-                  , n = e.changeRate
-                  , t = e.isPending
+              , pr = function() {
+                var e = sn()
+                  , t = e.changeRate
+                  , n = e.isPending
                   , r = (0,
                 a.useState)([])
                   , s = (0,
@@ -3165,22 +3171,22 @@
                 u.Z)(c, 2)
                   , d = l[0]
                   , _ = l[1]
-                  , m = (0,
-                a.useState)(!1)
                   , p = (0,
-                u.Z)(m, 2)
-                  , f = p[0]
-                  , x = p[1];
+                a.useState)(!1)
+                  , m = (0,
+                u.Z)(p, 2)
+                  , f = m[0]
+                  , x = m[1];
                 return (0,
                 a.useEffect)((function() {
-                    t && x(!0)
+                    n && x(!0)
                 }
-                ), [t]),
+                ), [n]),
                 (0,
                 a.useEffect)((function() {
                     var e;
-                    null !== n ? (_(null === (e = n) ? null : e > 0 ? nt.UP : 0 === e ? nt.NONE : nt.DOWN),
-                    o(String(Math.abs(Number(xt(n)))).split("").filter((function(e) {
+                    null !== t ? (_(null === (e = t) ? null : e > 0 ? nn.UP : 0 === e ? nn.NONE : nn.DOWN),
+                    o(String(Math.abs(Number(vn(t)))).split("").filter((function(e) {
                         return "." !== e
                     }
                     )).map((function(e) {
@@ -3189,35 +3195,35 @@
                     ))),
                     x(!1)) : _(null)
                 }
-                ), [n]),
+                ), [t]),
                 (0,
                 N.jsxs)("div", {
-                    className: y()(Xa, f && Ja),
+                    className: y()(qa, f && Qa),
                     children: [(0,
                     N.jsx)("div", {
-                        className: $a,
+                        className: tr,
                         children: (0,
                         N.jsxs)("div", {
-                            className: y()(Qa, (0,
-                            rn.Z)((0,
-                            rn.Z)((0,
-                            rn.Z)({}, sr, d === nt.UP), cr, d === nt.DOWN), or, d === nt.NONE)),
+                            className: y()(er, (0,
+                            rt.Z)((0,
+                            rt.Z)((0,
+                            rt.Z)({}, or, d === nn.UP), ur, d === nn.DOWN), lr, d === nn.NONE)),
                             children: [(0,
                             N.jsx)(P.Z, {
                                 iconName: "okds-arrow-pointer-up-sm",
-                                className: y()(rr, lr)
+                                className: y()(ir, dr)
                             }), (0,
                             N.jsx)(P.Z, {
                                 iconName: "okds-arrow-pointer-right-sm",
-                                className: y()(rr, or)
+                                className: y()(ir, lr)
                             }), (0,
                             N.jsx)(P.Z, {
                                 iconName: "okds-arrow-pointer-down-sm",
-                                className: y()(rr, ir)
+                                className: y()(ir, cr)
                             })]
                         })
                     }), (0,
-                    N.jsx)(ur, {
+                    N.jsx)(_r, {
                         animate: f,
                         result: i[0],
                         columnStyle: {
@@ -3225,31 +3231,31 @@
                         }
                     }), (0,
                     N.jsx)("span", {
-                        className: tr,
+                        className: rr,
                         children: "."
                     }), (0,
-                    N.jsx)(ur, {
+                    N.jsx)(_r, {
                         animate: f,
                         result: i[1],
                         columnStyle: {
                             animationDelay: "200ms"
                         }
                     }), (0,
-                    N.jsx)(ur, {
+                    N.jsx)(_r, {
                         animate: f,
                         result: i[2],
                         columnStyle: {
                             animationDelay: "300ms"
                         }
                     }), (0,
-                    N.jsx)(ur, {
+                    N.jsx)(_r, {
                         animate: f,
                         result: i[3],
                         columnStyle: {
                             animationDelay: "200ms"
                         }
                     }), (0,
-                    N.jsx)(ur, {
+                    N.jsx)(_r, {
                         animate: f,
                         result: i[4],
                         columnStyle: {
@@ -3257,16 +3263,16 @@
                         }
                     }), (0,
                     N.jsx)("span", {
-                        className: y()(tr, ar),
+                        className: y()(rr, sr),
                         children: "%"
                     })]
                 })
             }
-              , _r = function() {
-                var e = zn()
-                  , n = rt()
-                  , t = n.isPending
-                  , r = n.changeRate
+              , mr = function() {
+                var e = zt()
+                  , t = sn()
+                  , n = t.isPending
+                  , r = t.changeRate
                   , s = Ke().countdownDisplay
                   , i = (0,
                 a.useState)(!1)
@@ -3276,93 +3282,93 @@
                   , l = o[1];
                 (0,
                 a.useEffect)((function() {
-                    t && l(!0)
+                    n && l(!0)
                 }
-                ), [t]),
+                ), [n]),
                 (0,
                 a.useEffect)((function() {
-                    var e, n = function() {
+                    var e, t = function() {
                         e && clearTimeout(e)
                     };
-                    return t || (null === r ? l(!1) : e = setTimeout((function() {
+                    return n || (null === r ? l(!1) : e = setTimeout((function() {
                         l(!1)
                     }
-                    ), ft)),
-                    n
+                    ), hn)),
+                    t
                 }
-                ), [r, t]);
+                ), [r, n]);
                 var d = e ? "$".concat((0,
-                _t.uf)(mt.yx.truncate(e, 1, !0))) : "--"
-                  , _ = s && !t;
+                mn.uf)(fn.yx.truncate(e, 1, !0))) : "--"
+                  , _ = s && !n;
                 return (0,
                 N.jsxs)("div", {
-                    className: Ma,
+                    className: Ga,
                     children: [(0,
-                    N.jsx)(ga, {
-                        className: y()(Fa, t && Ua)
+                    N.jsx)(ja, {
+                        className: y()(Ua, n && Ma)
                     }), (0,
                     N.jsxs)("div", {
-                        className: y()(Ga, c && Ha),
+                        className: y()(Va, c && Ka),
                         children: [(0,
                         N.jsx)("p", {
-                            className: Ya,
+                            className: Xa,
                             children: (0,
                             Z.O4)("ok_game_okxracer_btc_price")
                         }), (0,
                         N.jsx)("p", {
-                            className: Ka,
+                            className: za,
                             children: d
                         })]
                     }), (0,
                     N.jsxs)("div", {
-                        className: y()(Ga, !c && Ha),
+                        className: y()(Va, !c && Ka),
                         children: [(0,
                         N.jsxs)("p", {
-                            className: Ya,
+                            className: Xa,
                             children: [(0,
                             Z.O4)("ok_game_okxracer_btc_price"), " ", d]
                         }), (0,
                         N.jsx)("div", {
-                            className: za,
+                            className: Ja,
                             children: (0,
-                            N.jsx)(dr, {})
+                            N.jsx)(pr, {})
                         })]
                     }), (0,
-                    N.jsx)(Oa, {
-                        className: Wa
+                    N.jsx)(Ea, {
+                        className: Ha
                     }), (0,
                     N.jsx)("div", {
-                        className: y()(Va, !_ && Ha),
+                        className: y()(Ya, !_ && Ka),
                         children: (0,
-                        N.jsx)(Da, {})
+                        N.jsx)(Wa, {})
                     })]
                 })
             };
-            const mr = "LandingPage_container__pU2cC"
-              , pr = "LandingPage_resultOverlay__WSYZb"
-              , fr = "LandingPage_disclaimer__pVRHC"
-              , xr = "LandingPage_recordsBtnContainer__Anr4Y"
-              , hr = "LandingPage_backgroundVideo__flTkH"
-              , vr = "LandingPage_content__D0ZLW"
-              , gr = "LandingPage_points__Ruq4j"
-              , kr = "LandingPage_coinPrice__nJ0nj"
-              , jr = "LandingPage_btnContainer__IEll8"
-              , Nr = "LandingPage_termsAndConditions__MdClU";
-            var Cr = t(71979);
-            const wr = "NewbieWelcome_title__48Py5"
-              , br = "NewbieWelcome_desc__q7GHz"
-              , yr = "NewbieWelcome_button__im+B1"
-              , Zr = "NewbieWelcome_pointsBox__gOjMh"
-              , Pr = "NewbieWelcome_points__4t75l"
-              , Tr = "NewbieWelcome_animation__tf9Dj";
-            var Or = function() {
+            const fr = "LandingPage_container__pU2cC"
+              , xr = "LandingPage_resultOverlay__WSYZb"
+              , hr = "LandingPage_disclaimer__pVRHC"
+              , vr = "LandingPage_recordsBtnContainer__Anr4Y"
+              , gr = "LandingPage_backgroundVideo__flTkH"
+              , kr = "LandingPage_content__D0ZLW"
+              , jr = "LandingPage_points__Ruq4j"
+              , Nr = "LandingPage_coinPrice__nJ0nj"
+              , Cr = "LandingPage_btnContainer__IEll8"
+              , wr = "LandingPage_termsAndConditions__MdClU";
+            var br = n(71979);
+            const yr = "NewbieWelcome_title__48Py5"
+              , Zr = "NewbieWelcome_desc__q7GHz"
+              , Pr = "NewbieWelcome_button__im+B1"
+              , Tr = "NewbieWelcome_pointsBox__gOjMh"
+              , Or = "NewbieWelcome_points__4t75l"
+              , Sr = "NewbieWelcome_animation__tf9Dj";
+            var Er = function() {
                 var e = r().useRef(null)
-                  , n = function() {
+                  , t = function() {
                     var e = o.Z.cdnBaseUrl;
                     return "".concat(e, "/cdn/assets/files/248/9534B41B7241E81E.json")
                 };
                 return (0,
-                Cr.Z)((0,
+                br.Z)((0,
                 l.Z)((0,
                 c.Z)().mark((function a() {
                     return (0,
@@ -3371,14 +3377,14 @@
                             switch (a.prev = a.next) {
                             case 0:
                                 return a.next = 2,
-                                t.e(5340).then(t.t.bind(t, 5340, 23));
+                                n.e(5340).then(n.t.bind(n, 5340, 23));
                             case 2:
                                 a.sent.loadAnimation({
                                     container: e.current,
                                     renderer: "svg",
                                     loop: !1,
                                     autoplay: !0,
-                                    path: n()
+                                    path: t()
                                 });
                             case 4:
                             case "end":
@@ -3393,68 +3399,68 @@
                     children: (0,
                     N.jsx)("div", {
                         ref: e,
-                        className: Tr
+                        className: Sr
                     })
                 })
             }
-              , Sr = function() {
+              , Br = function() {
                 var e = Ke()
-                  , n = e.hideNewbie
-                  , t = e.isShowNewbie;
+                  , t = e.hideNewbie
+                  , n = e.isShowNewbie;
                 return (0,
                 N.jsxs)(Qe, {
-                    visible: t,
-                    onClose: n,
+                    visible: n,
+                    onClose: t,
                     renderWindow: function(e) {
                         return (0,
                         N.jsxs)(N.Fragment, {
                             children: [(0,
-                            N.jsx)(Or, {}), (0,
+                            N.jsx)(Er, {}), (0,
                             N.jsx)(e, {})]
                         })
                     },
                     children: [(0,
                     N.jsx)("div", {
-                        className: Zr,
+                        className: Tr,
                         children: (0,
                         N.jsx)("img", {
                             src: "".concat(o.Z.cdnBaseUrl).concat("/cdn/assets/imgs/248/4770A4DA6875EB63.webp"),
                             alt: "racer",
-                            className: Pr
+                            className: Or
                         })
                     }), (0,
                     N.jsx)("div", {
-                        className: wr,
+                        className: yr,
                         children: (0,
                         Z.O4)("ok_game_okxracer_title_phase4_welcome")
                     }), (0,
                     N.jsx)("div", {
-                        className: br,
+                        className: Zr,
                         children: (0,
                         Z.O4)("ok_game_okxracer_text_phase4_received_points")
                     }), (0,
-                    N.jsx)(an, {
-                        className: yr,
-                        onClick: n,
+                    N.jsx)(at, {
+                        className: Pr,
+                        onClick: t,
                         text: (0,
                         Z.O4)("ok_game_okxracer_btn_phase4_start_racing")
                     })]
                 })
             }
-              , Er = t(22387);
-            const Br = "UserPointCounter_pointCounter__-QAj8"
-              , Ir = "UserPointCounter_hide__o4qTQ"
-              , Rr = "UserPointCounter_points__d3HeG"
-              , Lr = "UserPointCounter_title__B-gN-"
-              , Ar = "UserPointCounter_countdown__Z7xGo"
-              , Dr = "UserPointCounter_value__2a23E";
-            var Fr = function() {
+              , Ir = n(22387);
+            const Lr = "UserPointCounter_pointCounter__-QAj8"
+              , Rr = "UserPointCounter_hide__o4qTQ"
+              , Ar = "UserPointCounter_points__d3HeG"
+              , Dr = "UserPointCounter_title__B-gN-"
+              , Fr = "UserPointCounter_countdown__Z7xGo"
+              , Wr = "UserPointCounter_value__2a23E";
+            var Ur = function() {
                 var e = Ke().points
-                  , n = (0,
-                Er.Z)(e)
-                  , t = rt()
-                  , r = t.isPending
-                  , s = t.countdown
+                  , t = (0,
+                Ir.Z)(e)
+                  , n = sn()
+                  , r = n.isPending
+                  , s = n.countdown
                   , i = (0,
                 a.useRef)(null)
                   , o = (0,
@@ -3476,73 +3482,73 @@
                 }
                 ), [r]);
                 var _ = (0,
-                a.useCallback)((function(e, n, t) {
-                    e <= n && (t((0,
-                    _t.uf)(String(e))),
+                a.useCallback)((function(e, t, n) {
+                    e <= t && (n((0,
+                    mn.uf)(String(e))),
                     requestAnimationFrame((function() {
-                        var a = function(e, n) {
-                            var t = n - e;
-                            return Math.max(1, Math.floor(t / 10))
-                        }(e, n);
-                        _(e + a, n, t)
+                        var a = function(e, t) {
+                            var n = t - e;
+                            return Math.max(1, Math.floor(n / 10))
+                        }(e, t);
+                        _(e + a, t, n)
                     }
                     )))
                 }
                 ), []);
                 return (0,
                 a.useEffect)((function() {
-                    var t;
-                    if (n === e)
+                    var n;
+                    if (t === e)
                         return function() {}
                         ;
                     function a(e) {
                         i.current && (i.current.innerText = e)
                     }
-                    if ("0" === (null === (t = i.current) || void 0 === t ? void 0 : t.innerText) || !n)
+                    if ("0" === (null === (n = i.current) || void 0 === n ? void 0 : n.innerText) || !t)
                         return _(0, e, a),
                         function() {}
                         ;
                     var r = setTimeout((function() {
-                        _(n || 0, e, a)
+                        _(t || 0, e, a)
                     }
                     ), 2500);
                     return function() {
                         clearTimeout(r)
                     }
                 }
-                ), [_, e, n]),
+                ), [_, e, t]),
                 (0,
                 N.jsxs)("div", {
-                    className: Br,
+                    className: Lr,
                     children: [(0,
                     N.jsxs)("p", {
-                        className: y()(Lr, l && Ir),
+                        className: y()(Dr, l && Rr),
                         children: ["\ud83c\udfc6 ", (0,
                         Z.O4)("ok_game_okxracer_available_pts")]
                     }), (0,
                     N.jsx)("p", {
                         ref: i,
-                        className: y()(Rr, l && Ir),
+                        className: y()(Ar, l && Rr),
                         children: "0"
                     }), (0,
                     N.jsxs)("p", {
-                        className: y()(Ar, !l && Ir),
+                        className: y()(Fr, !l && Rr),
                         children: ["00:0", (0,
                         N.jsx)("span", {
-                            className: Dr,
+                            className: Wr,
                             children: s
                         })]
                     })]
                 })
             }
-              , Ur = t(39136)
-              , Mr = function(e) {
-                var n = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {}
-                  , t = n.firstDigits
-                  , a = void 0 === t ? 6 : t
-                  , r = n.lastDigits
+              , Mr = n(39136)
+              , Gr = function(e) {
+                var t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {}
+                  , n = t.firstDigits
+                  , a = void 0 === n ? 6 : n
+                  , r = t.lastDigits
                   , s = void 0 === r ? 3 : r
-                  , i = n.placeholder
+                  , i = t.placeholder
                   , o = void 0 === i ? "..." : i;
                 if (e && e.length > 20) {
                     var c = e.substring(0, a)
@@ -3551,72 +3557,74 @@
                 }
                 return e
             }
-              , Gr = t(52008)
-              , Wr = function(e, n) {
-                var t, a = new Promise((function(a) {
+              , Vr = n(52008)
+              , Hr = function(e, t) {
+                var n, a = new Promise((function(a) {
                     e.setConnectRequestParameters({
                         state: "ready",
                         value: {
-                            tonProof: n
+                            tonProof: t
                         }
                     }),
                     e.openModal(),
-                    t = e.onModalStateChange(function() {
-                        var n = (0,
+                    n = e.onStatusChange(function() {
+                        var t = (0,
                         l.Z)((0,
-                        c.Z)().mark((function n(r) {
-                            var s, i, o, l, u, d, _, m, p, f, x, h, v, g;
+                        c.Z)().mark((function t(r) {
+                            var s, i, o, l, u, d, _, p, m, f, x, h, v, g, k;
                             return (0,
-                            c.Z)().wrap((function(n) {
+                            c.Z)().wrap((function(t) {
                                 for (; ; )
-                                    switch (n.prev = n.next) {
+                                    switch (t.prev = t.next) {
                                     case 0:
-                                        "closed" === r.status && (s = null === e || void 0 === e ? void 0 : e.wallet,
+                                        r && (s = null === e || void 0 === e ? void 0 : e.wallet,
                                         o = (i = s).account,
                                         l = o.address,
                                         u = o.publicKey,
                                         d = i.connectItems,
-                                        _ = Gr.Address.parse(l),
-                                        m = _.toString({
+                                        _ = i.device.appName,
+                                        p = Vr.Address.parse(l),
+                                        m = p.toString({
                                             urlSafe: !0,
                                             bounceable: !1,
                                             testOnly: !1
                                         }),
-                                        p = d.tonProof,
-                                        f = p.proof,
-                                        x = f.signature,
-                                        h = f.payload,
-                                        v = f.domain,
-                                        g = f.timestamp,
+                                        f = d.tonProof,
+                                        x = f.proof,
+                                        h = x.signature,
+                                        v = x.payload,
+                                        g = x.domain,
+                                        k = x.timestamp,
                                         a({
                                             tonAddress: m,
                                             publicKey: u,
-                                            signature: x,
+                                            signature: h,
+                                            appName: _,
                                             msg: JSON.stringify({
-                                                payload: h,
-                                                domain: null === v || void 0 === v ? void 0 : v.value,
-                                                timestamp: g
+                                                payload: v,
+                                                domain: null === g || void 0 === g ? void 0 : g.value,
+                                                timestamp: k
                                             })
                                         }),
-                                        t && t());
+                                        n && n());
                                     case 1:
                                     case "end":
-                                        return n.stop()
+                                        return t.stop()
                                     }
                             }
-                            ), n)
+                            ), t)
                         }
                         )));
                         return function(e) {
-                            return n.apply(this, arguments)
+                            return t.apply(this, arguments)
                         }
                     }())
                 }
-                )), r = new Promise((function(e, n) {
+                )), r = new Promise((function(e, t) {
                     var a = setTimeout((function() {
                         clearTimeout(a),
-                        t && t(),
-                        n(new Error("Promise timed out"))
+                        n && n(),
+                        t(new Error("Promise timed out"))
                     }
                     ), 6e4)
                 }
@@ -3624,26 +3632,26 @@
                 return {
                     promise: Promise.race([a, r]),
                     unsubscribe: function() {
-                        return t && t()
+                        return n && n()
                     }
                 }
             }
-              , Vr = function() {
+              , Yr = function() {
                 var e = (0,
                 l.Z)((0,
-                c.Z)().mark((function e(n, t) {
+                c.Z)().mark((function e(t, n) {
                     var a, r, s, i, o;
                     return (0,
                     c.Z)().wrap((function(e) {
                         for (; ; )
                             switch (e.prev = e.next) {
                             case 0:
-                                if (!n) {
+                                if (!t) {
                                     e.next = 15;
                                     break
                                 }
                                 return e.prev = 1,
-                                a = Wr(n, t),
+                                a = Hr(t, n),
                                 r = a.promise,
                                 s = a.unsubscribe,
                                 e.next = 5,
@@ -3659,7 +3667,7 @@
                             case 12:
                                 e.prev = 12,
                                 e.t0 = e.catch(1),
-                                e.t0 instanceof Error && z.k.warn("mini app okx racer, Wallet Error ".concat(e.t0.message), {
+                                e.t0 instanceof Error && X.k.warn("mini app okx racer, Wallet Error ".concat(e.t0.message), {
                                     e: e.t0
                                 });
                             case 15:
@@ -3672,16 +3680,16 @@
                     ), e, null, [[1, 12]])
                 }
                 )));
-                return function(n, t) {
+                return function(t, n) {
                     return e.apply(this, arguments)
                 }
             }();
-            const Hr = "ViewWalletButton_button__WbNMO"
-              , Yr = "ViewWalletButton_btnIcon__W5IFc";
-            var Kr = function() {
+            const Kr = "ViewWalletButton_button__WbNMO"
+              , Xr = "ViewWalletButton_btnIcon__W5IFc";
+            var zr = function() {
                 var e = Ke()
-                  , n = e.context
-                  , t = e.updateGameInfoFromServer
+                  , t = e.context
+                  , n = e.updateGameInfoFromServer
                   , r = (0,
                 d.useOKXTonConnectUI)()
                   , s = (0,
@@ -3701,86 +3709,91 @@
                     var e = (0,
                     l.Z)((0,
                     c.Z)().mark((function e() {
-                        var a, r, l, d, _, m, p;
+                        var a, r, l, d, _, p, m, f, x, h, v, g, j, N;
                         return (0,
                         c.Z)().wrap((function(e) {
                             for (; ; )
                                 switch (e.prev = e.next) {
                                 case 0:
-                                    if (!n.tonAddress || !n.tonDeeplink) {
-                                        e.next = 4;
+                                    if (!t.tonAddress) {
+                                        e.next = 7;
                                         break
                                     }
-                                    null === (a = window) || void 0 === a || null === (r = a.Telegram) || void 0 === r || r.WebApp.openLink(n.tonDeeplink),
-                                    e.next = 26;
+                                    d = $t(),
+                                    _ = d.get(Ft),
+                                    (p = _ === Wt.TgWallet ? "https://t.me/OKX_WALLET_BOT/start" : t.tonDeeplink || "") && (null === (a = window) || void 0 === a || null === (r = a.Telegram) || void 0 === r || null === (l = r.WebApp) || void 0 === l || l.openLink(p)),
+                                    e.next = 32;
                                     break;
-                                case 4:
-                                    return e.prev = 4,
-                                    e.next = 7,
-                                    Vr(s, i);
                                 case 7:
-                                    if (!(l = e.sent)) {
-                                        e.next = 19;
+                                    return e.prev = 7,
+                                    e.next = 10,
+                                    Yr(s, i);
+                                case 10:
+                                    if (!(m = e.sent)) {
+                                        e.next = 25;
                                         break
                                     }
-                                    return d = (0,
-                                    u.Z)(l, 2),
-                                    _ = d[0],
-                                    m = d[1],
-                                    o.current = m,
-                                    p = {
+                                    return x = (0,
+                                    u.Z)(m, 2),
+                                    h = x[0],
+                                    v = x[1],
+                                    o.current = v,
+                                    g = {
                                         id: 9,
                                         taskContext: JSON.stringify((0,
                                         k.Z)({
                                             telegramId: i
-                                        }, _))
+                                        }, h))
                                     },
-                                    e.next = 14,
-                                    Ie(p);
-                                case 14:
-                                    return e.next = 16,
-                                    Promise.allSettled([Se(), t()]);
-                                case 16:
+                                    e.next = 17,
+                                    Ie(g);
+                                case 17:
+                                    return e.next = 19,
+                                    Promise.allSettled([Se(), n()]);
+                                case 19:
+                                    j = (null === (f = m[0]) || void 0 === f ? void 0 : f.appName) || "",
+                                    N = $t(),
+                                    j && N.set(Ft, j),
                                     J(!0, (0,
                                     Z.O4)("ok_game_okxracer_task_completion_msg")),
-                                    e.next = 20;
-                                    break;
-                                case 19:
-                                    throw new Error("signature failed");
-                                case 20:
                                     e.next = 26;
                                     break;
-                                case 22:
-                                    e.prev = 22,
-                                    e.t0 = e.catch(4),
+                                case 25:
+                                    throw new Error("signature failed");
+                                case 26:
+                                    e.next = 32;
+                                    break;
+                                case 28:
+                                    e.prev = 28,
+                                    e.t0 = e.catch(7),
                                     q(e.t0),
                                     console.error(e.t0);
-                                case 26:
+                                case 32:
                                 case "end":
                                     return e.stop()
                                 }
                         }
-                        ), e, null, [[4, 22]])
+                        ), e, null, [[7, 28]])
                     }
                     )));
                     return function() {
                         return e.apply(this, arguments)
                     }
                 }()
-                  , m = (0,
-                Ur.Z)(_, {
+                  , p = (0,
+                Mr.Z)(_, {
                     wait: 500
                 }).run;
                 return (0,
                 N.jsxs)("button", {
-                    className: Hr,
+                    className: Kr,
                     type: "button",
-                    onClick: m,
+                    onClick: p,
                     children: [(0,
                     N.jsx)(P.Z, {
                         iconName: "okx-growth-wallet",
-                        className: Yr
-                    }), n.tonAddress ? Mr(n.tonAddress || "", {
+                        className: Xr
+                    }), t.tonAddress ? Gr(t.tonAddress || "", {
                         firstDigits: 6,
                         lastDigits: 4,
                         placeholder: "***"
@@ -3788,7 +3801,7 @@
                     Z.O4)("ok_game_okxracer_tag_phase3_okx_wallet")]
                 })
             }
-              , zr = function() {
+              , Jr = function() {
                 var e = I().uid;
                 return (0,
                 a.useEffect)((function() {
@@ -3811,123 +3824,123 @@
                 ), []),
                 (0,
                 N.jsxs)("div", {
-                    className: mr,
+                    className: fr,
                     children: [(0,
                     N.jsx)("div", {
-                        className: xr,
+                        className: vr,
                         children: (0,
-                        N.jsx)(Kr, {})
+                        N.jsx)(zr, {})
                     }), (0,
                     N.jsx)("div", {
-                        className: hr,
+                        className: gr,
                         children: (0,
-                        N.jsx)(Qt, {})
+                        N.jsx)(ea, {})
                     }), (0,
                     N.jsxs)("div", {
-                        className: vr,
+                        className: kr,
                         children: [(0,
                         N.jsx)("div", {
-                            className: gr,
+                            className: jr,
                             children: (0,
-                            N.jsx)(Fr, {})
+                            N.jsx)(Ur, {})
                         }), (0,
                         N.jsx)("div", {
-                            className: kr,
+                            className: Nr,
                             children: (0,
-                            N.jsx)(_r, {})
+                            N.jsx)(mr, {})
                         }), (0,
-                        N.jsx)(fa, {
-                            className: jr
+                        N.jsx)(ha, {
+                            className: Cr
                         })]
                     }), (0,
-                    N.jsx)(Et, {
-                        className: Nr
+                    N.jsx)(In, {
+                        className: wr
                     }), (0,
                     N.jsx)("p", {
-                        className: fr,
+                        className: hr,
                         children: (0,
                         Z.O4)("ok_game_okxracer_disclaimer")
                     }), (0,
-                    N.jsx)(Ot, {
-                        className: pr
+                    N.jsx)(En, {
+                        className: xr
                     }), (0,
-                    N.jsx)(Rt, {}), (0,
-                    N.jsx)(Sr, {}), (0,
-                    N.jsx)(Gn, {}), (0,
-                    N.jsx)(dt, {})]
+                    N.jsx)(An, {}), (0,
+                    N.jsx)(Br, {}), (0,
+                    N.jsx)(Gt, {}), (0,
+                    N.jsx)(pn, {})]
                 })
             }
-              , Xr = function() {
+              , qr = function() {
                 return (0,
-                N.jsx)(st, {
+                N.jsx)(on, {
                     children: (0,
-                    N.jsx)(zr, {})
+                    N.jsx)(Jr, {})
                 })
             }
-              , Jr = t(55861)
-              , qr = (t(1016),
-            t(58338));
-            const Qr = "PageTitle_title__IQ7TT";
-            var $r = function(e) {
-                var n = e.html
-                  , t = e.className;
+              , Qr = n(55861)
+              , $r = (n(1016),
+            n(58338));
+            const es = "PageTitle_title__IQ7TT";
+            var ts = function(e) {
+                var t = e.html
+                  , n = e.className;
                 return (0,
                 N.jsx)("div", {
                     dangerouslySetInnerHTML: {
                         __html: (0,
-                        qr.dU)(n)
+                        $r.dU)(t)
                     },
-                    className: y()(Qr, t)
+                    className: y()(es, n)
                 })
             };
-            const es = "LeaderBoard_container__0DJSO"
-              , ns = "LeaderBoard_desc__MFxC+"
-              , ts = "LeaderBoard_inviteList__mV9a7"
-              , as = "LeaderBoard_tabActiveClassName__7Xv4B"
-              , rs = "LeaderBoard_tabsContent__KCGtW"
-              , ss = "LeaderBoard_recordButton__lXzAl"
-              , is = "LoadingPlaceholder_loadingPlaceholder__e5Mgs";
-            var os = function(e) {
-                var n = e.className;
+            const ns = "LeaderBoard_container__0DJSO"
+              , as = "LeaderBoard_desc__MFxC+"
+              , rs = "LeaderBoard_inviteList__mV9a7"
+              , ss = "LeaderBoard_tabActiveClassName__7Xv4B"
+              , is = "LeaderBoard_tabsContent__KCGtW"
+              , os = "LeaderBoard_recordButton__lXzAl"
+              , cs = "LoadingPlaceholder_loadingPlaceholder__e5Mgs";
+            var ls = function(e) {
+                var t = e.className;
                 return (0,
                 N.jsx)("div", {
-                    className: y()(is, n)
+                    className: y()(cs, t)
                 })
             };
-            const cs = "InviteButton_invite-btn__aAMio"
-              , ls = "InviteButton_btn-a__At-wO"
-              , us = "InviteButton_btn-container__sYDy5"
-              , ds = "InviteButton_copyButton__znucI"
-              , _s = "InviteButton_copyIcon__QZgE9";
-            var ms = function(e) {
-                var n = e.text
-                  , t = void 0 === n ? (0,
-                Z.O4)("ok_game_okxracer_invite_friends") : n
+            const us = "InviteButton_invite-btn__aAMio"
+              , ds = "InviteButton_btn-a__At-wO"
+              , _s = "InviteButton_btn-container__sYDy5"
+              , ps = "InviteButton_copyButton__znucI"
+              , ms = "InviteButton_copyIcon__QZgE9";
+            var fs = function(e) {
+                var t = e.text
+                  , n = void 0 === t ? (0,
+                Z.O4)("ok_game_okxracer_invite_friends") : t
                   , a = e.className
                   , r = I().uid
                   , s = function(e) {
-                    var n = new K.Z
-                      , t = (0,
+                    var t = new K.Z
+                      , n = (0,
                     Z.O4)("ok_game_okxracer_invitation_message") || "Welcome to join us"
-                      , a = "https://t.me/".concat(An.BOT_NAME, "/").concat(An.MINI_APP_NAME, "?startapp=").concat((n.stringify({
+                      , a = "https://t.me/".concat(Rt.BOT_NAME, "/").concat(Rt.MINI_APP_NAME, "?startapp=").concat((t.stringify({
                         linkCode: e
                     }) || "").replace("=", "_"));
                     return {
                         appUrl: a,
-                        shareUrl: "".concat("https://t.me/share/url", "?url=").concat(encodeURIComponent(a), "&text=").concat(t)
+                        shareUrl: "".concat("https://t.me/share/url", "?url=").concat(encodeURIComponent(a), "&text=").concat(n)
                     }
                 }(Ke().linkCode)
                   , i = s.shareUrl
                   , o = s.appUrl;
                 return (0,
                 N.jsxs)("div", {
-                    className: y()(a, us),
+                    className: y()(a, _s),
                     children: [(0,
                     N.jsx)("a", {
-                        className: ls,
+                        className: ds,
                         href: i,
                         children: (0,
-                        N.jsx)(an, {
+                        N.jsx)(at, {
                             onClick: function() {
                                 !function() {
                                     var e = (arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {}).telegramid;
@@ -3945,8 +3958,8 @@
                                     telegramid: r
                                 })
                             },
-                            className: cs,
-                            text: t
+                            className: us,
+                            text: n
                         })
                     }), (0,
                     N.jsx)(H.default, {
@@ -3963,49 +3976,49 @@
                                 J(!1, "Copy Invite URL failed")
                             }
                         },
-                        className: ds,
+                        className: ps,
                         children: (0,
                         N.jsx)(P.Z, {
                             iconName: "okx-growth-copy",
-                            className: _s
+                            className: ms
                         })
                     })]
                 })
             };
-            const ps = "RankList_listItem__qJvXJ"
-              , fs = "RankList_name__sxTWa"
-              , xs = "RankList_mask__ldBi8"
-              , hs = "RankList_hightLightRow__xYkeg"
-              , vs = "RankList_listHeader__KVGnw"
-              , gs = "RankList_rank__k2m5R"
-              , ks = "RankList_icon__1-SRV"
-              , js = "RankList_point__D5mVw"
-              , Ns = "RankList_pointIcon__k80Wy"
-              , Cs = "RankList_InviteButton__D6ute"
-              , ws = "RankList_noFirendsNote__Ckkil"
-              , bs = "RankList_under__MJ5We"
-              , ys = "RankList_rankItemPlaceholder__z-upW"
-              , Zs = "RankList_rank-name__YEqnc"
-              , Ps = "RankList_rank-score__gtI+m";
-            var Ts = {
+            const xs = "RankList_listItem__qJvXJ"
+              , hs = "RankList_name__sxTWa"
+              , vs = "RankList_mask__ldBi8"
+              , gs = "RankList_hightLightRow__xYkeg"
+              , ks = "RankList_listHeader__KVGnw"
+              , js = "RankList_rank__k2m5R"
+              , Ns = "RankList_icon__1-SRV"
+              , Cs = "RankList_point__D5mVw"
+              , ws = "RankList_pointIcon__k80Wy"
+              , bs = "RankList_InviteButton__D6ute"
+              , ys = "RankList_noFirendsNote__Ckkil"
+              , Zs = "RankList_under__MJ5We"
+              , Ps = "RankList_rankItemPlaceholder__z-upW"
+              , Ts = "RankList_rank-name__YEqnc"
+              , Os = "RankList_rank-score__gtI+m";
+            var Ss = {
                 1: "\ud83e\udd47",
                 2: "\ud83e\udd48",
                 3: "\ud83e\udd49",
                 4: "\ud83c\udfc1"
             }
-              , Os = 1
-              , Ss = 2
-              , Es = function(e) {
-                var n = e.total;
+              , Es = 1
+              , Bs = 2
+              , Is = function(e) {
+                var t = e.total;
                 return (0,
                 N.jsxs)("div", {
-                    className: vs,
+                    className: ks,
                     children: [(0,
                     N.jsx)("span", {
                         children: (0,
                         Z.O4)("ok_game_okxracer_racers_num", {
                             num: (0,
-                            _t.uf)(n)
+                            mn.uf)(t)
                         })
                     }), (0,
                     N.jsx)("span", {
@@ -4014,66 +4027,66 @@
                     })]
                 })
             }
-              , Bs = function() {
+              , Ls = function() {
                 return (0,
                 N.jsx)("div", {
                     children: Array.from({
                         length: 3
-                    }).map((function(e, n) {
+                    }).map((function(e, t) {
                         return (0,
                         N.jsxs)("div", {
-                            className: ys,
+                            className: Ps,
                             children: [(0,
-                            N.jsx)(os, {
-                                className: Zs
+                            N.jsx)(ls, {
+                                className: Ts
                             }), (0,
-                            N.jsx)(os, {
-                                className: Ps
+                            N.jsx)(ls, {
+                                className: Os
                             })]
-                        }, n)
+                        }, t)
                     }
                     ))
                 })
             }
-              , Is = function(e) {
-                var n = e.item
-                  , t = e.isHighlight;
+              , Rs = function(e) {
+                var t = e.item
+                  , n = e.isHighlight;
                 return (0,
                 N.jsxs)("div", {
-                    className: y()(ps, t && hs),
+                    className: y()(xs, n && gs),
                     children: [(0,
                     N.jsx)("div", {
-                        className: xs
-                    }), n.rank <= 3 ? (0,
+                        className: vs
+                    }), t.rank <= 3 ? (0,
                     N.jsx)("span", {
-                        className: y()(gs, ks),
-                        children: Ts[n.rank]
+                        className: y()(js, Ns),
+                        children: Ss[t.rank]
                     }) : (0,
                     N.jsx)("span", {
-                        className: gs,
-                        children: n.rank > 100 ? "100+" : "#".concat(n.rank)
+                        className: js,
+                        children: t.rank > 100 ? "100+" : "#".concat(t.rank)
                     }), (0,
                     N.jsx)("div", {
-                        className: fs,
-                        children: n.extUserName
+                        className: hs,
+                        children: t.extUserName
                     }), (0,
                     N.jsxs)("div", {
-                        className: js,
+                        className: Cs,
                         children: [(0,
                         N.jsx)("span", {
-                            className: Ns,
-                            children: Ts[4]
+                            className: ws,
+                            children: Ss[4]
                         }), (0,
                         Z.O4)("ok_game_okxracer_points_wo_plus2", {
                             points: (0,
-                            _t.uf)(n.totalPoints)
+                            mn.uf)(t.totalPoints)
                         })]
                     })]
                 })
             }
-              , Rs = function(e) {
-                var n = e.pageType
-                  , t = void 0 === n ? Os : n
+              , As = function(e) {
+                var t = e.pageType
+                  , n = void 0 === t ? Es : t
                   , r = (0,
                 a.useState)(!0)
                   , s = (0,
@@ -4084,8 +4097,8 @@
                 a.useState)([])
                   , _ = (0,
                 u.Z)(d, 2)
-                  , m = _[0]
-                  , p = _[1]
+                  , p = _[0]
+                  , m = _[1]
                   , f = (0,
                 a.useState)(0)
                   , x = (0,
@@ -4102,7 +4115,7 @@
                 a.useCallback)(function() {
                     var e = (0,
                     l.Z)((0,
-                    c.Z)().mark((function e(n) {
+                    c.Z)().mark((function e(t) {
                         var a, r;
                         return (0,
                         c.Z)().wrap((function(e) {
@@ -4111,9 +4124,9 @@
                                 case 0:
                                     if (e.prev = 0,
                                     a = {
-                                        pageNo: n
+                                        pageNo: t
                                     },
-                                    t !== Os) {
+                                    n !== Es) {
                                         e.next = 8;
                                         break
                                     }
@@ -4129,7 +4142,7 @@
                                 case 10:
                                     e.t0 = e.sent;
                                 case 11:
-                                    (r = e.t0) && r.rows && (p(r.rows),
+                                    (r = e.t0) && r.rows && (m(r.rows),
                                     v(r.total),
                                     C(r.userRanking)),
                                     e.next = 18;
@@ -4148,10 +4161,10 @@
                         ), e, null, [[0, 15]])
                     }
                     )));
-                    return function(n) {
+                    return function(t) {
                         return e.apply(this, arguments)
                     }
-                }(), [t])
+                }(), [n])
                   , b = j && ((null === j || void 0 === j ? void 0 : j.rank) > 3 || -1 === (null === j || void 0 === j ? void 0 : j.rank));
                 return (0,
                 a.useEffect)((function() {
@@ -4161,120 +4174,120 @@
                 (0,
                 N.jsxs)(N.Fragment, {
                     children: [(0,
-                    N.jsx)(Es, {
+                    N.jsx)(Is, {
                         total: h
                     }), i ? (0,
-                    N.jsx)(Bs, {}) : (0,
+                    N.jsx)(Ls, {}) : (0,
                     N.jsxs)(N.Fragment, {
                         children: [b && (0,
-                        N.jsx)(Is, {
+                        N.jsx)(Rs, {
                             item: j,
                             isHighlight: !0
-                        }), m.map((function(e, n) {
+                        }), p.map((function(e, t) {
                             return (0,
-                            N.jsx)(Is, {
+                            N.jsx)(Rs, {
                                 item: e
-                            }, "".concat(e.extUserName, "-").concat(n))
+                            }, "".concat(e.extUserName, "-").concat(t))
                         }
                         ))]
                     }), (0,
                     N.jsx)("div", {
-                        className: bs
-                    }), t === Os && (0,
+                        className: Zs
+                    }), n === Es && (0,
                     N.jsxs)(N.Fragment, {
-                        children: [1 === m.length && (0,
+                        children: [1 === p.length && (0,
                         N.jsx)("div", {
-                            className: ws,
+                            className: ys,
                             children: (0,
                             Z.O4)("ok_game_okxracer_invite_desc")
-                        }), 1 === m.length && (0,
-                        N.jsx)(ms, {
-                            className: Cs,
+                        }), 1 === p.length && (0,
+                        N.jsx)(fs, {
+                            className: bs,
                             text: (0,
                             Z.O4)("ok_game_okxracer_invite_contacts")
                         })]
                     })]
                 })
             };
-            const Ls = "ViewRecordsButton_button__foNmQ"
-              , As = "ViewRecordsButton_btnIcon__2U0Xs"
-              , Ds = "ViewRecordsButton_title__XwRxi"
-              , Fs = "ViewRecordsButton_container__KMBl3"
-              , Us = "ViewRecordsButton_recordContainer__H0HG0"
-              , Ms = "ViewRecordsButton_recordField__ntg1u"
-              , Gs = "ViewRecordsButton_label__VInMo"
-              , Ws = "ViewRecordsButton_value__YdAbG"
-              , Vs = "ViewRecordsButton_trendIcon__OAhpt"
-              , Hs = "ViewRecordsButton_up__lVPFv"
-              , Ys = "ViewRecordsButton_down__z9X8U"
-              , Ks = "ViewRecordsButton_timestamp__1KFJL"
-              , zs = "ViewRecordsButton_emptyMessageContainer__fGiYv"
-              , Xs = "ViewRecordsButton_description__2QLs8";
-            var Js = function(e) {
-                var n = e.label
-                  , t = e.value;
+            const Ds = "ViewRecordsButton_button__foNmQ"
+              , Fs = "ViewRecordsButton_btnIcon__2U0Xs"
+              , Ws = "ViewRecordsButton_title__XwRxi"
+              , Us = "ViewRecordsButton_container__KMBl3"
+              , Ms = "ViewRecordsButton_recordContainer__H0HG0"
+              , Gs = "ViewRecordsButton_recordField__ntg1u"
+              , Vs = "ViewRecordsButton_label__VInMo"
+              , Hs = "ViewRecordsButton_value__YdAbG"
+              , Ys = "ViewRecordsButton_trendIcon__OAhpt"
+              , Ks = "ViewRecordsButton_up__lVPFv"
+              , Xs = "ViewRecordsButton_down__z9X8U"
+              , zs = "ViewRecordsButton_timestamp__1KFJL"
+              , Js = "ViewRecordsButton_emptyMessageContainer__fGiYv"
+              , qs = "ViewRecordsButton_description__2QLs8";
+            var Qs = function(e) {
+                var t = e.label
+                  , n = e.value;
                 return (0,
                 N.jsxs)("div", {
-                    className: Ms,
+                    className: Gs,
                     children: [(0,
                     N.jsx)("p", {
-                        className: Gs,
-                        children: n
+                        className: Vs,
+                        children: t
                     }), (0,
                     N.jsx)("div", {
-                        className: Ws,
-                        children: t
+                        className: Hs,
+                        children: n
                     })]
                 })
             }
-              , qs = function() {
+              , $s = function() {
                 return (0,
                 N.jsxs)("button", {
-                    className: Ls,
+                    className: Ds,
                     type: "button",
                     onClick: function() {
-                        var e = Qn().get($n) || []
-                          , n = (0,
+                        var e = $t().get(en) || []
+                          , t = (0,
                         N.jsx)(N.Fragment, {
                             children: e.length > 0 ? e.map((function(e) {
-                                var n = 1 === e.predict
-                                  , t = "ok_game_okxracer_moon"
-                                  , a = Hs
+                                var t = 1 === e.predict
+                                  , n = "ok_game_okxracer_moon"
+                                  , a = Ks
                                   , r = "okx-growth-trending-up";
-                                return n || (t = "ok_game_okxracer_doom",
-                                a = Ys,
+                                return t || (n = "ok_game_okxracer_doom",
+                                a = Xs,
                                 r = "okx-growth-trending-down"),
                                 (0,
                                 N.jsxs)("div", {
-                                    className: Us,
+                                    className: Ms,
                                     children: [(0,
-                                    N.jsx)(Js, {
+                                    N.jsx)(Qs, {
                                         label: (0,
                                         Z.O4)("ok_game_okxracer_your_guess"),
                                         value: (0,
                                         N.jsxs)(N.Fragment, {
                                             children: [(0,
-                                            Z.O4)(t), (0,
+                                            Z.O4)(n), (0,
                                             N.jsx)(P.Z, {
-                                                className: y()(Vs, a),
+                                                className: y()(Ys, a),
                                                 iconName: r
                                             })]
                                         })
                                     }), (0,
-                                    N.jsx)(Js, {
+                                    N.jsx)(Qs, {
                                         label: "Result",
                                         value: (0,
                                         Z.O4)(e.won ? "ok_game_okxracer_win_small" : "ok_game_okxracer_miss_small")
                                     }), (0,
-                                    N.jsx)(Js, {
+                                    N.jsx)(Qs, {
                                         label: (0,
                                         Z.O4)("ok_game_okxracer_consecutive_wins"),
                                         value: e.curCombo
                                     }), (0,
                                     N.jsx)("p", {
-                                        className: Ks,
+                                        className: zs,
                                         children: (0,
-                                        _t.o0)(new Date(e.date), {
+                                        mn.o0)(new Date(e.date), {
                                             format: "yyyyMMMdhhmmss"
                                         })
                                     })]
@@ -4282,15 +4295,15 @@
                             }
                             )) : (0,
                             N.jsxs)("div", {
-                                className: zs,
+                                className: Js,
                                 children: [(0,
                                 N.jsx)("p", {
-                                    className: Ds,
+                                    className: Ws,
                                     children: (0,
                                     Z.O4)("ok_game_okxracer_no_racing_record")
                                 }), (0,
                                 N.jsx)("p", {
-                                    className: Xs,
+                                    className: qs,
                                     children: (0,
                                     Z.O4)("ok_game_okxracer_no_past_activity")
                                 })]
@@ -4299,29 +4312,29 @@
                         $e({
                             title: (0,
                             N.jsx)("span", {
-                                className: Ds,
+                                className: Ws,
                                 children: (0,
                                 Z.O4)("ok_game_okxracer_racing_records")
                             }),
                             titleCenter: !0,
-                            containerClassName: Fs,
-                            children: n
+                            containerClassName: Us,
+                            children: t
                         })
                     },
                     children: [(0,
                     Z.O4)("ok_game_okxracer_my_records"), (0,
                     N.jsx)(P.Z, {
                         iconName: "okx-growth-chevrons",
-                        className: As
+                        className: Fs
                     })]
                 })
             }
-              , Qs = function() {
+              , ei = function() {
                 return (0,
                 N.jsxs)("div", {
-                    className: es,
+                    className: ns,
                     children: [(0,
-                    N.jsx)($r, {
+                    N.jsx)(ts, {
                         html: (0,
                         Z.O4)("ok_game_okxracer_race_to_top", {
                             top: "<em>".concat((0,
@@ -4329,57 +4342,57 @@
                         })
                     }), (0,
                     N.jsx)("div", {
-                        className: ns,
+                        className: as,
                         children: (0,
                         Z.O4)("ok_game_okxracer_leaderboard_guide")
                     }), (0,
                     N.jsx)("div", {
-                        className: ss,
+                        className: os,
                         children: (0,
-                        N.jsx)(qs, {})
+                        N.jsx)($s, {})
                     }), (0,
-                    N.jsxs)(Jr.Z, {
-                        activeClassName: as,
+                    N.jsxs)(Qr.Z, {
+                        activeClassName: ss,
                         noPadding: !0,
-                        size: Jr.Z.SIZE.xl,
+                        size: Qr.Z.SIZE.xl,
                         destroyOnHide: !0,
                         children: [(0,
-                        N.jsx)(Jr.Z.TabPane, {
+                        N.jsx)(Qr.Z.TabPane, {
                             tab: (0,
                             Z.O4)("ok_game_okxracer_friends2"),
-                            id: Os,
-                            className: rs,
+                            id: Es,
+                            className: is,
                             children: (0,
                             N.jsx)("div", {
-                                className: ts,
+                                className: rs,
                                 children: (0,
-                                N.jsx)(Rs, {
-                                    pageType: Os
+                                N.jsx)(As, {
+                                    pageType: Es
                                 })
                             })
                         }), (0,
-                        N.jsx)(Jr.Z.TabPane, {
-                            className: rs,
+                        N.jsx)(Qr.Z.TabPane, {
+                            className: is,
                             tab: (0,
                             Z.O4)("ok_game_okxracer_global"),
-                            id: Ss,
+                            id: Bs,
                             children: (0,
                             N.jsx)("div", {
-                                className: ts,
+                                className: rs,
                                 children: (0,
-                                N.jsx)(Rs, {
-                                    pageType: Ss
+                                N.jsx)(As, {
+                                    pageType: Bs
                                 })
                             })
                         })]
                     })]
                 })
             };
-            const $s = "index_page__-xiuX"
-              , ei = "index_entering__yddHy";
-            var ni = function(e) {
-                var n = e.children
-                  , t = e.animationPath
+            const ti = "index_page__-xiuX"
+              , ni = "index_entering__yddHy";
+            var ai = function(e) {
+                var t = e.children
+                  , n = e.animationPath
                   , r = (0,
                 s.useLocation)()
                   , i = (0,
@@ -4392,70 +4405,70 @@
                 a.useState)("")
                   , _ = (0,
                 u.Z)(d, 2)
-                  , m = _[0]
-                  , p = _[1]
+                  , p = _[0]
+                  , m = _[1]
                   , f = function() {
-                    return p(ei),
+                    return m(ni),
                     setTimeout((function() {
-                        p("")
+                        m("")
                     }
                     ), 200)
                 };
                 return (0,
                 a.useEffect)((function() {
                     var e = null;
-                    return t ? t.includes(r.pathname) && (e = f()) : e = f(),
+                    return n ? n.includes(r.pathname) && (e = f()) : e = f(),
                     l(r),
                     function() {
                         e && clearTimeout(e)
                     }
                 }
-                ), [t, r]),
+                ), [n, r]),
                 (0,
                 N.jsx)("div", {
-                    className: y()($s, m),
+                    className: y()(ti, p),
                     children: (0,
                     N.jsx)(s.Switch, {
                         location: c,
-                        children: n
+                        children: t
                     })
                 })
             }
-              , ti = t(74914)
-              , ai = t(59257);
-            t(27235);
-            const ri = "index_taskItemPlaceholder__6HYF9"
-              , si = "index_task__wcySb";
-            var ii = function() {
+              , ri = n(74914)
+              , si = n(59257);
+            n(27235);
+            const ii = "index_taskItemPlaceholder__6HYF9"
+              , oi = "index_task__wcySb";
+            var ci = function() {
                 return (0,
                 N.jsx)(N.Fragment, {
                     children: Array.from({
                         length: 2
-                    }).map((function(e, n) {
+                    }).map((function(e, t) {
                         return (0,
                         N.jsx)("div", {
-                            className: y()(ri),
+                            className: y()(ii),
                             children: (0,
-                            N.jsx)(os, {
-                                className: si
+                            N.jsx)(ls, {
+                                className: oi
                             })
-                        }, n)
+                        }, t)
                     }
                     ))
                 })
             }
-              , oi = function(e) {
-                var n = e.selectedTask
-                  , t = e.uid
+              , li = function(e) {
+                var t = e.selectedTask
+                  , n = e.uid
                   , r = e.onClick
                   , s = e.children
                   , i = e.className
                   , o = e.loading
                   , _ = e.custom
-                  , m = (0,
-                d.useOKXTonConnectUI)()
                   , p = (0,
-                u.Z)(m, 1)[0]
+                d.useOKXTonConnectUI)()
+                  , m = (0,
+                u.Z)(p, 1)[0]
                   , f = (0,
                 a.useRef)((function() {}
                 ))
@@ -4463,7 +4476,7 @@
                     var e = (0,
                     l.Z)((0,
                     c.Z)().mark((function e() {
-                        var a, s, i, o;
+                        var a, s, i, o, l, d;
                         return (0,
                         c.Z)().wrap((function(e) {
                             for (; ; )
@@ -4471,10 +4484,10 @@
                                 case 0:
                                     return e.prev = 0,
                                     e.next = 3,
-                                    Vr(p, t);
+                                    Yr(m, n);
                                 case 3:
                                     if (!(a = e.sent)) {
-                                        e.next = 11;
+                                        e.next = 14;
                                         break
                                     }
                                     if (s = (0,
@@ -4484,27 +4497,33 @@
                                     f.current = o,
                                     e.t0 = r,
                                     !e.t0) {
-                                        e.next = 11;
+                                        e.next = 12;
                                         break
                                     }
                                     return e.next = 11,
-                                    r(n, JSON.stringify((0,
+                                    r(t, JSON.stringify((0,
                                     k.Z)({
-                                        telegramId: t
+                                        telegramId: n
                                     }, i)), i.tonAddress);
                                 case 11:
-                                    e.next = 16;
+                                    e.t0 = e.sent;
+                                case 12:
+                                    e.t0 && (l = (null === i || void 0 === i ? void 0 : i.appName) || "",
+                                    d = $t(),
+                                    l && d.set(Ft, l));
+                                case 14:
+                                    e.next = 19;
                                     break;
-                                case 13:
-                                    e.prev = 13,
+                                case 16:
+                                    e.prev = 16,
                                     e.t1 = e.catch(0),
                                     console.error(e.t1);
-                                case 16:
+                                case 19:
                                 case "end":
                                     return e.stop()
                                 }
                         }
-                        ), e, null, [[0, 13]])
+                        ), e, null, [[0, 16]])
                     }
                     )));
                     return function() {
@@ -4529,15 +4548,15 @@
                     })
                 })
             }
-              , ci = [Oe.WalletConnect]
-              , li = {
+              , ui = [Oe.WalletConnect]
+              , di = {
                 taskGroups: [],
                 ungroupedTasks: []
             }
-              , ui = (0,
+              , _i = (0,
             a.createContext)({
                 boosts: [],
-                tasks: li,
+                tasks: di,
                 upgradeBoost: function() {
                     var e = (0,
                     l.Z)((0,
@@ -4607,28 +4626,28 @@
                 partner: void 0,
                 setSelectedPartner: function() {}
             })
-              , di = function() {
+              , pi = function() {
                 return (0,
-                a.useContext)(ui)
+                a.useContext)(_i)
             }
-              , _i = function(e) {
-                var n = e.children
-                  , t = (0,
+              , mi = function(e) {
+                var t = e.children
+                  , n = (0,
                 a.useState)([])
                   , r = (0,
-                u.Z)(t, 2)
+                u.Z)(n, 2)
                   , s = r[0]
                   , i = r[1]
                   , o = (0,
-                a.useState)(li)
+                a.useState)(di)
                   , d = (0,
                 u.Z)(o, 2)
                   , _ = d[0]
-                  , m = d[1]
-                  , p = (0,
+                  , p = d[1]
+                  , m = (0,
                 a.useState)()
                   , f = (0,
-                u.Z)(p, 2)
+                u.Z)(m, 2)
                   , x = f[0]
                   , h = f[1]
                   , v = Ke().updateGameInfoFromServer
@@ -4636,7 +4655,7 @@
                 a.useCallback)((0,
                 l.Z)((0,
                 c.Z)().mark((function e() {
-                    var n, t, a;
+                    var t, n, a;
                     return (0,
                     c.Z)().wrap((function(e) {
                         for (; ; )
@@ -4645,8 +4664,8 @@
                                 return e.next = 2,
                                 Promise.allSettled([Se(!0), Be(!0)]);
                             case 2:
-                                "fulfilled" === (a = e.sent)[0].status && i(null !== (n = a[0].value.data) && void 0 !== n ? n : []),
-                                "fulfilled" === a[1].status && m(null !== (t = a[1].value.data) && void 0 !== t ? t : li);
+                                "fulfilled" === (a = e.sent)[0].status && i(null !== (t = a[0].value.data) && void 0 !== t ? t : []),
+                                "fulfilled" === a[1].status && p(null !== (n = a[1].value.data) && void 0 !== n ? n : di);
                             case 5:
                             case "end":
                                 return e.stop()
@@ -4658,8 +4677,8 @@
                   , k = function() {
                     var e = (0,
                     l.Z)((0,
-                    c.Z)().mark((function e(n) {
-                        var t;
+                    c.Z)().mark((function e(t) {
+                        var n;
                         return (0,
                         c.Z)().wrap((function(e) {
                             for (; ; )
@@ -4668,13 +4687,13 @@
                                     return e.prev = 0,
                                     e.next = 3,
                                     Ee({
-                                        id: n
+                                        id: t
                                     });
                                 case 3:
                                     return e.next = 5,
                                     Promise.allSettled([Se(), v()]);
                                 case 5:
-                                    return "fulfilled" === (t = e.sent)[0].status && i(t[0].value.data || []),
+                                    return "fulfilled" === (n = e.sent)[0].status && i(n[0].value.data || []),
                                     e.abrupt("return", !0);
                                 case 10:
                                     e.prev = 10,
@@ -4690,14 +4709,14 @@
                         ), e, null, [[0, 10]])
                     }
                     )));
-                    return function(n) {
+                    return function(t) {
                         return e.apply(this, arguments)
                     }
                 }()
                   , j = function() {
                     var e = (0,
                     l.Z)((0,
-                    c.Z)().mark((function e(n, t) {
+                    c.Z)().mark((function e(t, n) {
                         var a, r, s, i, o, l, d, _;
                         return (0,
                         c.Z)().wrap((function(e) {
@@ -4706,9 +4725,9 @@
                                 case 0:
                                     return e.prev = 0,
                                     a = {
-                                        id: n
+                                        id: t
                                     },
-                                    t && (a.taskContext = t),
+                                    n && (a.taskContext = n),
                                     e.next = 5,
                                     Ie(a);
                                 case 5:
@@ -4719,8 +4738,8 @@
                                     s = (0,
                                     u.Z)(r, 1),
                                     i = s[0],
-                                    "fulfilled" === i.status && (d = null !== (o = null === (l = i.value) || void 0 === l ? void 0 : l.data) && void 0 !== o ? o : li,
-                                    m(d),
+                                    "fulfilled" === i.status && (d = null !== (o = null === (l = i.value) || void 0 === l ? void 0 : l.data) && void 0 !== o ? o : di,
+                                    p(d),
                                     x && (_ = d.taskGroups.find((function(e) {
                                         return e.groupName === x.groupName
                                     }
@@ -4740,14 +4759,14 @@
                         ), e, null, [[0, 15]])
                     }
                     )));
-                    return function(n, t) {
+                    return function(t, n) {
                         return e.apply(this, arguments)
                     }
                 }()
                   , C = function() {
                     var e = (0,
                     l.Z)((0,
-                    c.Z)().mark((function e(n, t) {
+                    c.Z)().mark((function e(t, n) {
                         var a, r, s, i, o, l, d, _;
                         return (0,
                         c.Z)().wrap((function(e) {
@@ -4756,11 +4775,11 @@
                                 case 0:
                                     return e.prev = 0,
                                     a = {
-                                        id: n
+                                        id: t
                                     },
-                                    t && (a.taskContext = t),
+                                    n && (a.taskContext = n),
                                     e.next = 5,
-                                    Re(a);
+                                    Le(a);
                                 case 5:
                                     return e.next = 7,
                                     Promise.allSettled([Be(), v()]);
@@ -4769,8 +4788,8 @@
                                     s = (0,
                                     u.Z)(r, 1),
                                     i = s[0],
-                                    "fulfilled" === i.status && (d = null !== (o = null === (l = i.value) || void 0 === l ? void 0 : l.data) && void 0 !== o ? o : li,
-                                    m(d),
+                                    "fulfilled" === i.status && (d = null !== (o = null === (l = i.value) || void 0 === l ? void 0 : l.data) && void 0 !== o ? o : di,
+                                    p(d),
                                     x && (_ = d.taskGroups.find((function(e) {
                                         return e.groupName === x.groupName
                                     }
@@ -4790,14 +4809,14 @@
                         ), e, null, [[0, 15]])
                     }
                     )));
-                    return function(n, t) {
+                    return function(t, n) {
                         return e.apply(this, arguments)
                     }
                 }()
                   , w = function() {
                     var e = (0,
                     l.Z)((0,
-                    c.Z)().mark((function e(n, t) {
+                    c.Z)().mark((function e(t, n) {
                         var a;
                         return (0,
                         c.Z)().wrap((function(e) {
@@ -4805,21 +4824,21 @@
                                 switch (e.prev = e.next) {
                                 case 0:
                                     if (a = !1,
-                                    n.state !== Dn.finished || !ci.includes(n.context.actionType)) {
+                                    t.state !== At.finished || !ui.includes(t.context.actionType)) {
                                         e.next = 5;
                                         break
                                     }
                                     return e.next = 4,
-                                    C(n.id, t);
+                                    C(t.id, n);
                                 case 4:
                                     a = e.sent;
                                 case 5:
-                                    if (n.state !== Dn.unfinished) {
+                                    if (t.state !== At.unfinished) {
                                         e.next = 9;
                                         break
                                     }
                                     return e.next = 8,
-                                    j(n.id, t);
+                                    j(t.id, n);
                                 case 8:
                                     a = e.sent;
                                 case 9:
@@ -4832,7 +4851,7 @@
                         ), e)
                     }
                     )));
-                    return function(n, t) {
+                    return function(t, n) {
                         return e.apply(this, arguments)
                     }
                 }();
@@ -4847,7 +4866,7 @@
                 }
                 ), []);
                 return (0,
-                N.jsx)(ui.Provider, {
+                N.jsx)(_i.Provider, {
                     value: {
                         boosts: s,
                         tasks: _,
@@ -4857,36 +4876,36 @@
                         setSelectedPartner: b,
                         upDateOrDoTask: w
                     },
-                    children: n
+                    children: t
                 })
             };
-            const mi = "WalletTask_sheet-container__bz-jm"
-              , pi = "WalletTask_sheet-name__xuyl9"
-              , fi = "WalletTask_sheet-desc__snmOq"
-              , xi = "WalletTask_sheeLogo__LcXBr"
-              , hi = "WalletTask_sheeLogoCheck__4qpgw"
-              , vi = "WalletTask_sheetCopyBox__vbEpV"
-              , gi = "WalletTask_sheetCopyIcon__shZrx"
-              , ki = "WalletTask_btn__JBh79"
-              , ji = "WalletTask_btn-txt__qnE8C";
-            var Ni = "/cdn/assets/imgs/248/9C021A3DC09B4C81.webp"
-              , Ci = "/cdn/assets/imgs/249/014A8107B107466F.png"
-              , wi = function(e) {
-                var n = e.selectedTask
-                  , t = e.uid
+            const fi = "WalletTask_sheet-container__bz-jm"
+              , xi = "WalletTask_sheet-name__xuyl9"
+              , hi = "WalletTask_sheet-desc__snmOq"
+              , vi = "WalletTask_sheeLogo__LcXBr"
+              , gi = "WalletTask_sheeLogoCheck__4qpgw"
+              , ki = "WalletTask_sheetCopyBox__vbEpV"
+              , ji = "WalletTask_sheetCopyIcon__shZrx"
+              , Ni = "WalletTask_btn__JBh79"
+              , Ci = "WalletTask_btn-txt__qnE8C";
+            var wi = "/cdn/assets/imgs/248/9C021A3DC09B4C81.webp"
+              , bi = "/cdn/assets/imgs/249/014A8107B107466F.png"
+              , yi = function(e) {
+                var t = e.selectedTask
+                  , n = e.uid
                   , s = e.onClick
                   , i = e.customDesc
                   , d = (0,
                 a.useRef)((function() {}
                 ))
                   , _ = r().useState(!1)
-                  , m = (0,
+                  , p = (0,
                 u.Z)(_, 2)
-                  , p = m[0]
-                  , f = m[1];
+                  , m = p[0]
+                  , f = p[1];
                 (0,
                 a.useEffect)((function() {
-                    return (null === n || void 0 === n ? void 0 : n.state) === Dn.finished ? O.act({
+                    return (null === t || void 0 === t ? void 0 : t.state) === At.finished ? O.act({
                         action: "OkxRacerLandingPage_TaskPopUp_CheckAddress_View",
                         anchor: "OkxRacerLandingPage_TaskPopUp_CheckAddress_View",
                         params: {},
@@ -4910,36 +4929,41 @@
                     var e = (0,
                     l.Z)((0,
                     c.Z)().mark((function e() {
-                        var n = arguments;
+                        var t, n = arguments;
                         return (0,
                         c.Z)().wrap((function(e) {
                             for (; ; )
                                 switch (e.prev = e.next) {
                                 case 0:
-                                    if (f(!0),
-                                    e.prev = 1,
+                                    if (t = !1,
+                                    f(!0),
+                                    e.prev = 2,
                                     e.t0 = s,
                                     !e.t0) {
-                                        e.next = 6;
+                                        e.next = 8;
                                         break
                                     }
-                                    return e.next = 6,
+                                    return e.next = 7,
                                     s.apply(void 0, n);
-                                case 6:
-                                    e.next = 11;
-                                    break;
+                                case 7:
+                                    e.t0 = e.sent;
                                 case 8:
-                                    e.prev = 8,
-                                    e.t1 = e.catch(1),
-                                    console.error(e.t1);
+                                    t = e.t0,
+                                    e.next = 14;
+                                    break;
                                 case 11:
-                                    f(!1);
-                                case 12:
+                                    e.prev = 11,
+                                    e.t1 = e.catch(2),
+                                    console.error(e.t1);
+                                case 14:
+                                    return f(!1),
+                                    e.abrupt("return", t);
+                                case 16:
                                 case "end":
                                     return e.stop()
                                 }
                         }
-                        ), e, null, [[1, 8]])
+                        ), e, null, [[2, 11]])
                     }
                     )));
                     return function() {
@@ -4948,29 +4972,29 @@
                 }();
                 return (0,
                 N.jsx)(N.Fragment, {
-                    children: (null === n || void 0 === n ? void 0 : n.state) === Dn.finished && n.context.actionType === Oe.WalletConnect ? (0,
+                    children: (null === t || void 0 === t ? void 0 : t.state) === At.finished && t.context.actionType === Oe.WalletConnect ? (0,
                     N.jsxs)("div", {
-                        className: mi,
+                        className: fi,
                         children: [(0,
                         N.jsx)(Y.Z, {
-                            src: "".concat(o.Z.cdnBaseUrl).concat(Ci),
-                            className: xi
+                            src: "".concat(o.Z.cdnBaseUrl).concat(bi),
+                            className: vi
                         }), (0,
                         N.jsx)("div", {
-                            className: pi,
-                            children: n.context.nameFinished
+                            className: xi,
+                            children: t.context.nameFinished
                         }), (0,
                         N.jsxs)("div", {
-                            className: vi,
+                            className: ki,
                             children: [(0,
                             N.jsx)("div", {
-                                children: n.context.tonAddress
+                                children: t.context.tonAddress
                             }), (0,
                             N.jsx)(P.Z, {
-                                className: y()("okx-growth-copy", gi),
+                                className: y()("okx-growth-copy", ji),
                                 onClick: function() {
                                     try {
-                                        (null === n || void 0 === n ? void 0 : n.context.actionType) === Oe.WalletConnect && (navigator.clipboard.writeText(null === n || void 0 === n ? void 0 : n.context.tonAddress),
+                                        (null === t || void 0 === t ? void 0 : t.context.actionType) === Oe.WalletConnect && (navigator.clipboard.writeText(null === t || void 0 === t ? void 0 : t.context.tonAddress),
                                         J(!0, (0,
                                         Z.O4)("ok_game_okxracer_copied_url")))
                                     } catch (e) {
@@ -4979,77 +5003,77 @@
                                 }
                             })]
                         }), (0,
-                        N.jsx)(oi, {
-                            selectedTask: n,
-                            uid: t,
+                        N.jsx)(li, {
+                            selectedTask: t,
+                            uid: n,
                             onClick: function() {
                                 return x.apply(void 0, arguments)
                             },
-                            className: ki,
-                            loading: p,
+                            className: Ni,
+                            loading: m,
                             children: (0,
                             N.jsx)("div", {
-                                className: ji,
-                                children: n.context.btnTextFinishedAndSwitch
+                                className: Ci,
+                                children: t.context.btnTextFinishedAndSwitch
                             })
                         })]
                     }) : (0,
                     N.jsxs)("div", {
-                        className: mi,
+                        className: fi,
                         children: [(0,
                         N.jsx)(Y.Z, {
-                            src: "".concat(o.Z.cdnBaseUrl).concat(Ni),
-                            className: hi
+                            src: "".concat(o.Z.cdnBaseUrl).concat(wi),
+                            className: gi
                         }), (0,
                         N.jsx)("div", {
-                            className: pi,
-                            children: null === n || void 0 === n ? void 0 : n.context.name
+                            className: xi,
+                            children: null === t || void 0 === t ? void 0 : t.context.name
                         }), (0,
                         N.jsx)("div", {
-                            className: fi,
-                            children: i || (null === n || void 0 === n ? void 0 : n.context.desc)
+                            className: hi,
+                            children: i || (null === t || void 0 === t ? void 0 : t.context.desc)
                         }), (0,
-                        N.jsx)(oi, {
-                            selectedTask: n,
-                            uid: t,
+                        N.jsx)(li, {
+                            selectedTask: t,
+                            uid: n,
                             onClick: function() {
                                 return x.apply(void 0, arguments)
                             },
-                            className: ki,
-                            loading: p,
+                            className: Ni,
+                            loading: m,
                             children: (0,
                             N.jsx)("div", {
-                                className: ji,
-                                children: null === n || void 0 === n ? void 0 : n.context.btnText
+                                className: Ci,
+                                children: null === t || void 0 === t ? void 0 : t.context.btnText
                             })
                         })]
                     })
                 })
             };
-            const bi = "WalletDepositTask_sheet-container__7+LUG"
-              , yi = "WalletDepositTask_sheet-name__RuWrl"
-              , Zi = "WalletDepositTask_sheet-desc__S5hoQ"
-              , Pi = "WalletDepositTask_sheeLogo__VPRz9"
-              , Ti = "WalletDepositTask_sheetCopyBox__FvPfk"
-              , Oi = "WalletDepositTask_sheetCopyIcon__KeD4-"
-              , Si = "WalletDepositTask_sheetCloseIcon__TBSXg"
-              , Ei = "WalletDepositTask_btn__kCKz2"
-              , Bi = "WalletDepositTask_depositBtn__TPPeH"
-              , Ii = "WalletDepositTask_btn-txt__tvio1"
-              , Ri = "WalletDepositTask_line__8r7ky";
-            var Li = "/cdn/assets/imgs/247/F90A315B5916E44A.webp"
-              , Ai = function(e) {
-                var n = e.selectedTask
-                  , t = e.uid
+            const Zi = "WalletDepositTask_sheet-container__7+LUG"
+              , Pi = "WalletDepositTask_sheet-name__RuWrl"
+              , Ti = "WalletDepositTask_sheet-desc__S5hoQ"
+              , Oi = "WalletDepositTask_sheeLogo__VPRz9"
+              , Si = "WalletDepositTask_sheetCopyBox__FvPfk"
+              , Ei = "WalletDepositTask_sheetCopyIcon__KeD4-"
+              , Bi = "WalletDepositTask_sheetCloseIcon__TBSXg"
+              , Ii = "WalletDepositTask_btn__kCKz2"
+              , Li = "WalletDepositTask_depositBtn__TPPeH"
+              , Ri = "WalletDepositTask_btn-txt__tvio1"
+              , Ai = "WalletDepositTask_line__8r7ky";
+            var Di = "/cdn/assets/imgs/247/F90A315B5916E44A.webp"
+              , Fi = function(e) {
+                var t = e.selectedTask
+                  , n = e.uid
                   , s = e.taskList
                   , i = e.onClick
                   , d = Ke().context
-                  , _ = di().upDateOrDoTask
-                  , m = r().useState("")
-                  , p = (0,
-                u.Z)(m, 2)
-                  , f = p[0]
-                  , x = p[1]
+                  , _ = pi().upDateOrDoTask
+                  , p = r().useState("")
+                  , m = (0,
+                u.Z)(p, 2)
+                  , f = m[0]
+                  , x = m[1]
                   , h = (0,
                 a.useRef)((function() {}
                 ));
@@ -5064,8 +5088,8 @@
                 var v = (0,
                 a.useMemo)((function() {
                     return s.find((function(e) {
-                        var n;
-                        return (null === e || void 0 === e || null === (n = e.context) || void 0 === n ? void 0 : n.actionType) === Oe.WalletConnect
+                        var t;
+                        return (null === e || void 0 === e || null === (t = e.context) || void 0 === t ? void 0 : t.actionType) === Oe.WalletConnect
                     }
                     ))
                 }
@@ -5073,19 +5097,21 @@
                   , g = function() {
                     var e = (0,
                     l.Z)((0,
-                    c.Z)().mark((function e(n, t, a) {
+                    c.Z)().mark((function e(t, n, a) {
+                        var r;
                         return (0,
                         c.Z)().wrap((function(e) {
                             for (; ; )
                                 switch (e.prev = e.next) {
                                 case 0:
                                     return e.next = 2,
-                                    _(n, t);
+                                    _(t, n);
                                 case 2:
-                                    e.sent && (x(a || ""),
+                                    return (r = e.sent) && (x(a || ""),
                                     J(!0, (0,
-                                    Z.O4)("ok_game_okxracer_task_completion_msg")));
-                                case 4:
+                                    Z.O4)("ok_game_okxracer_task_completion_msg"))),
+                                    e.abrupt("return", r);
+                                case 5:
                                 case "end":
                                     return e.stop()
                                 }
@@ -5093,27 +5119,26 @@
                         ), e)
                     }
                     )));
-                    return function(n, t, a) {
+                    return function(t, n, a) {
                         return e.apply(this, arguments)
                     }
                 }();
                 return (0,
                 N.jsx)(N.Fragment, {
-                    children: (null === v || void 0 === v ? void 0 : v.state) === Dn.unfinished && (null === n || void 0 === n ? void 0 : n.context.actionType) === Oe.WalletDepositConnect ? (0,
-                    N.jsx)(wi, {
+                    children: (null === v || void 0 === v ? void 0 : v.state) === At.unfinished && (null === t || void 0 === t ? void 0 : t.context.actionType) === Oe.WalletDepositConnect ? (0,
+                    N.jsx)(yi, {
                         selectedTask: v,
                         onClick: function() {
                             var e = (0,
                             l.Z)((0,
-                            c.Z)().mark((function e(n, t, a) {
+                            c.Z)().mark((function e(t, n, a) {
                                 return (0,
                                 c.Z)().wrap((function(e) {
                                     for (; ; )
                                         switch (e.prev = e.next) {
                                         case 0:
-                                            return e.next = 2,
-                                            g(n, t, a);
-                                        case 2:
+                                            return e.abrupt("return", g(t, n, a));
+                                        case 1:
                                         case "end":
                                             return e.stop()
                                         }
@@ -5121,36 +5146,36 @@
                                 ), e)
                             }
                             )));
-                            return function(n, t, a) {
+                            return function(t, n, a) {
                                 return e.apply(this, arguments)
                             }
                         }(),
-                        customDesc: null === n || void 0 === n ? void 0 : n.context.walletDepositDesc,
-                        uid: t
-                    }) : (null === n || void 0 === n ? void 0 : n.context.actionType) === Oe.WalletDepositConnect && (0,
+                        customDesc: null === t || void 0 === t ? void 0 : t.context.walletDepositDesc,
+                        uid: n
+                    }) : (null === t || void 0 === t ? void 0 : t.context.actionType) === Oe.WalletDepositConnect && (0,
                     N.jsxs)("div", {
-                        className: bi,
+                        className: Zi,
                         children: [(0,
                         N.jsx)(Y.Z, {
-                            src: "".concat(o.Z.cdnBaseUrl).concat(Li),
-                            className: Pi
+                            src: "".concat(o.Z.cdnBaseUrl).concat(Di),
+                            className: Oi
                         }), (0,
                         N.jsx)("div", {
-                            className: yi,
-                            children: null === n || void 0 === n ? void 0 : n.context.connectedTitle
+                            className: Pi,
+                            children: null === t || void 0 === t ? void 0 : t.context.connectedTitle
                         }), (0,
                         N.jsx)("div", {
-                            className: Zi,
-                            children: null === n || void 0 === n ? void 0 : n.context.desc
+                            className: Ti,
+                            children: null === t || void 0 === t ? void 0 : t.context.desc
                         }), (0,
                         N.jsxs)("div", {
-                            className: Ti,
+                            className: Si,
                             children: [(0,
                             N.jsx)("div", {
                                 children: f
                             }), (0,
                             N.jsx)(P.Z, {
-                                className: y()("okx-growth-copy", Oi),
+                                className: y()("okx-growth-copy", Ei),
                                 onClick: function() {
                                     try {
                                         navigator.clipboard.writeText(f || ""),
@@ -5162,23 +5187,22 @@
                                 }
                             }), (0,
                             N.jsx)("span", {
-                                className: Ri
+                                className: Ai
                             }), (0,
-                            N.jsx)(oi, {
+                            N.jsx)(li, {
                                 selectedTask: v,
-                                uid: t,
+                                uid: n,
                                 onClick: function() {
                                     var e = (0,
                                     l.Z)((0,
-                                    c.Z)().mark((function e(n, t, a) {
+                                    c.Z)().mark((function e(t, n, a) {
                                         return (0,
                                         c.Z)().wrap((function(e) {
                                             for (; ; )
                                                 switch (e.prev = e.next) {
                                                 case 0:
-                                                    return e.next = 2,
-                                                    g(n, t, a);
-                                                case 2:
+                                                    return e.abrupt("return", g(t, n, a));
+                                                case 1:
                                                 case "end":
                                                     return e.stop()
                                                 }
@@ -5186,13 +5210,13 @@
                                         ), e)
                                     }
                                     )));
-                                    return function(n, t, a) {
+                                    return function(t, n, a) {
                                         return e.apply(this, arguments)
                                     }
                                 }(),
                                 custom: (0,
                                 N.jsx)(P.Z, {
-                                    className: y()("okds-close", Si)
+                                    className: y()("okds-close", Bi)
                                 })
                             })]
                         }), (0,
@@ -5200,99 +5224,99 @@
                             category: H.default.CATEGORY.fill,
                             type: H.default.TYPE.primary,
                             size: H.default.SIZE.lg,
-                            className: Bi,
+                            className: Li,
                             onClick: function() {
-                                i(n)
+                                i(t)
                             },
                             children: (0,
                             N.jsx)("div", {
-                                className: Ii,
-                                children: null === n || void 0 === n ? void 0 : n.context.verifyBtnText
+                                className: Ri,
+                                children: null === t || void 0 === t ? void 0 : t.context.verifyBtnText
                             })
                         }), (0,
                         N.jsx)(H.default, {
                             category: H.default.CATEGORY.outline,
                             type: H.default.TYPE.primary,
                             size: H.default.SIZE.lg,
-                            className: Ei,
+                            className: Ii,
                             onClick: function() {
-                                var e, n;
-                                null === (e = window) || void 0 === e || null === (n = e.Telegram) || void 0 === n || n.WebApp.openLink(d.tonDeeplink)
+                                var e, t;
+                                null === (e = window) || void 0 === e || null === (t = e.Telegram) || void 0 === t || t.WebApp.openLink(d.tonDeeplink)
                             },
                             children: (0,
                             N.jsx)("div", {
-                                className: Ii,
-                                children: null === n || void 0 === n ? void 0 : n.context.depositBtnText
+                                className: Ri,
+                                children: null === t || void 0 === t ? void 0 : t.context.depositBtnText
                             })
                         })]
                     })
                 })
             };
-            const Di = "index_task-item__JdIYG"
-              , Fi = "index_title__hYmAn"
-              , Ui = "index_state__ddlCZ"
-              , Mi = "index_item-left__BNG-l"
-              , Gi = "index_item-right__V+4iT"
-              , Wi = "index_icon__yk0cJ"
-              , Vi = "index_done__h9mLm";
-            var Hi = function(e) {
-                var n = e.task
-                  , t = e.onClick
-                  , a = n.id
-                  , r = n.points
-                  , s = n.state
-                  , i = n.context
+            const Wi = "index_task-item__JdIYG"
+              , Ui = "index_title__hYmAn"
+              , Mi = "index_state__ddlCZ"
+              , Gi = "index_item-left__BNG-l"
+              , Vi = "index_item-right__V+4iT"
+              , Hi = "index_icon__yk0cJ"
+              , Yi = "index_done__h9mLm";
+            var Ki = function(e) {
+                var t = e.task
+                  , n = e.onClick
+                  , a = t.id
+                  , r = t.points
+                  , s = t.state
+                  , i = t.context
                   , o = "";
                 if (r) {
                     var c = (0,
-                    _t.uf)(r, {
+                    mn.uf)(r, {
                         signDisplay: !0
                     })
-                      , l = s === Dn.finished ? "\u2705" : "\ud83c\udfc1";
+                      , l = s === At.finished ? "\u2705" : "\ud83c\udfc1";
                     o = "".concat(l, " ").concat(c, " pts")
                 }
                 return (0,
                 N.jsxs)("div", {
-                    className: Di,
+                    className: Wi,
                     onClick: function() {
-                        t(a)
+                        n(a)
                     },
                     children: [(0,
                     N.jsxs)("div", {
-                        className: Mi,
+                        className: Gi,
                         children: [(0,
                         N.jsx)("div", {
-                            className: Fi,
+                            className: Ui,
                             children: i.name
                         }), o && (0,
                         N.jsx)("div", {
-                            className: Ui,
+                            className: Mi,
                             children: o
                         })]
                     }), (0,
                     N.jsx)("div", {
-                        className: Gi,
-                        children: s === Dn.finished ? (0,
+                        className: Vi,
+                        children: s === At.finished ? (0,
                         N.jsx)("div", {
-                            className: Vi,
+                            className: Yi,
                             children: (0,
                             Z.O4)("ok_game_okxracer_done")
                         }) : (0,
                         N.jsx)(P.Z, {
-                            className: y()("okx-growth-chevrons-right", Wi)
+                            className: y()("okx-growth-chevrons-right", Hi)
                         })
                     })]
                 }, a)
             };
-            const Yi = "index_container__LfQHA"
-              , Ki = "index_sheet-container__7hIP5"
-              , zi = "index_sheet-name__+hUn6"
-              , Xi = "index_sheet-desc__Uh4Uk"
-              , Ji = "index_btn__+6gr5";
-            function qi(e) {
-                var n = e.tasks
-                  , t = e.className
-                  , r = di().upDateOrDoTask
+            const Xi = "index_container__LfQHA"
+              , zi = "index_sheet-container__7hIP5"
+              , Ji = "index_sheet-name__+hUn6"
+              , qi = "index_sheet-desc__Uh4Uk"
+              , Qi = "index_btn__+6gr5";
+            function $i(e) {
+                var t = e.tasks
+                  , n = e.className
+                  , r = pi().upDateOrDoTask
                   , s = (0,
                 a.useState)()
                   , i = (0,
@@ -5301,34 +5325,36 @@
                   , d = i[1]
                   , _ = (0,
                 a.useState)(!1)
-                  , m = (0,
+                  , p = (0,
                 u.Z)(_, 2)
-                  , p = m[0]
-                  , f = m[1]
+                  , m = p[0]
+                  , f = p[1]
                   , x = I().uid
                   , h = function() {
                     var e = (0,
                     l.Z)((0,
-                    c.Z)().mark((function e(n, t) {
-                        var a, s, i, o, l;
+                    c.Z)().mark((function e(t, n) {
+                        var a, s, i, o, l, u;
                         return (0,
                         c.Z)().wrap((function(e) {
                             for (; ; )
                                 switch (e.prev = e.next) {
                                 case 0:
-                                    if (!n) {
-                                        e.next = 6;
+                                    if (a = !1,
+                                    !t) {
+                                        e.next = 7;
                                         break
                                     }
-                                    return n.context.actionType === Oe.OpenLink && n.context.redirectLink && ((a = n.context.redirectLink).startsWith("https://t.me") ? null === (s = window) || void 0 === s || null === (i = s.Telegram) || void 0 === i || i.WebApp.openTelegramLink(a) : null === (o = window) || void 0 === o || null === (l = o.Telegram) || void 0 === l || l.WebApp.openLink(a)),
-                                    e.next = 4,
-                                    r(n, t);
-                                case 4:
-                                    e.sent && J(!0, (0,
+                                    return t.context.actionType === Oe.OpenLink && t.context.redirectLink && ((s = t.context.redirectLink).startsWith("https://t.me") ? null === (i = window) || void 0 === i || null === (o = i.Telegram) || void 0 === o || o.WebApp.openTelegramLink(s) : null === (l = window) || void 0 === l || null === (u = l.Telegram) || void 0 === u || u.WebApp.openLink(s)),
+                                    e.next = 5,
+                                    r(t, n);
+                                case 5:
+                                    (a = e.sent) && J(!0, (0,
                                     Z.O4)("ok_game_okxracer_task_completion_msg"));
-                                case 6:
-                                    f(!1);
                                 case 7:
+                                    return f(!1),
+                                    e.abrupt("return", a);
+                                case 9:
                                 case "end":
                                     return e.stop()
                                 }
@@ -5336,22 +5362,22 @@
                         ), e)
                     }
                     )));
-                    return function(n, t) {
+                    return function(t, n) {
                         return e.apply(this, arguments)
                     }
                 }()
                   , v = (0,
-                Ur.Z)((function(e) {
-                    var t = (n || []).find((function(n) {
-                        return (null === n || void 0 === n ? void 0 : n.id) === e
+                Mr.Z)((function(e) {
+                    var n = (t || []).find((function(t) {
+                        return (null === t || void 0 === t ? void 0 : t.id) === e
                     }
                     ));
-                    if (t) {
-                        var a = t.context.actionType
-                          , r = t.state;
-                        (null === t || void 0 === t ? void 0 : t.state) === Dn.finished && a !== Oe.WalletConnect && a !== Oe.OpenLink || (d(t),
+                    if (n) {
+                        var a = n.context.actionType
+                          , r = n.state;
+                        (null === n || void 0 === n ? void 0 : n.state) === At.finished && a !== Oe.WalletConnect && a !== Oe.OpenLink || (d(n),
                         f(!0),
-                        a === Oe.WalletConnect && (r === Dn.finished ? O.act({
+                        a === Oe.WalletConnect && (r === At.finished ? O.act({
                             action: "OkxRacerLandingPage_TaskCard_CheckAddress_Click",
                             anchor: "OkxRacerLandingPage_TaskCard_CheckAddress_Click",
                             params: {},
@@ -5373,27 +5399,27 @@
                     leading: !0
                 }).run
                   , g = (0,
-                Ur.Z)(h, {
+                Mr.Z)(h, {
                     wait: 500,
                     leading: !0
                 }).run
                   , k = (0,
-                rn.Z)((0,
-                rn.Z)({}, Oe.WalletConnect, (function() {
+                rt.Z)((0,
+                rt.Z)({}, Oe.WalletConnect, (function() {
                     return (0,
-                    N.jsx)(wi, {
+                    N.jsx)(yi, {
                         selectedTask: o,
-                        onClick: function(e, n) {
-                            return g(e, n)
+                        onClick: function(e, t) {
+                            return g(e, t)
                         },
                         uid: x
                     })
                 }
                 )), Oe.WalletDepositConnect, (function() {
                     return (0,
-                    N.jsx)(Ai, {
+                    N.jsx)(Fi, {
                         selectedTask: o,
-                        taskList: n,
+                        taskList: t,
                         onClick: function(e) {
                             return g(e)
                         },
@@ -5405,20 +5431,20 @@
                 N.jsxs)(N.Fragment, {
                     children: [(0,
                     N.jsx)("div", {
-                        className: y()(Yi, t),
-                        children: n.length > 0 ? n.map((function(e) {
+                        className: y()(Xi, n),
+                        children: t.length > 0 ? t.map((function(e) {
                             return (0,
-                            N.jsx)(Hi, {
+                            N.jsx)(Ki, {
                                 task: e,
                                 onClick: v
                             }, e.id)
                         }
                         )) : (0,
-                        N.jsx)(ii, {})
+                        N.jsx)(ci, {})
                     }), o && (0,
                     N.jsx)(Qe, {
                         noContentPadding: !0,
-                        visible: p,
+                        visible: m,
                         onClose: function() {
                             d(void 0),
                             f(!1)
@@ -5427,29 +5453,29 @@
                             var e = k[o.context.actionType];
                             return e ? e() : function() {
                                 var e = o.context
-                                  , n = e.desc
-                                  , t = e.btnText;
+                                  , t = e.desc
+                                  , n = e.btnText;
                                 return (0,
                                 N.jsxs)("div", {
-                                    className: Ki,
+                                    className: zi,
                                     children: [(0,
                                     N.jsx)("div", {
-                                        className: zi,
+                                        className: Ji,
                                         children: e.name
                                     }), (0,
                                     N.jsx)("div", {
-                                        className: Xi,
+                                        className: qi,
                                         dangerouslySetInnerHTML: {
                                             __html: (0,
-                                            qr.dU)(n)
+                                            $r.dU)(t)
                                         }
                                     }), (0,
-                                    N.jsx)(an, {
-                                        className: Ji,
+                                    N.jsx)(at, {
+                                        className: Qi,
                                         onClick: function() {
                                             return g(o)
                                         },
-                                        text: t
+                                        text: n
                                     })]
                                 })
                             }()
@@ -5457,41 +5483,41 @@
                     })]
                 })
             }
-            var Qi = function() {
+            var eo = function() {
                 var e = (0,
                 s.useHistory)()
-                  , n = e.replace
-                  , t = e.goBack
+                  , t = e.replace
+                  , n = e.goBack
                   , r = (0,
                 s.useLocation)().hash;
                 (0,
                 a.useEffect)((function() {
-                    var e, n, a;
-                    return null === (e = window.Telegram) || void 0 === e || null === (n = e.WebApp) || void 0 === n || null === (a = n.BackButton) || void 0 === a || a.show().onClick(t),
+                    var e, t, a;
+                    return null === (e = window.Telegram) || void 0 === e || null === (t = e.WebApp) || void 0 === t || null === (a = t.BackButton) || void 0 === a || a.show().onClick(n),
                     function() {
-                        var e, n, a;
-                        null === (e = window.Telegram) || void 0 === e || null === (n = e.WebApp) || void 0 === n || null === (a = n.BackButton) || void 0 === a || a.hide().offClick(t)
+                        var e, t, a;
+                        null === (e = window.Telegram) || void 0 === e || null === (t = e.WebApp) || void 0 === t || null === (a = t.BackButton) || void 0 === a || a.hide().offClick(n)
                     }
                 }
-                ), [t, r, n])
+                ), [n, r, t])
             }
-              , $i = (0,
+              , to = (0,
             a.createContext)({
                 airdrops: [],
                 selectedAirdrop: null,
                 loading: !1,
                 onSelectAirdrop: function() {}
             })
-              , eo = function() {
+              , no = function() {
                 return (0,
-                a.useContext)($i)
+                a.useContext)(to)
             }
-              , no = function(e) {
-                var n = e.children
-                  , t = (0,
+              , ao = function(e) {
+                var t = e.children
+                  , n = (0,
                 a.useState)([])
                   , r = (0,
-                u.Z)(t, 2)
+                u.Z)(n, 2)
                   , s = r[0]
                   , i = r[1]
                   , o = (0,
@@ -5502,19 +5528,19 @@
                   , d = c[1]
                   , _ = (0,
                 a.useState)(!0)
-                  , m = (0,
+                  , p = (0,
                 u.Z)(_, 2)
-                  , p = m[0]
-                  , f = m[1];
+                  , m = p[0]
+                  , f = p[1];
                 (0,
                 a.useEffect)((function() {
                     f(!0),
                     Fe(!0).then((function(e) {
-                        var n = e.data;
-                        i(n || [])
+                        var t = e.data;
+                        i(t || [])
                     }
                     )).catch((function(e) {
-                        z.k.error("mini app okx racer, executeRequestsRecursively-error ".concat(e.message), e)
+                        X.k.error("mini app okx racer, executeRequestsRecursively-error ".concat(e.message), e)
                     }
                     )).finally((function() {
                         f(!1)
@@ -5529,19 +5555,19 @@
                 a.useMemo)((function() {
                     return {
                         airdrops: s,
-                        loading: p,
+                        loading: m,
                         onSelectAirdrop: x,
                         selectedAirdrop: l
                     }
                 }
-                ), [l, s, p]);
+                ), [l, s, m]);
                 return (0,
-                N.jsx)($i.Provider, {
+                N.jsx)(to.Provider, {
                     value: h,
-                    children: n
+                    children: t
                 })
             };
-            const to = {
+            const ro = {
                 container: "index_container__Y851r",
                 header: "index_header__4gppM",
                 title: "index_title__b+GpQ",
@@ -5550,18 +5576,18 @@
                 tasks: "index_tasks__k8-lb",
                 taskListHeader: "index_taskListHeader__0FpaY"
             };
-            var ao = function() {
-                var e = eo().selectedAirdrop
-                  , n = (0,
-                s.useHistory)().replace
+            var so = function() {
+                var e = no().selectedAirdrop
                   , t = (0,
+                s.useHistory)().replace
+                  , n = (0,
                 s.useLocation)().hash;
-                if (Qi(),
+                if (eo(),
                 (0,
                 a.useEffect)((function() {
-                    e || n(D + t)
+                    e || t(D + n)
                 }
-                ), [t, e, n]),
+                ), [n, e, t]),
                 !e)
                     return null;
                 var r = e.tasks
@@ -5571,107 +5597,107 @@
                   , u = e.surprise;
                 return (0,
                 N.jsxs)("div", {
-                    className: to.container,
+                    className: ro.container,
                     children: [(0,
                     N.jsxs)("div", {
-                        className: to.header,
+                        className: ro.header,
                         children: [(0,
-                        N.jsx)(ti.Z, {
-                            size: ai.Z.sm,
-                            className: to.logo,
+                        N.jsx)(ri.Z, {
+                            size: si.Z.sm,
+                            className: ro.logo,
                             src: "".concat(o.Z.cdnBaseUrl).concat(i)
                         }), (0,
                         N.jsx)("h1", {
-                            className: to.title,
+                            className: ro.title,
                             children: c
                         })]
                     }), (0,
                     N.jsx)("p", {
-                        className: to.desc,
+                        className: ro.desc,
                         children: l
                     }), (0,
                     N.jsx)("div", {
-                        className: to.surpriseTitle,
+                        className: ro.surpriseTitle,
                         children: (0,
                         Z.O4)("ok_game_okxracer_label_surprises_details")
                     }), (0,
                     N.jsx)("p", {
-                        className: to.desc,
+                        className: ro.desc,
                         children: u
                     }), (0,
                     N.jsxs)("div", {
-                        className: to.tasks,
+                        className: ro.tasks,
                         children: [(0,
                         N.jsx)("div", {
-                            className: to.taskListHeader,
+                            className: ro.taskListHeader,
                             children: (0,
                             Z.O4)("ok_game_okxracer_text_phase3_tasks")
                         }), (0,
-                        N.jsx)(qi, {
+                        N.jsx)($i, {
                             tasks: r
                         })]
                     })]
                 })
             };
-            const ro = "index_airdropItem__pV1Az"
-              , so = "index_content__ZtejP"
-              , io = "index_airdropIcon__lZwMy"
-              , oo = "index_airdropIconLoading__S1N9H"
-              , co = "index_title__19JPa"
-              , lo = "index_desc__ekknt"
-              , uo = "index_arrow__Y8OCn"
-              , _o = "index_airdropItemPlaceholder__bL5jl";
-            var mo = function(e) {
-                var n = e.airdrop
-                  , t = e.onClick
-                  , a = n.logo
-                  , r = n.groupSubTitle
-                  , s = n.groupTitle;
+            const io = "index_airdropItem__pV1Az"
+              , oo = "index_content__ZtejP"
+              , co = "index_airdropIcon__lZwMy"
+              , lo = "index_airdropIconLoading__S1N9H"
+              , uo = "index_title__19JPa"
+              , _o = "index_desc__ekknt"
+              , po = "index_arrow__Y8OCn"
+              , mo = "index_airdropItemPlaceholder__bL5jl";
+            var fo = function(e) {
+                var t = e.airdrop
+                  , n = e.onClick
+                  , a = t.logo
+                  , r = t.groupSubTitle
+                  , s = t.groupTitle;
                 return (0,
                 N.jsxs)("div", {
-                    className: ro,
+                    className: io,
                     onClick: function() {
-                        t(n)
+                        n(t)
                     },
                     children: [(0,
                     N.jsxs)("div", {
-                        className: so,
+                        className: oo,
                         children: [(0,
                         N.jsx)(Y.Z, {
-                            className: io,
+                            className: co,
                             src: "".concat(o.Z.cdnBaseUrl).concat(a)
                         }), (0,
                         N.jsx)("div", {
-                            className: co,
+                            className: uo,
                             children: s
                         }), (0,
                         N.jsx)("div", {
-                            className: lo,
+                            className: _o,
                             children: r
                         })]
                     }), (0,
                     N.jsx)(P.Z, {
-                        className: y()("okds-arrow-chevron-right-centered-sm", uo)
+                        className: y()("okds-arrow-chevron-right-centered-sm", po)
                     })]
                 })
             }
-              , po = function() {
+              , xo = function() {
                 return (0,
                 N.jsxs)("div", {
-                    className: y()(ro, _o),
+                    className: y()(io, mo),
                     children: [(0,
-                    N.jsx)(os, {
-                        className: oo
-                    }), (0,
-                    N.jsx)(os, {
-                        className: co
-                    }), (0,
-                    N.jsx)(os, {
+                    N.jsx)(ls, {
                         className: lo
+                    }), (0,
+                    N.jsx)(ls, {
+                        className: uo
+                    }), (0,
+                    N.jsx)(ls, {
+                        className: _o
                     })]
                 })
             }
-              , fo = {
+              , ho = {
                 signupLink: "/join",
                 downloadLink: "/download?redirectAppStore=true",
                 bindTgLink: "https://www.okx.com/ul/3h87sZ",
@@ -5684,25 +5710,25 @@
                 pointGradeName: "",
                 totalEarnedPoints: 0
             }
-              , xo = (0,
+              , vo = (0,
             a.createContext)({
-                accountBindingInfo: fo,
+                accountBindingInfo: ho,
                 isCertified: !1,
                 isLoading: !1,
                 getAccountBindingInfo: function() {
                     throw new Error("Function not implemented.")
                 }
             })
-              , ho = function() {
+              , go = function() {
                 return (0,
-                a.useContext)(xo)
+                a.useContext)(vo)
             }
-              , vo = function(e) {
-                var n = e.children
-                  , t = (0,
-                a.useState)(fo)
+              , ko = function(e) {
+                var t = e.children
+                  , n = (0,
+                a.useState)(ho)
                   , r = (0,
-                u.Z)(t, 2)
+                u.Z)(n, 2)
                   , s = r[0]
                   , i = r[1]
                   , o = (0,
@@ -5710,27 +5736,27 @@
                   , d = (0,
                 u.Z)(o, 2)
                   , _ = d[0]
-                  , m = d[1]
-                  , p = Boolean((null === s || void 0 === s ? void 0 : s.isConnectTelegram) && (null === s || void 0 === s ? void 0 : s.isKyc))
+                  , p = d[1]
+                  , m = Boolean((null === s || void 0 === s ? void 0 : s.isConnectTelegram) && (null === s || void 0 === s ? void 0 : s.isKyc))
                   , f = (0,
                 a.useCallback)((0,
                 l.Z)((0,
                 c.Z)().mark((function e() {
-                    var n, t, a, r = arguments;
+                    var t, n, a, r = arguments;
                     return (0,
                     c.Z)().wrap((function(e) {
                         for (; ; )
                             switch (e.prev = e.next) {
                             case 0:
-                                return n = r.length > 1 ? r[1] : void 0,
-                                t = {
+                                return t = r.length > 1 ? r[1] : void 0,
+                                n = {
                                     isRecheckBinding: r.length > 0 && void 0 !== r[0] && r[0]
                                 },
                                 e.next = 5,
-                                Ae(n, t);
+                                Ae(t, n);
                             case 5:
                                 return a = e.sent,
-                                m(!1),
+                                p(!1),
                                 a && i(a),
                                 e.abrupt("return", a);
                             case 9:
@@ -5752,28 +5778,28 @@
                         accountBindingInfo: s,
                         isLoading: _,
                         getAccountBindingInfo: f,
-                        isCertified: p
+                        isCertified: m
                     }
                 }
-                ), [s, f, p, _]);
+                ), [s, f, m, _]);
                 return (0,
-                N.jsx)(xo.Provider, {
+                N.jsx)(vo.Provider, {
                     value: x,
-                    children: n
+                    children: t
                 })
             };
-            const go = "index_offsetMarginContainer__2NtPr"
-              , ko = "index_title__+65IJ"
-              , jo = "index_count__F-PWh"
-              , No = "index_airdropContainer__Gun3r"
-              , Co = "index_paddingPlaceholder__X2M3o";
-            var wo = function(e) {
-                var n = e.showCertifyBottomSheet
-                  , t = eo()
-                  , a = t.airdrops
-                  , r = t.onSelectAirdrop
-                  , i = t.loading
-                  , o = ho().isCertified
+            const jo = "index_offsetMarginContainer__2NtPr"
+              , No = "index_title__+65IJ"
+              , Co = "index_count__F-PWh"
+              , wo = "index_airdropContainer__Gun3r"
+              , bo = "index_paddingPlaceholder__X2M3o";
+            var yo = function(e) {
+                var t = e.showCertifyBottomSheet
+                  , n = no()
+                  , a = n.airdrops
+                  , r = n.onSelectAirdrop
+                  , i = n.loading
+                  , o = go().isCertified
                   , c = (0,
                 s.useHistory)()
                   , l = (0,
@@ -5781,40 +5807,40 @@
                   , u = function(e) {
                     o ? (r(e),
                     c.push({
-                        pathname: W,
+                        pathname: G,
                         hash: l.hash
-                    })) : n()
+                    })) : t()
                 }
                   , d = a.length;
                 return i || 0 !== d ? (0,
                 N.jsxs)(N.Fragment, {
                     children: [(0,
                     N.jsxs)("p", {
-                        className: ko,
+                        className: No,
                         children: [(0,
                         Z.O4)("ok_game_okxracer_label_airdrop_surprises"), "\xa0", (0,
                         N.jsxs)("span", {
-                            className: jo,
+                            className: Co,
                             children: ["(", d, ")"]
                         })]
                     }), (0,
                     N.jsx)("div", {
                         className: y()((0,
-                        rn.Z)({}, go, d > 1)),
+                        rt.Z)({}, jo, d > 1)),
                         children: (0,
                         N.jsxs)("div", {
-                            className: No,
+                            className: wo,
                             children: [i ? (0,
                             N.jsxs)(N.Fragment, {
                                 children: [(0,
-                                N.jsx)(po, {}), (0,
-                                N.jsx)(po, {}), (0,
-                                N.jsx)(po, {})]
+                                N.jsx)(xo, {}), (0,
+                                N.jsx)(xo, {}), (0,
+                                N.jsx)(xo, {})]
                             }) : (0,
                             N.jsx)(N.Fragment, {
                                 children: a.map((function(e) {
                                     return (0,
-                                    N.jsx)(mo, {
+                                    N.jsx)(fo, {
                                         airdrop: e,
                                         onClick: u
                                     }, e.groupId)
@@ -5822,24 +5848,24 @@
                                 ))
                             }), d > 1 ? (0,
                             N.jsx)("div", {
-                                className: Co
+                                className: bo
                             }) : null]
                         })
                     })]
                 }) : null
             }
-              , bo = (0,
+              , Zo = (0,
             a.createContext)({
                 campaigns: [],
                 loading: !1,
                 openCampaignPage: function() {}
             })
-              , yo = function(e) {
-                var n = e.children
-                  , t = (0,
+              , Po = function(e) {
+                var t = e.children
+                  , n = (0,
                 a.useState)([])
                   , r = (0,
-                u.Z)(t, 2)
+                u.Z)(n, 2)
                   , s = r[0]
                   , i = r[1]
                   , o = (0,
@@ -5847,15 +5873,15 @@
                   , d = (0,
                 u.Z)(o, 2)
                   , _ = d[0]
-                  , m = d[1];
+                  , p = d[1];
                 (0,
                 a.useEffect)((function() {
-                    m(!0);
+                    p(!0);
                     var e = function() {
                         var e = (0,
                         l.Z)((0,
                         c.Z)().mark((function e() {
-                            var n;
+                            var t;
                             return (0,
                             c.Z)().wrap((function(e) {
                                 for (; ; )
@@ -5865,7 +5891,7 @@
                                         e.next = 3,
                                         De(!0);
                                     case 3:
-                                        (n = e.sent) && i(n),
+                                        (t = e.sent) && i(t),
                                         e.next = 9;
                                         break;
                                     case 7:
@@ -5873,7 +5899,7 @@
                                         e.t0 = e.catch(0);
                                     case 9:
                                         return e.prev = 9,
-                                        m(!1),
+                                        p(!1),
                                         e.finish(9);
                                     case 12:
                                     case "end":
@@ -5890,119 +5916,119 @@
                     e()
                 }
                 ), []);
-                var p = function(e) {
-                    var n, t;
-                    null === (n = window) || void 0 === n || null === (t = n.Telegram) || void 0 === t || t.WebApp.openLink(e.webUrl)
+                var m = function(e) {
+                    var t, n;
+                    null === (t = window) || void 0 === t || null === (n = t.Telegram) || void 0 === n || n.WebApp.openLink(e.webUrl)
                 }
                   , f = (0,
                 a.useMemo)((function() {
                     return {
                         campaigns: s,
                         loading: _,
-                        openCampaignPage: p
+                        openCampaignPage: m
                     }
                 }
                 ), [s, _]);
                 return (0,
-                N.jsx)(bo.Provider, {
+                N.jsx)(Zo.Provider, {
                     value: f,
-                    children: n
+                    children: t
                 })
             }
-              , Zo = t(32267);
-            t(82890);
-            const Po = "CampaignEndedIndicator_campaignEndedIndicator__t9IRX"
-              , To = "CampaignEndedIndicator_campaignEndedIcon__nIS3f";
-            var Oo = function(e) {
-                var n = e.className;
+              , To = n(32267);
+            n(82890);
+            const Oo = "CampaignEndedIndicator_campaignEndedIndicator__t9IRX"
+              , So = "CampaignEndedIndicator_campaignEndedIcon__nIS3f";
+            var Eo = function(e) {
+                var t = e.className;
                 return (0,
                 N.jsxs)("span", {
-                    className: y()(Po, n),
+                    className: y()(Oo, t),
                     children: [(0,
                     N.jsx)(P.Z, {
                         iconName: "okds-clock",
-                        className: To
+                        className: So
                     }), (0,
                     Z.O4)("ok_game_okxracer_tag_phase421_ended")]
                 })
             };
-            const So = "CampaignCard_cardContainer__3yu81"
-              , Eo = "CampaignCard_dateRange__hvYLA"
-              , Bo = "CampaignCard_campaignEndedIndicator__6J91S"
-              , Io = "CampaignCard_card__cYF8Y"
-              , Ro = "CampaignCard_campaignImg__YpUgC"
-              , Lo = "CampaignCard_round__MMyT5"
-              , Ao = "CampaignCard_content__1ZjVu"
-              , Do = "CampaignCard_name__mfl60"
-              , Fo = "CampaignCard_desc__klZyx"
-              , Uo = "CampaignCard_points__jIZar"
-              , Mo = "CampaignCard_btn__v8gu9"
-              , Go = "CampaignCard_btnContent__-5uC9";
-            var Wo = function(e) {
-                var n = e.campaign
-                  , t = e.btnText
+            const Bo = "CampaignCard_cardContainer__3yu81"
+              , Io = "CampaignCard_dateRange__hvYLA"
+              , Lo = "CampaignCard_campaignEndedIndicator__6J91S"
+              , Ro = "CampaignCard_card__cYF8Y"
+              , Ao = "CampaignCard_campaignImg__YpUgC"
+              , Do = "CampaignCard_round__MMyT5"
+              , Fo = "CampaignCard_content__1ZjVu"
+              , Wo = "CampaignCard_name__mfl60"
+              , Uo = "CampaignCard_desc__klZyx"
+              , Mo = "CampaignCard_points__jIZar"
+              , Go = "CampaignCard_btn__v8gu9"
+              , Vo = "CampaignCard_btnContent__-5uC9";
+            var Ho = function(e) {
+                var t = e.campaign
+                  , n = e.btnText
                   , a = e.onClick
                   , r = e.roundLogo
                   , s = void 0 === r || r
-                  , i = n.logo
-                  , c = n.title
-                  , l = n.subTitle
-                  , u = n.points;
+                  , i = t.logo
+                  , c = t.title
+                  , l = t.subTitle
+                  , u = t.points;
                 return (0,
                 N.jsxs)("li", {
-                    className: So,
-                    children: [n.endDate && n.startDate ? n.status === Le.Ended ? (0,
-                    N.jsx)(Oo, {
-                        className: Bo
+                    className: Bo,
+                    children: [t.endDate && t.startDate ? t.status === Re.Ended ? (0,
+                    N.jsx)(Eo, {
+                        className: Lo
                     }) : (0,
                     N.jsxs)("span", {
-                        className: Eo,
+                        className: Io,
                         children: [(0,
-                        _t.o0)(new Date(n.startDate)), "\xa0-\xa0", (0,
-                        _t.o0)(new Date(n.endDate))]
+                        mn.o0)(new Date(t.startDate)), "\xa0-\xa0", (0,
+                        mn.o0)(new Date(t.endDate))]
                     }) : null, (0,
                     N.jsxs)("div", {
-                        className: Io,
+                        className: Ro,
                         children: [(0,
                         N.jsx)(Y.Z, {
                             src: "".concat(o.Z.cdnBaseUrl).concat(i),
-                            pictureClassName: Ro,
-                            className: y()(Ro, (0,
-                            rn.Z)({}, Lo, s))
+                            pictureClassName: Ao,
+                            className: y()(Ao, (0,
+                            rt.Z)({}, Do, s))
                         }), (0,
                         N.jsxs)("div", {
-                            className: Ao,
+                            className: Fo,
                             children: [(0,
                             N.jsx)("p", {
-                                className: Do,
+                                className: Wo,
                                 children: c
                             }), (0,
                             N.jsx)("p", {
-                                className: Fo,
+                                className: Uo,
                                 children: l
                             }), u && (0,
                             N.jsx)("p", {
-                                className: Uo,
+                                className: Mo,
                                 children: (0,
                                 Z.O4)("ok_game_okxracer_text_phase3_up_to_pts", {
                                     number: "+".concat((0,
-                                    _t.uf)(u))
+                                    mn.uf)(u))
                                 })
                             }), (0,
                             N.jsx)(H.default, {
                                 type: H.default.TYPE.default,
                                 category: H.default.CATEGORY.outline,
                                 size: H.default.SIZE.s,
-                                className: Mo,
-                                contentClassName: Go,
+                                className: Go,
+                                contentClassName: Vo,
                                 onClick: a,
-                                children: t
+                                children: n
                             })]
                         })]
                     })]
                 })
             };
-            const Vo = {
+            const Yo = {
                 description: "Campaigns_description__Q6-cw",
                 title: "Campaigns_title__a2IwB",
                 count: "Campaigns_count__LxNZj",
@@ -6018,28 +6044,28 @@
                 button: "Campaigns_button__nWE3x",
                 termsAndConditions: "Campaigns_termsAndConditions__RfsOE"
             };
-            var Ho = function(e) {
-                var n = e.showCertifyBottomSheet
-                  , t = ho().isCertified
+            var Ko = function(e) {
+                var t = e.showCertifyBottomSheet
+                  , n = go().isCertified
                   , r = (0,
-                a.useContext)(bo)
+                a.useContext)(Zo)
                   , s = r.campaigns
                   , i = r.loading
                   , o = r.openCampaignPage;
-                var c = t ? (0,
-                N.jsx)(Zo.Z.State, {
-                    type: Zo.Z.State.TYPE.noRecord,
-                    className: Vo.noCampaigns,
+                var c = n ? (0,
+                N.jsx)(To.Z.State, {
+                    type: To.Z.State.TYPE.noRecord,
+                    className: Yo.noCampaigns,
                     title: (0,
                     Z.O4)("ok_game_okxracer_title_phase421_no_campaigns"),
                     description: (0,
                     N.jsx)("p", {
-                        className: Vo.desc,
+                        className: Yo.desc,
                         children: (0,
                         Z.O4)("ok_game_okxracer_text_phase421_stay_tuned")
                     })
                 }) : (0,
-                N.jsx)(Wo, {
+                N.jsx)(Ho, {
                     roundLogo: !1,
                     campaign: {
                         logo: "/cdn/assets/imgs/249/D290EBECC9921075.png",
@@ -6050,71 +6076,71 @@
                     },
                     btnText: (0,
                     Z.O4)("ok_game_okxracer_btn_phase421_verify"),
-                    onClick: n
+                    onClick: t
                 })
-                  , l = t || s.length > 0;
+                  , l = n || s.length > 0;
                 return (0,
                 N.jsxs)(N.Fragment, {
                     children: [(0,
                     N.jsxs)("p", {
-                        className: Vo.title,
+                        className: Yo.title,
                         children: [(0,
                         Z.O4)("ok_game_okxracer_title_phase421_campaigns"), "\xa0", l && (0,
                         N.jsxs)("span", {
-                            className: Vo.count,
+                            className: Yo.count,
                             children: ["(", s.length, ")"]
                         })]
                     }), i && (0,
                     N.jsx)("div", {
-                        className: Vo.loaderContainer,
+                        className: Yo.loaderContainer,
                         children: (0,
-                        N.jsx)(ka.Z, {})
+                        N.jsx)(Na.Z, {})
                     }), !i && 0 === s.length && c, (0,
                     N.jsx)("ul", {
-                        className: Vo.list,
+                        className: Yo.list,
                         children: s.map((function(e) {
                             return (0,
-                            N.jsx)(Wo, {
+                            N.jsx)(Ho, {
                                 campaign: e,
                                 btnText: (0,
                                 Z.O4)("ok_game_okxracer_btn_phase421_view_campaign"),
                                 onClick: function() {
-                                    t ? function(e) {
+                                    n ? function(e) {
                                         $e({
                                             children: (0,
                                             N.jsxs)("div", {
-                                                className: Vo.campaignBottomSheet,
-                                                children: [e.status === Le.Ended ? (0,
+                                                className: Yo.campaignBottomSheet,
+                                                children: [e.status === Re.Ended ? (0,
                                                 N.jsx)("span", {
-                                                    className: Vo.dateRange,
+                                                    className: Yo.dateRange,
                                                     children: (0,
-                                                    N.jsx)(Oo, {
-                                                        className: Vo.campaignEndedIndicator
+                                                    N.jsx)(Eo, {
+                                                        className: Yo.campaignEndedIndicator
                                                     })
                                                 }) : (0,
                                                 N.jsxs)("span", {
-                                                    className: Vo.dateRange,
+                                                    className: Yo.dateRange,
                                                     children: [(0,
-                                                    _t.o0)(new Date(e.startDate)), "\xa0-\xa0", (0,
-                                                    _t.o0)(new Date(e.endDate))]
+                                                    mn.o0)(new Date(e.startDate)), "\xa0-\xa0", (0,
+                                                    mn.o0)(new Date(e.endDate))]
                                                 }), (0,
                                                 N.jsx)("p", {
-                                                    className: Vo.subTitle,
+                                                    className: Yo.subTitle,
                                                     children: e.title
                                                 }), (0,
                                                 N.jsx)("p", {
-                                                    className: Vo.desc,
+                                                    className: Yo.desc,
                                                     children: e.description
                                                 }), (0,
                                                 N.jsx)("hr", {
-                                                    className: Vo.divider
+                                                    className: Yo.divider
                                                 }), (0,
                                                 N.jsx)("p", {
-                                                    className: Vo.points,
+                                                    className: Yo.points,
                                                     children: e.pointDescription
                                                 }), (0,
-                                                N.jsx)(an, {
-                                                    className: Vo.button,
+                                                N.jsx)(at, {
+                                                    className: Yo.button,
                                                     onClick: function() {
                                                         o(e)
                                                     },
@@ -6123,47 +6149,47 @@
                                                 })]
                                             })
                                         })
-                                    }(e) : n()
+                                    }(e) : t()
                                 }
                             }, e.startDate)
                         }
                         ))
-                    }), !t && (0,
-                    N.jsx)(Et, {
-                        className: Vo.termsAndConditions
+                    }), !n && (0,
+                    N.jsx)(In, {
+                        className: Yo.termsAndConditions
                     })]
                 })
             }
-              , Yo = function(e) {
+              , Xo = function(e) {
                 return e.SIGNUP = "signup",
                 e.INSTALL = "install",
                 e.CONNECT = "connect",
                 e.KYC = "kyc",
                 e
             }({})
-              , Ko = function(e) {
-                var n, t;
-                return Boolean(Number(null === (n = window) || void 0 === n || null === (t = n.localStorage) || void 0 === t ? void 0 : t.getItem(e)))
+              , zo = function(e) {
+                var t, n;
+                return Boolean(Number(null === (t = window) || void 0 === t || null === (n = t.localStorage) || void 0 === n ? void 0 : n.getItem(e)))
             };
-            function zo(e) {
-                var n = {
+            function Jo(e) {
+                var t = {
                     title: (0,
                     Z.O4)("ok_game_okxracer_surprises_kyc"),
                     subTitle: (0,
                     Z.O4)("ok_game_okxracer_surprises_kyc_desc"),
-                    type: Yo.KYC,
+                    type: Xo.KYC,
                     status: e.isKyc,
                     url: e.verifyKycLink,
                     btnText: (0,
                     Z.O4)("ok_game_okxracer_btn_phase4_verify")
                 }
-                  , t = [{
+                  , n = [{
                     title: (0,
                     Z.O4)("ok_game_okxracer_surprises_sign_up"),
                     subTitle: (0,
                     Z.O4)("ok_game_okxracer_surprises_sign_up_desc"),
-                    type: Yo.SIGNUP,
-                    status: Ko(Yo.SIGNUP),
+                    type: Xo.SIGNUP,
+                    status: zo(Xo.SIGNUP),
                     url: e.signupLink,
                     btnText: (0,
                     Z.O4)("ok_game_okxracer_btn_phase4_signup")
@@ -6172,47 +6198,47 @@
                     Z.O4)("ok_game_okxracer_surprises_connect_tg"),
                     subTitle: (0,
                     Z.O4)("ok_game_okxracer_surprises_connect_tg_desc"),
-                    type: Yo.CONNECT,
+                    type: Xo.CONNECT,
                     status: e.isConnectTelegram,
                     url: e.bindTgLink,
                     btnText: (0,
                     Z.O4)("ok_game_okxracer_btn_phase4_connect")
-                }, n];
-                return e.isConnectTelegram ? [n] : t
+                }, t];
+                return e.isConnectTelegram ? [t] : n
             }
-            var Xo = function(e) {
-                var n = (0,
-                a.useState)(zo(e))
-                  , t = (0,
-                u.Z)(n, 2)
-                  , r = t[0]
-                  , s = t[1]
+            var qo = function(e) {
+                var t = (0,
+                a.useState)(Jo(e))
+                  , n = (0,
+                u.Z)(t, 2)
+                  , r = n[0]
+                  , s = n[1]
                   , i = I().uid;
                 (0,
                 a.useEffect)((function() {
-                    s(zo(e))
+                    s(Jo(e))
                 }
                 ), [e]);
                 var o = (0,
-                a.useCallback)((function(n) {
-                    var t, a, o = r.find((function(e) {
-                        return e.type === n
+                a.useCallback)((function(t) {
+                    var n, a, o = r.find((function(e) {
+                        return e.type === t
                     }
                     ));
                     if (o) {
-                        switch (null === (t = window) || void 0 === t || null === (a = t.Telegram) || void 0 === a || a.WebApp.openLink(o.url),
-                        n) {
-                        case Yo.SIGNUP:
-                        case Yo.INSTALL:
-                            c = n,
+                        switch (null === (n = window) || void 0 === n || null === (a = n.Telegram) || void 0 === a || a.WebApp.openLink(o.url),
+                        t) {
+                        case Xo.SIGNUP:
+                        case Xo.INSTALL:
+                            c = t,
                             window.localStorage && window.localStorage.setItem(c, "1"),
-                            s(zo(e))
+                            s(Jo(e))
                         }
                         var c, l = {
                             telegramid: i
                         };
-                        switch (n) {
-                        case Yo.SIGNUP:
+                        switch (t) {
+                        case Xo.SIGNUP:
                             !function() {
                                 var e = (arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {}).telegramid;
                                 O.act({
@@ -6227,7 +6253,7 @@
                                 })
                             }(l);
                             break;
-                        case Yo.INSTALL:
+                        case Xo.INSTALL:
                             !function() {
                                 var e = (arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {}).telegramid;
                                 O.act({
@@ -6242,7 +6268,7 @@
                                 })
                             }(l);
                             break;
-                        case Yo.CONNECT:
+                        case Xo.CONNECT:
                             !function() {
                                 var e = (arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {}).telegramid;
                                 O.act({
@@ -6257,7 +6283,7 @@
                                 })
                             }(l);
                             break;
-                        case Yo.KYC:
+                        case Xo.KYC:
                             !function() {
                                 var e = (arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {}).telegramid;
                                 O.act({
@@ -6280,60 +6306,60 @@
                     handleClick: o
                 }
             };
-            const Jo = "CertifyBottomSheet_certifySteps__-zWCO"
-              , qo = "CertifyBottomSheet_taskList__uK656"
-              , Qo = "CertifyBottomSheet_task__iLWrC"
-              , $o = "CertifyBottomSheet_details__YoXf3"
-              , ec = "CertifyBottomSheet_title__X1Tnl"
-              , nc = "CertifyBottomSheet_subTitle__EzVrR"
-              , tc = "CertifyBottomSheet_btn__JLhoo"
-              , ac = "CertifyBottomSheet_btnContent__wrzU-"
-              , rc = "CertifyBottomSheet_verifyBtn__lYfYD";
-            var sc = ["getAccountBindingInfo"]
-              , ic = function(e) {
-                var n = e.getAccountBindingInfo
-                  , t = (0,
-                w.Z)(e, sc)
+            const Qo = "CertifyBottomSheet_certifySteps__-zWCO"
+              , $o = "CertifyBottomSheet_taskList__uK656"
+              , ec = "CertifyBottomSheet_task__iLWrC"
+              , tc = "CertifyBottomSheet_details__YoXf3"
+              , nc = "CertifyBottomSheet_title__X1Tnl"
+              , ac = "CertifyBottomSheet_subTitle__EzVrR"
+              , rc = "CertifyBottomSheet_btn__JLhoo"
+              , sc = "CertifyBottomSheet_btnContent__wrzU-"
+              , ic = "CertifyBottomSheet_verifyBtn__lYfYD";
+            var oc = ["getAccountBindingInfo"]
+              , cc = function(e) {
+                var t = e.getAccountBindingInfo
+                  , n = (0,
+                w.Z)(e, oc)
                   , a = I().uid
-                  , r = ho().accountBindingInfo
-                  , s = Xo(r)
+                  , r = go().accountBindingInfo
+                  , s = qo(r)
                   , i = s.list
                   , o = s.handleClick;
                 return (0,
                 N.jsx)(Qe, (0,
                 k.Z)((0,
-                k.Z)({}, t), {}, {
+                k.Z)({}, n), {}, {
                     title: (0,
                     Z.O4)("ok_game_okxracer_title_phase4_complete_steps"),
                     titleCenter: !0,
-                    containerClassName: Jo,
+                    containerClassName: Qo,
                     children: (0,
                     N.jsxs)(N.Fragment, {
                         children: [(0,
                         N.jsx)("ul", {
-                            className: qo,
+                            className: $o,
                             children: i.map((function(e) {
                                 return (0,
                                 N.jsxs)("li", {
-                                    className: Qo,
+                                    className: ec,
                                     children: [(0,
                                     N.jsxs)("div", {
-                                        className: $o,
+                                        className: tc,
                                         children: [(0,
                                         N.jsx)("p", {
-                                            className: ec,
+                                            className: nc,
                                             children: e.title
                                         }), (0,
                                         N.jsx)("p", {
-                                            className: nc,
+                                            className: ac,
                                             children: e.subTitle
                                         })]
                                     }), (0,
-                                    N.jsx)(an, {
+                                    N.jsx)(at, {
                                         text: e.btnText,
                                         size: H.default.SIZE.xs,
-                                        className: tc,
-                                        contentClassName: ac,
+                                        className: rc,
+                                        contentClassName: sc,
                                         onClick: function() {
                                             o(e.type)
                                         }
@@ -6342,10 +6368,10 @@
                             }
                             ))
                         }), (0,
-                        N.jsx)(an, {
-                            className: rc,
+                        N.jsx)(at, {
+                            className: ic,
                             onClick: function() {
-                                n(!0),
+                                t(!0),
                                 function() {
                                     var e = (arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {}).telegramid;
                                     O.act({
@@ -6368,30 +6394,30 @@
                     })
                 }))
             }
-              , oc = function() {
-                var e = ho().accountBindingInfo || {}
-                  , n = e.gradeCategories
-                  , t = e.pointGradeName
-                  , r = void 0 === t ? "" : t
+              , lc = function() {
+                var e = go().accountBindingInfo || {}
+                  , t = e.gradeCategories
+                  , n = e.pointGradeName
+                  , r = void 0 === n ? "" : n
                   , s = e.totalEarnedPoints
                   , i = void 0 === s ? 0 : s
                   , o = (0,
                 a.useMemo)((function() {
-                    return !n || n.length <= 0 ? 0 : n.findIndex((function(e) {
+                    return !t || t.length <= 0 ? 0 : t.findIndex((function(e) {
                         return e.pointGradeName == r
                     }
                     ))
                 }
-                ), [n, r]);
+                ), [t, r]);
                 return {
                     currentGradeIndex: o,
-                    currentGrade: null === n || void 0 === n ? void 0 : n[o],
-                    gradeCategories: n,
+                    currentGrade: null === t || void 0 === t ? void 0 : t[o],
+                    gradeCategories: t,
                     pointGradeName: r,
                     totalEarnedPoints: i
                 }
             };
-            const cc = {
+            const uc = {
                 container: "Grades_container__d1oD4",
                 cardBox: "Grades_cardBox__Z4YxU",
                 content: "Grades_content__7jPV6",
@@ -6411,10 +6437,10 @@
                 "fade-out": "Grades_fade-out__L3IX9",
                 fadeOut: "Grades_fade-out__L3IX9"
             };
-            var lc = function() {
-                var e = oc()
-                  , n = e.currentGradeIndex
-                  , t = e.currentGrade
+            var dc = function() {
+                var e = lc()
+                  , t = e.currentGradeIndex
+                  , n = e.currentGrade
                   , r = e.gradeCategories
                   , s = e.pointGradeName
                   , i = e.totalEarnedPoints
@@ -6424,12 +6450,12 @@
                 u.Z)(c, 2)
                   , d = l[0]
                   , _ = l[1]
-                  , m = (0,
-                a.useState)(!0)
                   , p = (0,
-                u.Z)(m, 2)
-                  , f = p[0]
-                  , x = p[1];
+                a.useState)(!0)
+                  , m = (0,
+                u.Z)(p, 2)
+                  , f = m[0]
+                  , x = m[1];
                 (0,
                 a.useEffect)((function() {
                     if (r && !(r.length <= 0)) {
@@ -6444,12 +6470,12 @@
                     }
                 }
                 ), [r]),
-                Qi(),
+                eo(),
                 (0,
                 a.useEffect)((function() {
-                    _(n)
+                    _(t)
                 }
-                ), [n]),
+                ), [t]),
                 (0,
                 a.useEffect)((function() {
                     x(!0)
@@ -6457,7 +6483,7 @@
                 ), [d]);
                 var h = (0,
                 a.useMemo)((function() {
-                    return !(!r || r.length <= 0) && (t && (null === t || void 0 === t ? void 0 : t.pointGradeName) === r[d].pointGradeName)
+                    return !(!r || r.length <= 0) && (n && (null === n || void 0 === n ? void 0 : n.pointGradeName) === r[d].pointGradeName)
                 }
                 ), [r, s, d])
                   , v = (0,
@@ -6486,51 +6512,51 @@
                     g(e)
                 }
                 ), [r, d])
-                  , C = n === r.length - 1;
+                  , C = t === r.length - 1;
                 return (0,
                 N.jsx)("div", {
-                    className: cc.container,
+                    className: uc.container,
                     children: (0,
                     N.jsx)("div", {
-                        className: cc.cardBox,
+                        className: uc.cardBox,
                         children: (0,
                         N.jsxs)("div", {
-                            className: y()(cc.content, f ? cc.fadeIn : cc.fadeOut),
+                            className: y()(uc.content, f ? uc.fadeIn : uc.fadeOut),
                             children: [(0,
                             N.jsx)("div", {
-                                className: cc.levelLogoBox,
+                                className: uc.levelLogoBox,
                                 children: (0,
                                 N.jsx)("img", {
                                     src: null !== v && void 0 !== v && v.logo ? "".concat(o.Z.cdnBaseUrl).concat(null === v || void 0 === v ? void 0 : v.logo) : "".concat(o.Z.cdnBaseUrl).concat("/cdn/assets/imgs/248/0A41A851FBCA2AA7.webp"),
                                     alt: "level",
-                                    className: y()(cc.levelLogo, n >= d ? cc.logoLight : cc.logoGrade)
+                                    className: y()(uc.levelLogo, t >= d ? uc.logoLight : uc.logoGrade)
                                 })
                             }), 0 !== d && (0,
                             N.jsx)(P.Z, {
-                                className: y()("okds-arrow-chevron-left-centered-md", cc.leftBtn, cc.switchBtn),
+                                className: y()("okds-arrow-chevron-left-centered-md", uc.leftBtn, uc.switchBtn),
                                 onClick: k
                             }), d !== (null === r || void 0 === r ? void 0 : r.length) - 1 && (0,
                             N.jsx)(P.Z, {
-                                className: y()("okds-arrow-chevron-right-centered-md", cc.rightBtn, cc.switchBtn),
+                                className: y()("okds-arrow-chevron-right-centered-md", uc.rightBtn, uc.switchBtn),
                                 onClick: j
                             }), (0,
                             N.jsx)("div", {
-                                className: cc.currentGrade,
+                                className: uc.currentGrade,
                                 children: h && (0,
                                 Z.O4)("ok_game_okxracer_title_phase4_racer_grade")
                             }), (0,
                             N.jsx)("div", {
-                                className: cc.gradeTitle,
+                                className: uc.gradeTitle,
                                 children: null === v || void 0 === v ? void 0 : v.pointGradeName
                             }), (0,
                             N.jsx)("div", {
-                                className: cc.progressNum,
+                                className: uc.progressNum,
                                 children: v ? h && C ? (0,
                                 N.jsxs)(N.Fragment, {
                                     children: [(0,
                                     N.jsx)("span", {
                                         children: (0,
-                                        _t.uf)(i)
+                                        mn.uf)(i)
                                     }), "\xa0", (0,
                                     Z.O4)("ok_game_okxracer_text_phase4_points_tracker")]
                                 }) : h ? (0,
@@ -6538,30 +6564,30 @@
                                     children: [(0,
                                     N.jsx)("span", {
                                         children: (0,
-                                        _t.uf)(i)
+                                        mn.uf)(i)
                                     }), " /", " ", (0,
-                                    _t.uf)(v.upperBound), "\xa0", (0,
+                                    mn.uf)(v.upperBound), "\xa0", (0,
                                     Z.O4)("ok_game_okxracer_text_phase4_points_tracker")]
                                 }) : (0,
                                 N.jsx)(N.Fragment, {
                                     children: v.upperBound ? (0,
                                     Z.O4)("ok_game_okxracer_text_phase4_range_points_grade", {
                                         bottom: (0,
-                                        _t.uf)(v.lowerBound),
+                                        mn.uf)(v.lowerBound),
                                         top: (0,
-                                        _t.uf)(v.upperBound)
+                                        mn.uf)(v.upperBound)
                                     }) : (0,
                                     Z.O4)("ok_game_okxracer_text_phase4_legendary_pts", {
                                         number: (0,
-                                        _t.uf)(v.lowerBound)
+                                        mn.uf)(v.lowerBound)
                                     })
                                 }) : ""
                             }), h && !C && (0,
                             N.jsx)("div", {
-                                className: cc.progressSlide,
+                                className: uc.progressSlide,
                                 children: (0,
                                 N.jsx)("div", {
-                                    className: cc.progress,
+                                    className: uc.progress,
                                     style: {
                                         width: "".concat(i / (Number(null === v || void 0 === v ? void 0 : v.upperBound) || 1) * 100, "%")
                                     }
@@ -6571,31 +6597,31 @@
                     })
                 })
             };
-            const uc = "License_loader__4L8AA"
-              , dc = "License_container__MxoNJ"
-              , _c = "License_pageTitle__h+Yja"
-              , mc = "License_verifiedUsers__q-uxi"
-              , pc = "License_avatars__3HegJ"
-              , fc = "License_usersCount__fkW5h";
-            var xc = t(48006)
-              , hc = t(40544);
-            t(25801);
-            const vc = "LicenseCard_licenseCard__+wyQA"
-              , gc = "LicenseCard_certified__jm59h"
-              , kc = "LicenseCard_header__LUvW7"
-              , jc = "LicenseCard_title__rMFOB"
-              , Nc = "LicenseCard_content__i2ESe"
-              , Cc = "LicenseCard_innerCard__n57Gb"
-              , wc = "LicenseCard_details__boiyi"
-              , bc = "LicenseCard_label__JX11k"
-              , yc = "LicenseCard_link__19+Q+"
-              , Zc = "LicenseCard_linkIcon__oNENM"
-              , Pc = "LicenseCard_points__MkLL5"
-              , Tc = "LicenseCard_icon__b6JLr"
-              , Oc = "LicenseCard_certifyBtn__Z6vHo"
-              , Sc = "LicenseCard_infoPopoverDesc__Km8Og"
-              , Ec = "LicenseCard_gradeImage__fd+PJ";
-            var Bc = function() {
+            const _c = "License_loader__4L8AA"
+              , pc = "License_container__MxoNJ"
+              , mc = "License_pageTitle__h+Yja"
+              , fc = "License_verifiedUsers__q-uxi"
+              , xc = "License_avatars__3HegJ"
+              , hc = "License_usersCount__fkW5h";
+            var vc = n(48006)
+              , gc = n(40544);
+            n(25801);
+            const kc = "LicenseCard_licenseCard__+wyQA"
+              , jc = "LicenseCard_certified__jm59h"
+              , Nc = "LicenseCard_header__LUvW7"
+              , Cc = "LicenseCard_title__rMFOB"
+              , wc = "LicenseCard_content__i2ESe"
+              , bc = "LicenseCard_innerCard__n57Gb"
+              , yc = "LicenseCard_details__boiyi"
+              , Zc = "LicenseCard_label__JX11k"
+              , Pc = "LicenseCard_link__19+Q+"
+              , Tc = "LicenseCard_linkIcon__oNENM"
+              , Oc = "LicenseCard_points__MkLL5"
+              , Sc = "LicenseCard_icon__b6JLr"
+              , Ec = "LicenseCard_certifyBtn__Z6vHo"
+              , Bc = "LicenseCard_infoPopoverDesc__Km8Og"
+              , Ic = "LicenseCard_gradeImage__fd+PJ";
+            var Lc = function() {
                 return (0,
                 N.jsx)("svg", {
                     width: "20",
@@ -6611,116 +6637,116 @@
                     })
                 })
             }
-              , Ic = function(e) {
-                var n = e.showCertifyBottomSheet
-                  , t = (0,
+              , Rc = function(e) {
+                var t = e.showCertifyBottomSheet
+                  , n = (0,
                 s.useLocation)()
                   , a = Ke().accumPoints
-                  , r = ho()
+                  , r = go()
                   , i = r.accountBindingInfo
                   , c = r.isCertified
-                  , l = oc().currentGrade;
+                  , l = lc().currentGrade;
                 return (0,
                 N.jsxs)("section", {
-                    className: y()(vc, (0,
-                    rn.Z)({}, gc, c)),
+                    className: y()(kc, (0,
+                    rt.Z)({}, jc, c)),
                     children: [(0,
                     N.jsxs)("div", {
-                        className: kc,
+                        className: Nc,
                         children: [(0,
-                        N.jsx)(Bc, {}), (0,
+                        N.jsx)(Lc, {}), (0,
                         N.jsx)("span", {
-                            className: jc,
+                            className: Cc,
                             children: c ? (0,
                             Z.O4)("ok_game_okxracer_label_phase4_certified") : (0,
                             Z.O4)("ok_game_okxracer_label_phase4_uncertified")
                         })]
                     }), (0,
                     N.jsxs)("div", {
-                        className: Nc,
+                        className: wc,
                         children: [(0,
                         N.jsxs)("div", {
-                            className: Cc,
+                            className: bc,
                             children: [(0,
                             N.jsxs)("div", {
-                                className: wc,
+                                className: yc,
                                 children: [(0,
                                 N.jsx)("p", {
-                                    className: bc,
+                                    className: Zc,
                                     children: (0,
                                     Z.O4)("ok_game_okxracer_title_phase4_racer_grade")
                                 }), (0,
                                 N.jsxs)(s.Link, {
                                     to: {
-                                        pathname: G,
-                                        hash: t.hash
+                                        pathname: M,
+                                        hash: n.hash
                                     },
-                                    className: yc,
+                                    className: Pc,
                                     children: [(0,
-                                    xc.T)(null === i || void 0 === i ? void 0 : i.pointGradeName), (0,
+                                    vc.T)(null === i || void 0 === i ? void 0 : i.pointGradeName), (0,
                                     N.jsx)(P.Z, {
                                         iconName: "okds-arrow-chevron-right-centered-md",
-                                        className: Zc
+                                        className: Tc
                                     })]
                                 }), (0,
                                 N.jsxs)("div", {
-                                    className: Pc,
+                                    className: Oc,
                                     children: [(0,
                                     N.jsx)("span", {
-                                        className: bc,
+                                        className: Zc,
                                         children: (0,
                                         Z.O4)("ok_game_okxracer_text_phase3_total_pts_earned")
                                     }), "\xa0", (0,
-                                    _t.uf)(a), (0,
-                                    N.jsx)(hc.Z, {
+                                    mn.uf)(a), (0,
+                                    N.jsx)(gc.Z, {
                                         title: (0,
                                         Z.O4)("ok_game_okxracer_hinttext_phase3_surprises_based"),
-                                        contentClassName: Sc,
+                                        contentClassName: Bc,
                                         children: (0,
                                         N.jsx)(P.Z, {
                                             iconName: "okx-growth-information",
-                                            className: Tc
+                                            className: Sc
                                         })
                                     })]
                                 })]
                             }), l && (0,
                             N.jsx)(Y.Z, {
-                                pictureClassName: Ec,
-                                className: Ec,
+                                pictureClassName: Ic,
+                                className: Ic,
                                 src: "".concat(o.Z.cdnBaseUrl, "/").concat(l.logo)
                             })]
                         }), !c && (0,
-                        N.jsx)(an, {
-                            className: Oc,
+                        N.jsx)(at, {
+                            className: Ec,
                             size: H.default.SIZE.md,
                             text: (0,
                             Z.O4)("ok_game_okxracer_btn_phase4_certify"),
-                            onClick: n
+                            onClick: t
                         })]
                     })]
                 })
             }
-              , Rc = function() {
-                var e, n = I().uid, t = ho(), r = t.accountBindingInfo, s = t.isCertified, i = t.getAccountBindingInfo, d = t.isLoading, _ = (0,
-                a.useState)(!1), m = (0,
-                u.Z)(_, 2), p = m[0], f = m[1], x = (0,
+              , Ac = function() {
+                var e, t = I().uid, n = go(), r = n.accountBindingInfo, s = n.isCertified, i = n.getAccountBindingInfo, d = n.isLoading, _ = (0,
+                a.useState)(!1), p = (0,
+                u.Z)(_, 2), m = p[0], f = p[1], x = (0,
                 a.useCallback)((0,
                 l.Z)((0,
                 c.Z)().mark((function e() {
-                    var n, t, a, r = arguments;
+                    var t, n, a, r = arguments;
                     return (0,
                     c.Z)().wrap((function(e) {
                         for (; ; )
                             switch (e.prev = e.next) {
                             case 0:
-                                return n = r.length > 0 && void 0 !== r[0] && r[0],
-                                t = r.length > 1 ? r[1] : void 0,
+                                return t = r.length > 0 && void 0 !== r[0] && r[0],
+                                n = r.length > 1 ? r[1] : void 0,
                                 e.prev = 2,
                                 e.next = 5,
-                                i(n, t);
+                                i(t, n);
                             case 5:
                                 a = e.sent,
-                                !n || null !== a && void 0 !== a && a.isKyc && a.isConnectTelegram || J(!1, (0,
+                                !t || null !== a && void 0 !== a && a.isKyc && a.isConnectTelegram || J(!1, (0,
                                 Z.O4)("ok_game_okxracer_verify_failed_msg")),
                                 e.next = 12;
                                 break;
@@ -6763,16 +6789,16 @@
                             ampProject: "okx"
                         })
                     }({
-                        telegramid: n
+                        telegramid: t
                     })
                 }
-                ), [n]),
+                ), [t]),
                 d)
                     return (0,
                     N.jsx)("div", {
-                        className: uc,
+                        className: _c,
                         children: (0,
-                        N.jsx)(ka.Z, {})
+                        N.jsx)(Na.Z, {})
                     });
                 var h = null !== (e = null === r || void 0 === r ? void 0 : r.totalVerifiedCount) && void 0 !== e ? e : 0
                   , v = function() {
@@ -6782,42 +6808,42 @@
                 N.jsxs)(N.Fragment, {
                     children: [(0,
                     N.jsxs)("div", {
-                        className: dc,
+                        className: pc,
                         children: [!s && (0,
                         N.jsxs)(N.Fragment, {
                             children: [(0,
-                            N.jsx)($r, {
-                                className: _c,
+                            N.jsx)(ts, {
+                                className: mc,
                                 html: (0,
                                 Z.O4)("ok_game_okxracer_title_phase4_cerify_racing")
                             }), (0,
                             N.jsxs)("div", {
-                                className: mc,
+                                className: fc,
                                 children: [(0,
                                 N.jsx)(Y.Z, {
-                                    className: pc,
+                                    className: xc,
                                     src: "".concat(o.Z.cdnBaseUrl, "/cdn/assets/imgs/248/82E299F1E77A18A1.jpeg")
                                 }), (0,
                                 N.jsx)("span", {
-                                    className: fc,
+                                    className: hc,
                                     children: h > 0 ? (0,
-                                    _t.uf)(h) : "--"
+                                    mn.uf)(h) : "--"
                                 }), (0,
                                 Z.O4)("ok_game_okxracer_text_racers_already_verified")]
                             })]
                         }), (0,
-                        N.jsx)(Ic, {
+                        N.jsx)(Rc, {
                             showCertifyBottomSheet: v
                         }), (0,
-                        N.jsx)(wo, {
+                        N.jsx)(yo, {
                             showCertifyBottomSheet: v
                         }), (0,
-                        N.jsx)(Ho, {
+                        N.jsx)(Ko, {
                             showCertifyBottomSheet: v
                         })]
                     }), (0,
-                    N.jsx)(ic, {
-                        visible: p,
+                    N.jsx)(cc, {
+                        visible: m,
                         onClose: function() {
                             f(!1)
                         },
@@ -6825,30 +6851,30 @@
                     })]
                 })
             }
-              , Lc = function() {
+              , Dc = function() {
                 return (0,
-                N.jsx)(vo, {
+                N.jsx)(ko, {
                     children: (0,
-                    N.jsx)(yo, {
+                    N.jsx)(Po, {
                         children: (0,
-                        N.jsx)(no, {
+                        N.jsx)(ao, {
                             children: (0,
-                            N.jsxs)(ni, {
-                                animationPath: [G],
+                            N.jsxs)(ai, {
+                                animationPath: [M],
                                 children: [(0,
                                 N.jsx)(s.Route, {
-                                    path: M,
-                                    component: Rc,
-                                    exact: !0
-                                }), (0,
-                                N.jsx)(s.Route, {
-                                    path: W,
-                                    component: ao,
+                                    path: U,
+                                    component: Ac,
                                     exact: !0
                                 }), (0,
                                 N.jsx)(s.Route, {
                                     path: G,
-                                    component: C(lc),
+                                    component: so,
+                                    exact: !0
+                                }), (0,
+                                N.jsx)(s.Route, {
+                                    path: M,
+                                    component: C(dc),
                                     exact: !0
                                 })]
                             })
@@ -6856,67 +6882,67 @@
                     })
                 })
             };
-            const Ac = "QrCode_container__r4Fu7"
-              , Dc = "QrCode_qrCode__16PWa"
-              , Fc = "QrCode_title__+cibb"
-              , Uc = "QrCode_message__eaOzW";
-            var Mc = function() {
+            const Fc = "QrCode_container__r4Fu7"
+              , Wc = "QrCode_qrCode__16PWa"
+              , Uc = "QrCode_title__+cibb"
+              , Mc = "QrCode_message__eaOzW";
+            var Gc = function() {
                 return (0,
                 N.jsxs)("div", {
-                    className: Ac,
+                    className: Fc,
                     children: [(0,
                     N.jsx)(Y.Z, {
-                        className: Dc,
+                        className: Wc,
                         src: "".concat(o.Z.cdnBaseUrl, "/cdn/assets/imgs/247/9BC4664BE2754582.svg")
                     }), (0,
                     N.jsx)("p", {
                         dangerouslySetInnerHTML: {
                             __html: (0,
-                            qr.dU)((0,
+                            $r.dU)((0,
                             Z.O4)("ok_game_okxracer_browser_title_scan_play"))
                         },
-                        className: Fc
+                        className: Uc
                     }), (0,
                     N.jsx)("p", {
-                        className: Uc,
+                        className: Mc,
                         children: (0,
                         Z.O4)("ok_game_okxracer_browser_msg")
                     })]
                 })
             }
-              , Gc = t(42982);
-            const Wc = "PullupList_loading__+51Dh"
-              , Vc = "PullupList_listLoadItem__XcvkH"
-              , Hc = "PullupList_listLeft__4eGh6"
-              , Yc = "PullupList_listRight__w7Ely"
-              , Kc = "PullupList_listLoading__whJeg";
-            var zc = function() {
+              , Vc = n(42982);
+            const Hc = "PullupList_loading__+51Dh"
+              , Yc = "PullupList_listLoadItem__XcvkH"
+              , Kc = "PullupList_listLeft__4eGh6"
+              , Xc = "PullupList_listRight__w7Ely"
+              , zc = "PullupList_listLoading__whJeg";
+            var Jc = function() {
                 return (0,
                 N.jsxs)("div", {
-                    className: y()(Vc),
+                    className: y()(Yc),
                     children: [(0,
-                    N.jsx)(os, {
-                        className: Hc
+                    N.jsx)(ls, {
+                        className: Kc
                     }), (0,
-                    N.jsx)(os, {
-                        className: Yc
+                    N.jsx)(ls, {
+                        className: Xc
                     })]
                 })
             }
-              , Xc = function() {
+              , qc = function() {
                 return (0,
                 N.jsx)("div", {
-                    className: Kc,
-                    children: Array(3).fill(null).map((function(e, n) {
+                    className: zc,
+                    children: Array(3).fill(null).map((function(e, t) {
                         return (0,
-                        N.jsx)(zc, {}, n)
+                        N.jsx)(Jc, {}, t)
                     }
                     ))
                 })
             }
-              , Jc = function(e) {
-                var n = e.loadData
-                  , t = e.children
+              , Qc = function(e) {
+                var t = e.loadData
+                  , n = e.children
                   , r = (0,
                 a.useState)([])
                   , s = (0,
@@ -6927,8 +6953,8 @@
                 a.useState)(!0)
                   , _ = (0,
                 u.Z)(d, 2)
-                  , m = _[0]
-                  , p = _[1]
+                  , p = _[0]
+                  , m = _[1]
                   , f = (0,
                 a.useRef)({
                     total: -1,
@@ -6947,7 +6973,7 @@
                     var e = (0,
                     l.Z)((0,
                     c.Z)().mark((function e() {
-                        var t;
+                        var n;
                         return (0,
                         c.Z)().wrap((function(e) {
                             for (; ; )
@@ -6959,19 +6985,19 @@
                                     }
                                     return e.abrupt("return");
                                 case 2:
-                                    return p(!0),
+                                    return m(!0),
                                     e.prev = 3,
                                     e.next = 6,
-                                    n(f.current.page, f.current.total);
+                                    t(f.current.page, f.current.total);
                                 case 6:
-                                    (t = e.sent) && t.rows ? (f.current.page += 1,
+                                    (n = e.sent) && n.rows ? (f.current.page += 1,
                                     o((function(e) {
                                         return [].concat((0,
-                                        Gc.Z)(e), (0,
-                                        Gc.Z)(t.rows))
+                                        Vc.Z)(e), (0,
+                                        Vc.Z)(n.rows))
                                     }
                                     )),
-                                    f.current.total = 0 === t.rows.length ? i.length : t.total) : f.current.stop = !0,
+                                    f.current.total = 0 === n.rows.length ? i.length : n.total) : f.current.stop = !0,
                                     e.next = 13;
                                     break;
                                 case 10:
@@ -6979,7 +7005,7 @@
                                     e.t0 = e.catch(3),
                                     f.current.stop = !0;
                                 case 13:
-                                    p(!1);
+                                    m(!1);
                                 case 14:
                                 case "end":
                                     return e.stop()
@@ -6993,12 +7019,12 @@
                     }
                 }()
                   , C = (0,
-                Ur.Z)(j, {
+                Mr.Z)(j, {
                     wait: 500,
                     leading: !0
                 }).run
                   , w = function(e) {
-                    e[0].isIntersecting && !m && !1 === f.current.stop && k(!g)
+                    e[0].isIntersecting && !p && !1 === f.current.stop && k(!g)
                 };
                 return (0,
                 a.useEffect)((function() {
@@ -7012,7 +7038,7 @@
                         x.current && e.unobserve(x.current)
                     }
                 }
-                ), [m]),
+                ), [p]),
                 (0,
                 a.useEffect)((function() {
                     C()
@@ -7020,34 +7046,34 @@
                 ), [g]),
                 (0,
                 N.jsxs)(N.Fragment, {
-                    children: [i.map((function(e, n) {
-                        return t(e, n)
+                    children: [i.map((function(e, t) {
+                        return n(e, t)
                     }
                     )), (0,
                     N.jsx)("div", {
-                        className: Wc,
+                        className: Hc,
                         ref: x,
-                        children: m && (0,
-                        N.jsx)(Xc, {})
+                        children: p && (0,
+                        N.jsx)(qc, {})
                     })]
                 })
             };
-            const qc = "InviteList_listItem__q4jhG"
-              , Qc = "InviteList_name__LLQgt"
-              , $c = "InviteList_point__kXtCn"
-              , el = "InviteList_earnedPrice__4vAfw"
-              , nl = "InviteList_pointNumber__v4P1H";
-            var tl = function() {
+            const $c = "InviteList_listItem__q4jhG"
+              , el = "InviteList_name__LLQgt"
+              , tl = "InviteList_point__kXtCn"
+              , nl = "InviteList_earnedPrice__4vAfw"
+              , al = "InviteList_pointNumber__v4P1H";
+            var rl = function() {
                 var e = (0,
                 a.useState)(0)
-                  , n = (0,
+                  , t = (0,
                 u.Z)(e, 2)
-                  , t = n[0]
-                  , r = n[1]
+                  , n = t[0]
+                  , r = t[1]
                   , s = function() {
                     var e = (0,
                     l.Z)((0,
-                    c.Z)().mark((function e(n, t) {
+                    c.Z)().mark((function e(t, n) {
                         var a, s, i;
                         return (0,
                         c.Z)().wrap((function(e) {
@@ -7055,11 +7081,11 @@
                                 switch (e.prev = e.next) {
                                 case 0:
                                     return a = !1,
-                                    1 === n && (a = !0),
+                                    1 === t && (a = !0),
                                     s = {
-                                        pageNo: n
+                                        pageNo: t
                                     },
-                                    t && t >= 0 && (s.total = t),
+                                    n && n >= 0 && (s.total = n),
                                     e.next = 6,
                                     Ze(s, a);
                                 case 6:
@@ -7073,7 +7099,7 @@
                         ), e)
                     }
                     )));
-                    return function(n, t) {
+                    return function(t, n) {
                         return e.apply(this, arguments)
                     }
                 }();
@@ -7081,54 +7107,54 @@
                 N.jsxs)(N.Fragment, {
                     children: [(0,
                     N.jsx)("div", {
-                        className: el,
+                        className: nl,
                         children: (0,
                         Z.Lg)("ok_game_okxracer_refer_points", {
                             points: (0,
                             N.jsx)("span", {
-                                className: nl,
+                                className: al,
                                 children: (0,
                                 Z.O4)("ok_game_okxracer_points_wo_plus2", {
                                     points: (0,
-                                    _t.uf)(t)
+                                    mn.uf)(n)
                                 })
                             })
                         })
                     }), (0,
-                    N.jsx)(Jc, {
+                    N.jsx)(Qc, {
                         loadData: s,
-                        children: function(e, n) {
+                        children: function(e, t) {
                             return (0,
                             N.jsxs)("div", {
-                                className: qc,
+                                className: $c,
                                 children: [(0,
                                 N.jsx)("div", {
-                                    className: Qc,
+                                    className: el,
                                     children: e.extInviteeName
                                 }), (0,
                                 N.jsx)("div", {
-                                    className: $c,
+                                    className: tl,
                                     children: (0,
                                     Z.O4)("ok_game_okxracer_points_with_plus", {
                                         points: (0,
-                                        _t.uf)(e.contributedPoints)
+                                        mn.uf)(e.contributedPoints)
                                     })
                                 })]
-                            }, "".concat(e.extInviteeName, "-").concat(n))
+                            }, "".concat(e.extInviteeName, "-").concat(t))
                         }
                     })]
                 })
             };
-            const al = "ReferralsPage_container__V48m1"
-              , rl = "ReferralsPage_inviteDetail__L1MhM"
-              , sl = "ReferralsPage_detailItem__ujOp+"
-              , il = "ReferralsPage_dot__zKW7L"
-              , ol = "ReferralsPage_detailTitle__OE657"
-              , cl = "ReferralsPage_detailInfo__YC+Y9"
-              , ll = "ReferralsPage_inviteList__Jksx8";
-            var ul = function() {
+            const sl = "ReferralsPage_container__V48m1"
+              , il = "ReferralsPage_inviteDetail__L1MhM"
+              , ol = "ReferralsPage_detailItem__ujOp+"
+              , cl = "ReferralsPage_dot__zKW7L"
+              , ll = "ReferralsPage_detailTitle__OE657"
+              , ul = "ReferralsPage_detailInfo__YC+Y9"
+              , dl = "ReferralsPage_inviteList__Jksx8";
+            var _l = function() {
                 var e = I().uid
-                  , n = [{
+                  , t = [{
                     title: (0,
                     Z.O4)("ok_game_okxracer_refer_your_friends"),
                     detailInfo: (0,
@@ -7160,29 +7186,29 @@
                 ), []),
                 (0,
                 N.jsxs)("div", {
-                    className: al,
+                    className: sl,
                     children: [(0,
-                    N.jsx)($r, {
+                    N.jsx)(ts, {
                         html: "".concat((0,
                         Z.O4)("ok_game_okxracer_friends_hint"), " <em>").concat((0,
                         Z.O4)("ok_game_okxracer_friends_hint2"), "</em>")
                     }), (0,
                     N.jsx)("div", {
-                        className: rl,
-                        children: n.map((function(e) {
+                        className: il,
+                        children: t.map((function(e) {
                             return (0,
                             N.jsxs)("div", {
-                                className: sl,
+                                className: ol,
                                 children: [(0,
                                 N.jsx)("div", {
-                                    className: il
+                                    className: cl
                                 }), (0,
                                 N.jsx)("div", {
-                                    className: ol,
+                                    className: ll,
                                     children: e.title
                                 }), (0,
                                 N.jsx)("div", {
-                                    className: cl,
+                                    className: ul,
                                     children: e.detailInfo
                                 })]
                             }, e.title)
@@ -7190,14 +7216,14 @@
                         ))
                     }), (0,
                     N.jsx)("div", {
-                        className: ll,
+                        className: dl,
                         children: (0,
-                        N.jsx)(tl, {})
+                        N.jsx)(rl, {})
                     }), (0,
-                    N.jsx)(ms, {})]
+                    N.jsx)(fs, {})]
                 })
             };
-            const dl = {
+            const pl = {
                 container: "index_container__UavVq",
                 header: "index_header__EKw6T",
                 title: "index_title__J0Uw8",
@@ -7211,18 +7237,18 @@
                 taskListHeader: "index_taskListHeader__ofYyy",
                 taskCount: "index_taskCount__YgRaW"
             };
-            var _l = function() {
-                var e = di().partner
-                  , n = (0,
-                s.useHistory)().replace
+            var ml = function() {
+                var e = pi().partner
                   , t = (0,
+                s.useHistory)().replace
+                  , n = (0,
                 s.useLocation)().hash;
-                if (Qi(),
+                if (eo(),
                 (0,
                 a.useEffect)((function() {
-                    e || n(D + t)
+                    e || t(D + n)
                 }
-                ), [t, e, n]),
+                ), [n, e, t]),
                 !e)
                     return null;
                 var r = e.numCompletedTasks
@@ -7232,64 +7258,64 @@
                   , u = e.groupName
                   , d = e.groupDesc
                   , _ = e.totalPoints
-                  , m = e.participants;
+                  , p = e.participants;
                 return (0,
                 N.jsxs)("div", {
-                    className: dl.container,
+                    className: pl.container,
                     children: [(0,
                     N.jsxs)("div", {
-                        className: dl.header,
+                        className: pl.header,
                         children: [(0,
-                        N.jsx)(ti.Z, {
-                            size: ai.Z.sm,
-                            className: dl.logo,
+                        N.jsx)(ri.Z, {
+                            size: si.Z.sm,
+                            className: pl.logo,
                             src: "".concat(o.Z.cdnBaseUrl).concat(l)
                         }), (0,
                         N.jsx)("h1", {
-                            className: dl.title,
+                            className: pl.title,
                             children: u
                         })]
                     }), (0,
                     N.jsx)("p", {
-                        className: dl.desc,
+                        className: pl.desc,
                         children: d
                     }), (0,
                     N.jsxs)("div", {
-                        className: dl.status,
+                        className: pl.status,
                         children: [(0,
                         N.jsxs)("div", {
-                            className: dl.statusItem,
+                            className: pl.statusItem,
                             children: [(0,
                             N.jsx)("div", {
-                                className: dl.statusTitle,
+                                className: pl.statusTitle,
                                 children: (0,
                                 Z.O4)("ok_game_okxracer_text_phase3_total_pts")
                             }), (0,
                             N.jsx)("div", {
-                                className: dl.statusValue,
+                                className: pl.statusValue,
                                 children: (0,
                                 Z.O4)("ok_game_okxracer_text_phase3_up_to_pts", {
                                     number: (0,
-                                    _t.uf)(_, {
+                                    mn.uf)(_, {
                                         signDisplay: !0
                                     })
                                 })
                             })]
                         }), (0,
                         N.jsxs)("div", {
-                            className: dl.statusItem,
+                            className: pl.statusItem,
                             children: [(0,
                             N.jsx)("div", {
-                                className: dl.statusTitle,
+                                className: pl.statusTitle,
                                 children: (0,
                                 Z.O4)("ok_game_okxracer_text_phase3_racers")
                             }), (0,
                             N.jsxs)("div", {
-                                className: dl.statusValue,
+                                className: pl.statusValue,
                                 children: [(0,
                                 N.jsx)(P.Z, {
-                                    className: y()("okx-growth-friends", dl.participantsIcon)
-                                }), _t.ag.shortNumber(m, {
+                                    className: y()("okx-growth-friends", pl.participantsIcon)
+                                }), mn.ag.shortNumber(p, {
                                     digit: 0,
                                     roundingMode: "ceil"
                                 })]
@@ -7297,17 +7323,17 @@
                         })]
                     }), (0,
                     N.jsxs)("div", {
-                        className: dl.tasks,
+                        className: pl.tasks,
                         children: [(0,
                         N.jsxs)("div", {
-                            className: dl.taskListHeader,
+                            className: pl.taskListHeader,
                             children: [(0,
                             N.jsx)("span", {
                                 children: (0,
                                 Z.O4)("ok_game_okxracer_text_phase3_tasks")
                             }), (0,
                             N.jsx)("span", {
-                                className: dl.taskCount,
+                                className: pl.taskCount,
                                 dangerouslySetInnerHTML: {
                                     __html: (0,
                                     Z.O4)("ok_game_okxracer_text_phase3_tasks_completed", {
@@ -7316,153 +7342,153 @@
                                 }
                             })]
                         }), (0,
-                        N.jsx)(qi, {
+                        N.jsx)($i, {
                             tasks: c
                         })]
                     })]
                 })
             };
-            const ml = "index_backgroundWrapper__qN2sL"
-              , pl = "index_topContainer__Oestq"
-              , fl = "index_pointsContainer__uT3xm"
-              , xl = "index_pointsNameBigger__vMdga"
-              , hl = "index_pointsNameSmaller__RJqmJ"
-              , vl = "index_pointsValue__wGe00"
-              , gl = "index_availablePointsValue__n8yPm"
-              , kl = "index_pointsDetails__nXNoJ"
-              , jl = "index_infoIcon__FqneN";
-            var Nl = function() {
+            const fl = "index_backgroundWrapper__qN2sL"
+              , xl = "index_topContainer__Oestq"
+              , hl = "index_pointsContainer__uT3xm"
+              , vl = "index_pointsNameBigger__vMdga"
+              , gl = "index_pointsNameSmaller__RJqmJ"
+              , kl = "index_pointsValue__wGe00"
+              , jl = "index_availablePointsValue__n8yPm"
+              , Nl = "index_pointsDetails__nXNoJ"
+              , Cl = "index_infoIcon__FqneN";
+            var wl = function() {
                 var e = Ke()
-                  , n = e.points
-                  , t = e.accumPoints
+                  , t = e.points
+                  , n = e.accumPoints
                   , a = e.basePoint
                   , r = e.autopilotPointsPerHour;
                 return (0,
                 N.jsx)("div", {
-                    className: ml,
+                    className: fl,
                     children: (0,
                     N.jsxs)("div", {
-                        className: pl,
+                        className: xl,
                         children: [(0,
                         N.jsxs)("div", {
-                            className: fl,
+                            className: hl,
                             children: [(0,
                             N.jsx)("div", {
-                                className: xl,
+                                className: vl,
                                 children: (0,
                                 Z.O4)("ok_game_okxracer_available_pts")
                             }), (0,
                             N.jsx)("div", {
-                                className: gl,
-                                children: mt.yx.thousandFormat(n || 0)
+                                className: jl,
+                                children: fn.yx.thousandFormat(t || 0)
                             })]
                         }), (0,
                         N.jsxs)("div", {
-                            className: fl,
+                            className: hl,
                             children: [(0,
                             N.jsxs)("div", {
-                                className: xl,
+                                className: vl,
                                 children: [(0,
                                 Z.O4)("ok_game_okxracer_text_phase3_total_pts_earned"), (0,
-                                N.jsx)(hc.Z, {
+                                N.jsx)(gc.Z, {
                                     title: (0,
                                     Z.O4)("ok_game_okxracer_hinttext_phase3_surprises_based"),
-                                    type: hc.Z.TYPES.neutral,
+                                    type: gc.Z.TYPES.neutral,
                                     children: (0,
                                     N.jsx)(P.Z, {
                                         iconName: "okx-growth-information",
-                                        className: jl
+                                        className: Cl
                                     })
                                 })]
                             }), (0,
                             N.jsx)("div", {
-                                className: vl,
-                                children: mt.yx.thousandFormat(t || 0)
+                                className: kl,
+                                children: fn.yx.thousandFormat(n || 0)
                             })]
                         }), (0,
                         N.jsxs)("div", {
-                            className: kl,
+                            className: Nl,
                             children: [(0,
                             N.jsxs)("div", {
                                 children: [(0,
                                 N.jsx)("div", {
-                                    className: hl,
+                                    className: gl,
                                     children: (0,
                                     Z.O4)("ok_game_okxracer_text_phase42_base_pts_win")
                                 }), (0,
                                 N.jsxs)("div", {
-                                    className: vl,
-                                    children: ["\ud83c\udfc1 ", mt.yx.thousandFormat(a || 0)]
+                                    className: kl,
+                                    children: ["\ud83c\udfc1 ", fn.yx.thousandFormat(a || 0)]
                                 })]
                             }), (0,
                             N.jsxs)("div", {
                                 children: [(0,
                                 N.jsxs)("div", {
-                                    className: hl,
+                                    className: gl,
                                     children: [(0,
                                     Z.O4)("ok_game_okxracer_text_phase42_hourly_autopts"), (0,
-                                    N.jsx)(hc.Z, {
+                                    N.jsx)(gc.Z, {
                                         title: (0,
                                         Z.O4)("ok_game_okxracer_tooltip_phase42_hourly_earned"),
-                                        type: hc.Z.TYPES.neutral,
+                                        type: gc.Z.TYPES.neutral,
                                         children: (0,
                                         N.jsx)(P.Z, {
                                             iconName: "okx-growth-information",
-                                            className: jl
+                                            className: Cl
                                         })
                                     })]
                                 }), (0,
                                 N.jsxs)("div", {
-                                    className: vl,
-                                    children: ["\ud83c\udfc1 ", mt.yx.thousandFormat(r || 0)]
+                                    className: kl,
+                                    children: ["\ud83c\udfc1 ", fn.yx.thousandFormat(r || 0)]
                                 })]
                             })]
                         })]
                     })
                 })
             };
-            const Cl = "Tag_tag__tkWly";
-            var wl = function(e) {
-                var n = e.text
-                  , t = e.className;
+            const bl = "Tag_tag__tkWly";
+            var yl = function(e) {
+                var t = e.text
+                  , n = e.className;
                 return (0,
                 N.jsx)("span", {
-                    className: y()(Cl, t),
-                    children: n || (0,
+                    className: y()(bl, n),
+                    children: t || (0,
                     Z.O4)("commonall_tag_text_new")
                 })
             }
-              , bl = function(e) {
-                return (null === e || void 0 === e ? void 0 : e.type) === Fn.DailyBoost
+              , Zl = function(e) {
+                return (null === e || void 0 === e ? void 0 : e.type) === Dt.DailyBoost
             }
-              , yl = function(e) {
+              , Pl = function(e) {
                 return "actionType"in e && e.actionType === Oe.UnLock
             }
-              , Zl = function(e) {
-                var n = e.pointCost
-                  , t = e.curStage
+              , Tl = function(e) {
+                var t = e.pointCost
+                  , n = e.curStage
                   , a = e.totalStage;
-                return !bl(e) && t >= a ? "" : " \ud83c\udfc1 ".concat(0 == n ? (0,
+                return !Zl(e) && n >= a ? "" : " \ud83c\udfc1 ".concat(0 == t ? (0,
                 Z.O4)("ok_game_okxracer_free") : "".concat((0,
-                _t.uf)(-n, {
+                mn.uf)(-t, {
                     zeroSign: "-"
                 }), " pts"))
             };
-            const Pl = "index_sheet__FbHHx"
-              , Tl = "index_sheet-icon__H2xCV"
-              , Ol = "index_boostSheetTag__NbYFf"
-              , Sl = "index_sheet-title__RInQ-"
-              , El = "index_sheet-desc__W9myB"
-              , Bl = "index_sheet-data__FALtV"
-              , Il = "index_sheet-point__Xrsvs"
-              , Rl = "index_sheet-lvl__f1+W-"
-              , Ll = "index_lockBtnContainer__4DPO7"
-              , Al = "index_btn__bxKiJ"
-              , Dl = "index_boost-data-split-point__TaGIo";
-            var Fl = function(e) {
-                var n = e.boost
-                  , t = e.onClick
-                  , a = n
+            const Ol = "index_sheet__FbHHx"
+              , Sl = "index_sheet-icon__H2xCV"
+              , El = "index_boostSheetTag__NbYFf"
+              , Bl = "index_sheet-title__RInQ-"
+              , Il = "index_sheet-desc__W9myB"
+              , Ll = "index_sheet-data__FALtV"
+              , Rl = "index_sheet-point__Xrsvs"
+              , Al = "index_sheet-lvl__f1+W-"
+              , Dl = "index_lockBtnContainer__4DPO7"
+              , Fl = "index_btn__bxKiJ"
+              , Wl = "index_boost-data-split-point__TaGIo";
+            var Ul = function(e) {
+                var t = e.boost
+                  , n = e.onClick
+                  , a = t
                   , r = a.context
                   , s = a.curStage
                   , i = a.totalStage
@@ -7471,150 +7497,150 @@
                   , u = r.name
                   , d = r.desc
                   , _ = r.btnText
-                  , m = yl(r)
-                  , p = !1
+                  , p = Pl(r)
+                  , m = !1
                   , f = d
                   , x = _;
-                return m && (c ? (f = r.unlockDescription,
+                return p && (c ? (f = r.unlockDescription,
                 x = r.unlockButtonText) : f = r.ruleDescription,
-                s === i && (p = !0,
+                s === i && (m = !0,
                 x = r.activatedButtonText)),
                 (0,
                 N.jsxs)("div", {
-                    className: Pl,
+                    className: Ol,
                     children: [(0,
                     N.jsx)(Y.Z, {
-                        className: Tl,
+                        className: Sl,
                         src: "".concat(o.Z.cdnBaseUrl).concat(l)
-                    }), m && (0,
-                    N.jsx)(wl, {
-                        className: Ol
+                    }), p && (0,
+                    N.jsx)(yl, {
+                        className: El
                     }), (0,
                     N.jsx)("div", {
-                        className: Sl,
+                        className: Bl,
                         children: u
                     }), (0,
                     N.jsx)("div", {
-                        className: El,
+                        className: Il,
                         children: f
                     }), (0,
                     N.jsxs)("div", {
-                        className: Bl,
+                        className: Ll,
                         children: [(0,
                         N.jsx)("span", {
-                            className: Il,
-                            children: Zl(n)
-                        }), (bl(n) || s < i) && (0,
+                            className: Rl,
+                            children: Tl(t)
+                        }), (Zl(t) || s < i) && (0,
                         N.jsx)("span", {
-                            className: Dl
+                            className: Wl
                         }), (0,
                         N.jsx)("span", {
-                            className: Rl,
-                            children: bl(n) ? "".concat(i - s, "/").concat(i) : "Lvl ".concat(s)
+                            className: Al,
+                            children: Zl(t) ? "".concat(i - s, "/").concat(i) : "Lvl ".concat(s)
                         })]
-                    }), m && c ? (0,
-                    N.jsx)(In, {
-                        to: M,
-                        className: Ll,
+                    }), p && c ? (0,
+                    N.jsx)(Bt, {
+                        to: U,
+                        className: Dl,
                         children: (0,
-                        N.jsx)(an, {
+                        N.jsx)(at, {
                             text: x
                         })
                     }) : (0,
-                    N.jsx)(an, {
+                    N.jsx)(at, {
                         onClick: function() {
-                            t(n)
+                            n(t)
                         },
-                        className: Al,
+                        className: Fl,
                         text: x,
-                        disabled: p
+                        disabled: m
                     })]
                 })
             };
-            const Ul = "index_boost-item__k6pnm"
-              , Ml = "index_boost-icon__wH6Dh"
-              , Gl = "index_boostIconLoading__PFCBM"
-              , Wl = "index_boost-title__9R-Ry"
-              , Vl = "index_newTag__tgIea"
-              , Hl = "index_boost-data__+0cnG"
-              , Yl = "index_boost-data-split-point__moT+k"
-              , Kl = "index_boost-data-stage__8CAgC"
-              , zl = "index_boostItemPlaceholder__NaUkk"
-              , Xl = "index_locked__sM-YP"
-              , Jl = "index_unlockIcon__whxqz"
-              , ql = "index_unlockButton__C3EY5";
-            var Ql = function(e) {
-                var n = e.boost
-                  , t = n.curStage
-                  , a = n.totalStage
-                  , r = n.isLocked
-                  , s = n.context;
-                if (yl(s)) {
+            const Ml = "index_boost-item__k6pnm"
+              , Gl = "index_boost-icon__wH6Dh"
+              , Vl = "index_boostIconLoading__PFCBM"
+              , Hl = "index_boost-title__9R-Ry"
+              , Yl = "index_newTag__tgIea"
+              , Kl = "index_boost-data__+0cnG"
+              , Xl = "index_boost-data-split-point__moT+k"
+              , zl = "index_boost-data-stage__8CAgC"
+              , Jl = "index_boostItemPlaceholder__NaUkk"
+              , ql = "index_locked__sM-YP"
+              , Ql = "index_unlockIcon__whxqz"
+              , $l = "index_unlockButton__C3EY5";
+            var eu = function(e) {
+                var t = e.boost
+                  , n = t.curStage
+                  , a = t.totalStage
+                  , r = t.isLocked
+                  , s = t.context;
+                if (Pl(s)) {
                     if (r)
                         return (0,
                         N.jsx)("div", {
-                            className: Hl,
+                            className: Kl,
                             children: (0,
                             Z.O4)("ok_game_okxracer_text_autodrive_locked")
                         });
-                    if (t === a)
+                    if (n === a)
                         return (0,
                         N.jsx)("div", {
-                            className: Hl,
+                            className: Kl,
                             children: s.activatedButtonText
                         })
                 }
                 return (0,
                 N.jsxs)("div", {
-                    className: Hl,
+                    className: Kl,
                     children: [(0,
                     N.jsx)("span", {
-                        children: Zl(n)
-                    }), (bl(n) || t < a) && (0,
+                        children: Tl(t)
+                    }), (Zl(t) || n < a) && (0,
                     N.jsx)("span", {
-                        className: Yl
+                        className: Xl
                     }), (0,
                     N.jsx)("span", {
-                        className: Kl,
-                        children: bl(n) ? "".concat(a - t, "/").concat(a) : "Lvl ".concat(t)
+                        className: zl,
+                        children: Zl(t) ? "".concat(a - n, "/").concat(a) : "Lvl ".concat(n)
                     })]
                 })
             }
-              , $l = function(e) {
-                var n = e.boost
-                  , t = e.onClick
-                  , a = n.id
-                  , r = n.context
-                  , s = n.isLocked
+              , tu = function(e) {
+                var t = e.boost
+                  , n = e.onClick
+                  , a = t.id
+                  , r = t.context
+                  , s = t.isLocked
                   , i = r.name
                   , c = r.logo
-                  , l = yl(r);
+                  , l = Pl(r);
                 return (0,
                 N.jsxs)("div", {
-                    className: Ul,
+                    className: Ml,
                     onClick: function() {
-                        t(a)
+                        n(a)
                     },
                     children: [(0,
                     N.jsx)(Y.Z, {
-                        className: Ml,
+                        className: Gl,
                         src: "".concat(o.Z.cdnBaseUrl).concat(c)
                     }), (0,
                     N.jsxs)("div", {
-                        className: Wl,
+                        className: Hl,
                         children: [i, l && (0,
-                        N.jsx)(wl, {
-                            className: Vl
+                        N.jsx)(yl, {
+                            className: Yl
                         })]
                     }), (0,
-                    N.jsx)(Ql, {
-                        boost: n
+                    N.jsx)(eu, {
+                        boost: t
                     }), s && (0,
                     N.jsxs)("div", {
-                        className: Xl,
+                        className: ql,
                         children: [(0,
                         N.jsx)(P.Z, {
-                            className: y()("okx-growth-lock", Jl)
+                            className: y()("okx-growth-lock", Ql)
                         }), (0,
                         N.jsx)(H.default, {
                             category: H.default.CATEGORY.text,
@@ -7627,54 +7653,54 @@
                                 padding: 0,
                                 minWidth: "unset"
                             },
-                            className: ql,
+                            className: $l,
                             children: (0,
                             Z.O4)("ok_game_okxracer_textbtn_autodrive_unlock")
                         })]
                     })]
                 }, a)
             }
-              , eu = function() {
+              , nu = function() {
                 return (0,
                 N.jsxs)("div", {
-                    className: y()(Ul, zl),
+                    className: y()(Ml, Jl),
                     children: [(0,
-                    N.jsx)(os, {
-                        className: Gl
+                    N.jsx)(ls, {
+                        className: Vl
                     }), (0,
-                    N.jsx)(os, {
-                        className: Wl
-                    }), (0,
-                    N.jsx)(os, {
+                    N.jsx)(ls, {
                         className: Hl
+                    }), (0,
+                    N.jsx)(ls, {
+                        className: Kl
                     })]
                 })
             };
-            const nu = "index_boost-item-container__SW62L"
-              , tu = "index_boost-item-padding__IwiTB";
-            var au = function(e) {
-                var n = e.onClick
-                  , t = di().boosts
+            const au = "index_boost-item-container__SW62L"
+              , ru = "index_boost-item-padding__IwiTB";
+            var su = function(e) {
+                var t = e.onClick
+                  , n = pi().boosts
                   , r = (0,
                 a.useCallback)((function(e) {
-                    var a = t.find((function(n) {
-                        return n.id === e
+                    var a = n.find((function(t) {
+                        return t.id === e
                     }
                     ));
-                    a && n(a)
+                    a && t(a)
                 }
-                ), [t, n]);
+                ), [n, t]);
                 return (0,
                 N.jsxs)("div", {
-                    className: nu,
+                    className: au,
                     children: [(0,
                     N.jsx)("div", {
-                        className: tu
-                    }), t.length > 0 ? (0,
+                        className: ru
+                    }), n.length > 0 ? (0,
                     N.jsx)(N.Fragment, {
-                        children: t.map((function(e) {
+                        children: n.map((function(e) {
                             return (0,
-                            N.jsx)($l, {
+                            N.jsx)(tu, {
                                 boost: e,
                                 onClick: r
                             }, null === e || void 0 === e ? void 0 : e.id)
@@ -7683,22 +7709,22 @@
                     }) : (0,
                     N.jsxs)(N.Fragment, {
                         children: [(0,
-                        N.jsx)(eu, {}), (0,
-                        N.jsx)(eu, {}), (0,
-                        N.jsx)(eu, {})]
+                        N.jsx)(nu, {}), (0,
+                        N.jsx)(nu, {}), (0,
+                        N.jsx)(nu, {})]
                     }), (0,
                     N.jsx)("div", {
-                        className: tu
+                        className: ru
                     })]
                 })
             };
-            const ru = "index_boosts-title__WRC2M"
-              , su = "index_boost-area__eFBHi"
-              , iu = "index_container__H6hcL";
-            var ou = function() {
-                var e = di()
-                  , n = e.boosts
-                  , t = e.upgradeBoost
+            const iu = "index_boosts-title__WRC2M"
+              , ou = "index_boost-area__eFBHi"
+              , cu = "index_container__H6hcL";
+            var lu = function() {
+                var e = pi()
+                  , t = e.boosts
+                  , n = e.upgradeBoost
                   , r = (0,
                 a.useState)()
                   , s = (0,
@@ -7709,22 +7735,22 @@
                 a.useState)(!1)
                   , _ = (0,
                 u.Z)(d, 2)
-                  , m = _[0]
-                  , p = _[1]
+                  , p = _[0]
+                  , m = _[1]
                   , f = Ke().points
                   , x = function() {
                     var e = (0,
                     l.Z)((0,
-                    c.Z)().mark((function e(n) {
+                    c.Z)().mark((function e(t) {
                         var a, r, s;
                         return (0,
                         c.Z)().wrap((function(e) {
                             for (; ; )
                                 switch (e.prev = e.next) {
                                 case 0:
-                                    if (a = n.pointCost,
-                                    r = n.curStage,
-                                    s = n.totalStage,
+                                    if (a = t.pointCost,
+                                    r = t.curStage,
+                                    s = t.totalStage,
                                     !(Number(s) <= Number(r))) {
                                         e.next = 5;
                                         break
@@ -7744,11 +7770,11 @@
                                     break;
                                 case 9:
                                     return e.next = 11,
-                                    t(n.id);
+                                    n(t.id);
                                 case 11:
                                     e.sent && J(!0);
                                 case 13:
-                                    p(!1);
+                                    m(!1);
                                 case 14:
                                 case "end":
                                     return e.stop()
@@ -7757,13 +7783,13 @@
                         ), e)
                     }
                     )));
-                    return function(n) {
+                    return function(t) {
                         return e.apply(this, arguments)
                     }
                 }()
                   , h = (0,
                 a.useCallback)((function(e) {
-                    p(!0),
+                    m(!0),
                     o(e)
                 }
                 ), []);
@@ -7771,29 +7797,29 @@
                 N.jsxs)(N.Fragment, {
                     children: [(0,
                     N.jsxs)("div", {
-                        className: ru,
+                        className: iu,
                         children: [(0,
                         Z.O4)("ok_game_okxracer_upgrade"), (0,
                         N.jsx)("span", {
-                            children: n.length > 0 ? " (".concat(n.length, ")") : ""
+                            children: t.length > 0 ? " (".concat(t.length, ")") : ""
                         })]
                     }), (0,
                     N.jsx)("div", {
-                        className: su,
+                        className: ou,
                         children: (0,
                         N.jsxs)("div", {
-                            className: iu,
+                            className: cu,
                             children: [(0,
-                            N.jsx)(au, {
+                            N.jsx)(su, {
                                 onClick: h
                             }), (0,
                             N.jsx)(Qe, {
-                                visible: m,
+                                visible: p,
                                 onClose: function() {
-                                    p(!1)
+                                    m(!1)
                                 },
                                 children: i && (0,
-                                N.jsx)(Fl, {
+                                N.jsx)(Ul, {
                                     boost: i,
                                     onClick: x
                                 })
@@ -7802,69 +7828,69 @@
                     })]
                 })
             };
-            const cu = "index_partnerItem__S1dkf"
-              , lu = "index_title__bRRMU"
-              , uu = "index_points__WQSip"
-              , du = "index_state__gi-nK"
-              , _u = "index_logo__y4rK-"
-              , mu = "index_item-left__ej9+1"
-              , pu = "index_item-right__3KRWi"
-              , fu = "index_dot__4bynu"
-              , xu = "index_participantsIcon__-tYh0"
-              , hu = "index_icon__gS69A";
-            var vu = function(e) {
-                var n = e.name
-                  , t = e.totalPoints
+            const uu = "index_partnerItem__S1dkf"
+              , du = "index_title__bRRMU"
+              , _u = "index_points__WQSip"
+              , pu = "index_state__gi-nK"
+              , mu = "index_logo__y4rK-"
+              , fu = "index_item-left__ej9+1"
+              , xu = "index_item-right__3KRWi"
+              , hu = "index_dot__4bynu"
+              , vu = "index_participantsIcon__-tYh0"
+              , gu = "index_icon__gS69A";
+            var ku = function(e) {
+                var t = e.name
+                  , n = e.totalPoints
                   , a = e.numCompletedTasks
                   , r = e.numTasks
                   , s = e.participants
                   , i = e.logo;
                 return (0,
                 N.jsxs)("div", {
-                    className: cu,
+                    className: uu,
                     children: [(0,
-                    N.jsx)(ti.Z, {
-                        size: ai.Z.sm,
-                        className: _u,
+                    N.jsx)(ri.Z, {
+                        size: si.Z.sm,
+                        className: mu,
                         src: "".concat(o.Z.cdnBaseUrl).concat(i)
                     }), (0,
                     N.jsxs)("div", {
-                        className: mu,
+                        className: fu,
                         children: [(0,
                         N.jsx)("div", {
-                            className: lu,
-                            children: n
+                            className: du,
+                            children: t
                         }), (0,
                         N.jsx)("div", {
-                            className: uu,
+                            className: _u,
                             children: (0,
                             Z.O4)("ok_game_okxracer_text_phase3_up_to_pts", {
                                 number: (0,
-                                _t.uf)(t, {
+                                mn.uf)(n, {
                                     signDisplay: !0
                                 })
                             })
                         }), (0,
                         N.jsxs)("div", {
-                            className: du,
+                            className: pu,
                             children: [(0,
                             N.jsx)("span", {
                                 dangerouslySetInnerHTML: {
                                     __html: (0,
-                                    qr.dU)((0,
+                                    $r.dU)((0,
                                     Z.O4)("ok_game_okxracer_text_phase3_tasks_completed", {
                                         number: "".concat(a, "/").concat(r)
                                     }))
                                 }
                             }), (0,
                             N.jsx)("span", {
-                                className: fu
+                                className: hu
                             }), (0,
                             N.jsx)(P.Z, {
-                                className: y()("okx-growth-friends", xu)
+                                className: y()("okx-growth-friends", vu)
                             }), (0,
                             N.jsx)("em", {
-                                children: _t.ag.shortNumber(s, {
+                                children: mn.ag.shortNumber(s, {
                                     digit: 0,
                                     roundingMode: "ceil"
                                 })
@@ -7872,167 +7898,167 @@
                         })]
                     }), (0,
                     N.jsx)("div", {
-                        className: pu,
+                        className: xu,
                         children: (0,
                         N.jsx)(P.Z, {
-                            className: y()("okx-growth-chevrons-right", hu)
+                            className: y()("okx-growth-chevrons-right", gu)
                         })
                     })]
                 })
             };
-            const gu = "index_container__wKNP9";
-            function ku(e) {
-                var n = e.tasks
-                  , t = e.className
-                  , a = di().setSelectedPartner
-                  , r = n.length > 0;
+            const ju = "index_container__wKNP9";
+            function Nu(e) {
+                var t = e.tasks
+                  , n = e.className
+                  , a = pi().setSelectedPartner
+                  , r = t.length > 0;
                 return (0,
                 N.jsx)("div", {
-                    className: y()(gu, t),
-                    children: r ? n.map((function(e) {
-                        var n = e.groupName
-                          , t = e.numTasks
+                    className: y()(ju, n),
+                    children: r ? t.map((function(e) {
+                        var t = e.groupName
+                          , n = e.numTasks
                           , r = e.numCompletedTasks
                           , s = e.totalPoints
                           , i = e.participants
                           , o = e.logo;
                         return (0,
-                        N.jsx)(In, {
+                        N.jsx)(Bt, {
                             to: F,
                             onClick: function() {
                                 a(e)
                             },
                             children: (0,
-                            N.jsx)(vu, {
-                                name: n,
+                            N.jsx)(ku, {
+                                name: t,
                                 logo: o,
                                 totalPoints: s,
                                 numCompletedTasks: r,
-                                numTasks: t,
+                                numTasks: n,
                                 participants: i
                             })
-                        }, n)
+                        }, t)
                     }
                     )) : (0,
-                    N.jsx)(ii, {})
+                    N.jsx)(ci, {})
                 })
             }
-            const ju = "TaskArea_tabPane__irXs6"
-              , Nu = "TaskArea_tabName__-BL2R"
-              , Cu = "TaskArea_list__cqK4t";
-            var wu = function(e) {
-                var n = e.isPartner
-                  , t = void 0 !== n && n
+            const Cu = "TaskArea_tabPane__irXs6"
+              , wu = "TaskArea_tabName__-BL2R"
+              , bu = "TaskArea_list__cqK4t";
+            var yu = function(e) {
+                var t = e.isPartner
+                  , n = void 0 !== t && t
                   , a = e.count
-                  , r = t ? (0,
+                  , r = n ? (0,
                 Z.O4)("ok_game_okxracer_tab_partner_tasks") : (0,
                 Z.O4)("ok_game_okxracer_tab_my_tasks");
                 return (0,
                 N.jsxs)("div", {
-                    className: Nu,
+                    className: wu,
                     children: [r, " ", (0,
                     N.jsxs)("span", {
                         children: ["(", a, ")"]
                     })]
                 })
             }
-              , bu = function() {
-                var e = di().tasks
-                  , n = e.taskGroups
-                  , t = e.ungroupedTasks;
+              , Zu = function() {
+                var e = pi().tasks
+                  , t = e.taskGroups
+                  , n = e.ungroupedTasks;
                 return (0,
                 N.jsx)(N.Fragment, {
                     children: (0,
-                    N.jsxs)(Jr.Z.Underline, {
-                        size: Jr.Z.SIZE.xl,
+                    N.jsxs)(Qr.Z.Underline, {
+                        size: Qr.Z.SIZE.xl,
                         children: [(0,
-                        N.jsx)(Jr.Z.TabPane, {
-                            className: ju,
+                        N.jsx)(Qr.Z.TabPane, {
+                            className: Cu,
                             tab: (0,
-                            N.jsx)(wu, {
+                            N.jsx)(yu, {
                                 isPartner: !0,
-                                count: n.length
+                                count: t.length
                             }),
                             id: "partner",
                             children: (0,
-                            N.jsx)(ku, {
-                                tasks: n,
-                                className: Cu
+                            N.jsx)(Nu, {
+                                tasks: t,
+                                className: bu
                             })
                         }), (0,
-                        N.jsx)(Jr.Z.TabPane, {
-                            className: ju,
+                        N.jsx)(Qr.Z.TabPane, {
+                            className: Cu,
                             tab: (0,
-                            N.jsx)(wu, {
-                                count: t.length
+                            N.jsx)(yu, {
+                                count: n.length
                             }),
                             id: "own",
                             children: (0,
-                            N.jsx)(qi, {
-                                tasks: t,
-                                className: Cu
+                            N.jsx)($i, {
+                                tasks: n,
+                                className: bu
                             })
                         })]
                     })
                 })
             };
-            const yu = "TaskPage_container__5KfIM"
-              , Zu = "TaskPage_block__kt8oo"
-              , Pu = "TaskPage_blockBoost__rwGOo";
-            var Tu = function() {
+            const Pu = "TaskPage_container__5KfIM"
+              , Tu = "TaskPage_block__kt8oo"
+              , Ou = "TaskPage_blockBoost__rwGOo";
+            var Su = function() {
                 return (0,
                 N.jsxs)("div", {
-                    className: yu,
+                    className: Pu,
                     children: [(0,
                     N.jsx)("div", {
-                        className: Zu,
+                        className: Tu,
                         children: (0,
-                        N.jsx)(Nl, {})
+                        N.jsx)(wl, {})
                     }), (0,
                     N.jsx)("div", {
-                        className: Pu,
+                        className: Ou,
                         children: (0,
-                        N.jsx)(ou, {})
+                        N.jsx)(lu, {})
                     }), (0,
                     N.jsx)("div", {
-                        className: Zu,
+                        className: Tu,
                         children: (0,
-                        N.jsx)(bu, {})
+                        N.jsx)(Zu, {})
                     })]
                 })
             }
-              , Ou = function() {
+              , Eu = function() {
                 return (0,
-                N.jsx)(_i, {
+                N.jsx)(mi, {
                     children: (0,
                     N.jsxs)(s.Switch, {
                         children: [(0,
                         N.jsx)(s.Route, {
                             path: D,
-                            component: Tu,
+                            component: Su,
                             exact: !0
                         }), (0,
                         N.jsx)(s.Route, {
                             path: F,
-                            component: _l,
+                            component: ml,
                             exact: !0
                         })]
                     })
                 })
             }
-              , Su = function() {
+              , Bu = function() {
                 var e = (0,
                 a.useState)()
-                  , n = (0,
+                  , t = (0,
                 u.Z)(e, 2)
-                  , t = n[0]
-                  , r = n[1]
+                  , n = t[0]
+                  , r = t[1]
                   , i = (0,
                 a.useMemo)(x, [])
                   , f = o.Z.locale;
                 (0,
                 a.useMemo)((function() {
-                    p.Z.config({
+                    m.Z.config({
                         bottom: 74,
                         duration: 2
                     })
@@ -8042,13 +8068,13 @@
                     var e = I().uid;
                     return (0,
                     a.useEffect)((function() {
-                        var e, n, t, a, r, s, i, o, c, l, u, d;
-                        null !== (e = window) && void 0 !== e && null !== (n = e.Telegram) && void 0 !== n && n.WebApp && (null === (t = (a = window.Telegram.WebApp).ready) || void 0 === t || t.call(a),
+                        var e, t, n, a, r, s, i, o, c, l, u, d;
+                        null !== (e = window) && void 0 !== e && null !== (t = e.Telegram) && void 0 !== t && t.WebApp && (null === (n = (a = window.Telegram.WebApp).ready) || void 0 === n || n.call(a),
                         null === (r = (s = window.Telegram.WebApp).setHeaderColor) || void 0 === r || r.call(s, "#0D0D0D"),
                         null === (i = (o = window.Telegram.WebApp).setBackgroundColor) || void 0 === i || i.call(o, "#0D0D0D"),
                         null === (c = (l = window.Telegram.WebApp).expand) || void 0 === c || c.call(l),
                         null === (u = (d = window.Telegram.WebApp).disableVerticalSwipes) || void 0 === u || u.call(d),
-                        z.k.info("TG MINI APP OKX Racer version: ".concat(window.Telegram.WebApp.version, " "), {
+                        X.k.info("TG MINI APP OKX Racer version: ".concat(window.Telegram.WebApp.version, " "), {
                             version: window.Telegram.WebApp.version
                         })),
                         document.addEventListener("contextmenu", (function(e) {
@@ -8058,7 +8084,7 @@
                     }
                     ), []),
                     {
-                        isAllowToLoadApp: true||Lt(window)&&Boolean(e)&&!(window.location!=window.parent.location)
+                        isAllowToLoadApp: true
                     }
                 }().isAllowToLoadApp;
                 return (0,
@@ -8067,7 +8093,7 @@
                         var e = (0,
                         l.Z)((0,
                         c.Z)().mark((function e() {
-                            var n;
+                            var t;
                             return (0,
                             c.Z)().wrap((function(e) {
                                 for (; ; )
@@ -8077,8 +8103,8 @@
                                         (0,
                                         _.d)(i);
                                     case 2:
-                                        n = e.sent,
-                                        r(n);
+                                        t = e.sent,
+                                        r(t);
                                     case 4:
                                     case "end":
                                         return e.stop()
@@ -8098,17 +8124,17 @@
                 N.jsx)("article", {
                     className: h,
                     children: (0,
-                    N.jsx)(m.Z, {
-                        localeData: t,
+                    N.jsx)(p.Z, {
+                        localeData: n,
                         fetchConfig: i,
                         children: k ? (0,
                         N.jsx)(N.Fragment, {
                             children: (0,
-                            N.jsx)(Yn, {
+                            N.jsx)(Kt, {
                                 children: (0,
-                                N.jsx)(ze, {
+                                N.jsx)(Xe, {
                                     children: (0,
-                                    N.jsx)(Xn, {
+                                    N.jsx)(Jt, {
                                         children: (0,
                                         N.jsxs)(d.OKXTonConnectUIProvider, {
                                             uiPreferences: {
@@ -8130,57 +8156,57 @@
                                                 N.jsxs)(s.Switch, {
                                                     children: [(0,
                                                     N.jsx)(s.Route, {
-                                                        path: L,
-                                                        component: Xr,
+                                                        path: R,
+                                                        component: qr,
                                                         exact: !0
                                                     }), (0,
                                                     N.jsx)(s.Route, {
-                                                        path: U,
-                                                        component: C(Qs),
+                                                        path: W,
+                                                        component: C(ei),
                                                         exact: !0
                                                     }), (0,
                                                     N.jsx)(s.Route, {
                                                         path: D,
-                                                        component: Ou
+                                                        component: Eu
                                                     }), (0,
                                                     N.jsx)(s.Route, {
                                                         path: A,
-                                                        component: C(ul),
+                                                        component: C(_l),
                                                         exact: !0
                                                     }), (0,
                                                     N.jsx)(s.Route, {
-                                                        path: M,
-                                                        component: Lc
+                                                        path: U,
+                                                        component: Dc
                                                     })]
                                                 })
                                             }), (0,
                                             N.jsx)("div", {
                                                 className: v,
                                                 children: (0,
-                                                N.jsx)(Ln, {})
+                                                N.jsx)(Lt, {})
                                             })]
                                         })
                                     })
                                 })
                             })
                         }) : (0,
-                        N.jsx)(Mc, {})
+                        N.jsx)(Gc, {})
                     })
                 })
             }
-              , Eu = document.getElementById("root");
-            if (Eu) {
-                var Bu = (0,
+              , Iu = document.getElementById("root");
+            if (Iu) {
+                var Lu = (0,
                 N.jsx)(s.BrowserRouter, {
                     basename: o.Z.langPath,
                     children: (0,
-                    N.jsx)(R, {
+                    N.jsx)(L, {
                         children: (0,
-                        N.jsx)(Su, {})
+                        N.jsx)(Bu, {})
                     })
                 });
                 (0,
-                i.createRoot)(Eu).render(Bu)
+                i.createRoot)(Iu).render(Lu)
             }
         }
         ,
@@ -8202,35 +8228,35 @@
         ,
         88924: () => {}
     }
-      , n = {};
-    function t(a) {
-        var r = n[a];
+      , t = {};
+    function n(a) {
+        var r = t[a];
         if (void 0 !== r)
             return r.exports;
-        var s = n[a] = {
+        var s = t[a] = {
             exports: {}
         };
-        return e[a].call(s.exports, s, s.exports, t),
+        return e[a].call(s.exports, s, s.exports, n),
         s.exports
     }
-    t.m = e,
-    t.amdO = {},
+    n.m = e,
+    n.amdO = {},
     ( () => {
         var e = [];
-        t.O = (n, a, r, s) => {
+        n.O = (t, a, r, s) => {
             if (!a) {
                 var i = 1 / 0;
                 for (u = 0; u < e.length; u++) {
                     for (var [a,r,s] = e[u], o = !0, c = 0; c < a.length; c++)
-                        (!1 & s || i >= s) && Object.keys(t.O).every((e => t.O[e](a[c]))) ? a.splice(c--, 1) : (o = !1,
+                        (!1 & s || i >= s) && Object.keys(n.O).every((e => n.O[e](a[c]))) ? a.splice(c--, 1) : (o = !1,
                         s < i && (i = s));
                     if (o) {
                         e.splice(u--, 1);
                         var l = r();
-                        void 0 !== l && (n = l)
+                        void 0 !== l && (t = l)
                     }
                 }
-                return n
+                return t
             }
             s = s || 0;
             for (var u = e.length; u > 0 && e[u - 1][2] > s; u--)
@@ -8239,17 +8265,17 @@
         }
     }
     )(),
-    t.n = e => {
-        var n = e && e.__esModule ? () => e.default : () => e;
-        return t.d(n, {
-            a: n
+    n.n = e => {
+        var t = e && e.__esModule ? () => e.default : () => e;
+        return n.d(t, {
+            a: t
         }),
-        n
+        t
     }
     ,
     ( () => {
-        var e, n = Object.getPrototypeOf ? e => Object.getPrototypeOf(e) : e => e.__proto__;
-        t.t = function(a, r) {
+        var e, t = Object.getPrototypeOf ? e => Object.getPrototypeOf(e) : e => e.__proto__;
+        n.t = function(a, r) {
             if (1 & r && (a = this(a)),
             8 & r)
                 return a;
@@ -8260,32 +8286,32 @@
                     return a
             }
             var s = Object.create(null);
-            t.r(s);
+            n.r(s);
             var i = {};
-            e = e || [null, n({}), n([]), n(n)];
-            for (var o = 2 & r && a; "object" == typeof o && !~e.indexOf(o); o = n(o))
+            e = e || [null, t({}), t([]), t(t)];
+            for (var o = 2 & r && a; "object" == typeof o && !~e.indexOf(o); o = t(o))
                 Object.getOwnPropertyNames(o).forEach((e => i[e] = () => a[e]));
             return i.default = () => a,
-            t.d(s, i),
+            n.d(s, i),
             s
         }
     }
     )(),
-    t.d = (e, n) => {
-        for (var a in n)
-            t.o(n, a) && !t.o(e, a) && Object.defineProperty(e, a, {
+    n.d = (e, t) => {
+        for (var a in t)
+            n.o(t, a) && !n.o(e, a) && Object.defineProperty(e, a, {
                 enumerable: !0,
-                get: n[a]
+                get: t[a]
             })
     }
     ,
-    t.f = {},
-    t.e = e => Promise.all(Object.keys(t.f).reduce(( (n, a) => (t.f[a](e, n),
-    n)), [])),
-    t.u = e => "common/" + e + ".b0933464.js",
-    t.miniCssF = e => {}
+    n.f = {},
+    n.e = e => Promise.all(Object.keys(n.f).reduce(( (t, a) => (n.f[a](e, t),
+    t)), [])),
+    n.u = e => "common/" + e + ".b0933464.js",
+    n.miniCssF = e => {}
     ,
-    t.g = function() {
+    n.g = function() {
         if ("object" === typeof globalThis)
             return globalThis;
         try {
@@ -8295,11 +8321,11 @@
                 return window
         }
     }(),
-    t.o = (e, n) => Object.prototype.hasOwnProperty.call(e, n),
+    n.o = (e, t) => Object.prototype.hasOwnProperty.call(e, t),
     ( () => {
         var e = {}
-          , n = "growth:";
-        t.l = (a, r, s, i) => {
+          , t = "growth:";
+        n.l = (a, r, s, i) => {
             if (e[a])
                 e[a].push(r);
             else {
@@ -8307,7 +8333,7 @@
                 if (void 0 !== s)
                     for (var l = document.getElementsByTagName("script"), u = 0; u < l.length; u++) {
                         var d = l[u];
-                        if (d.getAttribute("src") == a || d.getAttribute("data-webpack") == n + s) {
+                        if (d.getAttribute("src") == a || d.getAttribute("data-webpack") == t + s) {
                             o = d;
                             break
                         }
@@ -8315,21 +8341,21 @@
                 o || (c = !0,
                 (o = document.createElement("script")).charset = "utf-8",
                 o.timeout = 120,
-                t.nc && o.setAttribute("nonce", t.nc),
-                o.setAttribute("data-webpack", n + s),
+                n.nc && o.setAttribute("nonce", n.nc),
+                o.setAttribute("data-webpack", t + s),
                 o.src = a),
                 e[a] = [r];
-                var _ = (n, t) => {
+                var _ = (t, n) => {
                     o.onerror = o.onload = null,
-                    clearTimeout(m);
+                    clearTimeout(p);
                     var r = e[a];
                     if (delete e[a],
                     o.parentNode && o.parentNode.removeChild(o),
-                    r && r.forEach((e => e(t))),
-                    n)
-                        return n(t)
+                    r && r.forEach((e => e(n))),
+                    t)
+                        return t(n)
                 }
-                  , m = setTimeout(_.bind(null, void 0, {
+                  , p = setTimeout(_.bind(null, void 0, {
                     type: "timeout",
                     target: o
                 }), 12e4);
@@ -8340,7 +8366,7 @@
         }
     }
     )(),
-    t.r = e => {
+    n.r = e => {
         "undefined" !== typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, {
             value: "Module"
         }),
@@ -8351,28 +8377,28 @@
     ,
     ( () => {
         var e = {}
-          , n = {};
-        t.f.remotes = (a, r) => {
-            t.o(e, a) && e[a].forEach((e => {
-                var a = t.R;
+          , t = {};
+        n.f.remotes = (a, r) => {
+            n.o(e, a) && e[a].forEach((e => {
+                var a = n.R;
                 a || (a = []);
-                var s = n[e];
+                var s = t[e];
                 if (!(a.indexOf(s) >= 0)) {
                     if (a.push(s),
                     s.p)
                         return r.push(s.p);
-                    var i = n => {
-                        n || (n = new Error("Container missing")),
-                        "string" === typeof n.message && (n.message += '\nwhile loading "' + s[1] + '" from ' + s[2]),
-                        t.m[e] = () => {
-                            throw n
+                    var i = t => {
+                        t || (t = new Error("Container missing")),
+                        "string" === typeof t.message && (t.message += '\nwhile loading "' + s[1] + '" from ' + s[2]),
+                        n.m[e] = () => {
+                            throw t
                         }
                         ,
                         s.p = 0
                     }
-                      , o = (e, n, t, a, o, c) => {
+                      , o = (e, t, n, a, o, c) => {
                         try {
-                            var l = e(n, t);
+                            var l = e(t, n);
                             if (!l || !l.then)
                                 return o(l, a, c);
                             var u = l.then((e => o(e, a)), i);
@@ -8383,15 +8409,15 @@
                             i(d)
                         }
                     }
-                      , c = (e, n, t) => o(n.get, s[1], a, 0, l, t)
-                      , l = n => {
+                      , c = (e, t, n) => o(t.get, s[1], a, 0, l, n)
+                      , l = t => {
                         s.p = 1,
-                        t.m[e] = e => {
-                            e.exports = n()
+                        n.m[e] = e => {
+                            e.exports = t()
                         }
                     }
                     ;
-                    o(t, s[2], 0, 0, ( (e, n, a) => e ? o(t.I, s[0], 0, e, c, a) : i()), 1)
+                    o(n, s[2], 0, 0, ( (e, t, a) => e ? o(n.I, s[0], 0, e, c, a) : i()), 1)
                 }
             }
             ))
@@ -8399,19 +8425,19 @@
     }
     )(),
     ( () => {
-        t.S = {};
+        n.S = {};
         var e = {}
-          , n = {};
-        t.I = (a, r) => {
+          , t = {};
+        n.I = (a, r) => {
             r || (r = []);
-            var s = n[a];
-            if (s || (s = n[a] = {}),
+            var s = t[a];
+            if (s || (s = t[a] = {}),
             !(r.indexOf(s) >= 0)) {
                 if (r.push(s),
                 e[a])
                     return e[a];
-                t.o(t.S, a) || (t.S[a] = {});
-                t.S[a];
+                n.o(n.S, a) || (n.S[a] = {});
+                n.S[a];
                 var i = [];
                 return i.length ? e[a] = Promise.all(i).then(( () => e[a] = 1)) : e[a] = 1
             }
@@ -8420,11 +8446,11 @@
     )(),
     ( () => {
         var e;
-        t.g.importScripts && (e = t.g.location + "");
-        var n = t.g.document;
-        if (!e && n && (n.currentScript && (e = n.currentScript.src),
+        n.g.importScripts && (e = n.g.location + "");
+        var t = n.g.document;
+        if (!e && t && (t.currentScript && (e = t.currentScript.src),
         !e)) {
-            var a = n.getElementsByTagName("script");
+            var a = t.getElementsByTagName("script");
             if (a.length)
                 for (var r = a.length - 1; r > -1 && !e; )
                     e = a[r--].src
@@ -8432,22 +8458,22 @@
         if (!e)
             throw new Error("Automatic publicPath is not supported in this browser");
         e = e.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/"),
-        t.p = e + "../"
+        n.p = e + "../"
     }
     )(),
     ( () => {
         try {
-            if (t.miniCssF) {
-                var e = t.miniCssF;
-                t.miniCssF = function(n) {
-                    var t = e(n);
-                    if ("string" !== typeof t)
-                        return t;
+            if (n.miniCssF) {
+                var e = n.miniCssF;
+                n.miniCssF = function(t) {
+                    var n = e(t);
+                    if ("string" !== typeof n)
+                        return n;
                     var a = window._okGlobal || window.okGlobal;
-                    return a && a.isRTL && /\.css$/.test(t) ? t.replace(/\.css$/, ".rtl.css") : t
+                    return a && a.isRTL && /\.css$/.test(n) ? n.replace(/\.css$/, ".rtl.css") : n
                 }
             }
-        } catch (n) {}
+        } catch (t) {}
     }
     )(),
     ( () => {
@@ -8456,56 +8482,56 @@
             8536: 0,
             5145: 0
         };
-        t.f.j = (n, a) => {
-            var r = t.o(e, n) ? e[n] : void 0;
+        n.f.j = (t, a) => {
+            var r = n.o(e, t) ? e[t] : void 0;
             if (0 !== r)
                 if (r)
                     a.push(r[2]);
-                else if (/^(5145|8536)$/.test(n))
-                    e[n] = 0;
+                else if (/^(5145|8536)$/.test(t))
+                    e[t] = 0;
                 else {
-                    var s = new Promise(( (t, a) => r = e[n] = [t, a]));
+                    var s = new Promise(( (n, a) => r = e[t] = [n, a]));
                     a.push(r[2] = s);
-                    var i = t.p + t.u(n)
+                    var i = n.p + n.u(t)
                       , o = new Error;
-                    t.l(i, (a => {
-                        if (t.o(e, n) && (0 !== (r = e[n]) && (e[n] = void 0),
+                    n.l(i, (a => {
+                        if (n.o(e, t) && (0 !== (r = e[t]) && (e[t] = void 0),
                         r)) {
                             var s = a && ("load" === a.type ? "missing" : a.type)
                               , i = a && a.target && a.target.src;
-                            o.message = "Loading chunk " + n + " failed.\n(" + s + ": " + i + ")",
+                            o.message = "Loading chunk " + t + " failed.\n(" + s + ": " + i + ")",
                             o.name = "ChunkLoadError",
                             o.type = s,
                             o.request = i,
                             r[1](o)
                         }
                     }
-                    ), "chunk-" + n, n)
+                    ), "chunk-" + t, t)
                 }
         }
         ,
-        t.O.j = n => 0 === e[n];
-        var n = (n, a) => {
+        n.O.j = t => 0 === e[t];
+        var t = (t, a) => {
             var r, s, [i,o,c] = a, l = 0;
-            if (i.some((n => 0 !== e[n]))) {
+            if (i.some((t => 0 !== e[t]))) {
                 for (r in o)
-                    t.o(o, r) && (t.m[r] = o[r]);
+                    n.o(o, r) && (n.m[r] = o[r]);
                 if (c)
-                    var u = c(t)
+                    var u = c(n)
             }
-            for (n && n(a); l < i.length; l++)
+            for (t && t(a); l < i.length; l++)
                 s = i[l],
-                t.o(e, s) && e[s] && e[s][0](),
+                n.o(e, s) && e[s] && e[s][0](),
                 e[s] = 0;
-            return t.O(u)
+            return n.O(u)
         }
           , a = self.webpackChunkgrowth = self.webpackChunkgrowth || [];
-        a.forEach(n.bind(null, 0)),
-        a.push = n.bind(null, a.push.bind(a))
+        a.forEach(t.bind(null, 0)),
+        a.push = t.bind(null, a.push.bind(a))
     }
     )();
-    var a = t.O(void 0, [2443, 8536, 5145, 8638, 9334, 1076, 2418, 8283, 2582, 5861, 9633, 1912, 9118], ( () => t(58288)));
-    a = t.O(a)
+    var a = n.O(void 0, [2695, 8536, 5145, 7524, 9334, 1076, 2418, 8283, 2582, 5861, 4757, 1912, 9590], ( () => n(58288)));
+    a = n.O(a)
 }
 )();
-//# sourceMappingURL=https://static-daily.okg.com/crash/okfe/growth/telegram-mini-app/index.fc3a525a.js.map
+//# sourceMappingURL=https://static-daily.okg.com/crash/okfe/growth/telegram-mini-app/index.82e12537.js.map
