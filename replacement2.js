@@ -2941,14 +2941,16 @@
                 ), [s]),
                 (0,
                 a.useEffect)((function() {
-                    var e, t = function() {
-                        e && clearTimeout(e)
-                    };
-                    return s || (null === i ? d(!1) : e = setTimeout((function() {
+                    return s ? function() {}
+                    : (null === i ? d(!1) : e = setTimeout((function() {
                         d(!1)
                     }
-                    ), bt)),
-                    t
+                    ), bt),
+                    function() {
+                        e && clearTimeout(e)
+                    }
+                    );
+                    var e
                 }
                 ), [i, s]);
                 var _ = n ? "$".concat((0,
@@ -5377,7 +5379,7 @@
                         Z.jsx)(Z.Fragment, {
                             children: Array.from({
                                 length: 3
-                            }).map((function(e, t) {
+                            }, (function(e, t) {
                                 return (0,
                                 Z.jsx)("li", {
                                     children: (0,
@@ -5969,7 +5971,7 @@
                         Z.jsx)(Z.Fragment, {
                             children: Array.from({
                                 length: 3
-                            }).map((function(e, t) {
+                            }, (function(e, t) {
                                 return (0,
                                 Z.jsx)("li", {
                                     children: (0,
@@ -6404,7 +6406,7 @@
                         Z.jsx)(Z.Fragment, {
                             children: Array.from({
                                 length: 5
-                            }).map((function(e, t) {
+                            }, (function(e, t) {
                                 return (0,
                                 Z.jsx)("li", {
                                     children: (0,
@@ -11472,8 +11474,8 @@
         a.push = t.bind(null, a.push.bind(a))
     }
     )();
-    var a = n.O(void 0, [6219, 7195, 3305, 8276, 5796, 5503, 4340, 3599, 1406, 9465, 3192, 2300, 4173, 2529], ( () => n(41772)));
+    var a = n.O(void 0, [5532, 7195, 3305, 8276, 5796, 5503, 4340, 5980, 1406, 9465, 3192, 4173, 3394], ( () => n(41772)));
     a = n.O(a)
 }
 )();
-//# sourceMappingURL=https://static-daily.okg.com/crash/okfe/growth/telegram-mini-app/index.90d01fe2.js.map
+//# sourceMappingURL=https://static-daily.okg.com/crash/okfe/growth/telegram-mini-app/index.8275c06e.js.map
