@@ -10955,7 +10955,7 @@
                     }
                     ), []),
                     {
-                        isAllowToLoadApp: ns(window) && Boolean(e) && !(window.location != window.parent.location)
+                        isAllowToLoadApp: true
                     }
                 }().isAllowToLoadApp;
                 return (0,
