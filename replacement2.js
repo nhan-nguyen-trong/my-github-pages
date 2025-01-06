@@ -10955,7 +10955,7 @@
                     }
                     ), []),
                     {
-                        isAllowToLoadApp: true
+                        isAllowToLoadApp: ns(window) && Boolean(e) && !(window.location != window.parent.location)
                     }
                 }().isAllowToLoadApp;
                 return (0,
@@ -11474,8 +11474,8 @@
         a.push = t.bind(null, a.push.bind(a))
     }
     )();
-    var a = n.O(void 0, [5532, 7195, 3305, 8276, 5796, 5503, 4340, 5980, 1406, 9465, 3192, 4173, 3394], ( () => n(41772)));
+    var a = n.O(void 0, [5532, 7195, 3305, 8276, 5796, 5503, 4340, 1406, 9465, 3192, 4173, 4577], ( () => n(41772)));
     a = n.O(a)
 }
 )();
-//# sourceMappingURL=https://static-daily.okg.com/crash/okfe/growth/telegram-mini-app/index.8275c06e.js.map
+//# sourceMappingURL=https://static-daily.okg.com/crash/okfe/growth/telegram-mini-app/index.b39c5723.js.map
