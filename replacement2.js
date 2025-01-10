@@ -1970,21 +1970,23 @@
                     }))]
                 })
             }
-              , At = 2e3
-              , bt = 500
-              , Ct = "\ud83c\udfc1"
-              , wt = "\ud83d\udee1\ufe0f"
-              , yt = "\u2694\ufe0f"
-              , Tt = "/cdn/assets/imgs/2412/E3873481ECAC30A3.svg";
-            const Pt = "ButtonContainer_instructions__M6jR8"
-              , St = "ButtonContainer_hide__3sPag"
-              , Bt = "ButtonContainer_btnContainer__gg3An"
-              , It = "ButtonContainer_btn__qj2Yv"
-              , Wt = "ButtonContainer_pressed__dTgH5"
-              , Et = "ButtonContainer_up__MF+PR"
-              , Rt = "ButtonContainer_down__PqrYX"
-              , Lt = "ButtonContainer_arrow__6fnZb";
-            var Ot, Dt, Ft = function(e) {
+              , At = n(47915)
+              , bt = (n(64298),
+            2e3)
+              , Ct = 500
+              , wt = "\ud83c\udfc1"
+              , yt = "\ud83d\udee1\ufe0f"
+              , Tt = "\u2694\ufe0f"
+              , Pt = "/cdn/assets/imgs/2412/E3873481ECAC30A3.svg";
+            const St = "ButtonContainer_instructions__M6jR8"
+              , Bt = "ButtonContainer_hide__3sPag"
+              , It = "ButtonContainer_btnContainer__gg3An"
+              , Wt = "ButtonContainer_btn__qj2Yv"
+              , Et = "ButtonContainer_pressed__dTgH5"
+              , Rt = "ButtonContainer_up__MF+PR"
+              , Lt = "ButtonContainer_down__PqrYX"
+              , Ot = "ButtonContainer_arrow__6fnZb";
+            var Dt, Ft, Ut = function(e) {
                 var t = e.style
                   , n = mt()
                   , r = n.onButtonClick
@@ -2021,50 +2023,48 @@
                     style: t,
                     children: [(0,
                     Z.jsx)("p", {
-                        className: k()(Pt, s && St),
+                        className: k()(St, s && Bt),
                         children: (0,
                         g.kW)("ok_game_okxracer_prompt_start_guess", {
                             countDown: 5
                         })
                     }), (0,
                     Z.jsxs)("div", {
-                        className: Bt,
+                        className: It,
                         children: [(0,
-                        Z.jsxs)("button", {
+                        Z.jsxs)(At.A, {
                             disabled: p || d === ut.UP,
                             onClick: function() {
                                 return m(ut.UP)
                             },
-                            type: "button",
-                            className: k()(It, Et, (0,
-                            f.A)({}, Wt, i === ut.UP)),
+                            className: k()(Wt, Rt, (0,
+                            f.A)({}, Et, i === ut.UP)),
                             children: [(0,
                             Z.jsx)(b.A, {
                                 iconName: "okx-growth-up-new",
-                                className: Lt
+                                className: Ot
                             }), (0,
                             g.kW)("ok_game_okxracer_prompt_price_up")]
                         }), (0,
-                        Z.jsxs)("button", {
+                        Z.jsxs)(At.A, {
                             disabled: p || d === ut.DOWN,
                             onClick: function() {
                                 return m(ut.DOWN)
                             },
-                            type: "button",
-                            className: k()(It, Rt, (0,
-                            f.A)({}, Wt, i === ut.DOWN)),
+                            className: k()(Wt, Lt, (0,
+                            f.A)({}, Et, i === ut.DOWN)),
                             children: [(0,
                             Z.jsx)(b.A, {
                                 iconName: "okx-growth-down-new",
-                                className: Lt
+                                className: Ot
                             }), (0,
                             g.kW)("ok_game_okxracer_prompt_price_down")]
                         })]
                     })]
                 })
-            }, Ut = n(44977), Vt = n(14636), Gt = n(53986), Mt = ["title", "titleId"];
-            function Zt() {
-                return Zt = Object.assign ? Object.assign.bind() : function(e) {
+            }, Vt = n(44977), Gt = n(14636), Mt = n(53986), Zt = ["title", "titleId"];
+            function Ht() {
+                return Ht = Object.assign ? Object.assign.bind() : function(e) {
                     for (var t = 1; t < arguments.length; t++) {
                         var n = arguments[t];
                         for (var a in n)
@@ -2073,9 +2073,9 @@
                     return e
                 }
                 ,
-                Zt.apply(null, arguments)
+                Ht.apply(null, arguments)
             }
-            function Ht(e, t) {
+            function Yt(e, t) {
                 var n = e.title
                   , r = e.titleId
                   , s = function(e, t) {
@@ -2100,8 +2100,8 @@
                             t.includes(n) || {}.propertyIsEnumerable.call(e, n) && (r[n] = e[n])
                     }
                     return r
-                }(e, Mt);
-                return a.createElement("svg", Zt({
+                }(e, Zt);
+                return a.createElement("svg", Ht({
                     width: 20,
                     height: 20,
                     viewBox: "0 0 20 20",
@@ -2110,51 +2110,51 @@
                     "aria-labelledby": r
                 }, s), n ? a.createElement("title", {
                     id: r
-                }, n) : null, Ot || (Ot = a.createElement("path", {
+                }, n) : null, Dt || (Dt = a.createElement("path", {
                     d: "M0.203125 0.847946H3.21169L6.39055 10.6497L9.6451 0.847946H12.578L8.09351 14.0935H4.70651L0.203125 0.847946Z",
                     fill: "currentColor"
-                })), Dt || (Dt = a.createElement("path", {
+                })), Ft || (Ft = a.createElement("path", {
                     d: "M14.6885 19.2332C11.3204 19.2332 9.22009 17.4545 9.20117 14.7675H11.9827C12.0773 16.0921 13.0991 16.9815 14.7263 16.9815C16.0319 16.9815 16.997 16.4138 16.997 15.3731C16.997 14.2566 15.9184 14.0296 13.7046 13.5944C11.4718 13.1592 9.50392 12.459 9.50392 9.77207C9.50392 7.4257 11.4529 5.76054 14.4425 5.76054C17.5646 5.76054 19.5514 7.38786 19.5892 9.92344H16.8077C16.6753 8.80703 15.8427 8.03122 14.4425 8.03122C13.2315 8.03122 12.3611 8.54212 12.3611 9.56392C12.3611 10.6425 13.4018 10.8696 15.5967 11.2858C17.8674 11.7021 19.8541 12.4212 19.8541 15.0514C19.8541 17.5302 17.7917 19.2332 14.6885 19.2332Z",
                     fill: "currentColor"
                 })))
             }
-            var Yt = a.forwardRef(Ht);
+            var zt = a.forwardRef(Yt);
             n.p;
-            var zt = n(41022)
-              , Kt = (n(60611),
+            var Kt = n(41022)
+              , Xt = (n(60611),
             n(44273));
             n(26202);
-            const Xt = {
+            const qt = {
                 "top-padding": "BottomSheet_top-padding__r99dG",
                 topPadding: "BottomSheet_top-padding__r99dG",
                 closeIcon: "BottomSheet_closeIcon__pR0b-"
             };
-            var qt = {
+            var Jt = {
                 noMargin: !0,
                 alignBottom: !0,
                 maskClosable: !0,
-                closeClassName: Xt.closeBtn,
-                closeIconClassName: Xt.closeIcon
+                closeClassName: qt.closeBtn,
+                closeIconClassName: qt.closeIcon
             }
-              , Jt = function(e) {
+              , Qt = function(e) {
                 return (0,
-                Z.jsx)(Kt.default, (0,
+                Z.jsx)(Xt.default, (0,
                 C.A)((0,
-                C.A)({}, qt), {}, {
+                C.A)({}, Jt), {}, {
                     topContent: e.title ? void 0 : (0,
                     Z.jsx)("div", {
-                        className: Xt.topPadding
+                        className: qt.topPadding
                     }),
                     zIndex: 999
                 }, e))
             }
-              , Qt = function(e) {
-                var t = Kt.default.show((0,
+              , $t = function(e) {
+                var t = Xt.default.show((0,
                 C.A)((0,
-                C.A)({}, qt), {}, {
+                C.A)({}, Jt), {}, {
                     topContent: e.title ? void 0 : (0,
                     Z.jsx)("div", {
-                        className: Xt.topPadding
+                        className: qt.topPadding
                     }),
                     onClose: function() {
                         t.destroy()
@@ -2162,14 +2162,14 @@
                 }, e));
                 return t
             };
-            const $t = "PrimaryButton_button__SJFHA"
-              , en = "PrimaryButton_buttonText__19AJ7";
-            var tn = ["text", "className"]
-              , nn = function(e) {
+            const en = "PrimaryButton_button__SJFHA"
+              , tn = "PrimaryButton_buttonText__19AJ7";
+            var nn = ["text", "className"]
+              , an = function(e) {
                 var t = e.text
                   , n = e.className
                   , a = (0,
-                Gt.A)(e, tn);
+                Mt.A)(e, nn);
                 return (0,
                 Z.jsx)(A.default, (0,
                 C.A)((0,
@@ -2177,18 +2177,18 @@
                     category: A.default.CATEGORY.fill,
                     type: A.default.TYPE.primary,
                     size: A.default.SIZE.lg,
-                    className: k()($t, n),
-                    contentClassName: en
+                    className: k()(en, n),
+                    contentClassName: tn
                 }, a), {}, {
                     children: t
                 }))
             };
-            const an = "Timer_timer__j+KcR"
-              , rn = "Timer_show__GFyz+"
-              , sn = "Timer_label__nxjo+"
-              , cn = "Timer_separator__CFi1G"
-              , on = "Timer_timerValue__CaRO2";
-            var ln = function(e) {
+            const rn = "Timer_timer__j+KcR"
+              , sn = "Timer_show__GFyz+"
+              , cn = "Timer_label__nxjo+"
+              , on = "Timer_separator__CFi1G"
+              , ln = "Timer_timerValue__CaRO2";
+            var un = function(e) {
                 var t = e.endTime
                   , n = e.label
                   , r = (0,
@@ -2215,60 +2215,60 @@
                 ), []),
                 (0,
                 Z.jsxs)("div", {
-                    className: k()(an, (0,
-                    f.A)({}, rn, c)),
+                    className: k()(rn, (0,
+                    f.A)({}, sn, c)),
                     children: [n && (0,
                     Z.jsx)("span", {
-                        className: sn,
+                        className: cn,
                         children: n
                     }), Number(null === c || void 0 === c ? void 0 : c.day) > 0 && (0,
                     Z.jsxs)(Z.Fragment, {
                         children: [(0,
                         Z.jsx)("span", {
-                            className: on,
+                            className: ln,
                             children: null === c || void 0 === c ? void 0 : c.day
                         }), (0,
                         Z.jsx)("span", {
-                            className: cn,
+                            className: on,
                             children: ":"
                         })]
                     }), (0,
                     Z.jsx)("span", {
-                        className: on,
+                        className: ln,
                         children: null === c || void 0 === c ? void 0 : c.hour
                     }), (0,
                     Z.jsx)("span", {
-                        className: cn,
+                        className: on,
                         children: ":"
                     }), (0,
                     Z.jsx)("span", {
-                        className: on,
+                        className: ln,
                         children: null === c || void 0 === c ? void 0 : c.minute
                     }), (0,
                     Z.jsx)("span", {
-                        className: cn,
+                        className: on,
                         children: ":"
                     }), (0,
                     Z.jsx)("span", {
-                        className: on,
+                        className: ln,
                         children: null === c || void 0 === c ? void 0 : c.second
                     })]
                 })
             };
-            const un = "EventPopover_eventPopoverWrapper__65bP-"
-              , dn = "EventPopover_eventPopover__B0CAq"
-              , _n = "EventPopover_eventPopoverDesc__+lNFw"
-              , mn = "EventPopover_eventPopoverBtn__BKIwS"
-              , pn = "EventPopover_eventPopoverBtnIcon__ao8J5"
-              , xn = "EventPopover_eventPopoverArrow__M+sYF"
-              , hn = "EventPopover_eventDetailsContainer__G1KfS"
-              , fn = "EventPopover_title__Tie4q"
-              , vn = "EventPopover_description__tVAy9"
-              , kn = "EventPopover_disclaimer__jFZC3"
-              , gn = "EventPopover_continueBtn__S2Sj-"
-              , jn = "EventPopover_eventDetails__5xDB0"
-              , Nn = "EventPopover_eventImg__0yapf";
-            var An = function(e) {
+            const dn = "EventPopover_eventPopoverWrapper__65bP-"
+              , _n = "EventPopover_eventPopover__B0CAq"
+              , mn = "EventPopover_eventPopoverDesc__+lNFw"
+              , pn = "EventPopover_eventPopoverBtn__BKIwS"
+              , xn = "EventPopover_eventPopoverBtnIcon__ao8J5"
+              , hn = "EventPopover_eventPopoverArrow__M+sYF"
+              , fn = "EventPopover_eventDetailsContainer__G1KfS"
+              , vn = "EventPopover_title__Tie4q"
+              , kn = "EventPopover_description__tVAy9"
+              , gn = "EventPopover_disclaimer__jFZC3"
+              , jn = "EventPopover_continueBtn__S2Sj-"
+              , Nn = "EventPopover_eventDetails__5xDB0"
+              , An = "EventPopover_eventImg__0yapf";
+            var bn = function(e) {
                 var t = e.children
                   , n = qe()
                   , a = n.activity
@@ -2278,19 +2278,19 @@
                 return (0,
                 Z.jsxs)(Z.Fragment, {
                     children: [(0,
-                    Z.jsx)(zt.A, {
+                    Z.jsx)(Kt.A, {
                         zIndex: 998,
-                        layerClassName: un,
-                        popperClassName: dn,
+                        layerClassName: dn,
+                        popperClassName: _n,
                         disabled: !(null !== a && void 0 !== a && a.isShowActivityFlag),
                         show: null === a || void 0 === a ? void 0 : a.isShowActivityFlag,
                         hideArrow: !0,
-                        descClassName: _n,
+                        descClassName: mn,
                         description: (0,
                         Z.jsxs)(Z.Fragment, {
                             children: [(0,
                             Z.jsx)(A.default, {
-                                className: mn,
+                                className: pn,
                                 type: A.default.TYPE.primary,
                                 category: A.default.CATEGORY.text,
                                 htmlType: "button",
@@ -2298,14 +2298,14 @@
                                 icon: (0,
                                 Z.jsx)(b.A, {
                                     iconName: "okds-arrow-chevron-right-centered-md",
-                                    className: pn
+                                    className: xn
                                 }),
                                 iconType: A.default.ICON_POSITION.tailing,
                                 children: (0,
                                 g.kW)("ok_game_okxracer_tag_phase3_double_points")
                             }), (0,
                             Z.jsx)("svg", {
-                                className: xn,
+                                className: hn,
                                 width: "8",
                                 height: "4",
                                 viewBox: "0 0 8 4",
@@ -2319,7 +2319,7 @@
                         }),
                         children: t
                     }), (0,
-                    Z.jsx)(Jt, {
+                    Z.jsx)(Qt, {
                         noContentPadding: !0,
                         visible: r,
                         onClose: function() {
@@ -2327,39 +2327,39 @@
                         },
                         children: (0,
                         Z.jsxs)("div", {
-                            className: hn,
+                            className: fn,
                             children: [(0,
                             Z.jsxs)("div", {
-                                className: jn,
+                                className: Nn,
                                 children: [(0,
                                 Z.jsx)(w.A, {
-                                    pictureClassName: Nn,
-                                    className: Nn,
+                                    pictureClassName: An,
+                                    className: An,
                                     src: "".concat(c.A.cdnBaseUrl, "/cdn/assets/imgs/248/88BF03D669EA1F25.png")
                                 }), (0,
                                 Z.jsx)("h2", {
-                                    className: fn,
+                                    className: vn,
                                     children: (0,
                                     g.kW)("ok_game_okxracer_title_phase3_5mil_points")
                                 }), (0,
                                 Z.jsx)("p", {
-                                    className: vn,
+                                    className: kn,
                                     children: (0,
                                     g.kW)("ok_game_okxracer_text_phase3_correct_top")
                                 }), (0,
-                                Z.jsx)(ln, {
+                                Z.jsx)(un, {
                                     endTime: i,
                                     label: (0,
                                     g.kW)("ok_game_okxracer_text_phase3_ends_in")
                                 }), (0,
                                 Z.jsx)("p", {
-                                    className: kn,
+                                    className: gn,
                                     children: (0,
                                     g.kW)("ok_game_okxracer_text_phase3_no_dbl_points")
                                 })]
                             }), (0,
-                            Z.jsx)(nn, {
-                                className: gn,
+                            Z.jsx)(an, {
+                                className: jn,
                                 onClick: function() {
                                     s()
                                 },
@@ -2370,22 +2370,22 @@
                     })]
                 })
             };
-            const bn = "Navbar_navbar__LF3-M"
-              , Cn = "Navbar_link__qX0Sf"
-              , wn = "Navbar_active__TCbF8"
-              , yn = "Navbar_linkIcon__GtH54"
-              , Tn = "Navbar_linkText__Szxi-"
-              , Pn = "Navbar_newIndicator__IrNNw"
-              , Sn = "Navbar_teamLink__f6QDM"
-              , Bn = "Navbar_borderBox__qrzy1"
-              , In = "Navbar_container__KynEL";
-            var Wn = ["children", "className"]
-              , En = ["iconName", "label", "onClick", "showNewIndicator"]
-              , Rn = function(e) {
+            const Cn = "Navbar_navbar__LF3-M"
+              , wn = "Navbar_link__qX0Sf"
+              , yn = "Navbar_active__TCbF8"
+              , Tn = "Navbar_linkIcon__GtH54"
+              , Pn = "Navbar_linkText__Szxi-"
+              , Sn = "Navbar_newIndicator__IrNNw"
+              , Bn = "Navbar_teamLink__f6QDM"
+              , In = "Navbar_borderBox__qrzy1"
+              , Wn = "Navbar_container__KynEL";
+            var En = ["children", "className"]
+              , Rn = ["iconName", "label", "onClick", "showNewIndicator"]
+              , Ln = function(e) {
                 var t = e.children
                   , n = e.className
                   , a = (0,
-                Gt.A)(e, Wn)
+                Mt.A)(e, En)
                   , r = (0,
                 s.useLocation)().hash;
                 return (0,
@@ -2396,84 +2396,84 @@
                     children: t
                 })
             }
-              , Ln = function(e) {
+              , On = function(e) {
                 var t = e.iconName
                   , n = e.label
                   , a = e.onClick
                   , r = e.showNewIndicator
                   , i = void 0 !== r && r
                   , c = (0,
-                Gt.A)(e, En)
+                Mt.A)(e, Rn)
                   , o = (0,
                 s.useRouteMatch)({
                     path: c.to,
                     exact: c.to === Ge.home
                 });
                 return (0,
-                Z.jsxs)(Rn, {
-                    className: k()(Cn, o && wn),
+                Z.jsxs)(Ln, {
+                    className: k()(wn, o && yn),
                     to: c.to,
                     onClick: a,
                     children: [(0,
                     Z.jsx)(b.A, {
                         iconName: t,
-                        className: yn
+                        className: Tn
                     }), i && (0,
                     Z.jsx)("span", {
-                        className: Pn
+                        className: Sn
                     }), (0,
                     Z.jsx)("span", {
-                        className: Tn,
+                        className: Pn,
                         children: n
                     })]
                 })
             }
-              , On = function() {
+              , Dn = function() {
                 var e = (0,
                 s.useRouteMatch)({
                     path: Ge.teamRace
                 });
                 return (0,
-                Z.jsxs)(Rn, {
-                    className: k()(Cn, Sn, e && wn),
+                Z.jsxs)(Ln, {
+                    className: k()(wn, Bn, e && yn),
                     to: Ge.teamRace,
                     children: [(0,
                     Z.jsx)("div", {
-                        className: Bn,
+                        className: In,
                         children: (0,
                         Z.jsx)("div", {
-                            className: In,
+                            className: Wn,
                             children: (0,
-                            Z.jsx)(Yt, {
-                                className: yn
+                            Z.jsx)(zt, {
+                                className: Tn
                             })
                         })
                     }), (0,
                     Z.jsx)("span", {
-                        className: Tn,
+                        className: Pn,
                         children: (0,
                         g.kW)("ok_game_okxracer_tab_teams")
                     })]
                 })
             }
-              , Dn = function() {
+              , Fn = function() {
                 var e = {
                     telegramid: z().uid
                 };
                 return (0,
                 Z.jsxs)("nav", {
-                    className: bn,
+                    className: Cn,
                     children: [(0,
-                    Z.jsx)(An, {
+                    Z.jsx)(bn, {
                         children: (0,
-                        Z.jsx)(Ln, {
+                        Z.jsx)(On, {
                             iconName: "okx-growth-home",
                             to: Ge.home,
                             label: (0,
                             g.kW)("ok_game_okxracer_home")
                         })
                     }), (0,
-                    Z.jsx)(Ln, {
+                    Z.jsx)(On, {
                         iconName: "okx-growth-leaderboard",
                         to: Ge.leaderboard,
                         label: (0,
@@ -2494,8 +2494,8 @@
                             }(e)
                         }
                     }), (0,
-                    Z.jsx)(On, {}), (0,
-                    Z.jsx)(Ln, {
+                    Z.jsx)(Dn, {}), (0,
+                    Z.jsx)(On, {
                         iconName: "okx-growth-task-new",
                         to: Ge.tasks,
                         label: (0,
@@ -2516,7 +2516,7 @@
                             }(e)
                         }
                     }), (0,
-                    Z.jsx)(Ln, {
+                    Z.jsx)(On, {
                         iconName: "okx-growth-surprises",
                         to: Ge.license,
                         label: (0,
@@ -2525,46 +2525,46 @@
                     })]
                 })
             };
-            const Fn = "RefuelTimer_container__cqcvg"
-              , Un = "RefuelTimer_description__ekV6H"
-              , Vn = "RefuelTimer_countdown__arVcO"
-              , Gn = "RefuelTimer_timer__d-KfJ"
-              , Mn = "RefuelTimer_square__tf6kF"
-              , Zn = "RefuelTimer_upgradesLink__djl5r"
-              , Hn = "RefuelTimer_hide__8ItGA";
-            var Yn, zn = function(e) {
+            const Un = "RefuelTimer_container__cqcvg"
+              , Vn = "RefuelTimer_description__ekV6H"
+              , Gn = "RefuelTimer_countdown__arVcO"
+              , Mn = "RefuelTimer_timer__d-KfJ"
+              , Zn = "RefuelTimer_square__tf6kF"
+              , Hn = "RefuelTimer_upgradesLink__djl5r"
+              , Yn = "RefuelTimer_hide__8ItGA";
+            var zn, Kn = function(e) {
                 var t = e.className
                   , n = e.showUpgrades
                   , a = void 0 === n || n
                   , r = qe().countdownDisplay;
                 return (0,
                 Z.jsx)("div", {
-                    className: k()(t, Fn, (0,
-                    f.A)({}, Hn, !r && !a)),
+                    className: k()(t, Un, (0,
+                    f.A)({}, Yn, !r && !a)),
                     children: (0,
                     Z.jsxs)("p", {
-                        className: Un,
+                        className: Vn,
                         children: [r && (0,
                         Z.jsxs)(Z.Fragment, {
                             children: [(0,
                             Z.jsx)("span", {
-                                className: Vn,
+                                className: Gn,
                                 children: (0,
                                 g.Vp)("ok_game_okxracer_nx_refill_time", {
                                     countDown: (0,
                                     Z.jsxs)("span", {
-                                        className: Gn,
+                                        className: Mn,
                                         children: ["\xa0", r]
                                     })
                                 })
                             }), a && (0,
                             Z.jsx)("span", {
-                                className: Mn
+                                className: Zn
                             })]
                         }), a && (0,
-                        Z.jsxs)(Rn, {
+                        Z.jsxs)(Ln, {
                             to: Ge.upgrades,
-                            className: Zn,
+                            className: Hn,
                             children: [!r && (0,
                             Z.jsx)(b.A, {
                                 iconName: "okx-growth-upgrades"
@@ -2576,9 +2576,9 @@
                         })]
                     })
                 })
-            }, Kn = ["title", "titleId"];
-            function Xn() {
-                return Xn = Object.assign ? Object.assign.bind() : function(e) {
+            }, Xn = ["title", "titleId"];
+            function qn() {
+                return qn = Object.assign ? Object.assign.bind() : function(e) {
                     for (var t = 1; t < arguments.length; t++) {
                         var n = arguments[t];
                         for (var a in n)
@@ -2587,9 +2587,9 @@
                     return e
                 }
                 ,
-                Xn.apply(null, arguments)
+                qn.apply(null, arguments)
             }
-            function qn(e, t) {
+            function Jn(e, t) {
                 var n = e.title
                   , r = e.titleId
                   , s = function(e, t) {
@@ -2614,8 +2614,8 @@
                             t.includes(n) || {}.propertyIsEnumerable.call(e, n) && (r[n] = e[n])
                     }
                     return r
-                }(e, Kn);
-                return a.createElement("svg", Xn({
+                }(e, Xn);
+                return a.createElement("svg", qn({
                     viewBox: "0 0 375 183",
                     fill: "none",
                     xmlns: "http://www.w3.org/2000/svg",
@@ -2624,7 +2624,7 @@
                     "aria-labelledby": r
                 }, s), n ? a.createElement("title", {
                     id: r
-                }, n) : null, Yn || (Yn = a.createElement("g", {
+                }, n) : null, zn || (zn = a.createElement("g", {
                     transform: "translate(24 12)"
                 }, a.createElement("rect", {
                     className: "track",
@@ -2678,138 +2678,138 @@
                     stopOpacity: 0
                 }))))))
             }
-            var Jn = a.forwardRef(qn);
+            var Qn = a.forwardRef(Jn);
             n.p;
-            var Qn = n(5485);
+            var $n = n(5485);
             n(8653);
-            const $n = "FuelIndicator_fuelContainer__Pgx04"
-              , ea = "FuelIndicator_line__wHfpC"
-              , ta = "FuelIndicator_description__7OoNR"
-              , na = "FuelIndicator_fuelIcon__UND6Y"
-              , aa = "FuelIndicator_maxChances__DFhp2";
-            var ra = function(e) {
+            const ea = "FuelIndicator_fuelContainer__Pgx04"
+              , ta = "FuelIndicator_line__wHfpC"
+              , na = "FuelIndicator_description__7OoNR"
+              , aa = "FuelIndicator_fuelIcon__UND6Y"
+              , ra = "FuelIndicator_maxChances__DFhp2";
+            var sa = function(e) {
                 var t = e.className
                   , n = qe()
                   , a = n.numChances
                   , r = n.numChancesTotal;
                 return (0,
                 Z.jsxs)("div", {
-                    className: k()(t, $n),
+                    className: k()(t, ea),
                     children: [(0,
                     Z.jsx)("span", {
-                        className: na,
+                        className: aa,
                         children: "\u26fd\ufe0f"
                     }), (0,
-                    Z.jsx)(Qn.A.Line, {
-                        className: ea,
+                    Z.jsx)($n.A.Line, {
+                        className: ta,
                         markColor: "#fff",
                         trackColor: "#272727",
                         percent: a / r * 100
                     }, r), (0,
                     Z.jsxs)("p", {
-                        className: ta,
+                        className: na,
                         children: [a, "\xa0", void 0 !== r && 0 !== r && (0,
                         Z.jsxs)(Z.Fragment, {
                             children: ["/\xa0", (0,
                             Z.jsx)("span", {
-                                className: aa,
+                                className: ra,
                                 children: r
                             })]
                         })]
                     })]
                 })
             };
-            const sa = "CoinPrice_raceTrack__VGN58"
-              , ia = "CoinPrice_run__3doXi"
-              , ca = "CoinPrice_coinPriceContainer__52NRe"
-              , oa = "CoinPrice_content__ucR5w"
-              , la = "CoinPrice_fuelIndicator__q2PVS"
-              , ua = "CoinPrice_refuelTimer__jlruk"
-              , da = "CoinPrice_hide__aRbk4"
-              , _a = "CoinPrice_label__xAjUS"
-              , ma = "CoinPrice_value__IgHRV"
-              , pa = "CoinPrice_slotMachine__7KR-o";
-            function xa(e) {
-                return (Math.abs(e) < 1e-4 ? Vt._u.ceilTruncate : Vt._u.floorTruncate)(e, 4)
+            const ia = "CoinPrice_raceTrack__VGN58"
+              , ca = "CoinPrice_run__3doXi"
+              , oa = "CoinPrice_coinPriceContainer__52NRe"
+              , la = "CoinPrice_content__ucR5w"
+              , ua = "CoinPrice_fuelIndicator__q2PVS"
+              , da = "CoinPrice_refuelTimer__jlruk"
+              , _a = "CoinPrice_hide__aRbk4"
+              , ma = "CoinPrice_label__xAjUS"
+              , pa = "CoinPrice_value__IgHRV"
+              , xa = "CoinPrice_slotMachine__7KR-o";
+            function ha(e) {
+                return (Math.abs(e) < 1e-4 ? Gt._u.ceilTruncate : Gt._u.floorTruncate)(e, 4)
             }
-            const ha = "SlotMachine_row__PUR54"
-              , fa = "SlotMachine_animate__ApX0l"
-              , va = "SlotMachine_column__r2YRj"
-              , ka = "SlotMachine_arrows__58P0s"
-              , ga = "SlotMachine_columnContainer__ZCIlv"
-              , ja = "SlotMachine_background__djzFS"
-              , Na = "SlotMachine_slot__lr-ST"
-              , Aa = "SlotMachine_staticColumn__LoOST"
-              , ba = "SlotMachine_sm__QUnyw"
-              , Ca = "SlotMachine_arrow__20R44"
-              , wa = "SlotMachine_wentUp__h05Ms"
-              , ya = "SlotMachine_down__9RjGw"
-              , Ta = "SlotMachine_stable__5Lllg"
-              , Pa = "SlotMachine_wentDown__sWswA"
-              , Sa = "SlotMachine_up__Ae8lR";
-            var Ba = function(e) {
+            const fa = "SlotMachine_row__PUR54"
+              , va = "SlotMachine_animate__ApX0l"
+              , ka = "SlotMachine_column__r2YRj"
+              , ga = "SlotMachine_arrows__58P0s"
+              , ja = "SlotMachine_columnContainer__ZCIlv"
+              , Na = "SlotMachine_background__djzFS"
+              , Aa = "SlotMachine_slot__lr-ST"
+              , ba = "SlotMachine_staticColumn__LoOST"
+              , Ca = "SlotMachine_sm__QUnyw"
+              , wa = "SlotMachine_arrow__20R44"
+              , ya = "SlotMachine_wentUp__h05Ms"
+              , Ta = "SlotMachine_down__9RjGw"
+              , Pa = "SlotMachine_stable__5Lllg"
+              , Sa = "SlotMachine_wentDown__sWswA"
+              , Ba = "SlotMachine_up__Ae8lR";
+            var Ia = function(e) {
                 var t = e.animate
                   , n = e.result
                   , a = void 0 === n ? 0 : n
                   , r = e.columnStyle;
                 return (0,
                 Z.jsxs)("div", {
-                    className: ga,
+                    className: ja,
                     children: [(0,
                     Z.jsx)("div", {
-                        className: ja
+                        className: Na
                     }), (0,
                     Z.jsxs)("div", {
-                        className: va,
+                        className: ka,
                         style: r,
                         children: [(0,
                         Z.jsx)("p", {
-                            className: Na,
+                            className: Aa,
                             children: a
                         }), t && (0,
                         Z.jsxs)(Z.Fragment, {
                             children: [(0,
                             Z.jsx)("p", {
-                                className: Na,
+                                className: Aa,
                                 children: "1"
                             }), (0,
                             Z.jsx)("p", {
-                                className: Na,
+                                className: Aa,
                                 children: "2"
                             }), (0,
                             Z.jsx)("p", {
-                                className: Na,
+                                className: Aa,
                                 children: "3"
                             }), (0,
                             Z.jsx)("p", {
-                                className: Na,
+                                className: Aa,
                                 children: "4"
                             }), (0,
                             Z.jsx)("p", {
-                                className: Na,
+                                className: Aa,
                                 children: "5"
                             }), (0,
                             Z.jsx)("p", {
-                                className: Na,
+                                className: Aa,
                                 children: "6"
                             }), (0,
                             Z.jsx)("p", {
-                                className: Na,
+                                className: Aa,
                                 children: "7"
                             }), (0,
                             Z.jsx)("p", {
-                                className: Na,
+                                className: Aa,
                                 children: "8"
                             }), (0,
                             Z.jsx)("p", {
-                                className: Na,
+                                className: Aa,
                                 children: "9"
                             })]
                         })]
                     })]
                 })
             }
-              , Ia = function() {
+              , Wa = function() {
                 var e = mt()
                   , t = e.changeRate
                   , n = e.isPending
@@ -2840,7 +2840,7 @@
                 a.useEffect)((function() {
                     var e;
                     null !== t ? (_(null === (e = t) ? null : e > 0 ? ut.UP : 0 === e ? ut.NONE : ut.DOWN),
-                    c(String(Math.abs(Number(xa(t)))).split("").filter((function(e) {
+                    c(String(Math.abs(Number(ha(t)))).split("").filter((function(e) {
                         return "." !== e
                     }
                     )).map((function(e) {
@@ -2852,32 +2852,32 @@
                 ), [t]),
                 (0,
                 Z.jsxs)("div", {
-                    className: k()(ha, x && fa),
+                    className: k()(fa, x && va),
                     children: [(0,
                     Z.jsx)("div", {
-                        className: ga,
+                        className: ja,
                         children: (0,
                         Z.jsxs)("div", {
-                            className: k()(ka, (0,
+                            className: k()(ga, (0,
                             f.A)((0,
                             f.A)((0,
-                            f.A)({}, wa, d === ut.UP), Pa, d === ut.DOWN), Ta, d === ut.NONE)),
+                            f.A)({}, ya, d === ut.UP), Sa, d === ut.DOWN), Pa, d === ut.NONE)),
                             children: [(0,
                             Z.jsx)(b.A, {
                                 iconName: "okds-arrow-pointer-up-sm",
-                                className: k()(Ca, Sa)
+                                className: k()(wa, Ba)
                             }), (0,
                             Z.jsx)(b.A, {
                                 iconName: "okds-arrow-pointer-right-sm",
-                                className: k()(Ca, Ta)
+                                className: k()(wa, Pa)
                             }), (0,
                             Z.jsx)(b.A, {
                                 iconName: "okds-arrow-pointer-down-sm",
-                                className: k()(Ca, ya)
+                                className: k()(wa, Ta)
                             })]
                         })
                     }), (0,
-                    Z.jsx)(Ba, {
+                    Z.jsx)(Ia, {
                         animate: x,
                         result: i[0],
                         columnStyle: {
@@ -2885,31 +2885,31 @@
                         }
                     }), (0,
                     Z.jsx)("span", {
-                        className: Aa,
+                        className: ba,
                         children: "."
                     }), (0,
-                    Z.jsx)(Ba, {
+                    Z.jsx)(Ia, {
                         animate: x,
                         result: i[1],
                         columnStyle: {
                             animationDelay: "200ms"
                         }
                     }), (0,
-                    Z.jsx)(Ba, {
+                    Z.jsx)(Ia, {
                         animate: x,
                         result: i[2],
                         columnStyle: {
                             animationDelay: "300ms"
                         }
                     }), (0,
-                    Z.jsx)(Ba, {
+                    Z.jsx)(Ia, {
                         animate: x,
                         result: i[3],
                         columnStyle: {
                             animationDelay: "200ms"
                         }
                     }), (0,
-                    Z.jsx)(Ba, {
+                    Z.jsx)(Ia, {
                         animate: x,
                         result: i[4],
                         columnStyle: {
@@ -2917,12 +2917,12 @@
                         }
                     }), (0,
                     Z.jsx)("span", {
-                        className: k()(Aa, ba),
+                        className: k()(ba, Ca),
                         children: "%"
                     })]
                 })
             }
-              , Wa = function(e) {
+              , Ea = function(e) {
                 var t = e.showUpgrades
                   , n = at()
                   , r = mt()
@@ -2945,7 +2945,7 @@
                     : (null === i ? d(!1) : e = setTimeout((function() {
                         d(!1)
                     }
-                    ), bt),
+                    ), Ct),
                     function() {
                         e && clearTimeout(e)
                     }
@@ -2954,89 +2954,89 @@
                 }
                 ), [i, s]);
                 var _ = n ? "$".concat((0,
-                Ut.ZV)(Vt._u.truncate(n, 1, !0))) : "--";
+                Vt.ZV)(Gt._u.truncate(n, 1, !0))) : "--";
                 return (0,
                 Z.jsxs)("div", {
-                    className: ca,
+                    className: oa,
                     children: [(0,
-                    Z.jsx)(Jn, {
-                        className: k()(sa, s && ia)
+                    Z.jsx)(Qn, {
+                        className: k()(ia, s && ca)
                     }), (0,
                     Z.jsxs)("div", {
-                        className: k()(oa, l && da),
+                        className: k()(la, l && _a),
                         children: [(0,
                         Z.jsx)("p", {
-                            className: _a,
+                            className: ma,
                             children: (0,
                             g.kW)("ok_game_okxracer_btc_price")
                         }), (0,
                         Z.jsx)("p", {
-                            className: ma,
+                            className: pa,
                             children: _
                         })]
                     }), (0,
                     Z.jsxs)("div", {
-                        className: k()(oa, !l && da),
+                        className: k()(la, !l && _a),
                         children: [(0,
                         Z.jsxs)("p", {
-                            className: _a,
+                            className: ma,
                             children: [(0,
                             g.kW)("ok_game_okxracer_btc_price"), " ", _]
                         }), (0,
                         Z.jsx)("div", {
-                            className: pa,
+                            className: xa,
                             children: (0,
-                            Z.jsx)(Ia, {})
+                            Z.jsx)(Wa, {})
                         })]
                     }), (0,
-                    Z.jsx)(ra, {
-                        className: la
+                    Z.jsx)(sa, {
+                        className: ua
                     }), (0,
                     Z.jsx)("div", {
-                        className: k()(ua, s && da),
+                        className: k()(da, s && _a),
                         children: (0,
-                        Z.jsx)(zn, {
+                        Z.jsx)(Kn, {
                             showUpgrades: t
                         })
                     })]
                 })
             };
-            const Ea = "GameCountdown_countdown__eQ6VX"
-              , Ra = "GameCountdown_value__CVdxH";
-            var La = function(e) {
+            const Ra = "GameCountdown_countdown__eQ6VX"
+              , La = "GameCountdown_value__CVdxH";
+            var Oa = function(e) {
                 var t = e.className
                   , n = mt().countdown
                   , a = void 0 === n ? 5 : n;
                 return (0,
                 Z.jsxs)("p", {
-                    className: k()(t, Ea),
+                    className: k()(t, Ra),
                     children: ["00:0", (0,
                     Z.jsx)("span", {
-                        className: Ra,
+                        className: La,
                         children: a
                     })]
                 })
             };
-            const Oa = "GuessResult_container__ECdpL"
-              , Da = "GuessResult_content__IEuHN"
-              , Fa = "GuessResult_title__fzYxg"
-              , Ua = "GuessResult_description__R2fup"
-              , Va = "GuessResult_stripes__t9gib"
-              , Ga = "GuessResult_changeRateContainer__a5-N7"
-              , Ma = "GuessResult_changeRate__yhVz3"
-              , Za = "GuessResult_up__5vYDR"
-              , Ha = "GuessResult_down__fa-oP"
-              , Ya = "GuessResult_priceChange__xr6e8"
-              , za = "GuessResult_price__Vk+bY";
-            function Ka(e) {
+            const Da = "GuessResult_container__ECdpL"
+              , Fa = "GuessResult_content__IEuHN"
+              , Ua = "GuessResult_title__fzYxg"
+              , Va = "GuessResult_description__R2fup"
+              , Ga = "GuessResult_stripes__t9gib"
+              , Ma = "GuessResult_changeRateContainer__a5-N7"
+              , Za = "GuessResult_changeRate__yhVz3"
+              , Ha = "GuessResult_up__5vYDR"
+              , Ya = "GuessResult_down__fa-oP"
+              , za = "GuessResult_priceChange__xr6e8"
+              , Ka = "GuessResult_price__Vk+bY";
+            function Xa(e) {
                 return (0,
-                Ut.vv)((0,
-                Ut.ZV)(Vt._u.truncate(e, 1, !0)), {
+                Vt.vv)((0,
+                Vt.ZV)(Gt._u.truncate(e, 1, !0)), {
                     code: "USD",
                     currencyDisplay: "narrowSymbol"
                 })
             }
-            var Xa = function(e) {
+            var qa = function(e) {
                 var t = e.className
                   , n = mt()
                   , r = n.result
@@ -3061,9 +3061,9 @@
                             t = setTimeout((function() {
                                 m(!1)
                             }
-                            ), At)
+                            ), bt)
                         }
-                        ), bt)
+                        ), Ct)
                     }
                     return function() {
                         clearTimeout(e),
@@ -3075,77 +3075,77 @@
                 Z.jsx)(Z.Fragment, {
                     children: _ && (0,
                     Z.jsxs)("div", {
-                        className: k()(t, Oa),
+                        className: k()(t, Da),
                         children: [(0,
                         Z.jsx)(w.A, {
-                            pictureClassName: Va,
-                            className: Va,
-                            src: "".concat(c.A.cdnBaseUrl).concat(Tt)
+                            pictureClassName: Ga,
+                            className: Ga,
+                            src: "".concat(c.A.cdnBaseUrl).concat(Pt)
                         }), (0,
                         Z.jsxs)("div", {
-                            className: Da,
+                            className: Fa,
                             children: [(0,
                             Z.jsx)("h2", {
-                                className: Fa,
+                                className: Ua,
                                 children: (0,
                                 g.kW)(r ? "ok_game_okxracer_win_small" : "ok_game_okxracer_miss_small")
                             }), (0,
                             Z.jsxs)("div", {
-                                className: Ua,
+                                className: Va,
                                 children: [null !== s && (0,
                                 Z.jsxs)("p", {
-                                    className: Ga,
+                                    className: Ma,
                                     children: [(0,
                                     g.kW)("ok_game_okxracer_btc_price"), (0,
                                     Z.jsx)("span", {
-                                        className: k()(Ma, (0,
+                                        className: k()(Za, (0,
                                         f.A)((0,
-                                        f.A)({}, Za, s > 0), Ha, s < 0)),
+                                        f.A)({}, Ha, s > 0), Ya, s < 0)),
                                         children: (0,
-                                        Ut.ZV)(xa(s), {
+                                        Vt.ZV)(ha(s), {
                                             style: "percent",
                                             signDisplay: !0
                                         })
                                     })]
                                 }), i && o && (0,
                                 Z.jsx)("p", {
-                                    className: Ya,
+                                    className: za,
                                     children: (0,
                                     g.Vp)("ok_game_okxracer_price_change", {
                                         previousPrice: (0,
                                         Z.jsx)("span", {
-                                            className: za,
-                                            children: Ka(i)
+                                            className: Ka,
+                                            children: Xa(i)
                                         }),
                                         currentPrice: (0,
                                         Z.jsx)("span", {
-                                            className: za,
-                                            children: Ka(o)
+                                            className: Ka,
+                                            children: Xa(o)
                                         })
                                     })
                                 })]
                             })]
                         }), (0,
                         Z.jsx)(w.A, {
-                            pictureClassName: Va,
-                            className: Va,
-                            src: "".concat(c.A.cdnBaseUrl).concat(Tt)
+                            pictureClassName: Ga,
+                            className: Ga,
+                            src: "".concat(c.A.cdnBaseUrl).concat(Pt)
                         })]
                     })
                 })
             };
-            const qa = "Game_container__ZY3UI"
-              , Ja = "Game_muteButton__3NpST"
-              , Qa = "Game_headerWrapper__KN7Hs"
-              , $a = "Game_coinPriceContainer__UEaiS"
-              , er = "Game_backgroundVideo__FGmkD"
-              , tr = "Game_muteButtonIcon__-YOFW"
-              , nr = "Game_hide__WvlMd"
-              , ar = "Game_headerContent__y9QYB"
-              , rr = "Game_countdown__hQ5+r"
-              , sr = "Game_resultOverlay__WVvD2";
-            var ir = "backgroundVideoSoundOn"
-              , cr = function(e) {
+            const Ja = "Game_container__ZY3UI"
+              , Qa = "Game_muteButton__3NpST"
+              , $a = "Game_headerWrapper__KN7Hs"
+              , er = "Game_coinPriceContainer__UEaiS"
+              , tr = "Game_backgroundVideo__FGmkD"
+              , nr = "Game_muteButtonIcon__-YOFW"
+              , ar = "Game_hide__WvlMd"
+              , rr = "Game_headerContent__y9QYB"
+              , sr = "Game_countdown__hQ5+r"
+              , ir = "Game_resultOverlay__WVvD2";
+            var cr = "backgroundVideoSoundOn"
+              , or = function(e) {
                 var t = e.header
                   , n = e.headerWrapperClassName
                   , r = e.btnContainerMarginTop
@@ -3155,7 +3155,7 @@
                   , o = mt().isPending
                   , l = (0,
                 a.useState)((function() {
-                    var e = c.get(ir);
+                    var e = c.get(cr);
                     return Boolean(!e)
                 }
                 ))
@@ -3183,17 +3183,17 @@
                 ), [o]),
                 (0,
                 Z.jsxs)("div", {
-                    className: qa,
+                    className: Ja,
                     children: [(0,
                     Z.jsx)(A.default, {
                         category: A.default.CATEGORY.fill,
                         type: A.default.TYPE.quaternary,
                         size: A.default.SIZE.md,
-                        className: Ja,
+                        className: Qa,
                         strictCircle: !0,
                         onClick: function() {
                             m((function(e) {
-                                return c.set(ir, e),
+                                return c.set(cr, e),
                                 !e
                             }
                             ))
@@ -3201,50 +3201,50 @@
                         children: (0,
                         Z.jsx)(b.A, {
                             iconName: _ ? "okx-growth-music-off" : "okx-growth-music-on",
-                            className: tr
+                            className: nr
                         })
                     }), (0,
                     Z.jsxs)("div", {
-                        className: k()(n, Qa),
+                        className: k()(n, $a),
                         children: [(0,
                         Z.jsx)("div", {
-                            className: k()(ar, h && nr),
+                            className: k()(rr, h && ar),
                             children: t
                         }), (0,
-                        Z.jsx)(La, {
-                            className: k()(rr, !h && nr)
+                        Z.jsx)(Oa, {
+                            className: k()(sr, !h && ar)
                         })]
                     }), (0,
                     Z.jsxs)("div", {
-                        className: $a,
+                        className: er,
                         children: [(0,
                         Z.jsx)("div", {
-                            className: er,
+                            className: tr,
                             children: (0,
                             Z.jsx)(Nt, {
                                 muted: _
                             })
                         }), (0,
-                        Z.jsx)(Wa, {
+                        Z.jsx)(Ea, {
                             showUpgrades: i
                         })]
                     }), (0,
-                    Z.jsx)(Ft, {
+                    Z.jsx)(Ut, {
                         style: {
                             marginTop: s
                         }
                     }), (0,
-                    Z.jsx)(Xa, {
-                        className: sr
+                    Z.jsx)(qa, {
+                        className: ir
                     })]
                 })
             };
-            const or = "BattleProgressBar_container__zOm1x"
-              , lr = "BattleProgressBar_progress__S8Llm"
-              , ur = "BattleProgressBar_bar__aiwsB"
-              , dr = "BattleProgressBar_notFull__HaKwq"
-              , _r = "BattleProgressBar_countdown__xivBA";
-            var mr = function(e) {
+            const lr = "BattleProgressBar_container__zOm1x"
+              , ur = "BattleProgressBar_progress__S8Llm"
+              , dr = "BattleProgressBar_bar__aiwsB"
+              , _r = "BattleProgressBar_notFull__HaKwq"
+              , mr = "BattleProgressBar_countdown__xivBA";
+            var pr = function(e) {
                 var t = e.points
                   , n = e.defensePoints
                   , r = e.countDown
@@ -3289,27 +3289,27 @@
                 }(t, n);
                 return (0,
                 Z.jsxs)("div", {
-                    className: or,
+                    className: lr,
                     children: [(0,
                     Z.jsx)("div", {
-                        className: lr,
+                        className: ur,
                         children: (0,
                         Z.jsx)("div", {
-                            className: k()(ur, (0,
-                            f.A)({}, dr, "100%" !== _)),
+                            className: k()(dr, (0,
+                            f.A)({}, _r, "100%" !== _)),
                             style: {
                                 width: _
                             }
                         })
                     }), (0,
                     Z.jsxs)("span", {
-                        className: _r,
+                        className: mr,
                         children: [l.minute, ":", l.second]
                     })]
                 })
             }
-              , pr = n(32843)
-              , xr = {
+              , xr = n(32843)
+              , hr = {
                 updateSelectedOpponentTeam: function() {},
                 updateSelectedOpponent: function() {},
                 startMatch: function() {
@@ -3357,9 +3357,9 @@
                 countDown: 0,
                 result: void 0
             }
-              , hr = (0,
-            a.createContext)(xr)
-              , fr = function(e) {
+              , fr = (0,
+            a.createContext)(hr)
+              , vr = function(e) {
                 var t = e.children
                   , n = (0,
                 a.useState)(void 0)
@@ -3500,91 +3500,91 @@
                 }
                 ), [g, h, w, b, _, s, S, P]);
                 return (0,
-                Z.jsx)(hr.Provider, {
+                Z.jsx)(fr.Provider, {
                     value: B,
                     children: t
                 })
             }
-              , vr = function() {
+              , kr = function() {
                 return (0,
-                a.useContext)(hr)
+                a.useContext)(fr)
             };
-            const kr = "BattleResult_container__b3JU0"
-              , gr = "BattleResult_content__LNmkd"
-              , jr = "BattleResult_stripes__TNj7H"
-              , Nr = "BattleResult_title__9JSTl"
-              , Ar = "BattleResult_wonPoints__ed03z"
-              , br = "BattleResult_numChances__VXpt4"
-              , Cr = "BattleResult_btnContainer__itreV"
-              , wr = "BattleResult_btn__y4LWs";
-            var yr = function() {
-                var e = vr().result;
+            const gr = "BattleResult_container__b3JU0"
+              , jr = "BattleResult_content__LNmkd"
+              , Nr = "BattleResult_stripes__TNj7H"
+              , Ar = "BattleResult_title__9JSTl"
+              , br = "BattleResult_wonPoints__ed03z"
+              , Cr = "BattleResult_numChances__VXpt4"
+              , wr = "BattleResult_btnContainer__itreV"
+              , yr = "BattleResult_btn__y4LWs";
+            var Tr = function() {
+                var e = kr().result;
                 return e ? (0,
                 Z.jsxs)("div", {
-                    className: kr,
+                    className: gr,
                     children: [(0,
                     Z.jsxs)("div", {
-                        className: gr,
+                        className: jr,
                         children: [(0,
                         Z.jsx)(w.A, {
-                            pictureClassName: jr,
-                            className: jr,
-                            src: "".concat(c.A.cdnBaseUrl).concat(Tt)
+                            pictureClassName: Nr,
+                            className: Nr,
+                            src: "".concat(c.A.cdnBaseUrl).concat(Pt)
                         }), (0,
                         Z.jsx)("p", {
                             dangerouslySetInnerHTML: {
                                 __html: (0,
-                                pr.YW)(e.won ? (0,
+                                xr.YW)(e.won ? (0,
                                 g.kW)("ok_game_okxracer_header_revved_to_victory") : (0,
                                 g.kW)("ok_game_okxracer_header_burn_some_rubber"))
                             },
-                            className: Nr
+                            className: Ar
                         }), e.won && (0,
                         Z.jsxs)("p", {
-                            className: Ar,
-                            children: [Ct, " +", (0,
-                            Ut.ZV)(e.wonPoints)]
+                            className: br,
+                            children: [wt, " +", (0,
+                            Vt.ZV)(e.wonPoints)]
                         }), (0,
                         Z.jsx)("p", {
-                            className: br,
+                            className: Cr,
                             children: (0,
                             g.kW)("ok_game_okxracer_num_chances_left", {
                                 num: (0,
-                                Ut.ZV)(e.numChances)
+                                Vt.ZV)(e.numChances)
                             })
                         }), (0,
                         Z.jsx)(w.A, {
-                            pictureClassName: jr,
-                            className: jr,
-                            src: "".concat(c.A.cdnBaseUrl).concat(Tt)
+                            pictureClassName: Nr,
+                            className: Nr,
+                            src: "".concat(c.A.cdnBaseUrl).concat(Pt)
                         })]
                     }), (0,
                     Z.jsxs)("div", {
-                        className: Cr,
+                        className: wr,
                         children: [e.numChances > 0 ? (0,
-                        Z.jsx)(Rn, {
+                        Z.jsx)(Ln, {
                             to: Ge.battleTeams,
                             children: (0,
-                            Z.jsx)(nn, {
-                                className: wr,
+                            Z.jsx)(an, {
+                                className: yr,
                                 text: (0,
                                 g.kW)("ok_game_okxracer_btn_battle_again")
                             })
                         }) : (0,
-                        Z.jsx)(Rn, {
+                        Z.jsx)(Ln, {
                             to: Ge.home,
                             children: (0,
-                            Z.jsx)(nn, {
-                                className: wr,
+                            Z.jsx)(an, {
+                                className: yr,
                                 text: (0,
                                 g.kW)("ok_game_okxracer_btn_race_no_chances_left")
                             })
                         }), (0,
-                        Z.jsx)(Rn, {
+                        Z.jsx)(Ln, {
                             to: Ge.teamRace,
                             children: (0,
                             Z.jsx)(A.default, {
-                                className: wr,
+                                className: yr,
                                 size: A.default.SIZE.xl,
                                 block: !0,
                                 children: (0,
@@ -3594,11 +3594,11 @@
                     })]
                 }) : null
             };
-            const Tr = "RacerInfo_container__9Ky5m"
-              , Pr = "RacerInfo_avatar__MkU70"
-              , Sr = "RacerInfo_pointsLabel__M7cPq"
-              , Br = "RacerInfo_pointsValue__0RtzL";
-            var Ir = function(e) {
+            const Pr = "RacerInfo_container__9Ky5m"
+              , Sr = "RacerInfo_avatar__MkU70"
+              , Br = "RacerInfo_pointsLabel__M7cPq"
+              , Ir = "RacerInfo_pointsValue__0RtzL";
+            var Wr = function(e) {
                 var t = e.avatarUrl
                   , n = e.label
                   , a = e.pointsLabel
@@ -3607,31 +3607,31 @@
                   , i = e.className;
                 return (0,
                 Z.jsxs)("div", {
-                    className: k()(Tr, i),
+                    className: k()(Pr, i),
                     children: [(0,
                     Z.jsx)(w.A, {
                         src: t,
-                        className: Pr,
+                        className: Sr,
                         alt: "Avatar"
                     }), n, (0,
                     Z.jsx)("span", {
-                        className: Sr,
+                        className: Br,
                         children: a
                     }), (0,
                     Z.jsxs)("span", {
-                        className: Br,
+                        className: Ir,
                         children: [r, " ", s]
                     })]
                 })
             }
-              , Wr = n(44939);
-            const Er = "TransitionAnimation_overlay__-TqX3"
-              , Rr = "TransitionAnimation_textContainer__+5jmQ"
-              , Lr = "TransitionAnimation_opponent__vVXDa"
-              , Or = "TransitionAnimation_label__m2D5r"
-              , Dr = "TransitionAnimation_name__P6mOg"
-              , Fr = JSON.parse('{"v":"5.6.6","fr":60,"ip":0,"op":181,"w":750,"h":1624,"nm":"VS_R5","ddd":0,"assets":[],"layers":[{"ddd":0,"ind":1,"ty":3,"nm":"NULLCONTROL","sr":1,"ks":{"o":{"a":0,"k":0,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[375.573,857.801,0],"ix":2},"a":{"a":0,"k":[50,50,0],"ix":1},"s":{"a":1,"k":[{"i":{"x":[0.502,0.502,0.19],"y":[1,1,1]},"o":{"x":[1,1,0.333],"y":[0.274,0.274,0]},"t":150,"s":[100,100,100]},{"t":165,"s":[293,293,100]}],"ix":6}},"ao":0,"ip":0,"op":181,"st":0,"bm":0},{"ddd":0,"ind":2,"ty":4,"nm":"V","parent":1,"sr":1,"ks":{"o":{"a":1,"k":[{"i":{"x":[0.19],"y":[1]},"o":{"x":[0.333],"y":[0]},"t":150,"s":[100]},{"t":165,"s":[0]}],"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":1,"k":[{"i":{"x":0.667,"y":1},"o":{"x":0.9,"y":0},"t":0,"s":[-387.53,25.68,0],"to":[0,0,0],"ti":[0,0,0]},{"t":10,"s":[10.47,25.68,0]}],"ix":2},"a":{"a":0,"k":[0,0,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-16.128,-33.6],[-31.392,-33.6],[-8.544,33.6],[8.64,33.6],[31.392,-33.6],[16.512,-33.6],[0,16.128]],"c":true},"ix":2},"nm":"\u8def\u5f841","mn":"ADBEVectorShape-Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.737254917622,1,0.184313729405,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"\u586b\u51451","mn":"ADBEVectorGraphic-Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[200,200],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"\u53d8\u6362"}],"nm":"VS","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBEVectorGroup","hd":false}],"ip":0,"op":181,"st":0,"bm":0},{"ddd":0,"ind":3,"ty":4,"nm":"S","parent":1,"sr":1,"ks":{"o":{"a":1,"k":[{"i":{"x":[0.19],"y":[1]},"o":{"x":[0.333],"y":[0]},"t":150,"s":[100]},{"t":165,"s":[0]}],"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":1,"k":[{"i":{"x":0.667,"y":1},"o":{"x":0.9,"y":0},"t":0,"s":[479.53,74.32,0],"to":[0,0,0],"ti":[0,0,0]},{"t":10,"s":[89.53,74.32,0]}],"ix":2},"a":{"a":0,"k":[0,0,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[-17.088,0],[0,12.576],[11.52,2.112],[0,5.472],[-6.144,0],[-0.672,-5.664],[0,0],[15.84,0],[0,-11.904],[-11.328,-2.208],[0,-5.664],[6.624,0],[0.48,6.72]],"o":[[0.096,13.632],[15.744,0],[0,-13.344],[-11.136,-2.112],[0,-5.184],[7.104,0],[0,0],[-0.192,-12.864],[-15.168,0],[0,13.632],[11.232,2.208],[0,5.28],[-8.256,0],[0,0]],"v":[[-27.024,11.52],[0.816,34.176],[27.024,12.96],[5.424,-6.144],[-10.992,-14.88],[-0.432,-22.656],[11.568,-13.056],[25.68,-13.056],[-0.432,-34.176],[-25.488,-13.824],[-4.176,5.568],[12.528,14.592],[1.008,22.752],[-12.912,11.52]],"c":true},"ix":2},"nm":"\u8def\u5f841","mn":"ADBEVectorShape-Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"\u586b\u51451","mn":"ADBEVectorGraphic-Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[200,200],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"\u53d8\u6362"}],"nm":"VS","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBEVectorGroup","hd":false}],"ip":0,"op":181,"st":0,"bm":0},{"ddd":0,"ind":4,"ty":2,"nm":"Vector7.png","cl":"png","parent":2,"refId":"image_0","sr":1,"ks":{"o":{"a":1,"k":[{"i":{"x":[0.667],"y":[1]},"o":{"x":[0.333],"y":[0]},"t":150,"s":[80]},{"t":157,"s":[2]}],"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[-203.042,11.519,0],"ix":2},"a":{"a":0,"k":[137,6,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"ip":150,"op":181,"st":0,"bm":0},{"ddd":0,"ind":5,"ty":2,"nm":"Vector7179(Stroke)2.png","cl":"png","parent":3,"refId":"image_1","sr":1,"ks":{"o":{"a":1,"k":[{"i":{"x":[0.667],"y":[1]},"o":{"x":[0.333],"y":[0]},"t":150,"s":[80]},{"t":157,"s":[2]}],"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[202.897,-37.122,0],"ix":2},"a":{"a":0,"k":[132,6,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"ip":150,"op":181,"st":0,"bm":0},{"ddd":0,"ind":6,"ty":2,"nm":"Vector7.png","cl":"png","parent":2,"refId":"image_0","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[-203.042,11.519,0],"ix":2},"a":{"a":0,"k":[137,6,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"ip":0,"op":150,"st":0,"bm":0},{"ddd":0,"ind":7,"ty":2,"nm":"Vector7179(Stroke)2.png","cl":"png","parent":3,"refId":"image_1","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[202.897,-37.122,0],"ix":2},"a":{"a":0,"k":[132,6,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"ip":0,"op":150,"st":0,"bm":0},{"ddd":0,"ind":8,"ty":4,"nm":"ramp7","parent":12,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[437.099,648.27,0],"ix":2},"a":{"a":0,"k":[226.329,-91.397,0],"ix":1},"s":{"a":0,"k":[-100,-100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[89,-203],[6.459,-200.879],[6.411,-21.666],[88.952,-23.787]],"c":true},"ix":2},"nm":"\u8def\u5f841","mn":"ADBEVectorShape-Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0,0,0,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"\u586b\u51451","mn":"ADBEVectorGraphic-Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[200,200],"ix":3},"r":{"a":0,"k":45,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"\u53d8\u6362"}],"nm":"Rectangle65085575","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBEVectorGroup","hd":false}],"ip":0,"op":181,"st":0,"bm":0},{"ddd":0,"ind":9,"ty":2,"nm":"image.png","cl":"png","parent":12,"refId":"image_2","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[301.537,551.517,0],"ix":2},"a":{"a":0,"k":[155,155.5,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"ip":0,"op":181,"st":0,"bm":0},{"ddd":0,"ind":10,"ty":4,"nm":"ramp6","parent":13,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":-360,"ix":10},"p":{"a":0,"k":[298.465,227.165,0],"ix":2},"a":{"a":0,"k":[-338.319,169.626,0],"ix":1},"s":{"a":0,"k":[-100,-100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-30.324,93.84],[-88.823,93.808],[-88.96,265.331],[-30.461,265.363]],"c":true},"ix":2},"nm":"\u8def\u5f841","mn":"ADBEVectorShape-Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0,0,0,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"\u586b\u51451","mn":"ADBEVectorGraphic-Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[200,200],"ix":3},"r":{"a":0,"k":45,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"\u53d8\u6362"}],"nm":"Rectangle65085575","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBEVectorGroup","hd":false}],"ip":0,"op":181,"st":0,"bm":0},{"ddd":0,"ind":11,"ty":2,"nm":"imageb.png","cl":"png","parent":13,"refId":"image_3","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":-360,"ix":10},"p":{"a":0,"k":[404.882,309.923,0],"ix":2},"a":{"a":0,"k":[155,155,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"ip":0,"op":181,"st":0,"bm":0},{"ddd":0,"ind":12,"ty":2,"nm":"Group2007672973_2.png","cl":"png","refId":"image_4","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"s":true,"x":{"a":1,"k":[{"i":{"x":[0.45],"y":[0.995]},"o":{"x":[0.333],"y":[0]},"t":0,"s":[1093]},{"i":{"x":[0.835],"y":[0.689]},"o":{"x":[0.178],"y":[0.249]},"t":10,"s":[333]},{"i":{"x":[0.667],"y":[1]},"o":{"x":[0.437],"y":[0.007]},"t":153,"s":[269]},{"t":165,"s":[-383]}],"ix":3},"y":{"a":1,"k":[{"i":{"x":[0.453],"y":[1.002]},"o":{"x":[0.333],"y":[0]},"t":0,"s":[-266]},{"i":{"x":[0.659],"y":[0.606]},"o":{"x":[0.337],"y":[0.392]},"t":10,"s":[488]},{"i":{"x":[0.667],"y":[1]},"o":{"x":[0.452],"y":[0]},"t":153,"s":[548]},{"t":165,"s":[1200]}],"ix":4}},"a":{"a":0,"k":[357,414,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"ip":0,"op":181,"st":0,"bm":0},{"ddd":0,"ind":13,"ty":2,"nm":"Group2007672968_2.png","cl":"png","refId":"image_5","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"s":true,"x":{"a":1,"k":[{"i":{"x":[0.5],"y":[0.996]},"o":{"x":[0.333],"y":[0]},"t":0,"s":[-310]},{"i":{"x":[0.829],"y":[0.929]},"o":{"x":[0.212],"y":[0.288]},"t":10,"s":[414]},{"i":{"x":[0.667],"y":[1]},"o":{"x":[0.565],"y":[0.002]},"t":153,"s":[479]},{"t":165,"s":[1077]}],"ix":3},"y":{"a":1,"k":[{"i":{"x":[0.484],"y":[0.996]},"o":{"x":[0.333],"y":[0]},"t":0,"s":[1892]},{"i":{"x":[0.831],"y":[0.844]},"o":{"x":[0.191],"y":[0.226]},"t":10,"s":[1182]},{"i":{"x":[0.667],"y":[1]},"o":{"x":[0.545],"y":[0.004]},"t":153,"s":[1121]},{"t":165,"s":[537]}],"ix":4}},"a":{"a":0,"k":[356,430.5,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"ip":0,"op":181,"st":0,"bm":0}],"markers":[]}');
-            var Ur = function(e) {
+              , Er = n(44939);
+            const Rr = "TransitionAnimation_overlay__-TqX3"
+              , Lr = "TransitionAnimation_textContainer__+5jmQ"
+              , Or = "TransitionAnimation_opponent__vVXDa"
+              , Dr = "TransitionAnimation_label__m2D5r"
+              , Fr = "TransitionAnimation_name__P6mOg"
+              , Ur = JSON.parse('{"v":"5.6.6","fr":60,"ip":0,"op":181,"w":750,"h":1624,"nm":"VS_R5","ddd":0,"assets":[],"layers":[{"ddd":0,"ind":1,"ty":3,"nm":"NULLCONTROL","sr":1,"ks":{"o":{"a":0,"k":0,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[375.573,857.801,0],"ix":2},"a":{"a":0,"k":[50,50,0],"ix":1},"s":{"a":1,"k":[{"i":{"x":[0.502,0.502,0.19],"y":[1,1,1]},"o":{"x":[1,1,0.333],"y":[0.274,0.274,0]},"t":150,"s":[100,100,100]},{"t":165,"s":[293,293,100]}],"ix":6}},"ao":0,"ip":0,"op":181,"st":0,"bm":0},{"ddd":0,"ind":2,"ty":4,"nm":"V","parent":1,"sr":1,"ks":{"o":{"a":1,"k":[{"i":{"x":[0.19],"y":[1]},"o":{"x":[0.333],"y":[0]},"t":150,"s":[100]},{"t":165,"s":[0]}],"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":1,"k":[{"i":{"x":0.667,"y":1},"o":{"x":0.9,"y":0},"t":0,"s":[-387.53,25.68,0],"to":[0,0,0],"ti":[0,0,0]},{"t":10,"s":[10.47,25.68,0]}],"ix":2},"a":{"a":0,"k":[0,0,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-16.128,-33.6],[-31.392,-33.6],[-8.544,33.6],[8.64,33.6],[31.392,-33.6],[16.512,-33.6],[0,16.128]],"c":true},"ix":2},"nm":"\u8def\u5f841","mn":"ADBEVectorShape-Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.737254917622,1,0.184313729405,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"\u586b\u51451","mn":"ADBEVectorGraphic-Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[200,200],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"\u53d8\u6362"}],"nm":"VS","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBEVectorGroup","hd":false}],"ip":0,"op":181,"st":0,"bm":0},{"ddd":0,"ind":3,"ty":4,"nm":"S","parent":1,"sr":1,"ks":{"o":{"a":1,"k":[{"i":{"x":[0.19],"y":[1]},"o":{"x":[0.333],"y":[0]},"t":150,"s":[100]},{"t":165,"s":[0]}],"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":1,"k":[{"i":{"x":0.667,"y":1},"o":{"x":0.9,"y":0},"t":0,"s":[479.53,74.32,0],"to":[0,0,0],"ti":[0,0,0]},{"t":10,"s":[89.53,74.32,0]}],"ix":2},"a":{"a":0,"k":[0,0,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[-17.088,0],[0,12.576],[11.52,2.112],[0,5.472],[-6.144,0],[-0.672,-5.664],[0,0],[15.84,0],[0,-11.904],[-11.328,-2.208],[0,-5.664],[6.624,0],[0.48,6.72]],"o":[[0.096,13.632],[15.744,0],[0,-13.344],[-11.136,-2.112],[0,-5.184],[7.104,0],[0,0],[-0.192,-12.864],[-15.168,0],[0,13.632],[11.232,2.208],[0,5.28],[-8.256,0],[0,0]],"v":[[-27.024,11.52],[0.816,34.176],[27.024,12.96],[5.424,-6.144],[-10.992,-14.88],[-0.432,-22.656],[11.568,-13.056],[25.68,-13.056],[-0.432,-34.176],[-25.488,-13.824],[-4.176,5.568],[12.528,14.592],[1.008,22.752],[-12.912,11.52]],"c":true},"ix":2},"nm":"\u8def\u5f841","mn":"ADBEVectorShape-Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"\u586b\u51451","mn":"ADBEVectorGraphic-Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[200,200],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"\u53d8\u6362"}],"nm":"VS","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBEVectorGroup","hd":false}],"ip":0,"op":181,"st":0,"bm":0},{"ddd":0,"ind":4,"ty":2,"nm":"Vector7.png","cl":"png","parent":2,"refId":"image_0","sr":1,"ks":{"o":{"a":1,"k":[{"i":{"x":[0.667],"y":[1]},"o":{"x":[0.333],"y":[0]},"t":150,"s":[80]},{"t":157,"s":[2]}],"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[-203.042,11.519,0],"ix":2},"a":{"a":0,"k":[137,6,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"ip":150,"op":181,"st":0,"bm":0},{"ddd":0,"ind":5,"ty":2,"nm":"Vector7179(Stroke)2.png","cl":"png","parent":3,"refId":"image_1","sr":1,"ks":{"o":{"a":1,"k":[{"i":{"x":[0.667],"y":[1]},"o":{"x":[0.333],"y":[0]},"t":150,"s":[80]},{"t":157,"s":[2]}],"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[202.897,-37.122,0],"ix":2},"a":{"a":0,"k":[132,6,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"ip":150,"op":181,"st":0,"bm":0},{"ddd":0,"ind":6,"ty":2,"nm":"Vector7.png","cl":"png","parent":2,"refId":"image_0","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[-203.042,11.519,0],"ix":2},"a":{"a":0,"k":[137,6,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"ip":0,"op":150,"st":0,"bm":0},{"ddd":0,"ind":7,"ty":2,"nm":"Vector7179(Stroke)2.png","cl":"png","parent":3,"refId":"image_1","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[202.897,-37.122,0],"ix":2},"a":{"a":0,"k":[132,6,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"ip":0,"op":150,"st":0,"bm":0},{"ddd":0,"ind":8,"ty":4,"nm":"ramp7","parent":12,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[437.099,648.27,0],"ix":2},"a":{"a":0,"k":[226.329,-91.397,0],"ix":1},"s":{"a":0,"k":[-100,-100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[89,-203],[6.459,-200.879],[6.411,-21.666],[88.952,-23.787]],"c":true},"ix":2},"nm":"\u8def\u5f841","mn":"ADBEVectorShape-Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0,0,0,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"\u586b\u51451","mn":"ADBEVectorGraphic-Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[200,200],"ix":3},"r":{"a":0,"k":45,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"\u53d8\u6362"}],"nm":"Rectangle65085575","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBEVectorGroup","hd":false}],"ip":0,"op":181,"st":0,"bm":0},{"ddd":0,"ind":9,"ty":2,"nm":"image.png","cl":"png","parent":12,"refId":"image_2","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[301.537,551.517,0],"ix":2},"a":{"a":0,"k":[155,155.5,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"ip":0,"op":181,"st":0,"bm":0},{"ddd":0,"ind":10,"ty":4,"nm":"ramp6","parent":13,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":-360,"ix":10},"p":{"a":0,"k":[298.465,227.165,0],"ix":2},"a":{"a":0,"k":[-338.319,169.626,0],"ix":1},"s":{"a":0,"k":[-100,-100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-30.324,93.84],[-88.823,93.808],[-88.96,265.331],[-30.461,265.363]],"c":true},"ix":2},"nm":"\u8def\u5f841","mn":"ADBEVectorShape-Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0,0,0,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"\u586b\u51451","mn":"ADBEVectorGraphic-Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[200,200],"ix":3},"r":{"a":0,"k":45,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"\u53d8\u6362"}],"nm":"Rectangle65085575","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBEVectorGroup","hd":false}],"ip":0,"op":181,"st":0,"bm":0},{"ddd":0,"ind":11,"ty":2,"nm":"imageb.png","cl":"png","parent":13,"refId":"image_3","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":-360,"ix":10},"p":{"a":0,"k":[404.882,309.923,0],"ix":2},"a":{"a":0,"k":[155,155,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"ip":0,"op":181,"st":0,"bm":0},{"ddd":0,"ind":12,"ty":2,"nm":"Group2007672973_2.png","cl":"png","refId":"image_4","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"s":true,"x":{"a":1,"k":[{"i":{"x":[0.45],"y":[0.995]},"o":{"x":[0.333],"y":[0]},"t":0,"s":[1093]},{"i":{"x":[0.835],"y":[0.689]},"o":{"x":[0.178],"y":[0.249]},"t":10,"s":[333]},{"i":{"x":[0.667],"y":[1]},"o":{"x":[0.437],"y":[0.007]},"t":153,"s":[269]},{"t":165,"s":[-383]}],"ix":3},"y":{"a":1,"k":[{"i":{"x":[0.453],"y":[1.002]},"o":{"x":[0.333],"y":[0]},"t":0,"s":[-266]},{"i":{"x":[0.659],"y":[0.606]},"o":{"x":[0.337],"y":[0.392]},"t":10,"s":[488]},{"i":{"x":[0.667],"y":[1]},"o":{"x":[0.452],"y":[0]},"t":153,"s":[548]},{"t":165,"s":[1200]}],"ix":4}},"a":{"a":0,"k":[357,414,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"ip":0,"op":181,"st":0,"bm":0},{"ddd":0,"ind":13,"ty":2,"nm":"Group2007672968_2.png","cl":"png","refId":"image_5","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"s":true,"x":{"a":1,"k":[{"i":{"x":[0.5],"y":[0.996]},"o":{"x":[0.333],"y":[0]},"t":0,"s":[-310]},{"i":{"x":[0.829],"y":[0.929]},"o":{"x":[0.212],"y":[0.288]},"t":10,"s":[414]},{"i":{"x":[0.667],"y":[1]},"o":{"x":[0.565],"y":[0.002]},"t":153,"s":[479]},{"t":165,"s":[1077]}],"ix":3},"y":{"a":1,"k":[{"i":{"x":[0.484],"y":[0.996]},"o":{"x":[0.333],"y":[0]},"t":0,"s":[1892]},{"i":{"x":[0.831],"y":[0.844]},"o":{"x":[0.191],"y":[0.226]},"t":10,"s":[1182]},{"i":{"x":[0.667],"y":[1]},"o":{"x":[0.545],"y":[0.004]},"t":153,"s":[1121]},{"t":165,"s":[537]}],"ix":4}},"a":{"a":0,"k":[356,430.5,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"ip":0,"op":181,"st":0,"bm":0}],"markers":[]}');
+            var Vr = function(e) {
                 var t = e.avatar
                   , s = e.opponentAvatar
                   , i = e.opponentName
@@ -3647,7 +3647,7 @@
                 a.useMemo)((function() {
                     return (0,
                     C.A)((0,
-                    C.A)({}, Fr), {}, {
+                    C.A)({}, Ur), {}, {
                         assets: [{
                             id: "image_0",
                             w: 274,
@@ -3752,39 +3752,39 @@
                 h ? (0,
                 Z.jsxs)("div", {
                     ref: m,
-                    className: Er,
+                    className: Rr,
                     children: [(0,
                     Z.jsxs)("span", {
-                        className: Rr,
+                        className: Lr,
                         children: [(0,
                         Z.jsx)("p", {
-                            className: Or,
+                            className: Dr,
                             children: (0,
                             g.kW)("ok_game_okxracer_challenge_racer")
                         }), (0,
                         Z.jsx)("p", {
-                            className: Dr,
+                            className: Fr,
                             children: (0,
                             g.kW)("ok_game_okxracer_poster_title_you_battle")
                         })]
                     }), (0,
                     Z.jsxs)("span", {
-                        className: k()(Rr, Lr),
+                        className: k()(Lr, Or),
                         children: [(0,
                         Z.jsx)("p", {
-                            className: Or,
+                            className: Dr,
                             children: (0,
                             g.kW)("ok_game_okxracer_defense_racer")
                         }), (0,
                         Z.jsx)("p", {
-                            className: Dr,
+                            className: Fr,
                             children: (0,
-                            Wr.z)(i)
+                            Er.z)(i)
                         })]
                     })]
                 }) : null
             }
-              , Vr = (0,
+              , Gr = (0,
             a.createContext)({
                 currentTeam: null,
                 teams: [],
@@ -3853,11 +3853,11 @@
                 }(),
                 matchInfo: null
             })
-              , Gr = function() {
+              , Mr = function() {
                 return (0,
-                a.useContext)(Vr)
+                a.useContext)(Gr)
             }
-              , Mr = function(e) {
+              , Zr = function(e) {
                 var t = e.children
                   , n = (0,
                 a.useState)([])
@@ -4047,18 +4047,18 @@
                 }
                 ), [_, S, g, T, B, I, h, b, s]);
                 return (0,
-                Z.jsx)(Vr.Provider, {
+                Z.jsx)(Gr.Provider, {
                     value: W,
                     children: t
                 })
             };
-            const Zr = "Battle_gameHeaderWrapper__Ppb1Q"
-              , Hr = "Battle_header__jOWc6"
-              , Yr = "Battle_racerLabel__KbnO9"
-              , zr = "Battle_defense__agq9W"
-              , Kr = "Battle_lost__gMcm9";
-            var Xr = function() {
-                var e = vr()
+            const Hr = "Battle_gameHeaderWrapper__Ppb1Q"
+              , Yr = "Battle_header__jOWc6"
+              , zr = "Battle_racerLabel__KbnO9"
+              , Kr = "Battle_defense__agq9W"
+              , Xr = "Battle_lost__gMcm9";
+            var qr = function() {
+                var e = kr()
                   , t = e.selectedOpponent
                   , n = e.selectedOpponentTeam
                   , r = e.accumulatedPoints
@@ -4066,7 +4066,7 @@
                   , u = e.startMatch
                   , d = e.countDown
                   , _ = e.settleMatch
-                  , m = Gr().currentTeam
+                  , m = Mr().currentTeam
                   , p = mt()
                   , x = p.result
                   , h = p.wonPoints
@@ -4157,155 +4157,155 @@
                 return (0,
                 Z.jsxs)(Z.Fragment, {
                     children: [(0,
-                    Z.jsx)(cr, {
+                    Z.jsx)(or, {
                         header: (0,
                         Z.jsxs)("header", {
-                            className: Hr,
+                            className: Yr,
                             children: [(0,
-                            Z.jsx)(Ir, {
+                            Z.jsx)(Wr, {
                                 avatarUrl: "".concat(c.A.cdnBaseUrl).concat(T),
                                 label: (0,
                                 Z.jsx)(j.A, {
-                                    className: Yr,
+                                    className: zr,
                                     size: N.A.SIZE.sm,
                                     children: (0,
                                     g.kW)("ok_game_okxracer_challenge_racer")
                                 }),
                                 pointsLabel: (0,
                                 g.kW)("ok_game_okxracer_label_my_points"),
-                                icon: yt,
+                                icon: Tt,
                                 points: r
                             }), (0,
-                            Z.jsx)(mr, {
+                            Z.jsx)(pr, {
                                 points: r,
                                 defensePoints: t.defensePoint,
                                 countDown: d,
                                 onFinish: C
                             }), (0,
-                            Z.jsx)(Ir, {
+                            Z.jsx)(Wr, {
                                 className: k()((0,
-                                f.A)({}, Kr, r > t.defensePoint)),
+                                f.A)({}, Xr, r > t.defensePoint)),
                                 avatarUrl: "".concat(c.A.cdnBaseUrl).concat(B),
                                 label: (0,
                                 Z.jsx)("span", {
-                                    className: k()(Yr, zr),
+                                    className: k()(zr, Kr),
                                     children: (0,
                                     g.kW)("ok_game_okxracer_defense_racer")
                                 }),
                                 pointsLabel: (0,
                                 g.kW)("ok_game_okxracer_label_defenses_points"),
-                                icon: wt,
+                                icon: yt,
                                 points: t.defensePoint
                             })]
                         }),
-                        headerWrapperClassName: Zr,
+                        headerWrapperClassName: Hr,
                         btnContainerMarginTop: 16,
                         showUpgrades: !1
                     }), (0,
-                    Z.jsx)(Ur, {
+                    Z.jsx)(Vr, {
                         avatar: "".concat(c.A.cdnBaseUrl).concat(y || T),
                         opponentAvatar: "".concat(c.A.cdnBaseUrl).concat(S || B),
                         opponentName: t.userName,
                         onComplete: b
                     }), (0,
-                    Z.jsx)(yr, {})]
+                    Z.jsx)(Tr, {})]
                 })
             }
-              , qr = n(45458)
-              , Jr = n(57208)
-              , Qr = n(59092);
+              , Jr = n(45458)
+              , Qr = n(57208)
+              , $r = n(59092);
             n(39053),
             n(23631);
-            const $r = "CampaignEndedIndicator_campaignEndedIndicator__t9IRX"
-              , es = "CampaignEndedIndicator_campaignEndedIcon__nIS3f";
-            var ts = function(e) {
+            const es = "CampaignEndedIndicator_campaignEndedIndicator__t9IRX"
+              , ts = "CampaignEndedIndicator_campaignEndedIcon__nIS3f";
+            var ns = function(e) {
                 var t = e.className;
                 return (0,
                 Z.jsxs)("span", {
-                    className: k()($r, t),
+                    className: k()(es, t),
                     children: [(0,
                     Z.jsx)(b.A, {
                         iconName: "okds-clock",
-                        className: es
+                        className: ts
                     }), (0,
                     g.kW)("ok_game_okxracer_tag_phase421_ended")]
                 })
             };
-            function ns(e) {
+            function as(e) {
                 return "TelegramWebviewProxy"in e && function(e) {
                     return "object" === typeof e && null !== e && !Array.isArray(e)
                 }(e.TelegramWebviewProxy) && "postEvent"in e.TelegramWebviewProxy && "function" === typeof e.TelegramWebviewProxy.postEvent
             }
-            function as(e) {
+            function rs(e) {
                 var t, n;
                 null === (t = window) || void 0 === t || null === (n = t.Telegram) || void 0 === n || n.WebApp.openLink(e)
             }
-            const rs = "CampaignBottomSheet_campaignBottomSheet__OKpEt"
-              , ss = "CampaignBottomSheet_dateRange__t5AOU"
-              , is = "CampaignBottomSheet_subTitle__aG7oj"
-              , cs = "CampaignBottomSheet_desc__TyIyt"
-              , os = "CampaignBottomSheet_divider__C+SIy"
-              , ls = "CampaignBottomSheet_points__OXkAw"
-              , us = "CampaignBottomSheet_button__vdHpR";
-            var ds = function(e) {
+            const ss = "CampaignBottomSheet_campaignBottomSheet__OKpEt"
+              , is = "CampaignBottomSheet_dateRange__t5AOU"
+              , cs = "CampaignBottomSheet_subTitle__aG7oj"
+              , os = "CampaignBottomSheet_desc__TyIyt"
+              , ls = "CampaignBottomSheet_divider__C+SIy"
+              , us = "CampaignBottomSheet_points__OXkAw"
+              , ds = "CampaignBottomSheet_button__vdHpR";
+            var _s = function(e) {
                 var t = e.campaign;
                 return (0,
                 Z.jsxs)("div", {
-                    className: rs,
+                    className: ss,
                     children: [t.status === We.Ended ? (0,
                     Z.jsx)("span", {
-                        className: ss,
+                        className: is,
                         children: (0,
-                        Z.jsx)(ts, {})
+                        Z.jsx)(ns, {})
                     }) : (0,
                     Z.jsxs)("span", {
-                        className: ss,
-                        children: [(0,
-                        Ut.r6)(new Date(t.startDate)), "\xa0-\xa0", (0,
-                        Ut.r6)(new Date(t.endDate))]
-                    }), (0,
-                    Z.jsx)("p", {
                         className: is,
-                        children: t.title
+                        children: [(0,
+                        Vt.r6)(new Date(t.startDate)), "\xa0-\xa0", (0,
+                        Vt.r6)(new Date(t.endDate))]
                     }), (0,
                     Z.jsx)("p", {
                         className: cs,
+                        children: t.title
+                    }), (0,
+                    Z.jsx)("p", {
+                        className: os,
                         children: t.description
                     }), (0,
                     Z.jsx)("hr", {
-                        className: os
+                        className: ls
                     }), (0,
                     Z.jsx)("p", {
-                        className: ls,
+                        className: us,
                         children: t.pointDescription
                     }), (0,
-                    Z.jsx)(nn, {
-                        className: us,
+                    Z.jsx)(an, {
+                        className: ds,
                         onClick: function() {
-                            as(t.webUrl)
+                            rs(t.webUrl)
                         },
                         text: (0,
                         g.kW)("ok_game_okxracer_btn_phase421_go_campaign")
                     })]
                 })
             };
-            const _s = "LoadingPlaceholder_loadingPlaceholder__e5Mgs";
-            var ms = function(e) {
+            const ms = "LoadingPlaceholder_loadingPlaceholder__e5Mgs";
+            var ps = function(e) {
                 var t = e.className;
                 return (0,
                 Z.jsx)("div", {
-                    className: k()(_s, t)
+                    className: k()(ms, t)
                 })
             };
-            const ps = "NeonDivider_divider__QK3DO";
-            var xs = function(e) {
+            const xs = "NeonDivider_divider__QK3DO";
+            var hs = function(e) {
                 var t = e.className;
                 return (0,
                 Z.jsx)("hr", {
-                    className: k()(ps, t)
+                    className: k()(xs, t)
                 })
             }
-              , hs = function() {
+              , fs = function() {
                 var e = (0,
                 s.useHistory)()
                   , t = e.replace
@@ -4332,19 +4332,19 @@
                 }
                 ), [c, i, t])
             };
-            const fs = "CampaignCard_cardContainer__3yu81"
-              , vs = "CampaignCard_dateRange__hvYLA"
-              , ks = "CampaignCard_campaignEndedIndicator__6J91S"
-              , gs = "CampaignCard_card__cYF8Y"
-              , js = "CampaignCard_campaignImg__YpUgC"
-              , Ns = "CampaignCard_round__MMyT5"
-              , As = "CampaignCard_content__1ZjVu"
-              , bs = "CampaignCard_name__mfl60"
-              , Cs = "CampaignCard_desc__klZyx"
-              , ws = "CampaignCard_points__jIZar"
-              , ys = "CampaignCard_btn__v8gu9"
-              , Ts = "CampaignCard_btnContent__-5uC9";
-            var Ps = function(e) {
+            const vs = "CampaignCard_cardContainer__3yu81"
+              , ks = "CampaignCard_dateRange__hvYLA"
+              , gs = "CampaignCard_campaignEndedIndicator__6J91S"
+              , js = "CampaignCard_card__cYF8Y"
+              , Ns = "CampaignCard_campaignImg__YpUgC"
+              , As = "CampaignCard_round__MMyT5"
+              , bs = "CampaignCard_content__1ZjVu"
+              , Cs = "CampaignCard_name__mfl60"
+              , ws = "CampaignCard_desc__klZyx"
+              , ys = "CampaignCard_points__jIZar"
+              , Ts = "CampaignCard_btn__v8gu9"
+              , Ps = "CampaignCard_btnContent__-5uC9";
+            var Ss = function(e) {
                 var t = e.campaign
                   , n = e.btnText
                   , a = e.onClick
@@ -4356,51 +4356,51 @@
                   , u = t.points;
                 return (0,
                 Z.jsxs)("li", {
-                    className: fs,
+                    className: vs,
                     children: [t.endDate && t.startDate ? t.status === We.Ended ? (0,
-                    Z.jsx)(ts, {
-                        className: ks
+                    Z.jsx)(ns, {
+                        className: gs
                     }) : (0,
                     Z.jsxs)("span", {
-                        className: vs,
+                        className: ks,
                         children: [(0,
-                        Ut.r6)(new Date(t.startDate)), "\xa0-\xa0", (0,
-                        Ut.r6)(new Date(t.endDate))]
+                        Vt.r6)(new Date(t.startDate)), "\xa0-\xa0", (0,
+                        Vt.r6)(new Date(t.endDate))]
                     }) : null, (0,
                     Z.jsxs)("div", {
-                        className: gs,
+                        className: js,
                         children: [(0,
                         Z.jsx)(w.A, {
                             src: "".concat(c.A.cdnBaseUrl).concat(i),
-                            pictureClassName: js,
-                            className: k()(js, (0,
-                            f.A)({}, Ns, s))
+                            pictureClassName: Ns,
+                            className: k()(Ns, (0,
+                            f.A)({}, As, s))
                         }), (0,
                         Z.jsxs)("div", {
-                            className: As,
+                            className: bs,
                             children: [(0,
                             Z.jsx)("p", {
-                                className: bs,
+                                className: Cs,
                                 children: o
                             }), (0,
                             Z.jsx)("p", {
-                                className: Cs,
+                                className: ws,
                                 children: l
                             }), !!u && u > 0 && (0,
                             Z.jsx)("p", {
-                                className: ws,
+                                className: ys,
                                 children: (0,
                                 g.kW)("ok_game_okxracer_text_phase3_up_to_pts", {
                                     number: "+".concat((0,
-                                    Ut.ZV)(u))
+                                    Vt.ZV)(u))
                                 })
                             }), (0,
                             Z.jsx)(A.default, {
                                 type: A.default.TYPE.default,
                                 category: A.default.CATEGORY.outline,
                                 size: A.default.SIZE.s,
-                                className: ys,
-                                contentClassName: Ts,
+                                className: Ts,
+                                contentClassName: Ps,
                                 onClick: a,
                                 children: n
                             })]
@@ -4408,7 +4408,7 @@
                     })]
                 })
             }
-              , Ss = {
+              , Bs = {
                 signupLink: "/join",
                 downloadLink: "/download?redirectAppStore=true",
                 bindTgLink: "https://www.okx.com/ul/3h87sZ",
@@ -4421,23 +4421,23 @@
                 pointGradeName: "",
                 totalEarnedPoints: 0
             }
-              , Bs = (0,
+              , Is = (0,
             a.createContext)({
-                accountBindingInfo: Ss,
+                accountBindingInfo: Bs,
                 isCertified: !1,
                 isLoading: !1,
                 getAccountBindingInfo: function() {
                     throw new Error("Function not implemented.")
                 }
             })
-              , Is = function() {
+              , Ws = function() {
                 return (0,
-                a.useContext)(Bs)
+                a.useContext)(Is)
             }
-              , Ws = function(e) {
+              , Es = function(e) {
                 var t = e.children
                   , n = (0,
-                a.useState)(Ss)
+                a.useState)(Bs)
                   , r = (0,
                 u.A)(n, 2)
                   , s = r[0]
@@ -4493,29 +4493,29 @@
                 }
                 ), [s, x, p, _]);
                 return (0,
-                Z.jsx)(Bs.Provider, {
+                Z.jsx)(Is.Provider, {
                     value: h,
                     children: t
                 })
             }
-              , Es = function(e) {
+              , Rs = function(e) {
                 return e.SIGNUP = "signup",
                 e.INSTALL = "install",
                 e.CONNECT = "connect",
                 e.KYC = "kyc",
                 e
             }({})
-              , Rs = function(e) {
+              , Ls = function(e) {
                 var t, n;
                 return Boolean(Number(null === (t = window) || void 0 === t || null === (n = t.localStorage) || void 0 === n ? void 0 : n.getItem(e)))
             };
-            function Ls(e) {
+            function Os(e) {
                 var t = {
                     title: (0,
                     g.kW)("ok_game_okxracer_surprises_kyc"),
                     subTitle: (0,
                     g.kW)("ok_game_okxracer_surprises_kyc_desc"),
-                    type: Es.KYC,
+                    type: Rs.KYC,
                     status: e.isKyc,
                     url: e.verifyKycLink,
                     btnText: (0,
@@ -4526,8 +4526,8 @@
                     g.kW)("ok_game_okxracer_surprises_sign_up"),
                     subTitle: (0,
                     g.kW)("ok_game_okxracer_surprises_sign_up_desc"),
-                    type: Es.SIGNUP,
-                    status: Rs(Es.SIGNUP),
+                    type: Rs.SIGNUP,
+                    status: Ls(Rs.SIGNUP),
                     url: e.signupLink,
                     btnText: (0,
                     g.kW)("ok_game_okxracer_btn_phase4_signup")
@@ -4536,7 +4536,7 @@
                     g.kW)("ok_game_okxracer_surprises_connect_tg"),
                     subTitle: (0,
                     g.kW)("ok_game_okxracer_surprises_connect_tg_desc"),
-                    type: Es.CONNECT,
+                    type: Rs.CONNECT,
                     status: e.isConnectTelegram,
                     url: e.bindTgLink,
                     btnText: (0,
@@ -4544,9 +4544,9 @@
                 }, t];
                 return e.isConnectTelegram ? [t] : n
             }
-            var Os = function(e) {
+            var Ds = function(e) {
                 var t = (0,
-                a.useState)(Ls(e))
+                a.useState)(Os(e))
                   , n = (0,
                 u.A)(t, 2)
                   , r = n[0]
@@ -4554,7 +4554,7 @@
                   , i = z().uid;
                 (0,
                 a.useEffect)((function() {
-                    s(Ls(e))
+                    s(Os(e))
                 }
                 ), [e]);
                 var c = (0,
@@ -4566,17 +4566,17 @@
                     if (c) {
                         switch (null === (n = window) || void 0 === n || null === (a = n.Telegram) || void 0 === a || a.WebApp.openLink(c.url),
                         t) {
-                        case Es.SIGNUP:
-                        case Es.INSTALL:
+                        case Rs.SIGNUP:
+                        case Rs.INSTALL:
                             o = t,
                             window.localStorage && window.localStorage.setItem(o, "1"),
-                            s(Ls(e))
+                            s(Os(e))
                         }
                         var o, l = {
                             telegramid: i
                         };
                         switch (t) {
-                        case Es.SIGNUP:
+                        case Rs.SIGNUP:
                             !function() {
                                 var e = (arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {}).telegramid;
                                 T.act({
@@ -4591,7 +4591,7 @@
                                 })
                             }(l);
                             break;
-                        case Es.INSTALL:
+                        case Rs.INSTALL:
                             !function() {
                                 var e = (arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {}).telegramid;
                                 T.act({
@@ -4606,7 +4606,7 @@
                                 })
                             }(l);
                             break;
-                        case Es.CONNECT:
+                        case Rs.CONNECT:
                             !function() {
                                 var e = (arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {}).telegramid;
                                 T.act({
@@ -4621,7 +4621,7 @@
                                 })
                             }(l);
                             break;
-                        case Es.KYC:
+                        case Rs.KYC:
                             !function() {
                                 var e = (arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {}).telegramid;
                                 T.act({
@@ -4644,25 +4644,25 @@
                     handleClick: c
                 }
             };
-            const Ds = "CertifyBottomSheet_certifySteps__-zWCO"
-              , Fs = "CertifyBottomSheet_taskList__uK656"
-              , Us = "CertifyBottomSheet_task__iLWrC"
-              , Vs = "CertifyBottomSheet_details__YoXf3"
-              , Gs = "CertifyBottomSheet_title__X1Tnl"
-              , Ms = "CertifyBottomSheet_subTitle__EzVrR"
-              , Zs = "CertifyBottomSheet_btn__JLhoo"
-              , Hs = "CertifyBottomSheet_btnContent__wrzU-"
-              , Ys = "CertifyBottomSheet_verifyBtn__lYfYD";
-            var zs = ["handleVerified"]
-              , Ks = function(e) {
+            const Fs = "CertifyBottomSheet_certifySteps__-zWCO"
+              , Us = "CertifyBottomSheet_taskList__uK656"
+              , Vs = "CertifyBottomSheet_task__iLWrC"
+              , Gs = "CertifyBottomSheet_details__YoXf3"
+              , Ms = "CertifyBottomSheet_title__X1Tnl"
+              , Zs = "CertifyBottomSheet_subTitle__EzVrR"
+              , Hs = "CertifyBottomSheet_btn__JLhoo"
+              , Ys = "CertifyBottomSheet_btnContent__wrzU-"
+              , zs = "CertifyBottomSheet_verifyBtn__lYfYD";
+            var Ks = ["handleVerified"]
+              , Xs = function(e) {
                 var t = e.handleVerified
                   , n = (0,
-                Gt.A)(e, zs)
+                Mt.A)(e, Ks)
                   , a = z().uid
-                  , r = Is()
+                  , r = Ws()
                   , s = r.accountBindingInfo
                   , i = r.getAccountBindingInfo
-                  , c = Os(s)
+                  , c = Ds(s)
                   , u = c.list
                   , d = c.handleClick
                   , _ = function() {
@@ -4701,40 +4701,40 @@
                     }
                 }();
                 return (0,
-                Z.jsx)(Jt, (0,
+                Z.jsx)(Qt, (0,
                 C.A)((0,
                 C.A)({}, n), {}, {
                     title: (0,
                     g.kW)("ok_game_okxracer_title_phase4_complete_steps"),
                     titleCenter: !0,
-                    containerClassName: Ds,
+                    containerClassName: Fs,
                     children: (0,
                     Z.jsxs)(Z.Fragment, {
                         children: [(0,
                         Z.jsx)("ul", {
-                            className: Fs,
+                            className: Us,
                             children: u.map((function(e) {
                                 return (0,
                                 Z.jsxs)("li", {
-                                    className: Us,
+                                    className: Vs,
                                     children: [(0,
                                     Z.jsxs)("div", {
-                                        className: Vs,
+                                        className: Gs,
                                         children: [(0,
                                         Z.jsx)("p", {
-                                            className: Gs,
+                                            className: Ms,
                                             children: e.title
                                         }), (0,
                                         Z.jsx)("p", {
-                                            className: Ms,
+                                            className: Zs,
                                             children: e.subTitle
                                         })]
                                     }), (0,
-                                    Z.jsx)(nn, {
+                                    Z.jsx)(an, {
                                         text: e.btnText,
                                         size: A.default.SIZE.xs,
-                                        className: Zs,
-                                        contentClassName: Hs,
+                                        className: Hs,
+                                        contentClassName: Ys,
                                         onClick: function() {
                                             d(e.type)
                                         }
@@ -4743,8 +4743,8 @@
                             }
                             ))
                         }), (0,
-                        Z.jsx)(nn, {
-                            className: Ys,
+                        Z.jsx)(an, {
+                            className: zs,
                             onClick: (0,
                             l.A)((0,
                             o.A)().mark((function e() {
@@ -4772,13 +4772,13 @@
                     })
                 }))
             };
-            const Xs = "LeaveTeamBottomSheet_container__AvVcB"
-              , qs = "LeaveTeamBottomSheet_title__gMzba"
-              , Js = "LeaveTeamBottomSheet_desc__cl4EX"
-              , Qs = "LeaveTeamBottomSheet_btn__Nn5Ag"
-              , $s = "LeaveTeamBottomSheet_btnContent__CsCwu";
-            var ei = function(e) {
-                var t = Gr()
+            const qs = "LeaveTeamBottomSheet_container__AvVcB"
+              , Js = "LeaveTeamBottomSheet_title__gMzba"
+              , Qs = "LeaveTeamBottomSheet_desc__cl4EX"
+              , $s = "LeaveTeamBottomSheet_btn__Nn5Ag"
+              , ei = "LeaveTeamBottomSheet_btnContent__CsCwu";
+            var ti = function(e) {
+                var t = Mr()
                   , n = t.currentTeam
                   , r = t.leaveTeam
                   , s = (0,
@@ -4837,28 +4837,28 @@
                     }
                 }();
                 return (0,
-                Z.jsx)(Jt, (0,
+                Z.jsx)(Qt, (0,
                 C.A)((0,
                 C.A)({}, e), {}, {
                     children: (0,
                     Z.jsxs)("div", {
-                        className: Xs,
+                        className: qs,
                         children: [(0,
                         Z.jsx)("h2", {
-                            className: qs,
+                            className: Js,
                             children: (0,
                             g.kW)("ok_game_okxracer_title_are_you_sure", {
                                 teamName: null === n || void 0 === n ? void 0 : n.teamInfoContext.teamName
                             })
                         }), (0,
                         Z.jsx)("p", {
-                            className: Js,
+                            className: Qs,
                             children: (0,
                             g.kW)("ok_game_okxracer_come_back_to_rejoin")
                         }), (0,
                         Z.jsx)(A.default, {
-                            className: Qs,
-                            contentClassName: $s,
+                            className: $s,
+                            contentClassName: ei,
                             size: A.default.SIZE.lg,
                             type: A.default.TYPE.primary,
                             htmlType: "button",
@@ -4868,8 +4868,8 @@
                             g.kW)("ok_game_okxracer_btn_leave_team")
                         }), (0,
                         Z.jsx)(A.default, {
-                            className: Qs,
-                            contentClassName: $s,
+                            className: $s,
+                            contentClassName: ei,
                             category: A.default.CATEGORY.outline,
                             size: A.default.SIZE.lg,
                             htmlType: "button",
@@ -4880,31 +4880,31 @@
                     })
                 }))
             };
-            const ti = "TeamDetail_container__Q+6aB"
-              , ni = "TeamDetail_currentTeam__AYGL3"
-              , ai = "TeamDetail_banner__3rZlg"
-              , ri = "TeamDetail_linkButton__dur+b"
-              , si = "TeamDetail_avatar__7nx+g"
-              , ii = "TeamDetail_name__3MNHb"
-              , ci = "TeamDetail_linkIcon__yXhDG"
-              , oi = "TeamDetail_desc__-y49w"
-              , li = "TeamDetail_textPlaceholder__MSh-q"
-              , ui = "TeamDetail_divider__caEc+"
-              , di = "TeamDetail_fields__IVJYO"
-              , _i = "TeamDetail_field__UJRM8"
-              , mi = "TeamDetail_label__wfHBi"
-              , pi = "TeamDetail_value__muhSZ"
-              , xi = "TeamDetail_btnContainer__Exmdz"
-              , hi = "TeamDetail_btnContent__uKzwD"
-              , fi = "TeamDetail_leaveTeamBtn__fc7Tb"
-              , vi = "TeamDetail_title__OsFAU"
-              , ki = "TeamDetail_count__5lWAk"
-              , gi = "TeamDetail_campaignList__BNfdO"
-              , ji = "TeamDetail_teamBenefitTooltipIcon__7OHcv"
-              , Ni = "TeamDetail_teamBenefitsCard__DVb-G"
-              , Ai = "TeamDetail_autoDrivingIcon__dFSTC"
-              , bi = "TeamDetail_text__moSUy";
-            var Ci = function(e) {
+            const ni = "TeamDetail_container__Q+6aB"
+              , ai = "TeamDetail_currentTeam__AYGL3"
+              , ri = "TeamDetail_banner__3rZlg"
+              , si = "TeamDetail_linkButton__dur+b"
+              , ii = "TeamDetail_avatar__7nx+g"
+              , ci = "TeamDetail_name__3MNHb"
+              , oi = "TeamDetail_linkIcon__yXhDG"
+              , li = "TeamDetail_desc__-y49w"
+              , ui = "TeamDetail_textPlaceholder__MSh-q"
+              , di = "TeamDetail_divider__caEc+"
+              , _i = "TeamDetail_fields__IVJYO"
+              , mi = "TeamDetail_field__UJRM8"
+              , pi = "TeamDetail_label__wfHBi"
+              , xi = "TeamDetail_value__muhSZ"
+              , hi = "TeamDetail_btnContainer__Exmdz"
+              , fi = "TeamDetail_btnContent__uKzwD"
+              , vi = "TeamDetail_leaveTeamBtn__fc7Tb"
+              , ki = "TeamDetail_title__OsFAU"
+              , gi = "TeamDetail_count__5lWAk"
+              , ji = "TeamDetail_campaignList__BNfdO"
+              , Ni = "TeamDetail_teamBenefitTooltipIcon__7OHcv"
+              , Ai = "TeamDetail_teamBenefitsCard__DVb-G"
+              , bi = "TeamDetail_autoDrivingIcon__dFSTC"
+              , Ci = "TeamDetail_text__moSUy";
+            var wi = function(e) {
                 e.teamId;
                 var t = e.children;
                 return (0,
@@ -4912,16 +4912,16 @@
                     children: t
                 })
             }
-              , wi = function() {
+              , yi = function() {
                 var e = qe().linkCode
-                  , t = Gr()
+                  , t = Mr()
                   , n = t.teams
                   , r = t.isLoading
                   , i = t.joinTeam
                   , d = t.teamBenefits
                   , _ = t.getTeams
                   , m = t.currentTeam
-                  , p = Is().isCertified
+                  , p = Ws().isCertified
                   , x = (0,
                 s.useParams)().id
                   , h = M(e, x).shareUrl
@@ -4956,7 +4956,7 @@
                     _()
                 }
                 ), [_]),
-                hs(),
+                fs(),
                 !L && !r)
                     return (0,
                     Z.jsx)(s.Redirect, {
@@ -4969,14 +4969,14 @@
                     value: (0,
                     Z.jsxs)(Z.Fragment, {
                         children: [(0,
-                        Wr.z)(null === d || void 0 === d ? void 0 : d.teamBenefitDesc), (null === L || void 0 === L ? void 0 : L.isCurrentTeam) && (0,
-                        Z.jsx)(Jr.A, {
+                        Er.z)(null === d || void 0 === d ? void 0 : d.teamBenefitDesc), (null === L || void 0 === L ? void 0 : L.isCurrentTeam) && (0,
+                        Z.jsx)(Qr.A, {
                             title: (0,
                             g.kW)("ok_game_okxracer_mid_tooltips_earn_extra_autodriving"),
                             children: (0,
                             Z.jsx)(b.A, {
                                 iconName: "okds-information-circle",
-                                className: ji
+                                className: Ni
                             })
                         })]
                     })
@@ -4986,26 +4986,26 @@
                     label: (0,
                     g.kW)("ok_game_okxracer_label_team_rank"),
                     value: "#".concat((0,
-                    Ut.ZV)(L.teamRank || 0))
+                    Vt.ZV)(L.teamRank || 0))
                 }, {
                     key: "totalPoints",
                     label: (0,
                     g.kW)("ok_game_okxracer_label_total_team_points"),
                     value: (0,
-                    Z.jsx)(Ci, {
+                    Z.jsx)(wi, {
                         teamId: L.teamId,
                         children: (0,
-                        Ut.ZV)((null === L || void 0 === L ? void 0 : L.totalPoints) || 0)
+                        Vt.ZV)((null === L || void 0 === L ? void 0 : L.totalPoints) || 0)
                     })
                 }, {
                     key: "teamNumMembers",
                     label: (0,
                     g.kW)("ok_game_okxracer_label_total_racers"),
                     value: "".concat((0,
-                    Ut.ZV)(L.teamNumMembers), "/").concat((0,
-                    Ut.ZV)(L.teamNumMemberCap))
+                    Vt.ZV)(L.teamNumMembers), "/").concat((0,
+                    Vt.ZV)(L.teamNumMemberCap))
                 }].concat((0,
-                qr.A)(L.isCurrentTeam ? [O] : [])) : []
+                Jr.A)(L.isCurrentTeam ? [O] : [])) : []
                   , F = function() {
                     var e = (0,
                     l.A)((0,
@@ -5065,74 +5065,74 @@
                   , G = (null === L || void 0 === L ? void 0 : L.campaigns) || [];
                 return (0,
                 Z.jsxs)("div", {
-                    className: k()(ti, (0,
-                    f.A)({}, ni, null === L || void 0 === L ? void 0 : L.isCurrentTeam)),
+                    className: k()(ni, (0,
+                    f.A)({}, ai, null === L || void 0 === L ? void 0 : L.isCurrentTeam)),
                     children: [(0,
                     Z.jsxs)("div", {
-                        className: ai,
+                        className: ri,
                         children: [U ? (0,
-                        Z.jsx)(ms, {
-                            className: si
+                        Z.jsx)(ps, {
+                            className: ii
                         }) : (0,
-                        Z.jsx)(Qr.A, (0,
+                        Z.jsx)($r.A, (0,
                         C.A)((0,
                         C.A)({}, null !== L && void 0 !== L && L.teamInfoContext.teamAvatar ? {
                             src: "".concat(c.A.cdnBaseUrl).concat(L.teamInfoContext.teamAvatar)
                         } : {}), {}, {
                             alt: null === L || void 0 === L ? void 0 : L.teamInfoContext.teamName,
-                            className: si
+                            className: ii
                         })), (0,
                         Z.jsx)("div", {
-                            className: ii,
+                            className: ci,
                             children: U ? (0,
-                            Z.jsx)(ms, {
-                                className: li
+                            Z.jsx)(ps, {
+                                className: ui
                             }) : (0,
                             Z.jsxs)(Z.Fragment, {
                                 children: [null === L || void 0 === L ? void 0 : L.teamInfoContext.teamName, (null === L || void 0 === L ? void 0 : L.teamInfoContext.teamLink) && (0,
                                 Z.jsx)(A.default, {
-                                    className: ri,
+                                    className: si,
                                     type: A.default.TYPE.tertiary,
                                     category: A.default.CATEGORY.text,
                                     htmlType: "button",
                                     onClick: function() {
-                                        L && as(L.teamInfoContext.teamLink)
+                                        L && rs(L.teamInfoContext.teamLink)
                                     },
                                     children: (0,
                                     Z.jsx)(b.A, {
                                         iconName: "okds-open-link",
-                                        className: ci
+                                        className: oi
                                     })
                                 })]
                             })
                         }), (0,
                         Z.jsx)("div", {
-                            className: oi,
+                            className: li,
                             children: U ? (0,
-                            Z.jsx)(ms, {
-                                className: li
+                            Z.jsx)(ps, {
+                                className: ui
                             }) : (0,
                             Z.jsx)(Z.Fragment, {
                                 children: null === L || void 0 === L ? void 0 : L.teamInfoContext.teamDesc
                             })
                         })]
                     }), (0,
-                    Z.jsx)(xs, {
-                        className: ui
+                    Z.jsx)(hs, {
+                        className: di
                     }), (0,
                     Z.jsxs)("ul", {
-                        className: di,
+                        className: _i,
                         children: [U && (0,
                         Z.jsxs)(Z.Fragment, {
                             children: [(0,
-                            Z.jsx)(ms, {
-                                className: li
+                            Z.jsx)(ps, {
+                                className: ui
                             }), (0,
-                            Z.jsx)(ms, {
-                                className: li
+                            Z.jsx)(ps, {
+                                className: ui
                             }), (0,
-                            Z.jsx)(ms, {
-                                className: li
+                            Z.jsx)(ps, {
+                                className: ui
                             })]
                         }), !U && D.map((function(e) {
                             var t = e.label
@@ -5140,14 +5140,14 @@
                               , a = e.key;
                             return (0,
                             Z.jsxs)("li", {
-                                className: _i,
+                                className: mi,
                                 children: [(0,
                                 Z.jsx)("span", {
-                                    className: mi,
+                                    className: pi,
                                     children: t
                                 }), (0,
                                 Z.jsx)("span", {
-                                    className: pi,
+                                    className: xi,
                                     children: n
                                 })]
                             }, a)
@@ -5157,27 +5157,27 @@
                     Z.jsxs)(Z.Fragment, {
                         children: [(0,
                         Z.jsxs)("p", {
-                            className: vi,
+                            className: ki,
                             children: [(0,
                             g.kW)("ok_game_okxracer_mid_textarea_label_team_exclusive_campaigns"), "\xa0", (0,
                             Z.jsxs)("span", {
-                                className: ki,
+                                className: gi,
                                 children: ["(", G.length, ")"]
                             })]
                         }), (0,
                         Z.jsx)("ul", {
-                            className: gi,
+                            className: ji,
                             children: G.map((function(e) {
                                 return (0,
-                                Z.jsx)(Ps, {
+                                Z.jsx)(Ss, {
                                     campaign: e,
                                     btnText: (0,
                                     g.kW)("ok_game_okxracer_btn_phase421_view_campaign"),
                                     onClick: function() {
                                         p ? function(e) {
-                                            Qt({
+                                            $t({
                                                 children: (0,
-                                                Z.jsx)(ds, {
+                                                Z.jsx)(_s, {
                                                     campaign: e
                                                 })
                                             })
@@ -5189,20 +5189,20 @@
                         })]
                     }), !U && (0,
                     Z.jsxs)("div", {
-                        className: xi,
+                        className: hi,
                         children: [!m && !(null !== L && void 0 !== L && L.isCurrentTeam) && (0,
                         Z.jsxs)("div", {
-                            className: Ni,
+                            className: Ai,
                             children: [(0,
                             Z.jsx)(w.A, {
-                                className: Ai,
+                                className: bi,
                                 src: "".concat(c.A.cdnBaseUrl, "/cdn/assets/imgs/2412/29521E8617DBF911.svg")
                             }), (0,
                             Z.jsx)("span", {
-                                className: bi,
+                                className: Ci,
                                 dangerouslySetInnerHTML: {
                                     __html: (0,
-                                    pr.YW)((0,
+                                    xr.YW)((0,
                                     g.kW)("ok_game_okxracer_footer_cell_select_earn_auto_join_team", {
                                         teamName: null === L || void 0 === L ? void 0 : L.teamInfoContext.teamName
                                     }))
@@ -5212,7 +5212,7 @@
                         Z.jsxs)(Z.Fragment, {
                             children: [(0,
                             Z.jsx)(A.default, {
-                                contentClassName: hi,
+                                contentClassName: fi,
                                 size: A.default.SIZE.lg,
                                 type: A.default.TYPE.primary,
                                 htmlType: "button",
@@ -5221,8 +5221,8 @@
                                 g.kW)("ok_game_okxracer_btn_invite")
                             }), (0,
                             Z.jsx)(A.default, {
-                                className: fi,
-                                contentClassName: hi,
+                                className: vi,
+                                contentClassName: fi,
                                 category: A.default.CATEGORY.outline,
                                 size: A.default.SIZE.lg,
                                 htmlType: "button",
@@ -5236,14 +5236,14 @@
                         Z.jsx)(A.default, {
                             type: A.default.TYPE.primary,
                             size: A.default.SIZE.lg,
-                            contentClassName: hi,
+                            contentClassName: fi,
                             onClick: F,
                             loading: N,
                             children: (0,
                             g.kW)("ok_game_okxracer_btn_join_now")
                         })]
                     }), (0,
-                    Z.jsx)(Ks, {
+                    Z.jsx)(Xs, {
                         visible: S,
                         onClose: function() {
                             B(!1)
@@ -5252,7 +5252,7 @@
                             B(!1)
                         }
                     }), (0,
-                    Z.jsx)(ei, {
+                    Z.jsx)(ti, {
                         visible: E,
                         onClose: function() {
                             R(!1)
@@ -5260,23 +5260,23 @@
                     })]
                 })
             }
-              , yi = {
+              , Ti = {
                 1: "\ud83e\udd47",
                 2: "\ud83e\udd48",
                 3: "\ud83e\udd49",
                 4: "\ud83c\udfc1"
             };
-            function Ti(e) {
+            function Pi(e) {
                 return e <= 3
             }
-            const Pi = "TeamListItem_teamListItem__jlC3n"
-              , Si = "TeamListItem_teamRank__sfdv+"
-              , Bi = "TeamListItem_emoji__dCwPS"
-              , Ii = "TeamListItem_avatar__gxfNS"
-              , Wi = "TeamListItem_teamName__gG78O"
-              , Ei = "TeamListItem_teamPoints__jr8Wv"
-              , Ri = "TeamListItem_currentTeam__dwSkF";
-            var Li = function(e) {
+            const Si = "TeamListItem_teamListItem__jlC3n"
+              , Bi = "TeamListItem_teamRank__sfdv+"
+              , Ii = "TeamListItem_emoji__dCwPS"
+              , Wi = "TeamListItem_avatar__gxfNS"
+              , Ei = "TeamListItem_teamName__gG78O"
+              , Ri = "TeamListItem_teamPoints__jr8Wv"
+              , Li = "TeamListItem_currentTeam__dwSkF";
+            var Oi = function(e) {
                 var t = e.teamRank
                   , n = e.teamInfoContext
                   , a = n.teamAvatar
@@ -5285,41 +5285,41 @@
                   , i = e.isCurrentTeam
                   , o = e.highlightCurrentTeam
                   , l = void 0 === o || o
-                  , u = Ti(t);
+                  , u = Pi(t);
                 return (0,
                 Z.jsxs)("div", {
-                    className: k()(Pi, (0,
-                    f.A)({}, Ri, l && i)),
+                    className: k()(Si, (0,
+                    f.A)({}, Li, l && i)),
                     children: [(0,
                     Z.jsx)("span", {
-                        className: k()(Si, (0,
-                        f.A)({}, Bi, u)),
-                        children: u ? yi[t] : "#".concat((0,
-                        Ut.ZV)(t))
+                        className: k()(Bi, (0,
+                        f.A)({}, Ii, u)),
+                        children: u ? Ti[t] : "#".concat((0,
+                        Vt.ZV)(t))
                     }), (0,
-                    Z.jsx)(Qr.A, {
-                        className: Ii,
-                        size: Qr.A.SIZE.sm,
+                    Z.jsx)($r.A, {
+                        className: Wi,
+                        size: $r.A.SIZE.sm,
                         alt: r,
                         src: "".concat(c.A.cdnBaseUrl).concat(a)
                     }), (0,
                     Z.jsx)("span", {
-                        className: Wi,
-                        children: (0,
-                        Wr.z)(r)
-                    }), (0,
-                    Z.jsx)("span", {
                         className: Ei,
                         children: (0,
-                        Ut.ZV)(s)
+                        Er.z)(r)
+                    }), (0,
+                    Z.jsx)("span", {
+                        className: Ri,
+                        children: (0,
+                        Vt.ZV)(s)
                     })]
                 })
             };
-            const Oi = "TeamList_listHeaders__QcPJe"
-              , Di = "TeamList_list__hbILW"
-              , Fi = "TeamList_listPlaceholder__nEDhA";
-            var Ui = function() {
-                var e = Gr()
+            const Di = "TeamList_listHeaders__QcPJe"
+              , Fi = "TeamList_list__hbILW"
+              , Ui = "TeamList_listPlaceholder__nEDhA";
+            var Vi = function() {
+                var e = Mr()
                   , t = e.teams
                   , n = e.currentTeam
                   , r = e.getTeams;
@@ -5332,13 +5332,13 @@
                 Z.jsxs)(Z.Fragment, {
                     children: [(0,
                     Z.jsxs)("p", {
-                        className: Oi,
+                        className: Di,
                         children: [(0,
                         Z.jsx)("span", {
                             children: (0,
                             g.kW)("ok_game_okxracer_label_leaderboard_teams_number", {
                                 num: (0,
-                                Ut.ZV)(t.length)
+                                Vt.ZV)(t.length)
                             })
                         }), (0,
                         Z.jsx)("span", {
@@ -5347,30 +5347,30 @@
                         })]
                     }), (0,
                     Z.jsxs)("ul", {
-                        className: Di,
+                        className: Fi,
                         children: [n && (0,
                         Z.jsx)("li", {
                             children: (0,
-                            Z.jsx)(Rn, {
+                            Z.jsx)(Ln, {
                                 to: (0,
                                 s.generatePath)(Ge.teamDetail, {
                                     id: n.teamId
                                 }),
                                 children: (0,
-                                Z.jsx)(Li, (0,
+                                Z.jsx)(Oi, (0,
                                 C.A)({}, n))
                             })
                         }), t.map((function(e) {
                             return e.isCurrentTeam ? null : (0,
                             Z.jsx)("li", {
                                 children: (0,
-                                Z.jsx)(Rn, {
+                                Z.jsx)(Ln, {
                                     to: (0,
                                     s.generatePath)(Ge.teamDetail, {
                                         id: e.teamId
                                     }),
                                     children: (0,
-                                    Z.jsx)(Li, (0,
+                                    Z.jsx)(Oi, (0,
                                     C.A)({}, e))
                                 })
                             }, e.teamId)
@@ -5383,8 +5383,8 @@
                                 return (0,
                                 Z.jsx)("li", {
                                     children: (0,
-                                    Z.jsx)(ms, {
-                                        className: Fi
+                                    Z.jsx)(ps, {
+                                        className: Ui
                                     })
                                 }, t)
                             }
@@ -5393,45 +5393,45 @@
                     })]
                 })
             };
-            const Vi = "TeamList_title__2Q2ap";
-            var Gi = function() {
-                return hs(),
+            const Gi = "TeamList_title__2Q2ap";
+            var Mi = function() {
+                return fs(),
                 (0,
                 Z.jsxs)(Z.Fragment, {
                     children: [(0,
                     Z.jsx)("h2", {
-                        className: Vi,
+                        className: Gi,
                         children: (0,
                         g.kW)("ok_game_okxracer_leaderboard_top_teams")
                     }), (0,
-                    Z.jsx)(Ui, {})]
+                    Z.jsx)(Vi, {})]
                 })
             };
-            const Mi = "BattleRecordsBottomSheet_loaderContainer__3yJL8"
-              , Zi = "BattleRecordsBottomSheet_title__8fd3n"
-              , Hi = "BattleRecordsBottomSheet_container__-I9RG"
-              , Yi = "BattleRecordsBottomSheet_recordContainer__7Q+n0"
-              , zi = "BattleRecordsBottomSheet_recordField__+O+7R"
-              , Ki = "BattleRecordsBottomSheet_label__GOnLC"
-              , Xi = "BattleRecordsBottomSheet_teamName__oZa+n"
-              , qi = "BattleRecordsBottomSheet_value__xN2Dj"
-              , Ji = "BattleRecordsBottomSheet_timestamp__-1E1J"
-              , Qi = "BattleRecordsBottomSheet_emptyMessageContainer__li81c"
-              , $i = "BattleRecordsBottomSheet_description__VBt-r";
-            var ec = function(e) {
+            const Zi = "BattleRecordsBottomSheet_loaderContainer__3yJL8"
+              , Hi = "BattleRecordsBottomSheet_title__8fd3n"
+              , Yi = "BattleRecordsBottomSheet_container__-I9RG"
+              , zi = "BattleRecordsBottomSheet_recordContainer__7Q+n0"
+              , Ki = "BattleRecordsBottomSheet_recordField__+O+7R"
+              , Xi = "BattleRecordsBottomSheet_label__GOnLC"
+              , qi = "BattleRecordsBottomSheet_teamName__oZa+n"
+              , Ji = "BattleRecordsBottomSheet_value__xN2Dj"
+              , Qi = "BattleRecordsBottomSheet_timestamp__-1E1J"
+              , $i = "BattleRecordsBottomSheet_emptyMessageContainer__li81c"
+              , ec = "BattleRecordsBottomSheet_description__VBt-r";
+            var tc = function(e) {
                 var t = e.label
                   , n = e.value;
                 return (0,
                 Z.jsxs)("div", {
-                    className: zi,
+                    className: Ki,
                     children: [t, (0,
                     Z.jsx)("p", {
-                        className: qi,
+                        className: Ji,
                         children: n
                     })]
                 })
             }
-              , tc = function(e) {
+              , nc = function(e) {
                 var t = (0,
                 a.useState)([])
                   , n = (0,
@@ -5499,22 +5499,22 @@
                 }
                 ), [e.visible]);
                 return (0,
-                Z.jsx)(Jt, (0,
+                Z.jsx)(Qt, (0,
                 C.A)((0,
                 C.A)({}, e), {}, {
                     title: (0,
                     Z.jsx)("span", {
-                        className: Zi,
+                        className: Hi,
                         children: (0,
                         g.kW)("ok_game_okxracer_header_battle_history")
                     }),
                     titleCenter: !0,
-                    containerClassName: Hi,
+                    containerClassName: Yi,
                     children: d ? (0,
                     Z.jsx)("div", {
-                        className: Mi,
+                        className: Zi,
                         children: (0,
-                        Z.jsx)(Qn.A, {})
+                        Z.jsx)($n.A, {})
                     }) : r.length > 0 ? r.map((function(e) {
                         var t = function(e) {
                             return e.isChallenger ? e.won ? (0,
@@ -5525,44 +5525,44 @@
                         }(e);
                         return (0,
                         Z.jsxs)("div", {
-                            className: Yi,
+                            className: zi,
                             children: [(0,
-                            Z.jsx)(ec, {
+                            Z.jsx)(tc, {
+                                label: (0,
+                                Z.jsx)("p", {
+                                    className: qi,
+                                    children: (0,
+                                    Er.z)(e.opponentTeamName)
+                                }),
+                                value: (0,
+                                Er.z)(e.opponentExtUserName)
+                            }), (0,
+                            Z.jsx)(tc, {
                                 label: (0,
                                 Z.jsx)("p", {
                                     className: Xi,
-                                    children: (0,
-                                    Wr.z)(e.opponentTeamName)
-                                }),
-                                value: (0,
-                                Wr.z)(e.opponentExtUserName)
-                            }), (0,
-                            Z.jsx)(ec, {
-                                label: (0,
-                                Z.jsx)("p", {
-                                    className: Ki,
                                     children: e.isChallenger ? (0,
                                     g.kW)("ok_game_okxracer_label_challenge") : (0,
                                     g.kW)("ok_game_okxracer_label_defense")
                                 }),
                                 value: t
                             }), (0,
-                            Z.jsx)(ec, {
+                            Z.jsx)(tc, {
                                 label: (0,
                                 Z.jsx)("p", {
-                                    className: Ki,
+                                    className: Xi,
                                     children: (0,
                                     g.kW)("ok_game_okxracer_label_points")
                                 }),
                                 value: e.points ? (0,
-                                Ut.ZV)(e.points, {
+                                Vt.ZV)(e.points, {
                                     signDisplay: !0
                                 }) : "--"
                             }), (0,
                             Z.jsx)("p", {
-                                className: Ji,
+                                className: Qi,
                                 children: (0,
-                                Ut.r6)(new Date(e.createdTime), {
+                                Vt.r6)(new Date(e.createdTime), {
                                     format: "yyyyMMMdhhmmss"
                                 })
                             })]
@@ -5570,59 +5570,59 @@
                     }
                     )) : (0,
                     Z.jsxs)("div", {
-                        className: Qi,
+                        className: $i,
                         children: [(0,
                         Z.jsx)("p", {
-                            className: Zi,
+                            className: Hi,
                             children: (0,
                             g.kW)("ok_game_okxracer_emptystate_title_no_battles_yet")
                         }), (0,
                         Z.jsx)("p", {
-                            className: $i,
+                            className: ec,
                             children: (0,
                             g.kW)("ok_game_okxracer_emptystate_desc_view_history_here")
                         })]
                     })
                 }))
             };
-            const nc = "PageTitle_title__IQ7TT";
-            var ac = function(e) {
+            const ac = "PageTitle_title__IQ7TT";
+            var rc = function(e) {
                 var t = e.html
                   , n = e.className;
                 return (0,
                 Z.jsx)("div", {
                     dangerouslySetInnerHTML: {
                         __html: (0,
-                        pr.YW)(t)
+                        xr.YW)(t)
                     },
-                    className: k()(nc, n)
+                    className: k()(ac, n)
                 })
             };
-            const rc = "BackgroundVideo_staticImage__8nJGy"
-              , sc = "BackgroundVideo_hide__u0OBx";
-            var ic = [{
+            const sc = "BackgroundVideo_staticImage__8nJGy"
+              , ic = "BackgroundVideo_hide__u0OBx";
+            var cc = [{
                 src: "/cdn/assets/files/2412/88F486E0BC64CCBD.webm",
                 type: "video/webm"
             }, {
                 src: "/cdn/assets/files/2412/24E663A2B8BB8A03.mp4",
                 type: "video/mp4"
             }]
-              , cc = [{
+              , oc = [{
                 src: "/cdn/assets/files/2412/9E6560A797A4886C.webm",
                 type: "video/webm"
             }, {
                 src: "/cdn/assets/files/2412/057C5A5619B14BEC.mp4",
                 type: "video/mp4"
             }]
-              , oc = "/cdn/assets/imgs/2410/EB79DD3F2B0CFDF2.png"
-              , lc = {
+              , lc = "/cdn/assets/imgs/2410/EB79DD3F2B0CFDF2.png"
+              , uc = {
                 playsInline: !0,
                 controls: !1,
                 preload: "auto",
-                poster: "".concat(c.A.cdnBaseUrl).concat(oc),
+                poster: "".concat(c.A.cdnBaseUrl).concat(lc),
                 muted: !0
             }
-              , uc = function(e) {
+              , dc = function(e) {
                 var t = e.className
                   , n = (0,
                 a.useRef)(null)
@@ -5669,17 +5669,17 @@
                 Z.jsxs)(Z.Fragment, {
                     children: [(0,
                     Z.jsx)(w.A, {
-                        className: k()(rc, (0,
-                        f.A)({}, sc, !x)),
-                        src: "".concat(c.A.cdnBaseUrl).concat(oc)
+                        className: k()(sc, (0,
+                        f.A)({}, ic, !x)),
+                        src: "".concat(c.A.cdnBaseUrl).concat(lc)
                     }), (0,
                     Z.jsx)("video", (0,
                     C.A)((0,
-                    C.A)({}, lc), {}, {
+                    C.A)({}, uc), {}, {
                         ref: r,
                         className: k()(t, (0,
-                        f.A)({}, sc, !h)),
-                        children: ic.map((function(e) {
+                        f.A)({}, ic, !h)),
+                        children: cc.map((function(e) {
                             return (0,
                             Z.jsx)("source", {
                                 src: "".concat(c.A.cdnBaseUrl).concat(e.src),
@@ -5690,12 +5690,12 @@
                     })), (0,
                     Z.jsx)("video", (0,
                     C.A)((0,
-                    C.A)({}, lc), {}, {
+                    C.A)({}, uc), {}, {
                         ref: n,
                         loop: !0,
                         className: k()(t, (0,
-                        f.A)({}, sc, !v)),
-                        children: cc.map((function(e) {
+                        f.A)({}, ic, !v)),
+                        children: oc.map((function(e) {
                             return (0,
                             Z.jsx)("source", {
                                 src: "".concat(c.A.cdnBaseUrl).concat(e.src),
@@ -5706,23 +5706,23 @@
                     }))]
                 })
             };
-            const dc = "RulesBottomSheet_container__NlHHH"
-              , _c = "RulesBottomSheet_rule__5HG6Z"
-              , mc = "RulesBottomSheet_bullet__fYKP5"
-              , pc = "RulesBottomSheet_textContainer__Miyg+"
-              , xc = "RulesBottomSheet_title__PJ-Lg"
-              , hc = "RulesBottomSheet_desc__vheUi";
-            var fc = function(e) {
+            const _c = "RulesBottomSheet_container__NlHHH"
+              , mc = "RulesBottomSheet_rule__5HG6Z"
+              , pc = "RulesBottomSheet_bullet__fYKP5"
+              , xc = "RulesBottomSheet_textContainer__Miyg+"
+              , hc = "RulesBottomSheet_title__PJ-Lg"
+              , fc = "RulesBottomSheet_desc__vheUi";
+            var vc = function(e) {
                 var t = [{
                     title: (0,
                     g.kW)("ok_game_okxracer_rule_one_header", {
                         num: (0,
-                        Ut.ZV)(5)
+                        Vt.ZV)(5)
                     }),
                     desc: (0,
                     g.kW)("ok_game_okxracer_rule_one_desc", {
                         num: (0,
-                        Ut.ZV)(5)
+                        Vt.ZV)(5)
                     })
                 }, {
                     title: (0,
@@ -5736,7 +5736,7 @@
                     g.kW)("ok_game_okxracer_rule_three_desc")
                 }];
                 return (0,
-                Z.jsx)(Jt, (0,
+                Z.jsx)(Qt, (0,
                 C.A)((0,
                 C.A)({}, e), {}, {
                     title: (0,
@@ -5744,26 +5744,26 @@
                     titleCenter: !0,
                     children: (0,
                     Z.jsx)("ul", {
-                        className: dc,
+                        className: _c,
                         children: t.map((function(e) {
                             var t = e.title
                               , n = e.desc;
                             return (0,
                             Z.jsxs)("li", {
-                                className: _c,
+                                className: mc,
                                 children: [(0,
                                 Z.jsx)("span", {
-                                    className: mc
+                                    className: pc
                                 }), (0,
                                 Z.jsxs)("div", {
-                                    className: pc,
+                                    className: xc,
                                     children: [(0,
                                     Z.jsx)("p", {
-                                        className: xc,
+                                        className: hc,
                                         children: t
                                     }), (0,
                                     Z.jsx)("p", {
-                                        className: hc,
+                                        className: fc,
                                         children: n
                                     })]
                                 })]
@@ -5773,23 +5773,23 @@
                     })
                 }))
             };
-            const vc = "TeamCard_teamCard__lUFQ3"
-              , kc = "TeamCard_header__Amp+p"
-              , gc = "TeamCard_avatar__aE9y-"
-              , jc = "TeamCard_teamName__ycan7"
-              , Nc = "TeamCard_chevron__kzh7j"
-              , Ac = "TeamCard_content__3FBKT"
-              , bc = "TeamCard_teamInfoField__sZNuy"
-              , Cc = "TeamCard_label__al-xY"
-              , wc = "TeamCard_value__ORmag"
-              , yc = "TeamCard_divider__XjdlD"
-              , Tc = "TeamCard_leaderTeamPoints__-aWse"
-              , Pc = "TeamCard_text__A0e85"
-              , Sc = "TeamCard_btnContent__hlQU4";
-            var Bc = function(e) {
+            const kc = "TeamCard_teamCard__lUFQ3"
+              , gc = "TeamCard_header__Amp+p"
+              , jc = "TeamCard_avatar__aE9y-"
+              , Nc = "TeamCard_teamName__ycan7"
+              , Ac = "TeamCard_chevron__kzh7j"
+              , bc = "TeamCard_content__3FBKT"
+              , Cc = "TeamCard_teamInfoField__sZNuy"
+              , wc = "TeamCard_label__al-xY"
+              , yc = "TeamCard_value__ORmag"
+              , Tc = "TeamCard_divider__XjdlD"
+              , Pc = "TeamCard_leaderTeamPoints__-aWse"
+              , Sc = "TeamCard_text__A0e85"
+              , Bc = "TeamCard_btnContent__hlQU4";
+            var Ic = function(e) {
                 var t = e.team
                   , n = e.className
-                  , r = Gr()
+                  , r = Mr()
                   , i = r.isEligibleClaim
                   , d = r.teamBenefits
                   , _ = (0,
@@ -5841,81 +5841,81 @@
                 }();
                 return (0,
                 Z.jsxs)("div", {
-                    className: k()(n, vc),
+                    className: k()(n, kc),
                     children: [(0,
-                    Z.jsxs)(Rn, {
+                    Z.jsxs)(Ln, {
                         to: (0,
                         s.generatePath)(Ge.teamDetail, {
                             id: t.teamId
                         }),
-                        className: kc,
+                        className: gc,
                         children: [(0,
-                        Z.jsx)(Qr.A, {
+                        Z.jsx)($r.A, {
                             src: "".concat(c.A.cdnBaseUrl).concat(t.teamInfoContext.teamAvatar),
                             alt: t.teamInfoContext.teamName,
-                            className: gc,
-                            size: Qr.A.SIZE.sm
+                            className: jc,
+                            size: $r.A.SIZE.sm
                         }), (0,
                         Z.jsx)("p", {
-                            className: jc,
+                            className: Nc,
                             children: (0,
-                            Wr.z)(t.teamInfoContext.teamName)
+                            Er.z)(t.teamInfoContext.teamName)
                         }), (0,
                         Z.jsx)(b.A, {
                             iconName: "okds-arrow-chevron-right-centered-sm",
-                            className: Nc
+                            className: Ac
                         })]
                     }), (0,
                     Z.jsxs)("div", {
-                        className: Ac,
+                        className: bc,
                         children: [(0,
                         Z.jsxs)("div", {
-                            className: bc,
+                            className: Cc,
                             children: [(0,
                             Z.jsx)("p", {
-                                className: Cc,
+                                className: wc,
                                 children: (0,
                                 g.kW)("ok_game_okxracer_todays_ranking")
                             }), (0,
                             Z.jsxs)("p", {
-                                className: wc,
+                                className: yc,
                                 children: ["#", (0,
-                                Ut.ZV)(t.teamRank)]
+                                Vt.ZV)(t.teamRank)]
                             })]
                         }), (0,
                         Z.jsxs)("div", {
-                            className: bc,
+                            className: Cc,
                             children: [(0,
                             Z.jsx)("p", {
-                                className: Cc,
+                                className: wc,
                                 children: (0,
                                 g.kW)("ok_game_okxracer_total_points")
                             }), (0,
                             Z.jsx)("p", {
-                                className: wc,
+                                className: yc,
                                 children: (0,
-                                Ut.ZV)(t.totalPoints)
+                                Vt.ZV)(t.totalPoints)
                             })]
                         })]
                     }), i && (0,
                     Z.jsxs)(Z.Fragment, {
                         children: [(0,
                         Z.jsx)("hr", {
-                            className: yc
+                            className: Tc
                         }), (0,
                         Z.jsxs)("section", {
-                            className: Tc,
+                            className: Pc,
                             children: [(0,
                             Z.jsxs)("p", {
-                                className: Pc,
+                                className: Sc,
                                 children: ["\ud83c\udfc1\xa0", (0,
                                 g.kW)("ok_game_okxracer_desc_pts_for_team", {
                                     num: (0,
-                                    Ut.ZV)(5e3)
+                                    Vt.ZV)(5e3)
                                 })]
                             }), (0,
                             Z.jsx)(A.default, {
-                                contentClassName: Sc,
+                                contentClassName: Bc,
                                 type: i ? A.default.TYPE.primary : A.default.TYPE.gray,
                                 size: A.default.SIZE.s,
                                 onClick: h,
@@ -5928,38 +5928,38 @@
                     })]
                 })
             };
-            const Ic = "TeamList_teamListLink__EMea8"
-              , Wc = "TeamList_icon__Dhul7"
-              , Ec = "TeamList_teamList__w-ZJo"
-              , Rc = "TeamList_listPlaceholder__p9xfs";
-            var Lc = function() {
-                var e = Gr().teams.slice(0, 3);
+            const Wc = "TeamList_teamListLink__EMea8"
+              , Ec = "TeamList_icon__Dhul7"
+              , Rc = "TeamList_teamList__w-ZJo"
+              , Lc = "TeamList_listPlaceholder__p9xfs";
+            var Oc = function() {
+                var e = Mr().teams.slice(0, 3);
                 return (0,
                 Z.jsxs)(Z.Fragment, {
                     children: [(0,
-                    Z.jsxs)(Rn, {
-                        className: Ic,
+                    Z.jsxs)(Ln, {
+                        className: Wc,
                         to: Ge.teamList,
                         children: [(0,
                         g.kW)("ok_game_okxracer_leaderboard_top_teams"), (0,
                         Z.jsx)(b.A, {
                             iconName: "okds-arrow-chevron-right-centered-sm",
-                            className: Wc
+                            className: Ec
                         })]
                     }), (0,
                     Z.jsxs)("ul", {
-                        className: Ec,
+                        className: Rc,
                         children: [e.map((function(e) {
                             return (0,
                             Z.jsx)("li", {
                                 children: (0,
-                                Z.jsx)(Rn, {
+                                Z.jsx)(Ln, {
                                     to: (0,
                                     s.generatePath)(Ge.teamDetail, {
                                         id: e.teamId
                                     }),
                                     children: (0,
-                                    Z.jsx)(Li, (0,
+                                    Z.jsx)(Oi, (0,
                                     C.A)((0,
                                     C.A)({}, e), {}, {
                                         highlightCurrentTeam: !1
@@ -5975,8 +5975,8 @@
                                 return (0,
                                 Z.jsx)("li", {
                                     children: (0,
-                                    Z.jsx)(ms, {
-                                        className: Rc
+                                    Z.jsx)(ps, {
+                                        className: Lc
                                     })
                                 }, t)
                             }
@@ -5985,21 +5985,21 @@
                     })]
                 })
             };
-            const Oc = "TeamsPage_banner__kJ07n"
-              , Dc = "TeamsPage_videoContainer__4MFJt"
-              , Fc = "TeamsPage_btnContainer__RVCJA"
-              , Uc = "TeamsPage_upgradesLink__ks2+R"
-              , Vc = "TeamsPage_btn__yCBjf"
-              , Gc = "TeamsPage_icon__RIsDk"
-              , Mc = "TeamsPage_pageTitle__5jH4j"
-              , Zc = "TeamsPage_joinTeamBtn__QZ2+Q"
-              , Hc = "TeamsPage_startRacingBtn__ga9uF"
-              , Yc = "TeamsPage_subtitle__UxY6O"
-              , zc = "TeamsPage_teamCard__h6zcj"
-              , Kc = "TeamsPage_numChances__EYqAB";
-            var Xc = function() {
-                var e = Is().isCertified
-                  , t = Gr()
+            const Dc = "TeamsPage_banner__kJ07n"
+              , Fc = "TeamsPage_videoContainer__4MFJt"
+              , Uc = "TeamsPage_btnContainer__RVCJA"
+              , Vc = "TeamsPage_upgradesLink__ks2+R"
+              , Gc = "TeamsPage_btn__yCBjf"
+              , Mc = "TeamsPage_icon__RIsDk"
+              , Zc = "TeamsPage_pageTitle__5jH4j"
+              , Hc = "TeamsPage_joinTeamBtn__QZ2+Q"
+              , Yc = "TeamsPage_startRacingBtn__ga9uF"
+              , zc = "TeamsPage_subtitle__UxY6O"
+              , Kc = "TeamsPage_teamCard__h6zcj"
+              , Xc = "TeamsPage_numChances__EYqAB";
+            var qc = function() {
+                var e = Ws().isCertified
+                  , t = Mr()
                   , n = t.currentTeam
                   , r = t.getTeams
                   , i = t.matchInfo
@@ -6032,51 +6032,49 @@
                 Z.jsxs)(Z.Fragment, {
                     children: [(0,
                     Z.jsxs)("div", {
-                        className: Oc,
+                        className: Dc,
                         children: [(0,
                         Z.jsxs)("div", {
-                            className: Dc,
+                            className: Fc,
                             children: [(0,
-                            Z.jsxs)(Rn, {
+                            Z.jsxs)(Ln, {
                                 to: Ge.upgrades,
-                                className: Uc,
+                                className: Vc,
                                 children: [(0,
                                 Z.jsx)(b.A, {
                                     iconName: "okx-growth-upgrades",
-                                    className: Gc
+                                    className: Mc
                                 }), (0,
                                 g.kW)("ok_game_okxracer_nav_upgrades")]
                             }), (0,
                             Z.jsxs)("div", {
-                                className: Fc,
+                                className: Uc,
                                 children: [(0,
-                                Z.jsx)("button", {
-                                    className: Vc,
-                                    type: "button",
+                                Z.jsx)(At.A, {
+                                    className: Gc,
                                     onClick: function() {
                                         j(!0)
                                     },
                                     children: (0,
                                     g.kW)("ok_game_okxracer_header_battle_history")
                                 }), (0,
-                                Z.jsxs)("button", {
-                                    className: Vc,
-                                    type: "button",
+                                Z.jsxs)(At.A, {
+                                    className: Gc,
                                     onClick: function() {
                                         h(!0)
                                     },
                                     children: [(0,
                                     Z.jsx)(b.A, {
                                         iconName: "okds-question-mark-circle",
-                                        className: Gc
+                                        className: Mc
                                     }), (0,
                                     g.kW)("ok_game_okxracer_tag_rules")]
                                 })]
                             }), (0,
-                            Z.jsx)(uc, {})]
+                            Z.jsx)(dc, {})]
                         }), (0,
-                        Z.jsx)(ac, {
-                            className: Mc,
+                        Z.jsx)(rc, {
+                            className: Zc,
                             html: e && n ? (0,
                             g.kW)("ok_game_okxracer_tips_race_with_the_best") : (0,
                             g.kW)("ok_game_okxracer_winning_team")
@@ -6086,15 +6084,15 @@
                             Z.jsxs)(Z.Fragment, {
                                 children: [(0,
                                 Z.jsx)("p", {
-                                    className: Yc,
+                                    className: zc,
                                     children: (0,
                                     g.kW)("ok_game_okxracer_text_join_or_create_team")
                                 }), (0,
-                                Z.jsx)(Rn, {
+                                Z.jsx)(Ln, {
                                     to: Ge.teamList,
                                     children: (0,
-                                    Z.jsx)(nn, {
-                                        className: Zc,
+                                    Z.jsx)(an, {
+                                        className: Hc,
                                         text: (0,
                                         g.kW)("ok_game_okxracer_btn_join_a_team"),
                                         size: A.default.SIZE.sm
@@ -6104,12 +6102,12 @@
                             Z.jsxs)(Z.Fragment, {
                                 children: [(0,
                                 Z.jsx)("p", {
-                                    className: Yc,
+                                    className: zc,
                                     children: (0,
                                     g.kW)("ok_game_okxracer_get_certified_battle")
                                 }), (0,
-                                Z.jsx)(nn, {
-                                    className: Zc,
+                                Z.jsx)(an, {
+                                    className: Hc,
                                     text: (0,
                                     g.kW)("ok_game_okxracer_btn_get_certified"),
                                     size: A.default.SIZE.sm,
@@ -6122,15 +6120,15 @@
                         Z.jsxs)(Z.Fragment, {
                             children: [(0,
                             Z.jsx)("p", {
-                                className: Kc,
+                                className: Xc,
                                 children: (0,
                                 g.kW)("ok_game_okxracer_num_chances_left", {
                                     num: (0,
-                                    Ut.ZV)((null === i || void 0 === i ? void 0 : i.numChances) || 0)
+                                    Vt.ZV)((null === i || void 0 === i ? void 0 : i.numChances) || 0)
                                 })
                             }), (0,
-                            Z.jsx)(nn, {
-                                className: Hc,
+                            Z.jsx)(an, {
+                                className: Yc,
                                 text: (0,
                                 g.kW)("ok_game_okxracer_btn_start_a_battle"),
                                 size: A.default.SIZE.sm,
@@ -6141,12 +6139,12 @@
                             })]
                         })]
                     }), n && (0,
-                    Z.jsx)(Bc, {
+                    Z.jsx)(Ic, {
                         team: n,
-                        className: zc
+                        className: Kc
                     }), (0,
-                    Z.jsx)(Lc, {}), (0,
-                    Z.jsx)(Ks, {
+                    Z.jsx)(Oc, {}), (0,
+                    Z.jsx)(Xs, {
                         visible: d,
                         onClose: function() {
                             _(!1)
@@ -6155,13 +6153,13 @@
                             _(!1)
                         }
                     }), (0,
-                    Z.jsx)(fc, {
+                    Z.jsx)(vc, {
                         visible: x,
                         onClose: function() {
                             h(!1)
                         }
                     }), (0,
-                    Z.jsx)(tc, {
+                    Z.jsx)(nc, {
                         visible: k,
                         onClose: function() {
                             j(!1)
@@ -6169,12 +6167,12 @@
                     })]
                 })
             }
-              , qc = (0,
+              , Jc = (0,
             a.createContext)({
                 campaigns: [],
                 loading: !1
             })
-              , Jc = function(e) {
+              , Qc = function(e) {
                 var t = e.children
                   , n = (0,
                 a.useState)([])
@@ -6239,50 +6237,50 @@
                 }
                 ), [s, _]);
                 return (0,
-                Z.jsx)(qc.Provider, {
+                Z.jsx)(Jc.Provider, {
                     value: p,
                     children: t
                 })
             };
-            const Qc = "App_container__p+0qT"
-              , $c = "App_footer__NGiBl"
-              , eo = "App_content__Jjurs"
-              , to = "App_gradientBackground__rNgmD"
-              , no = "ComPaddingLayout_commonPaddingLayout__FJ+ET";
-            var ao = function(e, t) {
+            const $c = "App_container__p+0qT"
+              , eo = "App_footer__NGiBl"
+              , to = "App_content__Jjurs"
+              , no = "App_gradientBackground__rNgmD"
+              , ao = "ComPaddingLayout_commonPaddingLayout__FJ+ET";
+            var ro = function(e, t) {
                 return function(n) {
                     return (0,
                     Z.jsx)("div", {
-                        className: k()(no, t),
+                        className: k()(ao, t),
                         children: (0,
                         Z.jsx)(e, (0,
                         C.A)({}, n))
                     })
                 }
             };
-            const ro = "BattleOpponents_container__i56Es"
-              , so = "BattleOpponents_banner__LPuPn"
-              , io = "BattleOpponents_header__a-qDC"
-              , co = "BattleOpponents_bodyText__dl3PG"
-              , oo = "BattleOpponents_listHeader__kYuBD"
-              , lo = "BattleOpponents_username__q7RQ+"
-              , uo = "BattleOpponents_basePointContainer__dO7Wc"
-              , _o = "BattleOpponents_basePointLabel__7yd74"
-              , mo = "BattleOpponents_basePoint__iyGnv"
-              , po = "BattleOpponents_unclaimedPoints__zVRGA"
-              , xo = "BattleOpponents_defensePoint__-NZT9"
-              , ho = "BattleOpponents_list__jMVFc"
-              , fo = "BattleOpponents_listItemBtn__HoP7N"
-              , vo = "BattleOpponents_leftContent__NfhVu"
-              , ko = "BattleOpponents_listItem__z2Ac3"
-              , go = "BattleOpponents_active__kK8lZ"
-              , jo = "BattleOpponents_btnContainer__9sgl3"
-              , No = "BattleOpponents_btn__1J6Tn"
-              , Ao = "BattleOpponents_btnContent__LneTC"
-              , bo = "BattleOpponents_loadingPlaceholder__+iWWN";
-            var Co = function() {
-                hs();
-                var e = Gr()
+            const so = "BattleOpponents_container__i56Es"
+              , io = "BattleOpponents_banner__LPuPn"
+              , co = "BattleOpponents_header__a-qDC"
+              , oo = "BattleOpponents_bodyText__dl3PG"
+              , lo = "BattleOpponents_listHeader__kYuBD"
+              , uo = "BattleOpponents_username__q7RQ+"
+              , _o = "BattleOpponents_basePointContainer__dO7Wc"
+              , mo = "BattleOpponents_basePointLabel__7yd74"
+              , po = "BattleOpponents_basePoint__iyGnv"
+              , xo = "BattleOpponents_unclaimedPoints__zVRGA"
+              , ho = "BattleOpponents_defensePoint__-NZT9"
+              , fo = "BattleOpponents_list__jMVFc"
+              , vo = "BattleOpponents_listItemBtn__HoP7N"
+              , ko = "BattleOpponents_leftContent__NfhVu"
+              , go = "BattleOpponents_listItem__z2Ac3"
+              , jo = "BattleOpponents_active__kK8lZ"
+              , No = "BattleOpponents_btnContainer__9sgl3"
+              , Ao = "BattleOpponents_btn__1J6Tn"
+              , bo = "BattleOpponents_btnContent__LneTC"
+              , Co = "BattleOpponents_loadingPlaceholder__+iWWN";
+            var wo = function() {
+                fs();
+                var e = Mr()
                   , t = e.currentTeam
                   , n = e.matchInfo
                   , r = (0,
@@ -6292,7 +6290,7 @@
                   , d = i[0]
                   , _ = i[1]
                   , m = z().username
-                  , p = vr()
+                  , p = kr()
                   , x = p.selectedOpponent
                   , h = p.updateSelectedOpponent
                   , f = p.selectedOpponentTeam
@@ -6346,50 +6344,50 @@
                 ), [b, C]),
                 (t || d) && f ? t && n ? (0,
                 Z.jsxs)("div", {
-                    className: ro,
+                    className: so,
                     children: [(0,
                     Z.jsxs)("div", {
-                        className: so,
+                        className: io,
                         children: [(0,
-                        Z.jsx)(Qr.A, {
+                        Z.jsx)($r.A, {
                             src: "".concat(c.A.cdnBaseUrl).concat(t.teamInfoContext.teamAvatar)
                         }), (0,
                         Z.jsxs)("div", {
                             children: [(0,
                             Z.jsx)("div", {
-                                className: lo,
+                                className: uo,
                                 children: m
                             }), (0,
                             Z.jsxs)("div", {
-                                className: uo,
+                                className: _o,
                                 children: [(0,
                                 Z.jsx)("span", {
-                                    className: _o,
+                                    className: mo,
                                     children: (0,
                                     g.kW)("ok_game_okxracer_text_phase42_base_pts_win")
                                 }), (0,
                                 Z.jsx)("span", {
-                                    className: mo,
-                                    children: "".concat(Ct, " ").concat((0,
-                                    Ut.ZV)(n.basePoint))
+                                    className: po,
+                                    children: "".concat(wt, " ").concat((0,
+                                    Vt.ZV)(n.basePoint))
                                 })]
                             })]
                         })]
                     }), (0,
                     Z.jsx)("h2", {
-                        className: io,
+                        className: co,
                         children: (0,
                         g.kW)("ok_game_okxracer_select_header_step_two_choose_racer", {
                             teamName: f.teamInfoContext.teamName
                         })
                     }), (0,
                     Z.jsx)("p", {
-                        className: co,
+                        className: oo,
                         children: (0,
                         g.kW)("ok_game_okxracer_score_higher_than_defendant")
                     }), (0,
                     Z.jsxs)("div", {
-                        className: oo,
+                        className: lo,
                         children: [(0,
                         Z.jsx)("span", {
                             children: (0,
@@ -6401,7 +6399,7 @@
                         })]
                     }), (0,
                     Z.jsxs)("ul", {
-                        className: ho,
+                        className: fo,
                         children: [d && (0,
                         Z.jsx)(Z.Fragment, {
                             children: Array.from({
@@ -6410,8 +6408,8 @@
                                 return (0,
                                 Z.jsx)("li", {
                                     children: (0,
-                                    Z.jsx)(ms, {
-                                        className: bo
+                                    Z.jsx)(ps, {
+                                        className: Co
                                     })
                                 }, t)
                             }
@@ -6419,32 +6417,32 @@
                         }), N.map((function(e) {
                             return (0,
                             Z.jsx)("li", {
-                                className: k()(ko, (null === x || void 0 === x ? void 0 : x.extUserId) === e.extUserId && go),
+                                className: k()(go, (null === x || void 0 === x ? void 0 : x.extUserId) === e.extUserId && jo),
                                 children: (0,
-                                Z.jsxs)("button", {
-                                    type: "button",
-                                    className: fo,
+                                Z.jsxs)(At.A, {
+                                    className: vo,
+                                    "aria-label": "",
                                     onClick: function() {
                                         h(e)
                                     },
                                     children: [(0,
                                     Z.jsxs)("div", {
-                                        className: vo,
+                                        className: ko,
                                         children: [(0,
                                         Z.jsx)("span", {
-                                            className: lo,
+                                            className: uo,
                                             children: e.userName
                                         }), (0,
                                         Z.jsx)("span", {
-                                            className: xo,
-                                            children: "".concat(wt, " ").concat((0,
-                                            Ut.ZV)(e.defensePoint))
+                                            className: ho,
+                                            children: "".concat(yt, " ").concat((0,
+                                            Vt.ZV)(e.defensePoint))
                                         })]
                                     }), (0,
                                     Z.jsx)("div", {
-                                        className: po,
+                                        className: xo,
                                         children: (0,
-                                        Ut.ZV)(e.unclaimedAutopilotPoints)
+                                        Vt.ZV)(e.unclaimedAutopilotPoints)
                                     })]
                                 })
                             }, e.extUserId)
@@ -6452,15 +6450,15 @@
                         ))]
                     }), (0,
                     Z.jsx)("div", {
-                        className: jo,
+                        className: No,
                         children: (0,
-                        Z.jsx)(Rn, {
+                        Z.jsx)(Ln, {
                             to: Ge.battle,
-                            className: No,
+                            className: Ao,
                             children: (0,
-                            Z.jsx)(nn, {
-                                className: No,
-                                contentClassName: Ao,
+                            Z.jsx)(an, {
+                                className: Ao,
+                                contentClassName: bo,
                                 disabled: !x,
                                 text: (0,
                                 g.kW)("commonall_button_text_start")
@@ -6472,20 +6470,20 @@
                     to: Ge.battleTeams
                 })
             };
-            const wo = "BattleTeams_container__BM1pO"
-              , yo = "BattleTeams_header__Kf0bD"
-              , To = "BattleTeams_list__l6BPF"
-              , Po = "BattleTeams_listItem__0-Ylj"
-              , So = "BattleTeams_active__rdlnk"
-              , Bo = "BattleTeams_listBtn__Qrgiq"
-              , Io = "BattleTeams_label__h44r1"
-              , Wo = "BattleTeams_btnContainer__Ucy5D"
-              , Eo = "BattleTeams_btn__vG1rz"
-              , Ro = "BattleTeams_btnContent__lIste";
-            var Lo = function() {
-                hs();
-                var e = Gr().teams
-                  , t = vr()
+            const yo = "BattleTeams_container__BM1pO"
+              , To = "BattleTeams_header__Kf0bD"
+              , Po = "BattleTeams_list__l6BPF"
+              , So = "BattleTeams_listItem__0-Ylj"
+              , Bo = "BattleTeams_active__rdlnk"
+              , Io = "BattleTeams_listBtn__Qrgiq"
+              , Wo = "BattleTeams_label__h44r1"
+              , Eo = "BattleTeams_btnContainer__Ucy5D"
+              , Ro = "BattleTeams_btn__vG1rz"
+              , Lo = "BattleTeams_btnContent__lIste";
+            var Oo = function() {
+                fs();
+                var e = Mr().teams
+                  , t = kr()
                   , n = t.selectedOpponentTeam
                   , r = t.updateSelectedOpponentTeam
                   , i = t.updateSelectedOpponent
@@ -6500,33 +6498,33 @@
                 ), [i]),
                 (0,
                 Z.jsxs)("div", {
-                    className: wo,
+                    className: yo,
                     children: [(0,
                     Z.jsx)("div", {
-                        className: yo,
+                        className: To,
                         children: (0,
                         g.kW)("ok_game_okxracer_header_step_once_choose_team")
                     }), (0,
                     Z.jsx)("ul", {
-                        className: To,
+                        className: Po,
                         children: o.map((function(e) {
                             return (0,
                             Z.jsx)("li", {
-                                className: k()(Po, (null === n || void 0 === n ? void 0 : n.teamId) === e.teamId && So),
+                                className: k()(So, (null === n || void 0 === n ? void 0 : n.teamId) === e.teamId && Bo),
                                 children: (0,
-                                Z.jsxs)("button", {
-                                    type: "button",
-                                    className: Bo,
+                                Z.jsxs)(At.A, {
+                                    className: Io,
+                                    "aria-label": "",
                                     onClick: function() {
                                         r(e)
                                     },
                                     children: [(0,
-                                    Z.jsx)(Qr.A, {
+                                    Z.jsx)($r.A, {
                                         src: "".concat(c.A.cdnBaseUrl).concat(e.teamInfoContext.teamAvatar),
-                                        size: Qr.A.SIZE.lg
+                                        size: $r.A.SIZE.lg
                                     }), (0,
                                     Z.jsx)("div", {
-                                        className: Io,
+                                        className: Wo,
                                         children: e.teamInfoContext.teamName
                                     })]
                                 })
@@ -6534,16 +6532,16 @@
                         }
                         ))
                     }), (0,
-                    Z.jsx)(Rn, {
+                    Z.jsx)(Ln, {
                         to: n ? (0,
                         s.generatePath)(Ge.battleTeamMembers, {
                             id: n.teamId
                         }) : {},
-                        className: Wo,
+                        className: Eo,
                         children: (0,
-                        Z.jsx)(nn, {
-                            className: Eo,
-                            contentClassName: Ro,
+                        Z.jsx)(an, {
+                            className: Ro,
+                            contentClassName: Lo,
                             disabled: !n,
                             text: (0,
                             g.kW)("commonall_button_text_next")
@@ -6551,31 +6549,31 @@
                     })]
                 })
             };
-            const Oo = "RiskControl_title__h9Z0T";
-            var Do = function() {
+            const Do = "RiskControl_title__h9Z0T";
+            var Fo = function() {
                 var e = qe()
                   , t = e.isShowRiskControlSheet
                   , n = e.hideRiskControlSheet;
                 return (0,
-                Z.jsx)(Jt, {
+                Z.jsx)(Qt, {
                     visible: t,
                     onClose: n,
                     children: (0,
                     Z.jsx)("div", {
-                        className: Oo,
+                        className: Do,
                         children: (0,
                         g.kW)("ok_game_okxracer_risk_control")
                     })
                 })
             };
-            const Fo = "ClaimTeamPointsBottomSheet_container__1wnim"
-              , Uo = "ClaimTeamPointsBottomSheet_graphic__5TzK4"
-              , Vo = "ClaimTeamPointsBottomSheet_title__NsQhi"
-              , Go = "ClaimTeamPointsBottomSheet_desc__RAIVt"
-              , Mo = "ClaimTeamPointsBottomSheet_btn__pC8CP"
-              , Zo = "ClaimTeamPointsBottomSheet_btnContent__ze-Xt";
-            var Ho = function() {
-                var e = Gr()
+            const Uo = "ClaimTeamPointsBottomSheet_container__1wnim"
+              , Vo = "ClaimTeamPointsBottomSheet_graphic__5TzK4"
+              , Go = "ClaimTeamPointsBottomSheet_title__NsQhi"
+              , Mo = "ClaimTeamPointsBottomSheet_desc__RAIVt"
+              , Zo = "ClaimTeamPointsBottomSheet_btn__pC8CP"
+              , Ho = "ClaimTeamPointsBottomSheet_btnContent__ze-Xt";
+            var Yo = function() {
+                var e = Mr()
                   , t = e.isEligibleClaim
                   , n = e.isLoading
                   , r = e.teamBenefits
@@ -6634,32 +6632,32 @@
                     }
                 }();
                 return (0,
-                Z.jsx)(Jt, {
+                Z.jsx)(Qt, {
                     visible: d,
                     onClose: function() {
                         _(!1)
                     },
                     children: (0,
                     Z.jsxs)("div", {
-                        className: Fo,
+                        className: Uo,
                         children: [(0,
                         Z.jsx)(w.A, {
-                            className: Uo,
+                            className: Vo,
                             src: "".concat(c.A.cdnBaseUrl, "/cdn/assets/imgs/2410/3F84F994EA1D6F77.svg")
                         }), (0,
                         Z.jsx)("h2", {
-                            className: Vo,
+                            className: Go,
                             children: (0,
                             g.kW)("ok_game_okxracer_bttmsheet_header_great_job")
                         }), (0,
                         Z.jsx)("p", {
-                            className: Go,
+                            className: Mo,
                             children: (0,
                             g.kW)("ok_game_okxracer_bttmsheet_desc_great_job")
                         }), (0,
                         Z.jsx)(A.default, {
-                            className: Mo,
-                            contentClassName: Zo,
+                            className: Zo,
+                            contentClassName: Ho,
                             size: A.default.SIZE.lg,
                             type: A.default.TYPE.primary,
                             htmlType: "button",
@@ -6670,12 +6668,12 @@
                     })
                 })
             };
-            const Yo = "NewCampaigns_container__gO1Ko"
-              , zo = "NewCampaigns_img__Or37G"
-              , Ko = "NewCampaigns_title__Lx+PB"
-              , Xo = "NewCampaigns_desc__U9VKz"
-              , qo = "NewCampaigns_btn__xIIk1";
-            var Jo = function() {
+            const zo = "NewCampaigns_container__gO1Ko"
+              , Ko = "NewCampaigns_img__Or37G"
+              , Xo = "NewCampaigns_title__Lx+PB"
+              , qo = "NewCampaigns_desc__U9VKz"
+              , Jo = "NewCampaigns_btn__xIIk1";
+            var Qo = function() {
                 var e = (0,
                 s.useHistory)()
                   , t = (0,
@@ -6683,28 +6681,28 @@
                   , n = !1
                   , a = function() {};
                 return (0,
-                Z.jsxs)(Jt, {
+                Z.jsxs)(Qt, {
                     visible: n,
                     onClose: a,
-                    containerClassName: Yo,
+                    containerClassName: zo,
                     children: [(0,
                     Z.jsx)(w.A, {
-                        pictureClassName: zo,
-                        className: zo,
-                        src: "".concat(c.A.cdnBaseUrl, "/cdn/assets/imgs/249/AE73AAA266A93F81.png")
-                    }), (0,
-                    Z.jsx)("p", {
+                        pictureClassName: Ko,
                         className: Ko,
-                        children: (0,
-                        g.kW)("ok_game_okxracer_title_phase421_exciting_act")
+                        src: "".concat(c.A.cdnBaseUrl, "/cdn/assets/imgs/249/AE73AAA266A93F81.png")
                     }), (0,
                     Z.jsx)("p", {
                         className: Xo,
                         children: (0,
+                        g.kW)("ok_game_okxracer_title_phase421_exciting_act")
+                    }), (0,
+                    Z.jsx)("p", {
+                        className: qo,
+                        children: (0,
                         g.kW)("ok_game_okxracer_text_phase421_verify_join_verified")
                     }), (0,
-                    Z.jsx)(nn, {
-                        className: qo,
+                    Z.jsx)(an, {
+                        className: Jo,
                         onClick: function() {
                             e.push({
                                 pathname: Ge.license,
@@ -6716,70 +6714,69 @@
                     })]
                 })
             };
-            const Qo = "TncButton_termsAndConditions__MyIpV";
-            var $o = function(e) {
+            const $o = "TncButton_termsAndConditions__MyIpV";
+            var el = function(e) {
                 var t = e.className;
                 return (0,
-                Z.jsx)("button", {
-                    className: k()(Qo, t),
+                Z.jsx)(At.A, {
+                    className: k()($o, t),
                     onClick: function() {
                         var e, t;
                         null === (e = window) || void 0 === e || null === (t = e.Telegram) || void 0 === t || t.WebApp.openLink("/help/okx-racer-terms-and-conditions")
                     },
-                    type: "button",
                     children: (0,
                     g.kW)("ok_game_okxracer_tnc")
                 })
             };
-            const el = "AutoPilot_title__NJa0C"
-              , tl = "AutoPilot_button__Sg42v";
-            var nl = function() {
+            const tl = "AutoPilot_title__NJa0C"
+              , nl = "AutoPilot_button__Sg42v";
+            var al = function() {
                 var e = qe()
                   , t = e.isShowAutopilotGainedPoint
                   , n = e.autopilotPoints
                   , a = e.hideAutopilotSheet;
                 return (0,
-                Z.jsxs)(Jt, {
+                Z.jsxs)(Qt, {
                     visible: t,
                     onClose: a,
                     children: [(0,
                     Z.jsx)("div", {
-                        className: el,
+                        className: tl,
                         children: (0,
                         g.kW)("ok_game_okxracer_title_autodrive_earned_points", {
                             number: (0,
-                            Ut.ZV)(n)
+                            Vt.ZV)(n)
                         })
                     }), (0,
-                    Z.jsx)(nn, {
-                        className: tl,
+                    Z.jsx)(an, {
+                        className: nl,
                         onClick: a,
                         text: (0,
                         g.kW)("ok_game_okxracer_btn_autodrive_continue_racing")
                     })]
                 })
             };
-            const al = "LandingPage_container__pU2cC"
-              , rl = "LandingPage_disclaimer__pVRHC"
-              , sl = "LandingPage_recordsBtnContainer__Anr4Y"
-              , il = "LandingPage_content__D0ZLW"
-              , cl = "LandingPage_gameHeaderWrapper__NeR1g"
-              , ol = "LandingPage_termsAndConditions__MdClU";
-            var ll = n(3531);
-            const ul = "NewbieWelcome_title__48Py5"
-              , dl = "NewbieWelcome_desc__q7GHz"
-              , _l = "NewbieWelcome_button__im+B1"
-              , ml = "NewbieWelcome_pointsBox__gOjMh"
-              , pl = "NewbieWelcome_points__4t75l"
-              , xl = "NewbieWelcome_animation__tf9Dj";
-            var hl = function() {
+            const rl = "LandingPage_container__pU2cC"
+              , sl = "LandingPage_disclaimer__pVRHC"
+              , il = "LandingPage_recordsBtnContainer__Anr4Y"
+              , cl = "LandingPage_content__D0ZLW"
+              , ol = "LandingPage_gameHeaderWrapper__NeR1g"
+              , ll = "LandingPage_termsAndConditions__MdClU";
+            var ul = n(3531);
+            const dl = "NewbieWelcome_title__48Py5"
+              , _l = "NewbieWelcome_desc__q7GHz"
+              , ml = "NewbieWelcome_button__im+B1"
+              , pl = "NewbieWelcome_pointsBox__gOjMh"
+              , xl = "NewbieWelcome_points__4t75l"
+              , hl = "NewbieWelcome_animation__tf9Dj";
+            var fl = function() {
                 var e = r().useRef(null)
                   , t = function() {
                     var e = c.A.cdnBaseUrl;
                     return "".concat(e, "/cdn/assets/files/248/9534B41B7241E81E.json")
                 };
                 return (0,
-                ll.A)((0,
+                ul.A)((0,
                 l.A)((0,
                 o.A)().mark((function a() {
                     return (0,
@@ -6816,68 +6813,68 @@
                     children: (0,
                     Z.jsx)("div", {
                         ref: e,
-                        className: xl
+                        className: hl
                     })
                 })
             }
-              , fl = function() {
+              , vl = function() {
                 var e = qe()
                   , t = e.hideNewbie
                   , n = e.isShowNewbie;
                 return (0,
-                Z.jsxs)(Jt, {
+                Z.jsxs)(Qt, {
                     visible: n,
                     onClose: t,
                     renderWindow: function(e) {
                         return (0,
                         Z.jsxs)(Z.Fragment, {
                             children: [(0,
-                            Z.jsx)(hl, {}), (0,
+                            Z.jsx)(fl, {}), (0,
                             Z.jsx)(e, {})]
                         })
                     },
                     children: [(0,
                     Z.jsx)("div", {
-                        className: ml,
+                        className: pl,
                         children: (0,
                         Z.jsx)("img", {
                             src: "".concat(c.A.cdnBaseUrl).concat("/cdn/assets/imgs/248/4770A4DA6875EB63.webp"),
                             alt: "racer",
-                            className: pl
+                            className: xl
                         })
-                    }), (0,
-                    Z.jsx)("div", {
-                        className: ul,
-                        children: (0,
-                        g.kW)("ok_game_okxracer_title_phase4_welcome")
                     }), (0,
                     Z.jsx)("div", {
                         className: dl,
                         children: (0,
+                        g.kW)("ok_game_okxracer_title_phase4_welcome")
+                    }), (0,
+                    Z.jsx)("div", {
+                        className: _l,
+                        children: (0,
                         g.kW)("ok_game_okxracer_text_phase4_received_points")
                     }), (0,
-                    Z.jsx)(nn, {
-                        className: _l,
+                    Z.jsx)(an, {
+                        className: ml,
                         onClick: t,
                         text: (0,
                         g.kW)("ok_game_okxracer_btn_phase4_start_racing")
                     })]
                 })
             }
-              , vl = n(77903);
-            const kl = "UserPointCounter_pointCounter__-QAj8"
-              , gl = "UserPointCounter_points__d3HeG"
-              , jl = "UserPointCounter_title__B-gN-";
-            var Nl = function() {
+              , kl = n(77903);
+            const gl = "UserPointCounter_pointCounter__-QAj8"
+              , jl = "UserPointCounter_points__d3HeG"
+              , Nl = "UserPointCounter_title__B-gN-";
+            var Al = function() {
                 var e = qe().points
                   , t = (0,
-                vl.A)(e)
+                kl.A)(e)
                   , n = (0,
                 a.useRef)(null)
                   , r = (0,
                 a.useCallback)((function(e, t, n) {
                     e <= t && (n((0,
-                    Ut.ZV)(String(e))),
+                    Vt.ZV)(String(e))),
                     requestAnimationFrame((function() {
                         var a = function(e, t) {
                             var n = t - e;
@@ -6895,7 +6892,8 @@
                         return function() {}
                         ;
                     function s(e) {
-                        n.current && (n.current.innerText = e)
+                        n.current && (n.current.innerText = (0,
+                        xr.YW)(e))
                     }
                     if ("0" === (null === (a = n.current) || void 0 === a ? void 0 : a.innerText) || !t)
                         return r(0, e, s),
@@ -6912,26 +6910,26 @@
                 ), [r, e, t]),
                 (0,
                 Z.jsxs)("div", {
-                    className: kl,
+                    className: gl,
                     children: [(0,
                     Z.jsxs)("p", {
-                        className: jl,
+                        className: Nl,
                         children: ["\ud83c\udfc6 ", (0,
                         g.kW)("ok_game_okxracer_available_pts")]
                     }), (0,
                     Z.jsx)("p", {
                         ref: n,
-                        className: gl,
+                        className: jl,
                         children: "0"
                     })]
                 })
             }
-              , Al = n(94735)
-              , bl = n(32964);
-            function Cl(e) {
+              , bl = n(94735)
+              , Cl = n(32964);
+            function wl(e) {
                 return !!e && "proof"in e
             }
-            var wl = function(e, t) {
+            var yl = function(e, t) {
                 var n, a = new Promise((function(a) {
                     e.setConnectRequestParameters({
                         state: "ready",
@@ -6956,12 +6954,12 @@
                                         l = i.publicKey,
                                         u = s.connectItems,
                                         d = s.device.appName,
-                                        Cl(_ = null === u || void 0 === u ? void 0 : u.tonProof) && (m = _.proof,
+                                        wl(_ = null === u || void 0 === u ? void 0 : u.tonProof) && (m = _.proof,
                                         p = m.signature,
                                         x = m.payload,
                                         h = m.domain,
                                         f = m.timestamp,
-                                        v = bl.Address.parse(c),
+                                        v = Cl.Address.parse(c),
                                         k = v.toString({
                                             urlSafe: !0,
                                             bounceable: !1,
@@ -7009,7 +7007,7 @@
                     }
                 }
             }
-              , yl = function() {
+              , Tl = function() {
                 var e = (0,
                 l.A)((0,
                 o.A)().mark((function e(t, n) {
@@ -7024,7 +7022,7 @@
                                     break
                                 }
                                 return e.prev = 1,
-                                a = wl(t, n),
+                                a = yl(t, n),
                                 r = a.promise,
                                 s = a.unsubscribe,
                                 e.next = 5,
@@ -7057,7 +7055,7 @@
                     return e.apply(this, arguments)
                 }
             }()
-              , Tl = function(e) {
+              , Pl = function(e) {
                 var t = (0,
                 d.useOKXTonConnectUI)()
                   , n = (0,
@@ -7078,7 +7076,7 @@
                                 case 0:
                                     return t.prev = 0,
                                     t.next = 3,
-                                    yl(n, r);
+                                    Tl(n, r);
                                 case 3:
                                     if (!(a = t.sent)) {
                                         t.next = 12;
@@ -7127,7 +7125,7 @@
                     connectWallet: i
                 }
             }
-              , Pl = function(e) {
+              , Sl = function(e) {
                 var t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {}
                   , n = t.firstDigits
                   , a = void 0 === n ? 6 : n
@@ -7142,9 +7140,9 @@
                 }
                 return e
             };
-            const Sl = "ViewWalletButton_button__WbNMO"
-              , Bl = "ViewWalletButton_btnIcon__W5IFc";
-            var Il = function() {
+            const Bl = "ViewWalletButton_button__WbNMO"
+              , Il = "ViewWalletButton_btnIcon__W5IFc";
+            var Wl = function() {
                 var e = qe()
                   , t = e.context
                   , n = e.updateGameInfoFromServer
@@ -7184,7 +7182,7 @@
                         return e.apply(this, arguments)
                     }
                 }()
-                  , r = Tl(a).connectWallet
+                  , r = Pl(a).connectWallet
                   , s = function() {
                     var e = (0,
                     l.A)((0,
@@ -7223,24 +7221,23 @@
                     }
                 }()
                   , i = (0,
-                Al.A)(s, {
+                bl.A)(s, {
                     wait: 500,
                     leading: !0
                 }).run;
                 return (0,
-                Z.jsxs)("button", {
-                    className: Sl,
-                    type: "button",
+                Z.jsxs)(At.A, {
+                    className: Bl,
                     onClick: i,
                     children: [(0,
                     Z.jsx)(b.A, {
                         iconName: "okx-growth-wallet",
-                        className: Bl
-                    }), t.tonAddress ? Pl(t.tonAddress || "") : (0,
+                        className: Il
+                    }), t.tonAddress ? Sl(t.tonAddress || "") : (0,
                     g.kW)("ok_game_okxracer_tag_phase3_okx_wallet")]
                 })
             }
-              , Wl = function() {
+              , El = function() {
                 var e = z().uid;
                 return (0,
                 a.useEffect)((function() {
@@ -7263,88 +7260,88 @@
                 ), [e]),
                 (0,
                 Z.jsxs)("div", {
-                    className: al,
+                    className: rl,
                     children: [(0,
-                    Z.jsx)("div", {
-                        className: sl,
-                        children: (0,
-                        Z.jsx)(Il, {})
-                    }), (0,
                     Z.jsx)("div", {
                         className: il,
                         children: (0,
-                        Z.jsx)(cr, {
+                        Z.jsx)(Wl, {})
+                    }), (0,
+                    Z.jsx)("div", {
+                        className: cl,
+                        children: (0,
+                        Z.jsx)(or, {
                             header: (0,
-                            Z.jsx)(Nl, {}),
-                            headerWrapperClassName: cl
+                            Z.jsx)(Al, {}),
+                            headerWrapperClassName: ol
                         })
                     }), (0,
-                    Z.jsx)($o, {
-                        className: ol
+                    Z.jsx)(el, {
+                        className: ll
                     }), (0,
                     Z.jsx)("p", {
-                        className: rl,
+                        className: sl,
                         children: (0,
                         g.kW)("ok_game_okxracer_disclaimer")
                     }), (0,
-                    Z.jsx)(nl, {}), (0,
-                    Z.jsx)(fl, {}), (0,
-                    Z.jsx)(Do, {}), (0,
-                    Z.jsx)(Jo, {}), (0,
-                    Z.jsx)(Ho, {})]
+                    Z.jsx)(al, {}), (0,
+                    Z.jsx)(vl, {}), (0,
+                    Z.jsx)(Fo, {}), (0,
+                    Z.jsx)(Qo, {}), (0,
+                    Z.jsx)(Yo, {})]
                 })
             }
-              , El = function() {
+              , Rl = function() {
                 return (0,
                 Z.jsx)(pt, {
                     children: (0,
-                    Z.jsx)(Wl, {})
+                    Z.jsx)(El, {})
                 })
             }
-              , Rl = n(59465);
+              , Ll = n(59465);
             n(48558);
-            const Ll = "InviteBanner_bannerContainer__30zHC"
-              , Ol = "InviteBanner_bannerIcon__U6pI0"
-              , Dl = "InviteBanner_text__3Q8mq"
-              , Fl = "InviteBanner_rightIcon__2Ly1W";
-            var Ul = function(e) {
+            const Ol = "InviteBanner_bannerContainer__30zHC"
+              , Dl = "InviteBanner_bannerIcon__U6pI0"
+              , Fl = "InviteBanner_text__3Q8mq"
+              , Ul = "InviteBanner_rightIcon__2Ly1W";
+            var Vl = function(e) {
                 var t = e.className;
                 return (0,
-                Z.jsxs)(Rn, {
-                    className: k()(Ll, t),
+                Z.jsxs)(Ln, {
+                    className: k()(Ol, t),
                     to: Ge.referrals,
                     children: [(0,
                     Z.jsx)(b.A, {
                         iconName: "okx-growth-friends",
-                        className: Ol
+                        className: Dl
                     }), (0,
                     Z.jsx)("div", {
-                        className: Dl,
+                        className: Fl,
                         children: (0,
                         g.kW)("ok_game_okxracer_select_season_two_invite_friends")
                     }), (0,
                     Z.jsx)(b.A, {
                         iconName: "okx-growth-chevrons-right",
-                        className: Fl
+                        className: Ul
                     })]
                 })
             };
-            const Vl = "LeaderBoard_container__0DJSO"
-              , Gl = "LeaderBoard_inviteBanner__sql+w"
-              , Ml = "LeaderBoard_pageTitle__vTUSh"
-              , Zl = "LeaderBoard_desc__MFxC+"
-              , Hl = "LeaderBoard_inviteList__mV9a7"
-              , Yl = "LeaderBoard_tabActiveClassName__7Xv4B"
-              , zl = "LeaderBoard_tabsContent__KCGtW"
-              , Kl = "RankListItem_listItem__zYe9u"
-              , Xl = "RankListItem_name__i3zq8"
-              , ql = "RankListItem_mask__97bB7"
-              , Jl = "RankListItem_hightLightRow__6VE4b"
-              , Ql = "RankListItem_rank__-ky1f"
-              , $l = "RankListItem_point__7uHSt"
-              , eu = "RankListItem_icon__-N6Za"
-              , tu = "RankListItem_pointIcon__mAEQj";
-            var nu = function(e) {
+            const Gl = "LeaderBoard_container__0DJSO"
+              , Ml = "LeaderBoard_inviteBanner__sql+w"
+              , Zl = "LeaderBoard_pageTitle__vTUSh"
+              , Hl = "LeaderBoard_desc__MFxC+"
+              , Yl = "LeaderBoard_inviteList__mV9a7"
+              , zl = "LeaderBoard_tabActiveClassName__7Xv4B"
+              , Kl = "LeaderBoard_tabsContent__KCGtW"
+              , Xl = "RankListItem_listItem__zYe9u"
+              , ql = "RankListItem_name__i3zq8"
+              , Jl = "RankListItem_mask__97bB7"
+              , Ql = "RankListItem_hightLightRow__6VE4b"
+              , $l = "RankListItem_rank__-ky1f"
+              , eu = "RankListItem_point__7uHSt"
+              , tu = "RankListItem_icon__-N6Za"
+              , nu = "RankListItem_pointIcon__mAEQj";
+            var au = function(e) {
                 var t = e.extUserName
                   , n = e.totalPoints
                   , a = e.rank
@@ -7353,43 +7350,43 @@
                   , i = void 0 === s || s;
                 return (0,
                 Z.jsxs)("li", {
-                    className: k()(Kl, r && Jl),
+                    className: k()(Xl, r && Ql),
                     children: [(0,
                     Z.jsx)("div", {
-                        className: ql
-                    }), Ti(a) ? (0,
+                        className: Jl
+                    }), Pi(a) ? (0,
                     Z.jsx)("span", {
-                        className: k()(Ql, eu),
-                        children: yi[a]
+                        className: k()($l, tu),
+                        children: Ti[a]
                     }) : (0,
                     Z.jsx)("span", {
-                        className: Ql,
+                        className: $l,
                         children: a > 100 ? "100+" : "#".concat(a)
                     }), (0,
                     Z.jsx)("div", {
-                        className: Xl,
+                        className: ql,
                         children: t
                     }), (0,
                     Z.jsxs)("div", {
-                        className: $l,
+                        className: eu,
                         children: [i && (0,
                         Z.jsx)("span", {
-                            className: tu,
-                            children: yi[4]
+                            className: nu,
+                            children: Ti[4]
                         }), (0,
                         g.kW)("ok_game_okxracer_points_wo_plus2", {
                             points: (0,
-                            Ut.ZV)(n)
+                            Vt.ZV)(n)
                         })]
                     })]
                 })
             };
-            const au = "InviteButton_inviteBtn__gLbFB"
-              , ru = "InviteButton_btnA__+dJqi"
-              , su = "InviteButton_btnContainer__lg4rV"
-              , iu = "InviteButton_copyButton__znucI"
-              , cu = "InviteButton_copyIcon__QZgE9";
-            var ou = function(e) {
+            const ru = "InviteButton_inviteBtn__gLbFB"
+              , su = "InviteButton_btnA__+dJqi"
+              , iu = "InviteButton_btnContainer__lg4rV"
+              , cu = "InviteButton_copyButton__znucI"
+              , ou = "InviteButton_copyIcon__QZgE9";
+            var lu = function(e) {
                 var t = e.text
                   , n = void 0 === t ? (0,
                 g.kW)("ok_game_okxracer_invite_friends") : t
@@ -7401,13 +7398,13 @@
                   , o = i.appUrl;
                 return (0,
                 Z.jsxs)("div", {
-                    className: k()(a, su),
+                    className: k()(a, iu),
                     children: [(0,
                     Z.jsx)("a", {
-                        className: ru,
+                        className: su,
                         href: c,
                         children: (0,
-                        Z.jsx)(nn, {
+                        Z.jsx)(an, {
                             onClick: function() {
                                 !function() {
                                     var e = (arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {}).telegramid;
@@ -7425,7 +7422,7 @@
                                     telegramid: r
                                 })
                             },
-                            className: au,
+                            className: ru,
                             text: n
                         })
                     }), (0,
@@ -7443,36 +7440,36 @@
                                 X(!1, "Copy Invite URL failed")
                             }
                         },
-                        className: iu,
+                        className: cu,
                         children: (0,
                         Z.jsx)(b.A, {
                             iconName: "okx-growth-copy",
-                            className: cu
+                            className: ou
                         })
                     })]
                 })
             };
-            const lu = "RankList_listHeader__KVGnw"
-              , uu = "RankList_InviteButton__D6ute"
-              , du = "RankList_noFirendsNote__Ckkil"
-              , _u = "RankList_under__MJ5We"
-              , mu = "RankList_rankItemPlaceholder__z-upW"
-              , pu = "RankList_rankName__eM52K"
-              , xu = "RankList_rankScore__GY5ah";
-            var hu = 1
-              , fu = 2
-              , vu = 3
-              , ku = function(e) {
+            const uu = "RankList_listHeader__KVGnw"
+              , du = "RankList_InviteButton__D6ute"
+              , _u = "RankList_noFirendsNote__Ckkil"
+              , mu = "RankList_under__MJ5We"
+              , pu = "RankList_rankItemPlaceholder__z-upW"
+              , xu = "RankList_rankName__eM52K"
+              , hu = "RankList_rankScore__GY5ah";
+            var fu = 1
+              , vu = 2
+              , ku = 3
+              , gu = function(e) {
                 var t = e.total;
                 return (0,
                 Z.jsxs)("div", {
-                    className: lu,
+                    className: uu,
                     children: [(0,
                     Z.jsx)("span", {
                         children: (0,
                         g.kW)("ok_game_okxracer_racers_num", {
                             num: (0,
-                            Ut.ZV)(t)
+                            Vt.ZV)(t)
                         })
                     }), (0,
                     Z.jsx)("span", {
@@ -7481,7 +7478,7 @@
                     })]
                 })
             }
-              , gu = function() {
+              , ju = function() {
                 return (0,
                 Z.jsx)("div", {
                     children: Array.from({
@@ -7489,22 +7486,22 @@
                     }).map((function(e, t) {
                         return (0,
                         Z.jsxs)("div", {
-                            className: mu,
+                            className: pu,
                             children: [(0,
-                            Z.jsx)(ms, {
-                                className: pu
-                            }), (0,
-                            Z.jsx)(ms, {
+                            Z.jsx)(ps, {
                                 className: xu
+                            }), (0,
+                            Z.jsx)(ps, {
+                                className: hu
                             })]
                         }, t)
                     }
                     ))
                 })
             }
-              , ju = function(e) {
+              , Nu = function(e) {
                 var t = e.pageType
-                  , n = void 0 === t ? hu : t
+                  , n = void 0 === t ? fu : t
                   , r = (0,
                 a.useState)(!0)
                   , s = (0,
@@ -7544,7 +7541,7 @@
                                     a = {
                                         pageNo: t
                                     },
-                                    n !== hu) {
+                                    n !== fu) {
                                         e.next = 8;
                                         break
                                     }
@@ -7591,51 +7588,51 @@
                 (0,
                 Z.jsxs)(Z.Fragment, {
                     children: [(0,
-                    Z.jsx)(ku, {
+                    Z.jsx)(gu, {
                         total: f
                     }), i ? (0,
-                    Z.jsx)(gu, {}) : (0,
+                    Z.jsx)(ju, {}) : (0,
                     Z.jsxs)(Z.Fragment, {
                         children: [w && (0,
-                        Z.jsx)(nu, (0,
+                        Z.jsx)(au, (0,
                         C.A)((0,
                         C.A)({}, N), {}, {
                             isHighlight: !0
                         })), m.map((function(e, t) {
                             return (0,
-                            Z.jsx)(nu, (0,
+                            Z.jsx)(au, (0,
                             C.A)({}, e), "".concat(e.extUserName, "-").concat(t))
                         }
                         ))]
                     }), (0,
                     Z.jsx)("div", {
-                        className: _u
-                    }), n === hu && (0,
+                        className: mu
+                    }), n === fu && (0,
                     Z.jsxs)(Z.Fragment, {
                         children: [1 === m.length && (0,
                         Z.jsx)("div", {
-                            className: du,
+                            className: _u,
                             children: (0,
                             g.kW)("ok_game_okxracer_invite_desc")
                         }), 1 === m.length && (0,
-                        Z.jsx)(ou, {
-                            className: uu,
+                        Z.jsx)(lu, {
+                            className: du,
                             text: (0,
                             g.kW)("ok_game_okxracer_invite_contacts")
                         })]
                     })]
                 })
             }
-              , Nu = function() {
+              , Au = function() {
                 return (0,
                 Z.jsxs)("div", {
-                    className: Vl,
+                    className: Gl,
                     children: [(0,
-                    Z.jsx)(Ul, {
-                        className: Gl
+                    Z.jsx)(Vl, {
+                        className: Ml
                     }), (0,
-                    Z.jsx)(ac, {
-                        className: Ml,
+                    Z.jsx)(rc, {
+                        className: Zl,
                         html: (0,
                         g.kW)("ok_game_okxracer_race_to_top", {
                             top: "<em>".concat((0,
@@ -7643,62 +7640,62 @@
                         })
                     }), (0,
                     Z.jsx)("div", {
-                        className: Zl,
+                        className: Hl,
                         children: (0,
                         g.kW)("ok_game_okxracer_leaderboard_guide")
                     }), (0,
-                    Z.jsxs)(Rl.A, {
-                        activeClassName: Yl,
+                    Z.jsxs)(Ll.A, {
+                        activeClassName: zl,
                         noPadding: !0,
-                        size: Rl.A.SIZE.xl,
+                        size: Ll.A.SIZE.xl,
                         destroyOnHide: !0,
                         children: [(0,
-                        Z.jsx)(Rl.A.TabPane, {
-                            className: zl,
+                        Z.jsx)(Ll.A.TabPane, {
+                            className: Kl,
                             tab: (0,
                             g.kW)("ok_game_okxracer_tab_teams"),
+                            id: ku,
+                            children: (0,
+                            Z.jsx)("div", {
+                                className: Yl,
+                                children: (0,
+                                Z.jsx)(Vi, {})
+                            })
+                        }), (0,
+                        Z.jsx)(Ll.A.TabPane, {
+                            className: Kl,
+                            tab: (0,
+                            g.kW)("ok_game_okxracer_tab_global"),
                             id: vu,
                             children: (0,
                             Z.jsx)("div", {
-                                className: Hl,
+                                className: Yl,
                                 children: (0,
-                                Z.jsx)(Ui, {})
-                            })
-                        }), (0,
-                        Z.jsx)(Rl.A.TabPane, {
-                            className: zl,
-                            tab: (0,
-                            g.kW)("ok_game_okxracer_tab_global"),
-                            id: fu,
-                            children: (0,
-                            Z.jsx)("div", {
-                                className: Hl,
-                                children: (0,
-                                Z.jsx)(ju, {
-                                    pageType: fu
+                                Z.jsx)(Nu, {
+                                    pageType: vu
                                 })
                             })
                         }), (0,
-                        Z.jsx)(Rl.A.TabPane, {
+                        Z.jsx)(Ll.A.TabPane, {
                             tab: (0,
                             g.kW)("ok_game_okxracer_tab_friends"),
-                            id: hu,
-                            className: zl,
+                            id: fu,
+                            className: Kl,
                             children: (0,
                             Z.jsx)("div", {
-                                className: Hl,
+                                className: Yl,
                                 children: (0,
-                                Z.jsx)(ju, {
-                                    pageType: hu
+                                Z.jsx)(Nu, {
+                                    pageType: fu
                                 })
                             })
                         })]
                     })]
                 })
             };
-            const Au = "index_page__-xiuX"
-              , bu = "index_entering__yddHy";
-            var Cu = function(e) {
+            const bu = "index_page__-xiuX"
+              , Cu = "index_entering__yddHy";
+            var wu = function(e) {
                 var t = e.children
                   , n = e.animationPath
                   , r = (0,
@@ -7716,7 +7713,7 @@
                   , m = _[0]
                   , p = _[1]
                   , x = function() {
-                    return p(bu),
+                    return p(Cu),
                     setTimeout((function() {
                         p("")
                     }
@@ -7734,7 +7731,7 @@
                 ), [n, r]),
                 (0,
                 Z.jsx)("div", {
-                    className: k()(Au, m),
+                    className: k()(bu, m),
                     children: (0,
                     Z.jsx)(s.Switch, {
                         location: o,
@@ -7742,15 +7739,15 @@
                     })
                 })
             }
-              , wu = n(26612);
-            const yu = "index_sheetContainer__VPbba"
-              , Tu = "index_logo__iAzol"
-              , Pu = "index_sheetName__X3wgl"
-              , Su = "index_sheetDesc__BGlZJ"
-              , Bu = "index_btn__jg8QD"
-              , Iu = "index_secondaryBtn__1oeGV"
-              , Wu = "index_btnText__ox2Nh";
-            var Eu = function(e) {
+              , yu = n(26612);
+            const Tu = "index_sheetContainer__VPbba"
+              , Pu = "index_logo__iAzol"
+              , Su = "index_sheetName__X3wgl"
+              , Bu = "index_sheetDesc__BGlZJ"
+              , Iu = "index_btn__jg8QD"
+              , Wu = "index_secondaryBtn__1oeGV"
+              , Eu = "index_btnText__ox2Nh";
+            var Ru = function(e) {
                 var t = e.name
                   , n = e.desc
                   , r = e.btnText
@@ -7792,25 +7789,25 @@
                 }();
                 return (0,
                 Z.jsxs)("div", {
-                    className: yu,
+                    className: Tu,
                     children: [i && (0,
                     Z.jsx)(w.A, {
                         src: "".concat(c.A.cdnBaseUrl).concat(i),
-                        className: Tu
-                    }), (0,
-                    Z.jsx)("div", {
-                        className: Pu,
-                        children: t
+                        className: Pu
                     }), (0,
                     Z.jsx)("div", {
                         className: Su,
+                        children: t
+                    }), (0,
+                    Z.jsx)("div", {
+                        className: Bu,
                         dangerouslySetInnerHTML: {
                             __html: (0,
-                            pr.YW)(n)
+                            xr.YW)(n)
                         }
                     }), d, (0,
-                    Z.jsx)(nn, {
-                        className: Bu,
+                    Z.jsx)(an, {
+                        className: Iu,
                         loading: x,
                         onClick: f,
                         text: r
@@ -7819,17 +7816,17 @@
                         category: A.default.CATEGORY.outline,
                         type: A.default.TYPE.primary,
                         size: A.default.SIZE.lg,
-                        className: Iu,
+                        className: Wu,
                         onClick: _.onClick,
                         children: (0,
                         Z.jsx)("div", {
-                            className: Wu,
+                            className: Eu,
                             children: _.text
                         })
                     })]
                 })
             }
-              , Ru = function(e) {
+              , Lu = function(e) {
                 var t = e.task
                   , n = e.doTask
                   , a = t.context
@@ -7860,18 +7857,18 @@
                     }
                 }();
                 return (0,
-                Z.jsx)(Eu, {
+                Z.jsx)(Ru, {
                     name: s,
                     desc: r,
                     btnText: i,
                     onPrimaryBtnClick: c
                 })
             }
-              , Lu = n(32384);
-            const Ou = "index_copyBox__6n5nL"
-              , Du = "index_icon__BHdDG"
-              , Fu = "index_line__dTaE5";
-            var Uu = function(e) {
+              , Ou = n(76932);
+            const Du = "index_copyBox__6n5nL"
+              , Fu = "index_icon__BHdDG"
+              , Uu = "index_line__dTaE5";
+            var Vu = function(e) {
                 var t = e.text
                   , n = e.showClose
                   , a = e.onClose
@@ -7911,43 +7908,43 @@
                   , s = n && a;
                 return (0,
                 Z.jsxs)("div", {
-                    className: Ou,
+                    className: Du,
                     children: [(0,
                     Z.jsx)("div", {
                         children: t
                     }), (0,
                     Z.jsx)(b.A, {
-                        className: k()("okx-growth-copy", Du),
+                        className: k()("okx-growth-copy", Fu),
                         onClick: r,
                         a11yText: ""
                     }), s && (0,
                     Z.jsxs)(Z.Fragment, {
                         children: [(0,
                         Z.jsx)("span", {
-                            className: Fu
+                            className: Uu
                         }), (0,
                         Z.jsx)(b.A, {
-                            className: k()("okds-close", Du),
+                            className: k()("okds-close", Fu),
                             onClick: a,
                             a11yText: ""
                         })]
                     })]
                 })
             }
-              , Vu = "/cdn/assets/imgs/248/9C021A3DC09B4C81.webp"
-              , Gu = "/cdn/assets/imgs/249/014A8107B107466F.png"
-              , Mu = [ye.WalletConnect, ye.ConnectEVMChain, ye.OpenLink];
-            var Zu = [ye.WalletConnect, ye.ConnectEVMChain];
-            function Hu(e) {
+              , Gu = "/cdn/assets/imgs/248/9C021A3DC09B4C81.webp"
+              , Mu = "/cdn/assets/imgs/249/014A8107B107466F.png"
+              , Zu = [ye.WalletConnect, ye.ConnectEVMChain, ye.OpenLink];
+            var Hu = [ye.WalletConnect, ye.ConnectEVMChain];
+            function Yu(e) {
                 if (e.state === R.unfinished)
                     return !0;
                 var t = e.context.actionType;
-                return Zu.includes(t)
+                return Hu.includes(t)
             }
-            var Yu = function(e) {
+            var zu = function(e) {
                 var t = e.doTask
                   , n = e.task
-                  , r = Tl(function() {
+                  , r = Pl(function() {
                     var e = (0,
                     l.A)((0,
                     o.A)().mark((function e(a) {
@@ -7999,31 +7996,31 @@
                   , m = i.name
                   , p = i.desc;
                 return (null === n || void 0 === n ? void 0 : n.state) === R.finished ? (0,
-                Z.jsx)(Eu, {
+                Z.jsx)(Ru, {
                     name: c,
                     desc: "",
                     btnText: _,
-                    logo: Gu,
+                    logo: Mu,
                     onPrimaryBtnClick: s,
                     children: (0,
-                    Z.jsx)(Uu, {
+                    Z.jsx)(Vu, {
                         text: u
                     })
                 }) : (0,
-                Z.jsx)(Eu, {
+                Z.jsx)(Ru, {
                     name: m,
                     desc: p,
                     btnText: d,
-                    logo: Vu,
+                    logo: Gu,
                     onPrimaryBtnClick: s
                 })
             }
-              , zu = (0,
+              , Ku = (0,
             f.A)((0,
             f.A)((0,
             f.A)((0,
             f.A)((0,
-            f.A)({}, ye.Normal, Ru), ye.OpenLink, (function(e) {
+            f.A)({}, ye.Normal, Lu), ye.OpenLink, (function(e) {
                 var t = e.doTask
                   , n = e.task;
                 if (n.context.actionType !== ye.OpenLink)
@@ -8059,14 +8056,14 @@
                     }
                 }();
                 return (0,
-                Z.jsx)(Eu, {
+                Z.jsx)(Ru, {
                     name: s,
                     btnText: i,
                     desc: r,
                     onPrimaryBtnClick: u
                 })
             }
-            )), ye.WalletConnect, Yu), ye.WalletDepositConnect, (function(e) {
+            )), ye.WalletConnect, zu), ye.WalletDepositConnect, (function(e) {
                 var t = e.task
                   , n = e.doTask
                   , s = e.walletConnectTask
@@ -8081,7 +8078,7 @@
                     m(i.tonAddress || "")
                 }
                 ), [i.tonAddress]);
-                var p = Tl(function() {
+                var p = Pl(function() {
                     var e = (0,
                     l.A)((0,
                     o.A)().mark((function e(t, a) {
@@ -8148,8 +8145,8 @@
                     }
                 }();
                 return (0,
-                Z.jsx)(Eu, {
-                    logo: Gu,
+                Z.jsx)(Ru, {
+                    logo: Mu,
                     name: v,
                     desc: k,
                     btnText: f,
@@ -8162,7 +8159,7 @@
                         }
                     },
                     children: (0,
-                    Z.jsx)(Uu, {
+                    Z.jsx)(Vu, {
                         text: _,
                         showClose: Boolean(s),
                         onClose: x
@@ -8191,7 +8188,7 @@
                                 switch (e.prev = e.next) {
                                 case 0:
                                     return e.next = 2,
-                                    Lu.OKXUniversalConnectUI.init({
+                                    Ou.OKXUniversalConnectUI.init({
                                         dappMetaData: {
                                             icon: V(),
                                             name: "OKX Racer"
@@ -8201,7 +8198,7 @@
                                         },
                                         language: c.A.locale,
                                         uiPreferences: {
-                                            theme: Lu.THEME.DARK
+                                            theme: Ou.THEME.DARK
                                         }
                                     });
                                 case 2:
@@ -8244,7 +8241,7 @@
                     }
                 }();
                 return (0,
-                Z.jsx)(Eu, {
+                Z.jsx)(Ru, {
                     name: s,
                     desc: u,
                     btnText: i,
@@ -8253,15 +8250,15 @@
                 })
             }
             ))
-              , Ku = function(e) {
+              , Xu = function(e) {
                 var t = e.task
                   , n = e.doTask
                   , a = e.walletConnectTask;
                 if (!t)
                     return null;
                 var r = t.context.actionType
-                  , s = zu[r] || Ru;
-                return r === ye.WalletDepositConnect && (null === a || void 0 === a ? void 0 : a.state) === R.unfinished && (s = Yu),
+                  , s = Ku[r] || Lu;
+                return r === ye.WalletDepositConnect && (null === a || void 0 === a ? void 0 : a.state) === R.unfinished && (s = zu),
                 (0,
                 Z.jsx)(s, {
                     task: t,
@@ -8269,9 +8266,9 @@
                     walletConnectTask: a
                 })
             };
-            const Xu = "index_taskItemPlaceholder__hIgHw"
-              , qu = "index_task__Y6X8h";
-            var Ju = function() {
+            const qu = "index_taskItemPlaceholder__hIgHw"
+              , Ju = "index_task__Y6X8h";
+            var Qu = function() {
                 return (0,
                 Z.jsx)(Z.Fragment, {
                     children: Array.from({
@@ -8279,24 +8276,24 @@
                     }).map((function(e, t) {
                         return (0,
                         Z.jsx)("div", {
-                            className: k()(Xu),
+                            className: k()(qu),
                             children: (0,
-                            Z.jsx)(ms, {
-                                className: qu
+                            Z.jsx)(ps, {
+                                className: Ju
                             })
                         }, t)
                     }
                     ))
                 })
             };
-            const Qu = "index_taskItem__GMhr8"
-              , $u = "index_title__Sfa26"
-              , ed = "index_state__XRt4D"
-              , td = "index_itemLeft__XevRg"
-              , nd = "index_itemRight__Xjk6R"
-              , ad = "index_icon__ByKLw"
-              , rd = "index_done__m2rDm";
-            var sd = function(e) {
+            const $u = "index_taskItem__GMhr8"
+              , ed = "index_title__Sfa26"
+              , td = "index_state__XRt4D"
+              , nd = "index_itemLeft__XevRg"
+              , ad = "index_itemRight__Xjk6R"
+              , rd = "index_icon__ByKLw"
+              , sd = "index_done__m2rDm";
+            var id = function(e) {
                 var t = e.task
                   , n = e.onClick
                   , a = t.id
@@ -8306,49 +8303,48 @@
                   , c = "";
                 if (r) {
                     var o = (0,
-                    Ut.ZV)(r, {
+                    Vt.ZV)(r, {
                         signDisplay: !0
                     })
                       , l = s === R.finished ? "\u2705" : "\ud83c\udfc1";
                     c = "".concat(l, " ").concat(o, " pts")
                 }
                 return (0,
-                Z.jsxs)("button", {
-                    type: "button",
+                Z.jsxs)(At.A, {
+                    className: $u,
                     "aria-label": "",
-                    className: Qu,
                     onClick: function() {
                         n(t)
                     },
                     children: [(0,
                     Z.jsxs)("div", {
-                        className: td,
+                        className: nd,
                         children: [(0,
                         Z.jsx)("div", {
-                            className: $u,
+                            className: ed,
                             children: i.name
                         }), c && (0,
                         Z.jsx)("div", {
-                            className: ed,
+                            className: td,
                             children: c
                         })]
                     }), (0,
                     Z.jsx)("div", {
-                        className: nd,
+                        className: ad,
                         children: s === R.finished ? (0,
                         Z.jsx)("div", {
-                            className: rd,
+                            className: sd,
                             children: (0,
                             g.kW)("ok_game_okxracer_done")
                         }) : (0,
                         Z.jsx)(b.A, {
-                            className: k()("okx-growth-chevrons-right", ad)
+                            className: k()("okx-growth-chevrons-right", rd)
                         })
                     })]
                 }, a)
             };
-            const id = "index_container__ZnSx5";
-            function cd(e) {
+            const cd = "index_container__ZnSx5";
+            function od(e) {
                 var t = e.tasks
                   , n = e.className
                   , r = e.executeTaskCallback
@@ -8373,7 +8369,7 @@
                         if (e.state === R.unfinished)
                             return !0;
                         var t = e.context.actionType;
-                        return Mu.includes(t)
+                        return Zu.includes(t)
                     }(e)) {
                         var t = e.context.actionType
                           , n = e.state;
@@ -8406,7 +8402,7 @@
                             for (; ; )
                                 switch (e.prev = e.next) {
                                 case 0:
-                                    if (Hu(t)) {
+                                    if (Yu(t)) {
                                         e.next = 3;
                                         break
                                     }
@@ -8466,23 +8462,23 @@
                 Z.jsxs)(Z.Fragment, {
                     children: [(0,
                     Z.jsx)("div", {
-                        className: k()(id, n),
+                        className: k()(cd, n),
                         children: t.length > 0 ? t.map((function(e) {
                             return (0,
-                            Z.jsx)(sd, {
+                            Z.jsx)(id, {
                                 task: e,
                                 onClick: f
                             }, e.id)
                         }
                         )) : (0,
-                        Z.jsx)(Ju, {})
+                        Z.jsx)(Qu, {})
                     }), c && (0,
-                    Z.jsx)(Jt, {
+                    Z.jsx)(Qt, {
                         noContentPadding: !0,
                         visible: p,
                         onClose: h,
                         children: (0,
-                        Z.jsx)(Ku, {
+                        Z.jsx)(Xu, {
                             doTask: v,
                             task: c,
                             walletConnectTask: j
@@ -8490,18 +8486,18 @@
                     })]
                 })
             }
-            var od = (0,
+            var ld = (0,
             a.createContext)({
                 airdrops: [],
                 selectedAirdrop: null,
                 loading: !1,
                 onSelectAirdrop: function() {}
             })
-              , ld = function() {
+              , ud = function() {
                 return (0,
-                a.useContext)(od)
+                a.useContext)(ld)
             }
-              , ud = function(e) {
+              , dd = function(e) {
                 var t = e.children
                   , n = (0,
                 a.useState)([])
@@ -8551,12 +8547,12 @@
                 }
                 ), [l, s, p]);
                 return (0,
-                Z.jsx)(od.Provider, {
+                Z.jsx)(ld.Provider, {
                     value: f,
                     children: t
                 })
             };
-            const dd = {
+            const _d = {
                 container: "index_container__Y851r",
                 header: "index_header__4gppM",
                 title: "index_title__b+GpQ",
@@ -8565,13 +8561,13 @@
                 tasks: "index_tasks__k8-lb",
                 taskListHeader: "index_taskListHeader__0FpaY"
             };
-            var _d = function() {
-                var e = ld().selectedAirdrop
+            var md = function() {
+                var e = ud().selectedAirdrop
                   , t = (0,
                 s.useHistory)().replace
                   , n = (0,
                 s.useLocation)().hash;
-                if (hs(),
+                if (fs(),
                 (0,
                 a.useEffect)((function() {
                     e || t(Ge.tasks + n)
@@ -8586,120 +8582,119 @@
                   , u = e.surprise;
                 return (0,
                 Z.jsxs)("div", {
-                    className: dd.container,
+                    className: _d.container,
                     children: [(0,
                     Z.jsxs)("div", {
-                        className: dd.header,
+                        className: _d.header,
                         children: [(0,
-                        Z.jsx)(Qr.A, {
-                            size: wu.A.sm,
-                            className: dd.logo,
+                        Z.jsx)($r.A, {
+                            size: yu.A.sm,
+                            className: _d.logo,
                             src: "".concat(c.A.cdnBaseUrl).concat(i)
                         }), (0,
                         Z.jsx)("h1", {
-                            className: dd.title,
+                            className: _d.title,
                             children: o
                         })]
                     }), (0,
                     Z.jsx)("p", {
-                        className: dd.desc,
+                        className: _d.desc,
                         children: l
                     }), (0,
                     Z.jsx)("div", {
-                        className: dd.surpriseTitle,
+                        className: _d.surpriseTitle,
                         children: (0,
                         g.kW)("ok_game_okxracer_label_surprises_details")
                     }), (0,
                     Z.jsx)("p", {
-                        className: dd.desc,
+                        className: _d.desc,
                         children: u
                     }), (0,
                     Z.jsxs)("div", {
-                        className: dd.tasks,
+                        className: _d.tasks,
                         children: [(0,
                         Z.jsx)("div", {
-                            className: dd.taskListHeader,
+                            className: _d.taskListHeader,
                             children: (0,
                             g.kW)("ok_game_okxracer_text_phase3_tasks")
                         }), (0,
-                        Z.jsx)(cd, {
+                        Z.jsx)(od, {
                             tasks: r
                         })]
                     })]
                 })
             };
-            const md = "index_airdropItem__pV1Az"
-              , pd = "index_content__ZtejP"
-              , xd = "index_airdropIcon__lZwMy"
-              , hd = "index_airdropIconLoading__S1N9H"
-              , fd = "index_title__19JPa"
-              , vd = "index_desc__ekknt"
-              , kd = "index_arrow__Y8OCn"
-              , gd = "index_airdropItemPlaceholder__bL5jl";
-            var jd = function(e) {
+            const pd = "index_airdropItem__pV1Az"
+              , xd = "index_content__ZtejP"
+              , hd = "index_airdropIcon__lZwMy"
+              , fd = "index_airdropIconLoading__S1N9H"
+              , vd = "index_title__19JPa"
+              , kd = "index_desc__ekknt"
+              , gd = "index_arrow__Y8OCn"
+              , jd = "index_airdropItemPlaceholder__bL5jl";
+            var Nd = function(e) {
                 var t = e.airdrop
                   , n = e.onClick
                   , a = t.logo
                   , r = t.groupSubTitle
                   , s = t.groupTitle;
                 return (0,
-                Z.jsxs)("button", {
-                    type: "button",
+                Z.jsxs)(At.A, {
                     "aria-label": "",
-                    className: md,
+                    className: pd,
                     onClick: function() {
                         n(t)
                     },
                     children: [(0,
                     Z.jsxs)("div", {
-                        className: pd,
+                        className: xd,
                         children: [(0,
                         Z.jsx)(w.A, {
-                            className: xd,
+                            className: hd,
                             src: "".concat(c.A.cdnBaseUrl).concat(a)
                         }), (0,
                         Z.jsx)("div", {
-                            className: fd,
+                            className: vd,
                             children: s
                         }), (0,
                         Z.jsx)("div", {
-                            className: vd,
+                            className: kd,
                             children: r
                         })]
                     }), (0,
                     Z.jsx)(b.A, {
-                        className: k()("okds-arrow-chevron-right-centered-sm", kd)
+                        className: k()("okds-arrow-chevron-right-centered-sm", gd)
                     })]
                 })
             }
-              , Nd = function() {
+              , Ad = function() {
                 return (0,
                 Z.jsxs)("div", {
-                    className: k()(md, gd),
+                    className: k()(pd, jd),
                     children: [(0,
-                    Z.jsx)(ms, {
-                        className: hd
-                    }), (0,
-                    Z.jsx)(ms, {
+                    Z.jsx)(ps, {
                         className: fd
                     }), (0,
-                    Z.jsx)(ms, {
+                    Z.jsx)(ps, {
                         className: vd
+                    }), (0,
+                    Z.jsx)(ps, {
+                        className: kd
                     })]
                 })
             };
-            const Ad = "index_offsetMarginContainer__2NtPr"
-              , bd = "index_title__+65IJ"
-              , Cd = "index_count__F-PWh"
-              , wd = "index_airdropContainer__Gun3r"
-              , yd = "index_paddingPlaceholder__X2M3o";
-            var Td = function(e) {
+            const bd = "index_offsetMarginContainer__2NtPr"
+              , Cd = "index_title__+65IJ"
+              , wd = "index_count__F-PWh"
+              , yd = "index_airdropContainer__Gun3r"
+              , Td = "index_paddingPlaceholder__X2M3o";
+            var Pd = function(e) {
                 var t = e.showCertifyBottomSheet
-                  , n = ld()
+                  , n = ud()
                   , a = n.airdrops
                   , r = n.onSelectAirdrop
                   , i = n.loading
-                  , c = Is().isCertified
+                  , c = Ws().isCertified
                   , o = (0,
                 s.useHistory)()
                   , l = (0,
@@ -8716,31 +8711,31 @@
                 Z.jsxs)(Z.Fragment, {
                     children: [(0,
                     Z.jsxs)("p", {
-                        className: bd,
+                        className: Cd,
                         children: [(0,
                         g.kW)("ok_game_okxracer_label_airdrop_surprises"), "\xa0", (0,
                         Z.jsxs)("span", {
-                            className: Cd,
+                            className: wd,
                             children: ["(", d, ")"]
                         })]
                     }), (0,
                     Z.jsx)("div", {
                         className: k()((0,
-                        f.A)({}, Ad, d > 1)),
+                        f.A)({}, bd, d > 1)),
                         children: (0,
                         Z.jsxs)("div", {
-                            className: wd,
+                            className: yd,
                             children: [i ? (0,
                             Z.jsxs)(Z.Fragment, {
                                 children: [(0,
-                                Z.jsx)(Nd, {}), (0,
-                                Z.jsx)(Nd, {}), (0,
-                                Z.jsx)(Nd, {})]
+                                Z.jsx)(Ad, {}), (0,
+                                Z.jsx)(Ad, {}), (0,
+                                Z.jsx)(Ad, {})]
                             }) : (0,
                             Z.jsx)(Z.Fragment, {
                                 children: a.map((function(e) {
                                     return (0,
-                                    Z.jsx)(jd, {
+                                    Z.jsx)(Nd, {
                                         airdrop: e,
                                         onClick: u
                                     }, e.groupId)
@@ -8748,42 +8743,42 @@
                                 ))
                             }), d > 1 ? (0,
                             Z.jsx)("div", {
-                                className: yd
+                                className: Td
                             }) : null]
                         })
                     })]
                 }) : null
             }
-              , Pd = n(3314);
+              , Sd = n(3314);
             n(18279);
-            const Sd = "Campaigns_title__a2IwB"
-              , Bd = "Campaigns_count__LxNZj"
-              , Id = "Campaigns_loaderContainer__tSglx"
-              , Wd = "Campaigns_list__y6Ye0"
-              , Ed = "Campaigns_noCampaigns__faP1c"
-              , Rd = "Campaigns_desc__q+hH9"
-              , Ld = "Campaigns_termsAndConditions__RfsOE";
-            var Od = function(e) {
+            const Bd = "Campaigns_title__a2IwB"
+              , Id = "Campaigns_count__LxNZj"
+              , Wd = "Campaigns_loaderContainer__tSglx"
+              , Ed = "Campaigns_list__y6Ye0"
+              , Rd = "Campaigns_noCampaigns__faP1c"
+              , Ld = "Campaigns_desc__q+hH9"
+              , Od = "Campaigns_termsAndConditions__RfsOE";
+            var Dd = function(e) {
                 var t = e.showCertifyBottomSheet
-                  , n = Is().isCertified
+                  , n = Ws().isCertified
                   , r = (0,
-                a.useContext)(qc)
+                a.useContext)(Jc)
                   , s = r.campaigns
                   , i = r.loading;
                 var c = n ? (0,
-                Z.jsx)(Pd.A.State, {
-                    type: Pd.A.State.TYPE.noRecord,
-                    className: Ed,
+                Z.jsx)(Sd.A.State, {
+                    type: Sd.A.State.TYPE.noRecord,
+                    className: Rd,
                     title: (0,
                     g.kW)("ok_game_okxracer_title_phase421_no_campaigns"),
                     description: (0,
                     Z.jsx)("p", {
-                        className: Rd,
+                        className: Ld,
                         children: (0,
                         g.kW)("ok_game_okxracer_text_phase421_stay_tuned")
                     })
                 }) : (0,
-                Z.jsx)(Ps, {
+                Z.jsx)(Ss, {
                     roundLogo: !1,
                     campaign: {
                         logo: "/cdn/assets/imgs/249/D290EBECC9921075.png",
@@ -8801,32 +8796,32 @@
                 Z.jsxs)(Z.Fragment, {
                     children: [(0,
                     Z.jsxs)("p", {
-                        className: Sd,
+                        className: Bd,
                         children: [(0,
                         g.kW)("ok_game_okxracer_title_phase421_campaigns"), "\xa0", o && (0,
                         Z.jsxs)("span", {
-                            className: Bd,
+                            className: Id,
                             children: ["(", s.length, ")"]
                         })]
                     }), i && (0,
                     Z.jsx)("div", {
-                        className: Id,
+                        className: Wd,
                         children: (0,
-                        Z.jsx)(Qn.A, {})
+                        Z.jsx)($n.A, {})
                     }), !i && 0 === s.length && c, (0,
                     Z.jsx)("ul", {
-                        className: Wd,
+                        className: Ed,
                         children: s.map((function(e) {
                             return (0,
-                            Z.jsx)(Ps, {
+                            Z.jsx)(Ss, {
                                 campaign: e,
                                 btnText: (0,
                                 g.kW)("ok_game_okxracer_btn_phase421_view_campaign"),
                                 onClick: function() {
                                     n ? function(e) {
-                                        Qt({
+                                        $t({
                                             children: (0,
-                                            Z.jsx)(ds, {
+                                            Z.jsx)(_s, {
                                                 campaign: e
                                             })
                                         })
@@ -8836,13 +8831,13 @@
                         }
                         ))
                     }), !n && (0,
-                    Z.jsx)($o, {
-                        className: Ld
+                    Z.jsx)(el, {
+                        className: Od
                     })]
                 })
             }
-              , Dd = function() {
-                var e = Is().accountBindingInfo || {}
+              , Fd = function() {
+                var e = Ws().accountBindingInfo || {}
                   , t = e.gradeCategories
                   , n = e.pointGradeName
                   , r = void 0 === n ? "" : n
@@ -8864,7 +8859,7 @@
                     totalEarnedPoints: i
                 }
             };
-            const Fd = {
+            const Ud = {
                 container: "Grades_container__d1oD4",
                 cardBox: "Grades_cardBox__Z4YxU",
                 content: "Grades_content__7jPV6",
@@ -8884,8 +8879,8 @@
                 "fade-out": "Grades_fade-out__L3IX9",
                 fadeOut: "Grades_fade-out__L3IX9"
             };
-            var Ud = function() {
-                var e = Dd()
+            var Vd = function() {
+                var e = Fd()
                   , t = e.currentGradeIndex
                   , n = e.currentGrade
                   , r = e.gradeCategories
@@ -8917,7 +8912,7 @@
                     }
                 }
                 ), [r]),
-                hs(),
+                fs(),
                 (0,
                 a.useEffect)((function() {
                     _(t)
@@ -8962,50 +8957,50 @@
                   , C = t === r.length - 1;
                 return (0,
                 Z.jsx)("div", {
-                    className: Fd.container,
+                    className: Ud.container,
                     children: (0,
                     Z.jsx)("div", {
-                        className: Fd.cardBox,
+                        className: Ud.cardBox,
                         children: (0,
                         Z.jsxs)("div", {
-                            className: k()(Fd.content, x ? Fd.fadeIn : Fd.fadeOut),
+                            className: k()(Ud.content, x ? Ud.fadeIn : Ud.fadeOut),
                             children: [(0,
                             Z.jsx)("div", {
-                                className: Fd.levelLogoBox,
+                                className: Ud.levelLogoBox,
                                 children: (0,
                                 Z.jsx)("img", {
                                     src: null !== v && void 0 !== v && v.logo ? "".concat(c.A.cdnBaseUrl).concat(null === v || void 0 === v ? void 0 : v.logo) : "".concat(c.A.cdnBaseUrl).concat("/cdn/assets/imgs/248/0A41A851FBCA2AA7.webp"),
                                     alt: "level",
-                                    className: k()(Fd.levelLogo, t >= d ? Fd.logoLight : Fd.logoGrade)
+                                    className: k()(Ud.levelLogo, t >= d ? Ud.logoLight : Ud.logoGrade)
                                 })
                             }), 0 !== d && (0,
                             Z.jsx)(b.A, {
-                                className: k()("okds-arrow-chevron-left-centered-md", Fd.leftBtn, Fd.switchBtn),
+                                className: k()("okds-arrow-chevron-left-centered-md", Ud.leftBtn, Ud.switchBtn),
                                 onClick: N,
                                 a11yText: ""
                             }), d !== (null === r || void 0 === r ? void 0 : r.length) - 1 && (0,
                             Z.jsx)(b.A, {
-                                className: k()("okds-arrow-chevron-right-centered-md", Fd.rightBtn, Fd.switchBtn),
+                                className: k()("okds-arrow-chevron-right-centered-md", Ud.rightBtn, Ud.switchBtn),
                                 onClick: A,
                                 a11yText: ""
                             }), (0,
                             Z.jsx)("div", {
-                                className: Fd.currentGrade,
+                                className: Ud.currentGrade,
                                 children: f && (0,
                                 g.kW)("ok_game_okxracer_title_phase4_racer_grade")
                             }), (0,
                             Z.jsx)("div", {
-                                className: Fd.gradeTitle,
+                                className: Ud.gradeTitle,
                                 children: null === v || void 0 === v ? void 0 : v.pointGradeName
                             }), (0,
                             Z.jsx)("div", {
-                                className: Fd.progressNum,
+                                className: Ud.progressNum,
                                 children: v ? f && C ? (0,
                                 Z.jsxs)(Z.Fragment, {
                                     children: [(0,
                                     Z.jsx)("span", {
                                         children: (0,
-                                        Ut.ZV)(i)
+                                        Vt.ZV)(i)
                                     }), "\xa0", (0,
                                     g.kW)("ok_game_okxracer_text_phase4_points_tracker")]
                                 }) : f ? (0,
@@ -9013,30 +9008,30 @@
                                     children: [(0,
                                     Z.jsx)("span", {
                                         children: (0,
-                                        Ut.ZV)(i)
+                                        Vt.ZV)(i)
                                     }), " /", " ", (0,
-                                    Ut.ZV)(v.upperBound), "\xa0", (0,
+                                    Vt.ZV)(v.upperBound), "\xa0", (0,
                                     g.kW)("ok_game_okxracer_text_phase4_points_tracker")]
                                 }) : (0,
                                 Z.jsx)(Z.Fragment, {
                                     children: v.upperBound ? (0,
                                     g.kW)("ok_game_okxracer_text_phase4_range_points_grade", {
                                         bottom: (0,
-                                        Ut.ZV)(v.lowerBound),
+                                        Vt.ZV)(v.lowerBound),
                                         top: (0,
-                                        Ut.ZV)(v.upperBound)
+                                        Vt.ZV)(v.upperBound)
                                     }) : (0,
                                     g.kW)("ok_game_okxracer_text_phase4_legendary_pts", {
                                         number: (0,
-                                        Ut.ZV)(v.lowerBound)
+                                        Vt.ZV)(v.lowerBound)
                                     })
                                 }) : ""
                             }), f && !C && (0,
                             Z.jsx)("div", {
-                                className: Fd.progressSlide,
+                                className: Ud.progressSlide,
                                 children: (0,
                                 Z.jsx)("div", {
-                                    className: Fd.progress,
+                                    className: Ud.progress,
                                     style: {
                                         width: "".concat(i / (Number(null === v || void 0 === v ? void 0 : v.upperBound) || 1) * 100, "%")
                                     }
@@ -9046,55 +9041,55 @@
                     })
                 })
             };
-            const Vd = "License_loader__4L8AA"
-              , Gd = "License_container__MxoNJ"
-              , Md = "License_pageTitle__h+Yja"
-              , Zd = "License_verifiedUsers__q-uxi"
-              , Hd = "License_avatars__3HegJ"
-              , Yd = "License_usersCount__fkW5h"
-              , zd = "NeonBox_container__0efrL"
-              , Kd = "NeonBox_certified__dDOGg"
-              , Xd = "NeonBox_backgroundWrapper__dblpl"
-              , qd = "NeonBox_content__T1f+D"
-              , Jd = "NeonBox_header__jMjn9";
-            var Qd = function(e) {
+            const Gd = "License_loader__4L8AA"
+              , Md = "License_container__MxoNJ"
+              , Zd = "License_pageTitle__h+Yja"
+              , Hd = "License_verifiedUsers__q-uxi"
+              , Yd = "License_avatars__3HegJ"
+              , zd = "License_usersCount__fkW5h"
+              , Kd = "NeonBox_container__0efrL"
+              , Xd = "NeonBox_certified__dDOGg"
+              , qd = "NeonBox_backgroundWrapper__dblpl"
+              , Jd = "NeonBox_content__T1f+D"
+              , Qd = "NeonBox_header__jMjn9";
+            var $d = function(e) {
                 var t = e.children
                   , n = e.isCertified
                   , a = void 0 === n || n
                   , r = e.header;
                 return (0,
                 Z.jsxs)("div", {
-                    className: k()(zd, a && Kd),
+                    className: k()(Kd, a && Xd),
                     children: [r && (0,
                     Z.jsx)("div", {
-                        className: Jd,
+                        className: Qd,
                         children: r
                     }), (0,
                     Z.jsx)("div", {
-                        className: k()(Xd),
+                        className: k()(qd),
                         children: (0,
                         Z.jsx)("div", {
-                            className: qd,
+                            className: Jd,
                             children: t
                         })
                     })]
                 })
             };
-            const $d = "LicenseCard_licenseCard__+wyQA"
-              , e_ = "LicenseCard_header__LUvW7"
-              , t_ = "LicenseCard_title__rMFOB"
-              , n_ = "LicenseCard_content__i2ESe"
-              , a_ = "LicenseCard_innerCard__n57Gb"
-              , r_ = "LicenseCard_details__boiyi"
-              , s_ = "LicenseCard_label__JX11k"
-              , i_ = "LicenseCard_link__19+Q+"
-              , c_ = "LicenseCard_linkIcon__oNENM"
-              , o_ = "LicenseCard_points__MkLL5"
-              , l_ = "LicenseCard_icon__b6JLr"
-              , u_ = "LicenseCard_certifyBtn__Z6vHo"
-              , d_ = "LicenseCard_infoPopoverDesc__Km8Og"
-              , __ = "LicenseCard_gradeImage__fd+PJ";
-            var m_ = function() {
+            const e_ = "LicenseCard_licenseCard__+wyQA"
+              , t_ = "LicenseCard_header__LUvW7"
+              , n_ = "LicenseCard_title__rMFOB"
+              , a_ = "LicenseCard_content__i2ESe"
+              , r_ = "LicenseCard_innerCard__n57Gb"
+              , s_ = "LicenseCard_details__boiyi"
+              , i_ = "LicenseCard_label__JX11k"
+              , c_ = "LicenseCard_link__19+Q+"
+              , o_ = "LicenseCard_linkIcon__oNENM"
+              , l_ = "LicenseCard_points__MkLL5"
+              , u_ = "LicenseCard_icon__b6JLr"
+              , d_ = "LicenseCard_certifyBtn__Z6vHo"
+              , __ = "LicenseCard_infoPopoverDesc__Km8Og"
+              , m_ = "LicenseCard_gradeImage__fd+PJ";
+            var p_ = function() {
                 return (0,
                 Z.jsx)("svg", {
                     width: "20",
@@ -9110,26 +9105,26 @@
                     })
                 })
             }
-              , p_ = function(e) {
+              , x_ = function(e) {
                 var t = e.showCertifyBottomSheet
                   , n = qe().accumPoints
-                  , a = Is()
+                  , a = Ws()
                   , r = a.accountBindingInfo
                   , s = a.isCertified
-                  , i = Dd().currentGrade;
+                  , i = Fd().currentGrade;
                 return (0,
                 Z.jsx)("section", {
-                    className: $d,
+                    className: e_,
                     children: (0,
-                    Z.jsx)(Qd, {
+                    Z.jsx)($d, {
                         isCertified: s,
                         header: (0,
                         Z.jsxs)("div", {
-                            className: e_,
+                            className: t_,
                             children: [(0,
-                            Z.jsx)(m_, {}), (0,
+                            Z.jsx)(p_, {}), (0,
                             Z.jsx)("span", {
-                                className: t_,
+                                className: n_,
                                 children: s ? (0,
                                 g.kW)("ok_game_okxracer_label_phase4_certified") : (0,
                                 g.kW)("ok_game_okxracer_label_phase4_uncertified")
@@ -9137,58 +9132,58 @@
                         }),
                         children: (0,
                         Z.jsxs)("div", {
-                            className: n_,
+                            className: a_,
                             children: [(0,
                             Z.jsxs)("div", {
-                                className: a_,
+                                className: r_,
                                 children: [(0,
                                 Z.jsxs)("div", {
-                                    className: r_,
+                                    className: s_,
                                     children: [(0,
                                     Z.jsx)("p", {
-                                        className: s_,
+                                        className: i_,
                                         children: (0,
                                         g.kW)("ok_game_okxracer_title_phase4_racer_grade")
                                     }), (0,
-                                    Z.jsxs)(Rn, {
+                                    Z.jsxs)(Ln, {
                                         to: Ge.licenseGrades,
-                                        className: i_,
+                                        className: c_,
                                         children: [(0,
-                                        Wr.z)(null === r || void 0 === r ? void 0 : r.pointGradeName), (0,
+                                        Er.z)(null === r || void 0 === r ? void 0 : r.pointGradeName), (0,
                                         Z.jsx)(b.A, {
                                             iconName: "okds-arrow-chevron-right-centered-md",
-                                            className: c_
+                                            className: o_
                                         })]
                                     }), (0,
                                     Z.jsxs)("div", {
-                                        className: o_,
+                                        className: l_,
                                         children: [(0,
                                         Z.jsx)("span", {
-                                            className: s_,
+                                            className: i_,
                                             children: (0,
                                             g.kW)("ok_game_okxracer_text_phase3_total_pts_earned")
                                         }), "\xa0", (0,
-                                        Ut.ZV)(n), (0,
-                                        Z.jsx)(Jr.A, {
+                                        Vt.ZV)(n), (0,
+                                        Z.jsx)(Qr.A, {
                                             title: (0,
                                             g.kW)("ok_game_okxracer_hinttext_phase3_surprises_based"),
-                                            contentClassName: d_,
+                                            contentClassName: __,
                                             children: (0,
                                             Z.jsx)(b.A, {
                                                 iconName: "okx-growth-information",
-                                                className: l_
+                                                className: u_
                                             })
                                         })]
                                     })]
                                 }), i && (0,
                                 Z.jsx)(w.A, {
-                                    pictureClassName: __,
-                                    className: __,
+                                    pictureClassName: m_,
+                                    className: m_,
                                     src: "".concat(c.A.cdnBaseUrl, "/").concat(i.logo)
                                 })]
                             }), !s && (0,
-                            Z.jsx)(nn, {
-                                className: u_,
+                            Z.jsx)(an, {
+                                className: d_,
                                 size: A.default.SIZE.md,
                                 text: (0,
                                 g.kW)("ok_game_okxracer_btn_phase4_certify"),
@@ -9198,8 +9193,8 @@
                     })
                 })
             }
-              , x_ = function() {
-                var e, t = z().uid, n = Is(), r = n.accountBindingInfo, s = n.isCertified, i = n.getAccountBindingInfo, d = n.isLoading, _ = (0,
+              , h_ = function() {
+                var e, t = z().uid, n = Ws(), r = n.accountBindingInfo, s = n.isCertified, i = n.getAccountBindingInfo, d = n.isLoading, _ = (0,
                 a.useState)(!1), m = (0,
                 u.A)(_, 2), p = m[0], x = m[1], h = (0,
                 a.useCallback)((0,
@@ -9262,9 +9257,9 @@
                 d)
                     return (0,
                     Z.jsx)("div", {
-                        className: Vd,
+                        className: Gd,
                         children: (0,
-                        Z.jsx)(Qn.A, {})
+                        Z.jsx)($n.A, {})
                     });
                 var f = null !== (e = null === r || void 0 === r ? void 0 : r.totalVerifiedCount) && void 0 !== e ? e : 0
                   , v = function() {
@@ -9274,41 +9269,41 @@
                 Z.jsxs)(Z.Fragment, {
                     children: [(0,
                     Z.jsxs)("div", {
-                        className: Gd,
+                        className: Md,
                         children: [!s && (0,
                         Z.jsxs)(Z.Fragment, {
                             children: [(0,
-                            Z.jsx)(ac, {
-                                className: Md,
+                            Z.jsx)(rc, {
+                                className: Zd,
                                 html: (0,
                                 g.kW)("ok_game_okxracer_title_phase4_cerify_racing")
                             }), (0,
                             Z.jsxs)("div", {
-                                className: Zd,
+                                className: Hd,
                                 children: [(0,
                                 Z.jsx)(w.A, {
-                                    className: Hd,
+                                    className: Yd,
                                     src: "".concat(c.A.cdnBaseUrl, "/cdn/assets/imgs/248/82E299F1E77A18A1.jpeg")
                                 }), (0,
                                 Z.jsx)("span", {
-                                    className: Yd,
+                                    className: zd,
                                     children: f > 0 ? (0,
-                                    Ut.ZV)(f) : "--"
+                                    Vt.ZV)(f) : "--"
                                 }), (0,
                                 g.kW)("ok_game_okxracer_text_racers_already_verified")]
                             })]
                         }), (0,
-                        Z.jsx)(p_, {
+                        Z.jsx)(x_, {
                             showCertifyBottomSheet: v
                         }), (0,
-                        Z.jsx)(Td, {
+                        Z.jsx)(Pd, {
                             showCertifyBottomSheet: v
                         }), (0,
-                        Z.jsx)(Od, {
+                        Z.jsx)(Dd, {
                             showCertifyBottomSheet: v
                         })]
                     }), (0,
-                    Z.jsx)(Ks, {
+                    Z.jsx)(Xs, {
                         visible: p,
                         onClose: function() {
                             x(!1)
@@ -9319,89 +9314,89 @@
                     })]
                 })
             }
-              , h_ = function() {
+              , f_ = function() {
                 return (0,
-                Z.jsx)(ud, {
+                Z.jsx)(dd, {
                     children: (0,
-                    Z.jsxs)(Cu, {
+                    Z.jsxs)(wu, {
                         animationPath: [Ge.licenseGrades],
                         children: [(0,
                         Z.jsx)(s.Route, {
                             path: Ge.license,
-                            component: x_,
+                            component: h_,
                             exact: !0
                         }), (0,
                         Z.jsx)(s.Route, {
                             path: Ge.airdrop,
-                            component: _d,
+                            component: md,
                             exact: !0
                         }), (0,
                         Z.jsx)(s.Route, {
                             path: Ge.licenseGrades,
-                            component: ao(Ud),
+                            component: ro(Vd),
                             exact: !0
                         })]
                     })
                 })
             };
-            const f_ = "QrCode_container__r4Fu7"
-              , v_ = "QrCode_qrCode__16PWa"
-              , k_ = "QrCode_title__+cibb"
-              , g_ = "QrCode_message__eaOzW";
-            var j_ = function() {
+            const v_ = "QrCode_container__r4Fu7"
+              , k_ = "QrCode_qrCode__16PWa"
+              , g_ = "QrCode_title__+cibb"
+              , j_ = "QrCode_message__eaOzW";
+            var N_ = function() {
                 return (0,
                 Z.jsxs)("div", {
-                    className: f_,
+                    className: v_,
                     children: [(0,
                     Z.jsx)(w.A, {
-                        className: v_,
+                        className: k_,
                         src: "".concat(c.A.cdnBaseUrl, "/cdn/assets/imgs/247/9BC4664BE2754582.svg")
                     }), (0,
                     Z.jsx)("p", {
                         dangerouslySetInnerHTML: {
                             __html: (0,
-                            pr.YW)((0,
+                            xr.YW)((0,
                             g.kW)("ok_game_okxracer_browser_title_scan_play"))
                         },
-                        className: k_
+                        className: g_
                     }), (0,
                     Z.jsx)("p", {
-                        className: g_,
+                        className: j_,
                         children: (0,
                         g.kW)("ok_game_okxracer_browser_msg")
                     })]
                 })
             };
-            const N_ = "PullupList_loading__+51Dh"
-              , A_ = "PullupList_listLoadItem__XcvkH"
-              , b_ = "PullupList_listLeft__4eGh6"
-              , C_ = "PullupList_listRight__w7Ely"
-              , w_ = "PullupList_listLoading__whJeg";
-            var y_ = function() {
+            const A_ = "PullupList_loading__+51Dh"
+              , b_ = "PullupList_listLoadItem__XcvkH"
+              , C_ = "PullupList_listLeft__4eGh6"
+              , w_ = "PullupList_listRight__w7Ely"
+              , y_ = "PullupList_listLoading__whJeg";
+            var T_ = function() {
                 return (0,
                 Z.jsxs)("div", {
-                    className: k()(A_),
+                    className: k()(b_),
                     children: [(0,
-                    Z.jsx)(ms, {
-                        className: b_
-                    }), (0,
-                    Z.jsx)(ms, {
+                    Z.jsx)(ps, {
                         className: C_
+                    }), (0,
+                    Z.jsx)(ps, {
+                        className: w_
                     })]
                 })
             }
-              , T_ = function() {
+              , P_ = function() {
                 return (0,
                 Z.jsx)("div", {
-                    className: w_,
+                    className: y_,
                     children: Array(3).fill(null).map((function(e, t) {
                         return (0,
-                        Z.jsx)(y_, {}, t)
+                        Z.jsx)(T_, {}, t)
                     }
                     ))
                 })
             }
-              , P_ = function(e) {
+              , S_ = function(e) {
                 var t = e.loadData
                   , n = e.children
                   , r = (0,
@@ -9454,8 +9449,8 @@
                                     (n = e.sent) && n.rows ? (x.current.page += 1,
                                     c((function(e) {
                                         return [].concat((0,
-                                        qr.A)(e), (0,
-                                        qr.A)(n.rows))
+                                        Jr.A)(e), (0,
+                                        Jr.A)(n.rows))
                                     }
                                     )),
                                     x.current.total = 0 === n.rows.length ? i.length : n.total) : x.current.stop = !0,
@@ -9480,7 +9475,7 @@
                     }
                 }()
                   , N = (0,
-                Al.A)(j, {
+                bl.A)(j, {
                     wait: 500,
                     leading: !0
                 }).run
@@ -9512,19 +9507,19 @@
                     }
                     )), (0,
                     Z.jsx)("div", {
-                        className: N_,
+                        className: A_,
                         ref: h,
                         children: m && (0,
-                        Z.jsx)(T_, {})
+                        Z.jsx)(P_, {})
                     })]
                 })
             };
-            const S_ = "InviteList_listItem__q4jhG"
-              , B_ = "InviteList_name__LLQgt"
-              , I_ = "InviteList_point__kXtCn"
-              , W_ = "InviteList_earnedPrice__4vAfw"
-              , E_ = "InviteList_pointNumber__v4P1H";
-            var R_ = function() {
+            const B_ = "InviteList_listItem__q4jhG"
+              , I_ = "InviteList_name__LLQgt"
+              , W_ = "InviteList_point__kXtCn"
+              , E_ = "InviteList_earnedPrice__4vAfw"
+              , R_ = "InviteList_pointNumber__v4P1H";
+            var L_ = function() {
                 var e = (0,
                 a.useState)(0)
                   , t = (0,
@@ -9568,37 +9563,37 @@
                 Z.jsxs)(Z.Fragment, {
                     children: [(0,
                     Z.jsx)("div", {
-                        className: W_,
+                        className: E_,
                         children: (0,
                         g.Vp)("ok_game_okxracer_refer_points", {
                             points: (0,
                             Z.jsx)("span", {
-                                className: E_,
+                                className: R_,
                                 children: (0,
                                 g.kW)("ok_game_okxracer_points_wo_plus2", {
                                     points: (0,
-                                    Ut.ZV)(n)
+                                    Vt.ZV)(n)
                                 })
                             })
                         })
                     }), (0,
-                    Z.jsx)(P_, {
+                    Z.jsx)(S_, {
                         loadData: s,
                         children: function(e, t) {
                             return (0,
                             Z.jsxs)("div", {
-                                className: S_,
+                                className: B_,
                                 children: [(0,
                                 Z.jsx)("div", {
-                                    className: B_,
+                                    className: I_,
                                     children: e.extInviteeName
                                 }), (0,
                                 Z.jsx)("div", {
-                                    className: I_,
+                                    className: W_,
                                     children: (0,
                                     g.kW)("ok_game_okxracer_points_with_plus", {
                                         points: (0,
-                                        Ut.ZV)(e.contributedPoints)
+                                        Vt.ZV)(e.contributedPoints)
                                     })
                                 })]
                             }, "".concat(e.extInviteeName, "-").concat(t))
@@ -9606,16 +9601,16 @@
                     })]
                 })
             };
-            const L_ = "ReferralsPage_container__V48m1"
-              , O_ = "ReferralsPage_inviteDetail__L1MhM"
-              , D_ = "ReferralsPage_detailItem__ujOp+"
-              , F_ = "ReferralsPage_dot__zKW7L"
-              , U_ = "ReferralsPage_detailTitle__OE657"
-              , V_ = "ReferralsPage_detailInfo__YC+Y9"
-              , G_ = "ReferralsPage_inviteList__Jksx8";
-            var M_ = function() {
+            const O_ = "ReferralsPage_container__V48m1"
+              , D_ = "ReferralsPage_inviteDetail__L1MhM"
+              , F_ = "ReferralsPage_detailItem__ujOp+"
+              , U_ = "ReferralsPage_dot__zKW7L"
+              , V_ = "ReferralsPage_detailTitle__OE657"
+              , G_ = "ReferralsPage_detailInfo__YC+Y9"
+              , M_ = "ReferralsPage_inviteList__Jksx8";
+            var Z_ = function() {
                 var e = z().uid;
-                return hs(),
+                return fs(),
                 (0,
                 a.useEffect)((function() {
                     !function() {
@@ -9637,49 +9632,49 @@
                 ), [e]),
                 (0,
                 Z.jsxs)("div", {
-                    className: L_,
+                    className: O_,
                     children: [(0,
-                    Z.jsx)(ac, {
+                    Z.jsx)(rc, {
                         html: "".concat((0,
                         g.kW)("ok_game_okxracer_friends_hint"), " <em>").concat((0,
                         g.kW)("ok_game_okxracer_friends_hint2"), "</em>")
                     }), (0,
                     Z.jsx)("div", {
-                        className: O_,
+                        className: D_,
                         children: (0,
                         Z.jsxs)("div", {
-                            className: D_,
+                            className: F_,
                             children: [(0,
                             Z.jsx)("div", {
-                                className: F_
+                                className: U_
                             }), (0,
                             Z.jsx)("div", {
-                                className: U_,
+                                className: V_,
                                 children: (0,
                                 g.kW)("ok_game_okxracer_refer_your_friends")
                             }), (0,
                             Z.jsx)("div", {
-                                className: V_,
+                                className: G_,
                                 children: (0,
                                 g.kW)("ok_game_okxracer_refer_rewards")
                             })]
                         })
                     }), (0,
                     Z.jsx)("div", {
-                        className: G_,
+                        className: M_,
                         children: (0,
-                        Z.jsx)(R_, {})
+                        Z.jsx)(L_, {})
                     }), (0,
-                    Z.jsx)(ou, {})]
+                    Z.jsx)(lu, {})]
                 })
             }
-              , Z_ = {
+              , H_ = {
                 taskGroups: [],
                 ungroupedTasks: []
             }
-              , H_ = (0,
+              , Y_ = (0,
             a.createContext)({
-                tasks: Z_,
+                tasks: H_,
                 executeTaskSuccessCallback: function() {
                     var e = (0,
                     l.A)((0,
@@ -9703,14 +9698,14 @@
                 partner: void 0,
                 setSelectedPartner: function() {}
             })
-              , Y_ = function() {
+              , z_ = function() {
                 return (0,
-                a.useContext)(H_)
+                a.useContext)(Y_)
             }
-              , z_ = function(e) {
+              , K_ = function(e) {
                 var t = e.children
                   , n = (0,
-                a.useState)(Z_)
+                a.useState)(H_)
                   , r = (0,
                 u.A)(n, 2)
                   , s = r[0]
@@ -9736,7 +9731,7 @@
                                 Se(!0);
                             case 2:
                                 n = e.sent,
-                                i(null !== (t = n.data) && void 0 !== t ? t : Z_);
+                                i(null !== (t = n.data) && void 0 !== t ? t : H_);
                             case 4:
                             case "end":
                                 return e.stop()
@@ -9772,7 +9767,7 @@
                                 n = (0,
                                 u.A)(t, 1),
                                 a = n[0],
-                                "fulfilled" === a.status && (c = null !== (r = null === (s = a.value) || void 0 === s ? void 0 : s.data) && void 0 !== r ? r : Z_,
+                                "fulfilled" === a.status && (c = null !== (r = null === (s = a.value) || void 0 === s ? void 0 : s.data) && void 0 !== r ? r : H_,
                                 i(c),
                                 _ && (l = c.taskGroups.find((function(e) {
                                     return e.groupName === _.groupName
@@ -9787,7 +9782,7 @@
                 }
                 ))), [_, p]);
                 return (0,
-                Z.jsx)(H_.Provider, {
+                Z.jsx)(Y_.Provider, {
                     value: {
                         tasks: s,
                         executeTaskSuccessCallback: f,
@@ -9797,7 +9792,7 @@
                     children: t
                 })
             };
-            const K_ = {
+            const X_ = {
                 container: "index_container__UavVq",
                 header: "index_header__EKw6T",
                 title: "index_title__J0Uw8",
@@ -9811,15 +9806,15 @@
                 taskListHeader: "index_taskListHeader__ofYyy",
                 taskCount: "index_taskCount__YgRaW"
             };
-            var X_ = function() {
-                var e = Y_()
+            var q_ = function() {
+                var e = z_()
                   , t = e.partner
                   , n = e.executeTaskSuccessCallback
                   , r = (0,
                 s.useHistory)().replace
                   , i = (0,
                 s.useLocation)().hash;
-                if (hs(),
+                if (fs(),
                 (0,
                 a.useEffect)((function() {
                     t || r(Ge.tasks + i)
@@ -9837,61 +9832,61 @@
                   , x = t.participants;
                 return (0,
                 Z.jsxs)("div", {
-                    className: K_.container,
+                    className: X_.container,
                     children: [(0,
                     Z.jsxs)("div", {
-                        className: K_.header,
+                        className: X_.header,
                         children: [(0,
-                        Z.jsx)(Qr.A, {
-                            size: wu.A.sm,
-                            className: K_.logo,
+                        Z.jsx)($r.A, {
+                            size: yu.A.sm,
+                            className: X_.logo,
                             src: "".concat(c.A.cdnBaseUrl).concat(d)
                         }), (0,
                         Z.jsx)("h1", {
-                            className: K_.title,
+                            className: X_.title,
                             children: _
                         })]
                     }), (0,
                     Z.jsx)("p", {
-                        className: K_.desc,
+                        className: X_.desc,
                         children: m
                     }), (0,
                     Z.jsxs)("div", {
-                        className: K_.status,
+                        className: X_.status,
                         children: [(0,
                         Z.jsxs)("div", {
-                            className: K_.statusItem,
+                            className: X_.statusItem,
                             children: [(0,
                             Z.jsx)("div", {
-                                className: K_.statusTitle,
+                                className: X_.statusTitle,
                                 children: (0,
                                 g.kW)("ok_game_okxracer_text_phase3_total_pts")
                             }), (0,
                             Z.jsx)("div", {
-                                className: K_.statusValue,
+                                className: X_.statusValue,
                                 children: (0,
                                 g.kW)("ok_game_okxracer_text_phase3_up_to_pts", {
                                     number: (0,
-                                    Ut.ZV)(p, {
+                                    Vt.ZV)(p, {
                                         signDisplay: !0
                                     })
                                 })
                             })]
                         }), (0,
                         Z.jsxs)("div", {
-                            className: K_.statusItem,
+                            className: X_.statusItem,
                             children: [(0,
                             Z.jsx)("div", {
-                                className: K_.statusTitle,
+                                className: X_.statusTitle,
                                 children: (0,
                                 g.kW)("ok_game_okxracer_text_phase3_racers")
                             }), (0,
                             Z.jsxs)("div", {
-                                className: K_.statusValue,
+                                className: X_.statusValue,
                                 children: [(0,
                                 Z.jsx)(b.A, {
-                                    className: k()("okx-growth-friends", K_.participantsIcon)
-                                }), Ut.Ru.shortNumber(x, {
+                                    className: k()("okx-growth-friends", X_.participantsIcon)
+                                }), Vt.Ru.shortNumber(x, {
                                     digit: 0,
                                     roundingMode: "ceil"
                                 })]
@@ -9899,43 +9894,44 @@
                         })]
                     }), (0,
                     Z.jsxs)("div", {
-                        className: K_.tasks,
+                        className: X_.tasks,
                         children: [(0,
                         Z.jsxs)("div", {
-                            className: K_.taskListHeader,
+                            className: X_.taskListHeader,
                             children: [(0,
                             Z.jsx)("span", {
                                 children: (0,
                                 g.kW)("ok_game_okxracer_text_phase3_tasks")
                             }), (0,
                             Z.jsx)("span", {
-                                className: K_.taskCount,
+                                className: X_.taskCount,
                                 dangerouslySetInnerHTML: {
                                     __html: (0,
+                                    xr.YW)((0,
                                     g.kW)("ok_game_okxracer_text_phase3_tasks_completed", {
                                         number: "".concat(o, "/").concat(l)
-                                    })
+                                    }))
                                 }
                             })]
                         }), (0,
-                        Z.jsx)(cd, {
+                        Z.jsx)(od, {
                             tasks: u,
                             executeTaskCallback: n
                         })]
                     })]
                 })
             };
-            const q_ = "index_partnerItem__S1dkf"
-              , J_ = "index_title__bRRMU"
-              , Q_ = "index_points__WQSip"
-              , $_ = "index_state__gi-nK"
-              , em = "index_logo__y4rK-"
-              , tm = "index_item-left__ej9+1"
-              , nm = "index_item-right__3KRWi"
-              , am = "index_dot__4bynu"
-              , rm = "index_participantsIcon__-tYh0"
-              , sm = "index_icon__gS69A";
-            var im = function(e) {
+            const J_ = "index_partnerItem__S1dkf"
+              , Q_ = "index_title__bRRMU"
+              , $_ = "index_points__WQSip"
+              , em = "index_state__gi-nK"
+              , tm = "index_logo__y4rK-"
+              , nm = "index_item-left__ej9+1"
+              , am = "index_item-right__3KRWi"
+              , rm = "index_dot__4bynu"
+              , sm = "index_participantsIcon__-tYh0"
+              , im = "index_icon__gS69A";
+            var cm = function(e) {
                 var t = e.name
                   , n = e.totalPoints
                   , a = e.numCompletedTasks
@@ -9944,50 +9940,50 @@
                   , i = e.logo;
                 return (0,
                 Z.jsxs)("div", {
-                    className: q_,
+                    className: J_,
                     children: [(0,
-                    Z.jsx)(Qr.A, {
-                        size: wu.A.sm,
-                        className: em,
+                    Z.jsx)($r.A, {
+                        size: yu.A.sm,
+                        className: tm,
                         src: "".concat(c.A.cdnBaseUrl).concat(i)
                     }), (0,
                     Z.jsxs)("div", {
-                        className: tm,
+                        className: nm,
                         children: [(0,
                         Z.jsx)("div", {
-                            className: J_,
+                            className: Q_,
                             children: t
                         }), (0,
                         Z.jsx)("div", {
-                            className: Q_,
+                            className: $_,
                             children: (0,
                             g.kW)("ok_game_okxracer_text_phase3_up_to_pts", {
                                 number: (0,
-                                Ut.ZV)(n, {
+                                Vt.ZV)(n, {
                                     signDisplay: !0
                                 })
                             })
                         }), (0,
                         Z.jsxs)("div", {
-                            className: $_,
+                            className: em,
                             children: [(0,
                             Z.jsx)("span", {
                                 dangerouslySetInnerHTML: {
                                     __html: (0,
-                                    pr.YW)((0,
+                                    xr.YW)((0,
                                     g.kW)("ok_game_okxracer_text_phase3_tasks_completed", {
                                         number: "".concat(a, "/").concat(r)
                                     }))
                                 }
                             }), (0,
                             Z.jsx)("span", {
-                                className: am
+                                className: rm
                             }), (0,
                             Z.jsx)(b.A, {
-                                className: k()("okx-growth-friends", rm)
+                                className: k()("okx-growth-friends", sm)
                             }), (0,
                             Z.jsx)("em", {
-                                children: Ut.Ru.shortNumber(s, {
+                                children: Vt.Ru.shortNumber(s, {
                                     digit: 0,
                                     roundingMode: "ceil"
                                 })
@@ -9995,23 +9991,23 @@
                         })]
                     }), (0,
                     Z.jsx)("div", {
-                        className: nm,
+                        className: am,
                         children: (0,
                         Z.jsx)(b.A, {
-                            className: k()("okx-growth-chevrons-right", sm)
+                            className: k()("okx-growth-chevrons-right", im)
                         })
                     })]
                 })
             };
-            const cm = "index_container__wKNP9";
-            function om(e) {
+            const om = "index_container__wKNP9";
+            function lm(e) {
                 var t = e.tasks
                   , n = e.className
-                  , a = Y_().setSelectedPartner
+                  , a = z_().setSelectedPartner
                   , r = t.length > 0;
                 return (0,
                 Z.jsx)("div", {
-                    className: k()(cm, n),
+                    className: k()(om, n),
                     children: r ? t.map((function(e) {
                         var t = e.groupName
                           , n = e.numTasks
@@ -10020,13 +10016,13 @@
                           , i = e.participants
                           , c = e.logo;
                         return (0,
-                        Z.jsx)(Rn, {
+                        Z.jsx)(Ln, {
                             to: Ge.partner,
                             onClick: function() {
                                 a(e)
                             },
                             children: (0,
-                            Z.jsx)(im, {
+                            Z.jsx)(cm, {
                                 name: t,
                                 logo: c,
                                 totalPoints: s,
@@ -10037,13 +10033,13 @@
                         }, t)
                     }
                     )) : (0,
-                    Z.jsx)(Ju, {})
+                    Z.jsx)(Qu, {})
                 })
             }
-            const lm = "TaskArea_tabPane__irXs6"
-              , um = "TaskArea_tabName__-BL2R"
-              , dm = "TaskArea_list__cqK4t";
-            var _m = function(e) {
+            const um = "TaskArea_tabPane__irXs6"
+              , dm = "TaskArea_tabName__-BL2R"
+              , _m = "TaskArea_list__cqK4t";
+            var mm = function(e) {
                 var t = e.isPartner
                   , n = void 0 !== t && t
                   , a = e.count
@@ -10052,15 +10048,15 @@
                 g.kW)("ok_game_okxracer_tab_my_tasks");
                 return (0,
                 Z.jsxs)("div", {
-                    className: um,
+                    className: dm,
                     children: [r, " ", (0,
                     Z.jsxs)("span", {
                         children: ["(", a, ")"]
                     })]
                 })
             }
-              , mm = function() {
-                var e = Y_()
+              , pm = function() {
+                var e = z_()
                   , t = e.tasks
                   , n = e.executeTaskSuccessCallback
                   , a = t.taskGroups
@@ -10068,64 +10064,64 @@
                 return (0,
                 Z.jsx)(Z.Fragment, {
                     children: (0,
-                    Z.jsxs)(Rl.A.Underline, {
-                        size: Rl.A.SIZE.xl,
+                    Z.jsxs)(Ll.A.Underline, {
+                        size: Ll.A.SIZE.xl,
                         children: [(0,
-                        Z.jsx)(Rl.A.TabPane, {
-                            className: lm,
+                        Z.jsx)(Ll.A.TabPane, {
+                            className: um,
                             tab: (0,
-                            Z.jsx)(_m, {
+                            Z.jsx)(mm, {
                                 isPartner: !0,
                                 count: a.length
                             }),
                             id: "partner",
                             children: (0,
-                            Z.jsx)(om, {
+                            Z.jsx)(lm, {
                                 tasks: a,
-                                className: dm
+                                className: _m
                             })
                         }), (0,
-                        Z.jsx)(Rl.A.TabPane, {
-                            className: lm,
+                        Z.jsx)(Ll.A.TabPane, {
+                            className: um,
                             tab: (0,
-                            Z.jsx)(_m, {
+                            Z.jsx)(mm, {
                                 count: r.length
                             }),
                             id: "own",
                             children: (0,
-                            Z.jsx)(cd, {
+                            Z.jsx)(od, {
                                 tasks: r,
-                                className: dm,
+                                className: _m,
                                 executeTaskCallback: n
                             })
                         })]
                     })
                 })
             };
-            const pm = "TaskPage_container__5KfIM"
-              , xm = "TaskPage_block__kt8oo"
-              , hm = "TaskPage_pointsContainer__+vQ2y"
-              , fm = "TaskPage_points__+UHeE"
-              , vm = "TaskPage_label__-ivvS";
-            var km = function() {
+            const xm = "TaskPage_container__5KfIM"
+              , hm = "TaskPage_block__kt8oo"
+              , fm = "TaskPage_pointsContainer__+vQ2y"
+              , vm = "TaskPage_points__+UHeE"
+              , km = "TaskPage_label__-ivvS";
+            var gm = function() {
                 var e = qe().accumPoints;
                 return (0,
                 Z.jsxs)("div", {
-                    className: pm,
+                    className: xm,
                     children: [(0,
                     Z.jsxs)("div", {
-                        className: k()(xm, hm),
+                        className: k()(hm, fm),
                         children: [(0,
                         Z.jsx)("p", {
-                            className: fm,
+                            className: vm,
                             children: (0,
-                            Ut.ZV)(e)
+                            Vt.ZV)(e)
                         }), (0,
                         Z.jsxs)("div", {
-                            className: vm,
+                            className: km,
                             children: [(0,
                             g.kW)("ok_game_okxracer_text_phase3_total_pts_earned"), (0,
-                            Z.jsx)(Jr.A, {
+                            Z.jsx)(Qr.A, {
                                 title: (0,
                                 g.kW)("ok_game_okxracer_hinttext_phase3_surprises_based"),
                                 children: (0,
@@ -10136,37 +10132,37 @@
                         })]
                     }), (0,
                     Z.jsx)("div", {
-                        className: xm,
+                        className: hm,
                         children: (0,
-                        Z.jsx)(mm, {})
+                        Z.jsx)(pm, {})
                     })]
                 })
             }
-              , gm = function() {
+              , jm = function() {
                 return (0,
-                Z.jsx)(z_, {
+                Z.jsx)(K_, {
                     children: (0,
                     Z.jsxs)(s.Switch, {
                         children: [(0,
                         Z.jsx)(s.Route, {
                             path: Ge.tasks,
-                            component: km,
+                            component: gm,
                             exact: !0
                         }), (0,
                         Z.jsx)(s.Route, {
                             path: Ge.partner,
-                            component: X_,
+                            component: q_,
                             exact: !0
                         })]
                     })
                 })
             };
-            const jm = "TotalTeamPoints_container__w4h5U"
-              , Nm = "TotalTeamPoints_header__ilpK1"
-              , Am = "TotalTeamPoints_listHeader__ewYPw";
-            var bm = []
-              , Cm = function() {
-                hs();
+            const Nm = "TotalTeamPoints_container__w4h5U"
+              , Am = "TotalTeamPoints_header__ilpK1"
+              , bm = "TotalTeamPoints_listHeader__ewYPw";
+            var Cm = []
+              , wm = function() {
+                fs();
                 var e = {
                     extUserName: "188888.x ",
                     rank: 102,
@@ -10175,21 +10171,21 @@
                   , t = e && (e.rank > 3 || -1 === e.rank);
                 return (0,
                 Z.jsxs)("div", {
-                    className: jm,
+                    className: Nm,
                     children: [(0,
                     Z.jsx)("h2", {
-                        className: Nm,
+                        className: Am,
                         children: (0,
                         g.kW)("ok_game_okxracer_label_total_team_points")
                     }), (0,
                     Z.jsxs)("p", {
-                        className: Am,
+                        className: bm,
                         children: [(0,
                         Z.jsx)("div", {
                             children: (0,
                             g.kW)("ok_game_okxracer_racers_num", {
                                 num: (0,
-                                Ut.ZV)(bm.length || 0)
+                                Vt.ZV)(Cm.length || 0)
                             })
                         }), (0,
                         Z.jsx)("div", {
@@ -10199,14 +10195,14 @@
                     }), (0,
                     Z.jsxs)("ul", {
                         children: [t && (0,
-                        Z.jsx)(nu, (0,
+                        Z.jsx)(au, (0,
                         C.A)((0,
                         C.A)({}, e), {}, {
                             isHighlight: !0,
                             showPointEmoji: !1
-                        })), bm.map((function(e) {
+                        })), Cm.map((function(e) {
                             return (0,
-                            Z.jsx)(nu, (0,
+                            Z.jsx)(au, (0,
                             C.A)((0,
                             C.A)({}, e), {}, {
                                 showPointEmoji: !1
@@ -10216,8 +10212,8 @@
                     })]
                 })
             }
-              , wm = O
-              , ym = (0,
+              , ym = O
+              , Tm = (0,
             a.createContext)({
                 boosts: [],
                 upgradeBoost: function() {
@@ -10246,7 +10242,7 @@
                 activeTabId: O,
                 boostGroups: {}
             })
-              , Tm = function(e) {
+              , Pm = function(e) {
                 var t = e.children
                   , n = (0,
                 a.useState)({})
@@ -10285,7 +10281,7 @@
                                 a = n.data,
                                 r = null === a || void 0 === a ? void 0 : a.boostGroups,
                                 i(r || {}),
-                                f(null !== (t = null === r || void 0 === r ? void 0 : r[wm]) && void 0 !== t ? t : []),
+                                f(null !== (t = null === r || void 0 === r ? void 0 : r[ym]) && void 0 !== t ? t : []),
                                 e.next = 12;
                                 break;
                             case 10:
@@ -10349,7 +10345,7 @@
                 }
                 ), [k]),
                 (0,
-                Z.jsx)(ym.Provider, {
+                Z.jsx)(Tm.Provider, {
                     value: {
                         boosts: h,
                         upgradeBoost: g,
@@ -10364,34 +10360,34 @@
                     children: t
                 })
             }
-              , Pm = function(e) {
+              , Sm = function(e) {
                 return (null === e || void 0 === e ? void 0 : e.type) === L.DailyBoost
             }
-              , Sm = function(e) {
+              , Bm = function(e) {
                 return "actionType"in e && e.actionType === ye.UnLock
             }
-              , Bm = function(e) {
+              , Im = function(e) {
                 var t = e.pointCost
                   , n = e.curStage
                   , a = e.totalStage;
-                return !Pm(e) && n >= a ? "" : " \ud83c\udfc1 ".concat(0 == t ? (0,
+                return !Sm(e) && n >= a ? "" : " \ud83c\udfc1 ".concat(0 == t ? (0,
                 g.kW)("ok_game_okxracer_free") : "".concat((0,
-                Ut.ZV)(-t, {
+                Vt.ZV)(-t, {
                     zeroSign: "-"
                 }), " pts"))
             };
-            const Im = "index_mainContainer__G1QC-"
-              , Wm = "index_sheetIcon__cdTfT"
-              , Em = "index_sheetTitle__BnrED"
-              , Rm = "index_sheetDesc__DtfoF"
-              , Lm = "index_maxLevelText__esnYu"
-              , Om = "index_levelArrowRight__MPbSr"
-              , Dm = "index_sheetLowerContentContainer__doUtU"
-              , Fm = "index_pointCostText__GT5Jc"
-              , Um = "index_sheetLvlTextContainer__UWjtN"
-              , Vm = "index_btmBtn__6S1L3"
-              , Gm = "index_boostDataSplitPoint__IpW+U";
-            var Mm = function(e) {
+            const Wm = "index_mainContainer__G1QC-"
+              , Em = "index_sheetIcon__cdTfT"
+              , Rm = "index_sheetTitle__BnrED"
+              , Lm = "index_sheetDesc__DtfoF"
+              , Om = "index_maxLevelText__esnYu"
+              , Dm = "index_levelArrowRight__MPbSr"
+              , Fm = "index_sheetLowerContentContainer__doUtU"
+              , Um = "index_pointCostText__GT5Jc"
+              , Vm = "index_sheetLvlTextContainer__UWjtN"
+              , Gm = "index_btmBtn__6S1L3"
+              , Mm = "index_boostDataSplitPoint__IpW+U";
+            var Zm = function(e) {
                 var t = e.boost
                   , n = e.onClick
                   , a = t.context
@@ -10400,12 +10396,12 @@
                   , i = t.isLocked
                   , o = a.logo
                   , l = a.name
-                  , u = Sm(a)
-                  , d = Pm(t)
+                  , u = Bm(a)
+                  , d = Sm(t)
                   , _ = r === s
                   , m = function(e) {
                     var t = e.context
-                      , n = Sm(t)
+                      , n = Bm(t)
                       , a = !1
                       , r = t.desc
                       , s = t.btnText;
@@ -10425,37 +10421,37 @@
                   , f = _ && !d && !u;
                 return (0,
                 Z.jsxs)("div", {
-                    className: Im,
+                    className: Wm,
                     children: [(0,
                     Z.jsx)(w.A, {
-                        className: Wm,
+                        className: Em,
                         src: "".concat(c.A.cdnBaseUrl).concat(o)
                     }), (0,
                     Z.jsx)("div", {
-                        className: Em,
+                        className: Rm,
                         children: l
                     }), (0,
                     Z.jsx)("div", {
-                        className: Rm,
+                        className: Lm,
                         children: p
                     }), f && (0,
                     Z.jsx)("div", {
-                        className: Lm,
+                        className: Om,
                         children: (0,
                         g.kW)("ok_game_okxracer_bttmsheet_title_out_of_upgrades")
                     }), !u && (0,
                     Z.jsxs)("div", {
-                        className: Dm,
+                        className: Fm,
                         children: [(0,
                         Z.jsx)("span", {
-                            className: Fm,
-                            children: Bm(t)
+                            className: Um,
+                            children: Im(t)
                         }), (d || r < s) && (0,
                         Z.jsx)("span", {
-                            className: Gm
+                            className: Mm
                         }), (0,
                         Z.jsx)("span", {
-                            className: Um,
+                            className: Vm,
                             children: d ? "".concat(s - r, "/").concat(s) : (0,
                             Z.jsxs)(Z.Fragment, {
                                 children: [(0,
@@ -10463,14 +10459,14 @@
                                     children: (0,
                                     g.kW)("ok_game_okxracer_lvl_num", {
                                         num: (0,
-                                        Ut.ZV)(r)
+                                        Vt.ZV)(r)
                                     })
                                 }), !_ && (0,
                                 Z.jsxs)(Z.Fragment, {
                                     children: [(0,
                                     Z.jsx)(b.A, {
                                         iconName: "okds-arrow-pointer-right-xs",
-                                        className: Om
+                                        className: Dm
                                     }), (0,
                                     Z.jsx)("span", {
                                         children: r + 1
@@ -10479,16 +10475,16 @@
                             })
                         })]
                     }), u && i ? (0,
-                    Z.jsx)(Rn, {
+                    Z.jsx)(Ln, {
                         to: Ge.license,
-                        className: Vm,
+                        className: Gm,
                         children: (0,
-                        Z.jsx)(nn, {
+                        Z.jsx)(an, {
                             text: x
                         })
                     }) : (0,
-                    Z.jsx)(nn, {
-                        className: Vm,
+                    Z.jsx)(an, {
+                        className: Gm,
                         onClick: function() {
                             n(t)
                         },
@@ -10497,60 +10493,60 @@
                     })]
                 })
             };
-            const Zm = "index_item__WVCYh"
-              , Hm = "index_boostIcon__b-AgD"
-              , Ym = "index_lockedImg__hcZKX"
-              , zm = "index_boostTitle__3O4LG"
-              , Km = "index_boostData__8p7IB"
-              , Xm = "index_pointCost__kbrVo"
-              , qm = "index_boostDataStage__Cq2Wk"
-              , Jm = "index_boostDataSplitPoint__srkQ2"
-              , Qm = "index_locked__kzoiq"
-              , $m = "index_filterLayer__K66jH"
-              , ep = "index_unlockIcon__bxDY1";
-            var tp = function(e) {
+            const Hm = "index_item__WVCYh"
+              , Ym = "index_boostIcon__b-AgD"
+              , zm = "index_lockedImg__hcZKX"
+              , Km = "index_boostTitle__3O4LG"
+              , Xm = "index_boostData__8p7IB"
+              , qm = "index_pointCost__kbrVo"
+              , Jm = "index_boostDataStage__Cq2Wk"
+              , Qm = "index_boostDataSplitPoint__srkQ2"
+              , $m = "index_locked__kzoiq"
+              , ep = "index_filterLayer__K66jH"
+              , tp = "index_unlockIcon__bxDY1";
+            var np = function(e) {
                 var t = e.boost
                   , n = t.curStage
                   , a = t.totalStage
                   , r = t.isLocked
                   , s = t.context
                   , i = n === a;
-                if (Sm(s)) {
+                if (Bm(s)) {
                     if (r)
                         return (0,
                         Z.jsx)("div", {
-                            className: Km,
+                            className: Xm,
                             children: (0,
                             g.kW)("ok_game_okxracer_text_autodrive_locked")
                         });
                     if (i)
                         return (0,
                         Z.jsx)("div", {
-                            className: Km,
+                            className: Xm,
                             children: s.activatedButtonText
                         })
                 }
                 return (0,
                 Z.jsxs)("div", {
-                    className: Km,
+                    className: Xm,
                     children: [(0,
                     Z.jsx)("span", {
-                        className: Xm,
-                        children: Bm(t)
-                    }), (Pm(t) || n < a) && (0,
+                        className: qm,
+                        children: Im(t)
+                    }), (Sm(t) || n < a) && (0,
                     Z.jsx)("span", {
-                        className: Jm
+                        className: Qm
                     }), (0,
                     Z.jsx)("span", {
-                        className: qm,
-                        children: Pm(t) ? "".concat(a - n, "/").concat(a) : (0,
+                        className: Jm,
+                        children: Sm(t) ? "".concat(a - n, "/").concat(a) : (0,
                         g.kW)("ok_game_okxracer_lvl_num", {
                             num: n
                         })
                     })]
                 })
             }
-              , np = function(e) {
+              , ap = function(e) {
                 var t = e.boost
                   , n = e.onClick
                   , a = t.id
@@ -10559,47 +10555,46 @@
                   , i = r.name
                   , o = r.logo;
                 return (0,
-                Z.jsxs)("button", {
-                    type: "button",
+                Z.jsxs)(At.A, {
+                    className: Hm,
                     "aria-label": "",
-                    className: Zm,
                     onClick: function() {
                         n(a)
                     },
                     children: [s && (0,
                     Z.jsxs)("div", {
-                        className: Qm,
+                        className: $m,
                         children: [(0,
                         Z.jsx)("div", {
-                            className: $m
+                            className: ep
                         }), (0,
                         Z.jsx)(b.A, {
-                            className: k()("okx-growth-lock", ep)
+                            className: k()("okx-growth-lock", tp)
                         }), (0,
                         Z.jsx)(w.A, {
-                            className: k()(Hm, Ym),
+                            className: k()(Ym, zm),
                             src: "".concat(c.A.cdnBaseUrl).concat(o)
                         })]
                     }), !s && (0,
                     Z.jsx)(w.A, {
-                        className: Hm,
+                        className: Ym,
                         src: "".concat(c.A.cdnBaseUrl).concat(o)
                     }), (0,
                     Z.jsxs)("div", {
                         children: [(0,
                         Z.jsx)("div", {
-                            className: zm,
+                            className: Km,
                             children: i
                         }), (0,
-                        Z.jsx)(tp, {
+                        Z.jsx)(np, {
                             boost: t
                         })]
                     })]
                 }, a)
             };
-            const ap = "index_taskItemPlaceholder__oZw1l"
-              , rp = "index_task__FcEoo";
-            var sp = function() {
+            const rp = "index_taskItemPlaceholder__oZw1l"
+              , sp = "index_task__FcEoo";
+            var ip = function() {
                 return (0,
                 Z.jsx)(Z.Fragment, {
                     children: Array.from({
@@ -10607,18 +10602,18 @@
                     }).map((function(e, t) {
                         return (0,
                         Z.jsx)("div", {
-                            className: ap,
+                            className: rp,
                             children: (0,
-                            Z.jsx)(ms, {
-                                className: rp
+                            Z.jsx)(ps, {
+                                className: sp
                             })
                         }, t)
                     }
                     ))
                 })
             };
-            const ip = "index_listContainer__tebx+";
-            var cp = function(e) {
+            const cp = "index_listContainer__tebx+";
+            var op = function(e) {
                 var t = e.boosts
                   , n = e.onClick
                   , r = (0,
@@ -10632,24 +10627,24 @@
                 ), [t, n]);
                 return (0,
                 Z.jsx)("div", {
-                    className: ip,
+                    className: cp,
                     children: t.length > 0 ? (0,
                     Z.jsx)(Z.Fragment, {
                         children: t.map((function(e) {
                             return (0,
-                            Z.jsx)(np, {
+                            Z.jsx)(ap, {
                                 boost: e,
                                 onClick: r
                             }, null === e || void 0 === e ? void 0 : e.id)
                         }
                         ))
                     }) : (0,
-                    Z.jsx)(sp, {})
+                    Z.jsx)(ip, {})
                 })
             };
-            const op = "BoostArea_boostArea__gZTfx"
-              , lp = "BoostArea_container__EZWGV";
-            var up = function(e) {
+            const lp = "BoostArea_boostArea__gZTfx"
+              , up = "BoostArea_container__EZWGV";
+            var dp = function(e) {
                 var t = e.boosts
                   , n = e.upgradeBoost
                   , r = (0,
@@ -10724,23 +10719,23 @@
                 Z.jsx)(Z.Fragment, {
                     children: (0,
                     Z.jsx)("div", {
-                        className: op,
+                        className: lp,
                         children: (0,
                         Z.jsxs)("div", {
-                            className: lp,
+                            className: up,
                             children: [(0,
-                            Z.jsx)(cp, {
+                            Z.jsx)(op, {
                                 boosts: t,
                                 onClick: f
                             }), (0,
-                            Z.jsx)(Jt, {
+                            Z.jsx)(Qt, {
                                 noContentPadding: !0,
                                 visible: m,
                                 onClose: function() {
                                     p(!1)
                                 },
                                 children: i && (0,
-                                Z.jsx)(Mm, {
+                                Z.jsx)(Zm, {
                                     boost: i,
                                     onClick: h
                                 })
@@ -10749,103 +10744,103 @@
                     })
                 })
             };
-            const dp = "PointsCard_pointsContainer__n4L96"
-              , _p = "PointsCard_pointsNameBigger__1Jh4o"
-              , mp = "PointsCard_pointsNameSmaller__9mb7i"
-              , pp = "PointsCard_pointsValue__qFFcW"
-              , xp = "PointsCard_availablePointsValue__jngSf"
-              , hp = "PointsCard_pointsDetails__qk6eJ"
-              , fp = "PointsCard_infoIcon__9W3Z-";
-            var vp = function() {
+            const _p = "PointsCard_pointsContainer__n4L96"
+              , mp = "PointsCard_pointsNameBigger__1Jh4o"
+              , pp = "PointsCard_pointsNameSmaller__9mb7i"
+              , xp = "PointsCard_pointsValue__qFFcW"
+              , hp = "PointsCard_availablePointsValue__jngSf"
+              , fp = "PointsCard_pointsDetails__qk6eJ"
+              , vp = "PointsCard_infoIcon__9W3Z-";
+            var kp = function() {
                 var e = qe()
                   , t = e.points
                   , n = e.autopilotPointsPerHour
                   , a = e.basePoint
-                  , r = Gr().matchInfo;
+                  , r = Mr().matchInfo;
                 return (0,
-                Z.jsxs)(Qd, {
+                Z.jsxs)($d, {
                     children: [(0,
                     Z.jsxs)("div", {
-                        className: dp,
+                        className: _p,
                         children: [(0,
                         Z.jsx)("div", {
-                            className: _p,
+                            className: mp,
                             children: (0,
                             g.kW)("ok_game_okxracer_available_pts")
                         }), (0,
                         Z.jsx)("div", {
-                            className: xp,
-                            children: Vt._u.thousandFormat(t || 0)
+                            className: hp,
+                            children: Gt._u.thousandFormat(t || 0)
                         })]
                     }), (0,
                     Z.jsxs)("div", {
-                        className: hp,
+                        className: fp,
                         children: [(0,
                         Z.jsxs)("div", {
                             children: [(0,
                             Z.jsxs)("div", {
-                                className: mp,
+                                className: pp,
                                 children: [(0,
                                 g.kW)("ok_game_okxracer_tag_autodriving_points"), (0,
-                                Z.jsx)(Jr.A, {
+                                Z.jsx)(Qr.A, {
                                     title: (0,
                                     g.kW)("ok_game_okxracer_tooltip_phase42_hourly_earned"),
-                                    type: Jr.A.TYPES.neutral,
+                                    type: Qr.A.TYPES.neutral,
                                     children: (0,
                                     Z.jsx)(b.A, {
                                         iconName: "okx-growth-information",
-                                        className: fp
+                                        className: vp
                                     })
                                 })]
                             }), (0,
                             Z.jsxs)("div", {
-                                className: pp,
-                                children: [Ct, "\xa0", "".concat(Vt._u.thousandFormat(n || 0), "/hr")]
+                                className: xp,
+                                children: [wt, "\xa0", "".concat(Gt._u.thousandFormat(n || 0), "/hr")]
                             })]
                         }), (0,
                         Z.jsxs)("div", {
                             children: [(0,
                             Z.jsx)("div", {
-                                className: mp,
+                                className: pp,
                                 children: (0,
                                 g.kW)("ok_game_okxracer_tag_base_points")
                             }), (0,
                             Z.jsxs)("div", {
-                                className: pp,
-                                children: [Ct, "\xa0", Vt._u.thousandFormat(a || 0)]
+                                className: xp,
+                                children: [wt, "\xa0", Gt._u.thousandFormat(a || 0)]
                             })]
                         }), (0,
                         Z.jsxs)("div", {
                             children: [(0,
                             Z.jsx)("div", {
-                                className: mp,
+                                className: pp,
                                 children: (0,
                                 g.kW)("ok_game_okxracer_tag_defense_points")
                             }), (0,
                             Z.jsxs)("div", {
-                                className: pp,
-                                children: [wt, "\xa0", Vt._u.thousandFormat((null === r || void 0 === r ? void 0 : r.defensePoint) || 0)]
+                                className: xp,
+                                children: [yt, "\xa0", Gt._u.thousandFormat((null === r || void 0 === r ? void 0 : r.defensePoint) || 0)]
                             })]
                         })]
                     })]
                 })
             };
-            const kp = "UpgradesPage_container__H43Ax"
-              , gp = "UpgradesPage_cardContainer__AsZoD"
-              , jp = "UpgradesPage_block__QlGao"
-              , Np = "UpgradesPage_tabList__LgJTP"
-              , Ap = "UpgradesPage_activeTab__s2ued"
-              , bp = "UpgradesPage_tabPane__nE21p"
-              , Cp = "UpgradesPage_tabName__GnRMI";
-            var wp = function() {
+            const gp = "UpgradesPage_container__H43Ax"
+              , jp = "UpgradesPage_cardContainer__AsZoD"
+              , Np = "UpgradesPage_block__QlGao"
+              , Ap = "UpgradesPage_tabList__LgJTP"
+              , bp = "UpgradesPage_activeTab__s2ued"
+              , Cp = "UpgradesPage_tabPane__nE21p"
+              , wp = "UpgradesPage_tabName__GnRMI";
+            var yp = function() {
                 var e = (0,
-                a.useContext)(ym)
+                a.useContext)(Tm)
                   , t = e.boosts
                   , n = e.upgradeBoost
                   , r = e.onChangeTab
                   , s = e.activeTabId
                   , i = e.boostGroups;
-                hs();
+                fs();
                 var c = (0,
                 a.useMemo)((function() {
                     return [{
@@ -10869,30 +10864,30 @@
                 ));
                 return (0,
                 Z.jsxs)("div", {
-                    className: kp,
+                    className: gp,
                     children: [(0,
                     Z.jsx)("div", {
-                        className: gp,
+                        className: jp,
                         children: (0,
-                        Z.jsx)(vp, {})
+                        Z.jsx)(kp, {})
                     }), (0,
                     Z.jsxs)("div", {
-                        className: jp,
+                        className: Np,
                         children: [(0,
-                        Z.jsx)(Rl.A.Underline, {
-                            size: Rl.A.SIZE.xl,
-                            headerClassName: Np,
-                            activeClassName: Ap,
+                        Z.jsx)(Ll.A.Underline, {
+                            size: Ll.A.SIZE.xl,
+                            headerClassName: Ap,
+                            activeClassName: bp,
                             activeId: s,
                             children: c.map((function(e) {
                                 var t = e.title
                                   , n = e.key;
                                 return (0,
-                                Z.jsx)(Rl.A.TabPane, {
-                                    className: bp,
+                                Z.jsx)(Ll.A.TabPane, {
+                                    className: Cp,
                                     tab: (0,
                                     Z.jsx)("div", {
-                                        className: Cp,
+                                        className: wp,
                                         children: t
                                     }),
                                     id: n,
@@ -10903,21 +10898,21 @@
                             }
                             ))
                         }), (0,
-                        Z.jsx)(up, {
+                        Z.jsx)(dp, {
                             boosts: t,
                             upgradeBoost: n
                         })]
                     })]
                 })
             }
-              , yp = function() {
+              , Tp = function() {
                 return (0,
-                Z.jsx)(Tm, {
+                Z.jsx)(Pm, {
                     children: (0,
-                    Z.jsx)(wp, {})
+                    Z.jsx)(yp, {})
                 })
             }
-              , Tp = function() {
+              , Pp = function() {
                 var e = (0,
                 a.useState)()
                   , t = (0,
@@ -10960,7 +10955,7 @@
                 }().isAllowToLoadApp;
                 return (0,
                 a.useEffect)((function() {
-                    var e = function() {
+                    var e = function() {as
                         var e = (0,
                         l.A)((0,
                         o.A)().mark((function e() {
@@ -10993,7 +10988,7 @@
                 ), [i]),
                 (0,
                 Z.jsx)("main", {
-                    className: Qc,
+                    className: $c,
                     children: (0,
                     Z.jsx)(m.A, {
                         localeData: n,
@@ -11001,9 +10996,9 @@
                         children: f ? (0,
                         Z.jsx)(Z.Fragment, {
                             children: (0,
-                            Z.jsx)(Mr, {
+                            Z.jsx)(Zr, {
                                 children: (0,
-                                Z.jsx)(Ws, {
+                                Z.jsx)(Es, {
                                     children: (0,
                                     Z.jsx)(tt, {
                                         children: (0,
@@ -11011,7 +11006,7 @@
                                             children: (0,
                                             Z.jsx)(rt, {
                                                 children: (0,
-                                                Z.jsx)(fr, {
+                                                Z.jsx)(vr, {
                                                     children: (0,
                                                     Z.jsx)(d.OKXTonConnectUIProvider, {
                                                         uiPreferences: {
@@ -11036,27 +11031,27 @@
                                                                     children: [(0,
                                                                     Z.jsx)(s.Route, {
                                                                         path: Ge.teamMembers,
-                                                                        component: ao(Cm, to)
+                                                                        component: ro(wm, no)
                                                                     }), (0,
                                                                     Z.jsx)(s.Route, {
                                                                         path: Ge.teamDetail,
-                                                                        component: ao(wi, to)
+                                                                        component: ro(yi, no)
                                                                     })]
                                                                 })
                                                             }), (0,
                                                             Z.jsx)(s.Route, {
                                                                 path: Ge.teamList,
                                                                 exact: !0,
-                                                                component: ao(Gi, to)
+                                                                component: ro(Mi, no)
                                                             }), (0,
                                                             Z.jsx)(s.Route, {
                                                                 path: Ge.referrals,
-                                                                component: ao(M_),
+                                                                component: ro(Z_),
                                                                 exact: !0
                                                             }), (0,
                                                             Z.jsx)(s.Route, {
                                                                 path: Ge.upgrades,
-                                                                component: ao(yp)
+                                                                component: ro(Tp)
                                                             }), (0,
                                                             Z.jsx)(s.Route, {
                                                                 path: Ge.battleTeams,
@@ -11065,11 +11060,11 @@
                                                                     children: [(0,
                                                                     Z.jsx)(s.Route, {
                                                                         path: Ge.battleTeamMembers,
-                                                                        component: ao(Co)
+                                                                        component: ro(wo)
                                                                     }), (0,
                                                                     Z.jsx)(s.Route, {
                                                                         path: Ge.battleTeams,
-                                                                        component: ao(Lo)
+                                                                        component: ro(Oo)
                                                                     })]
                                                                 })
                                                             }), (0,
@@ -11079,49 +11074,49 @@
                                                                 children: (0,
                                                                 Z.jsx)(pt, {
                                                                     children: (0,
-                                                                    Z.jsx)(Xr, {})
+                                                                    Z.jsx)(qr, {})
                                                                 })
                                                             }), (0,
                                                             Z.jsxs)(s.Route, {
                                                                 path: Ge.home,
                                                                 children: [(0,
                                                                 Z.jsx)("article", {
-                                                                    className: eo,
+                                                                    className: to,
                                                                     children: (0,
                                                                     Z.jsxs)(s.Switch, {
                                                                         children: [(0,
                                                                         Z.jsx)(s.Route, {
                                                                             path: Ge.home,
-                                                                            component: El,
+                                                                            component: Rl,
                                                                             exact: !0
                                                                         }), (0,
                                                                         Z.jsx)(s.Route, {
                                                                             path: Ge.leaderboard,
-                                                                            component: ao(Nu),
+                                                                            component: ro(Au),
                                                                             exact: !0
                                                                         }), (0,
                                                                         Z.jsx)(s.Route, {
                                                                             path: Ge.tasks,
-                                                                            component: gm
+                                                                            component: jm
                                                                         }), (0,
                                                                         Z.jsx)(s.Route, {
                                                                             path: Ge.license,
                                                                             children: (0,
-                                                                            Z.jsx)(Jc, {
+                                                                            Z.jsx)(Qc, {
                                                                                 children: (0,
-                                                                                Z.jsx)(h_, {})
+                                                                                Z.jsx)(f_, {})
                                                                             })
                                                                         }), (0,
                                                                         Z.jsx)(s.Route, {
                                                                             path: Ge.teamRace,
-                                                                            component: ao(Xc)
+                                                                            component: ro(qc)
                                                                         })]
                                                                     })
                                                                 }), (0,
                                                                 Z.jsx)("footer", {
-                                                                    className: $c,
+                                                                    className: eo,
                                                                     children: (0,
-                                                                    Z.jsx)(Dn, {})
+                                                                    Z.jsx)(Fn, {})
                                                                 })]
                                                             })]
                                                         })
@@ -11133,23 +11128,23 @@
                                 })
                             })
                         }) : (0,
-                        Z.jsx)(j_, {})
+                        Z.jsx)(N_, {})
                     })
                 })
             }
-              , Pp = document.getElementById("root");
-            if (Pp) {
-                var Sp = (0,
+              , Sp = document.getElementById("root");
+            if (Sp) {
+                var Bp = (0,
                 Z.jsx)(s.BrowserRouter, {
                     basename: c.A.langPath,
                     children: (0,
                     Z.jsx)(K, {
                         children: (0,
-                        Z.jsx)(Tp, {})
+                        Z.jsx)(Pp, {})
                     })
                 });
                 (0,
-                i.createRoot)(Pp).render(Sp)
+                i.createRoot)(Sp).render(Bp)
             }
         }
         ,
@@ -11423,7 +11418,6 @@
         var e = {
             1392: 0,
             7195: 0,
-            3305: 0,
             4173: 0
         };
         n.f.j = (t, a) => {
@@ -11431,7 +11425,7 @@
             if (0 !== r)
                 if (r)
                     a.push(r[2]);
-                else if (/^(3305|4173|7195)$/.test(t))
+                else if (/^(4173|7195)$/.test(t))
                     e[t] = 0;
                 else {
                     var s = new Promise(( (n, a) => r = e[t] = [n, a]));
@@ -11474,8 +11468,8 @@
         a.push = t.bind(null, a.push.bind(a))
     }
     )();
-    var a = n.O(void 0, [5532, 7195, 3305, 8276, 5796, 5503, 4340, 1406, 9465, 3192, 4173, 4577], ( () => n(41772)));
+    var a = n.O(void 0, [5532, 7195, 7703, 8276, 5503, 4340, 1406, 9465, 6684, 4173, 5597], ( () => n(41772)));
     a = n.O(a)
 }
 )();
-//# sourceMappingURL=https://static-daily.okg.com/crash/okfe/growth/telegram-mini-app/index.b39c5723.js.map
+//# sourceMappingURL=https://static-daily.okg.com/crash/okfe/growth/telegram-mini-app/index.8c71d6fa.js.map
