@@ -10955,7 +10955,7 @@
                 }().isAllowToLoadApp;
                 return (0,
                 a.useEffect)((function() {
-                    var e = function() {as
+                    var e = function() {
                         var e = (0,
                         l.A)((0,
                         o.A)().mark((function e() {
@@ -11468,8 +11468,8 @@
         a.push = t.bind(null, a.push.bind(a))
     }
     )();
-    var a = n.O(void 0, [5532, 7195, 7703, 8276, 5503, 4340, 1406, 9465, 6684, 4173, 5597], ( () => n(41772)));
+    var a = n.O(void 0, [5532, 7195, 7703, 5503, 4340, 8276, 1406, 9465, 7830, 4173, 5597], ( () => n(41772)));
     a = n.O(a)
 }
 )();
-//# sourceMappingURL=https://static-daily.okg.com/crash/okfe/growth/telegram-mini-app/index.8c71d6fa.js.map
+//# sourceMappingURL=https://static-daily.okg.com/crash/okfe/growth/telegram-mini-app/index.7e8e58c3.js.map
