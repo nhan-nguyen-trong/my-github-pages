@@ -7298,7 +7298,7 @@
                     Z.jsx)(El, {})
                 })
             }
-              , Ll = n(59465);
+              , Ll = n(33397);
             n(48558);
             const Ol = "InviteBanner_bannerContainer__30zHC"
               , Dl = "InviteBanner_bannerIcon__U6pI0"
@@ -11468,8 +11468,8 @@
         a.push = t.bind(null, a.push.bind(a))
     }
     )();
-    var a = n.O(void 0, [5532, 7195, 7703, 5503, 4340, 8276, 1406, 9465, 7830, 4173, 5597], ( () => n(41772)));
+    var a = n.O(void 0, [5532, 7195, 7703, 5503, 4340, 8276, 1406, 3397, 7830, 4173, 5597], ( () => n(41772)));
     a = n.O(a)
 }
 )();
-//# sourceMappingURL=https://static-daily.okg.com/crash/okfe/growth/telegram-mini-app/index.7e8e58c3.js.map
+//# sourceMappingURL=https://static-daily.okg.com/crash/okfe/growth/telegram-mini-app/index.d515d713.js.map
