@@ -5062,7 +5062,10 @@
                 }();
                 var U = r && !L
                   , V = !(null !== L && void 0 !== L && L.isCurrentTeam) && !m
-                  , G = (null === L || void 0 === L ? void 0 : L.campaigns) || [];
+                  , G = (null === L || void 0 === L ? void 0 : L.campaigns) || []
+                  , H = null !== L && void 0 !== L && L.teamInfoContext.teamAvatar ? {
+                    src: "".concat(c.A.cdnBaseUrl).concat(L.teamInfoContext.teamAvatar)
+                } : {};
                 return (0,
                 Z.jsxs)("div", {
                     className: k()(ni, (0,
@@ -5076,9 +5079,7 @@
                         }) : (0,
                         Z.jsx)($r.A, (0,
                         C.A)((0,
-                        C.A)({}, null !== L && void 0 !== L && L.teamInfoContext.teamAvatar ? {
-                            src: "".concat(c.A.cdnBaseUrl).concat(L.teamInfoContext.teamAvatar)
-                        } : {}), {}, {
+                        C.A)({}, H), {}, {
                             alt: null === L || void 0 === L ? void 0 : L.teamInfoContext.teamName,
                             className: ii
                         })), (0,
@@ -9780,15 +9781,20 @@
                     }
                     ), e)
                 }
-                ))), [_, p]);
-                return (0,
-                Z.jsx)(Y_.Provider, {
-                    value: {
+                ))), [_, p])
+                  , v = (0,
+                a.useMemo)((function() {
+                    return {
                         tasks: s,
                         executeTaskSuccessCallback: f,
                         partner: _,
                         setSelectedPartner: h
-                    },
+                    }
+                }
+                ), [f, _, h, s]);
+                return (0,
+                Z.jsx)(Y_.Provider, {
+                    value: v,
                     children: t
                 })
             };
@@ -10295,7 +10301,8 @@
                     ), e, null, [[0, 10]])
                 }
                 ))), [])
-                  , g = function() {
+                  , g = (0,
+                a.useCallback)(function() {
                     var e = (0,
                     l.A)((0,
                     o.A)().mark((function e(t) {
@@ -10338,25 +10345,33 @@
                     return function(t) {
                         return e.apply(this, arguments)
                     }
-                }();
-                return (0,
+                }(), [_, v])
+                  , j = (0,
+                a.useCallback)((function(e) {
+                    var t;
+                    m(e),
+                    f(null !== (t = null === s || void 0 === s ? void 0 : s[e]) && void 0 !== t ? t : [])
+                }
+                ), [s]);
+                (0,
                 a.useEffect)((function() {
                     k()
                 }
-                ), [k]),
-                (0,
-                Z.jsx)(Tm.Provider, {
-                    value: {
+                ), [k]);
+                var N = (0,
+                a.useMemo)((function() {
+                    return {
                         boosts: h,
                         upgradeBoost: g,
-                        onChangeTab: function(e) {
-                            var t;
-                            m(e),
-                            f(null !== (t = null === s || void 0 === s ? void 0 : s[e]) && void 0 !== t ? t : [])
-                        },
+                        onChangeTab: j,
                         activeTabId: _,
                         boostGroups: s
-                    },
+                    }
+                }
+                ), [_, s, h, j, g]);
+                return (0,
+                Z.jsx)(Tm.Provider, {
+                    value: N,
                     children: t
                 })
             }
@@ -11468,8 +11483,8 @@
         a.push = t.bind(null, a.push.bind(a))
     }
     )();
-    var a = n.O(void 0, [5532, 7195, 7703, 5503, 4340, 8276, 1406, 3397, 7830, 4173, 5597], ( () => n(41772)));
+    var a = n.O(void 0, [5532, 7195, 7703, 9722, 4340, 8276, 1406, 3397, 3111, 4173, 2783], ( () => n(41772)));
     a = n.O(a)
 }
 )();
-//# sourceMappingURL=https://static-daily.okg.com/crash/okfe/growth/telegram-mini-app/index.d515d713.js.map
+//# sourceMappingURL=https://static-daily.okg.com/crash/okfe/growth/telegram-mini-app/index.b7873489.js.map
