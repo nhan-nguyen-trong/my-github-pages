@@ -82,7 +82,7 @@
                 })
             }
               , B = n(69434)
-              , I = n(59127)
+              , I = n(17731)
               , W = n(37818);
             var E = {
                 BOT_NAME: "OKX_official_bot",
@@ -11434,8 +11434,8 @@
         a.push = t.bind(null, a.push.bind(a))
     }
     )();
-    var a = n.O(void 0, [4839, 7195, 3527, 8276, 3305, 4340, 1406, 7563, 3397, 6684, 7526], ( () => n(61895)));
+    var a = n.O(void 0, [4839, 7195, 3527, 8276, 3305, 4340, 1406, 7563, 3397, 6684, 964], ( () => n(61895)));
     a = n.O(a)
 }
 )();
-//# sourceMappingURL=https://static-daily.okg.com/crash/okfe/growth/telegram-mini-app/index.37693d7a.js.map
+//# sourceMappingURL=https://static-daily.okg.com/crash/okfe/growth/telegram-mini-app/index.14c310c2.js.map
