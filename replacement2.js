@@ -6,7 +6,7 @@
               , r = n.n(a);
             const s = ReactRouterDOM;
             n(29068);
-            var i = n(86619)
+            var i = n(75206)
               , c = n(84854)
               , o = (n(79480),
             n(90675))
@@ -48,12 +48,20 @@
               , w = n(71615)
               , y = (n(58704),
             {
-                act: function() {}
+                act: function(e) {
+                    console.error("[monitor.js][act][".concat(null === e || void 0 === e ? void 0 : e.action, "] monitor not init yet "))
+                },
+                triggerReportDuration: function() {}
             });
-            "undefined" !== typeof window && (y = window.utils.monitor.newInstance({
-                product: "growth_tools",
-                commonParams: {}
-            }));
+            if ("undefined" !== typeof window)
+                try {
+                    y = window.utils.monitor.newInstance({
+                        product: "growth_tools",
+                        commonParams: {}
+                    })
+                } catch (Pp) {
+                    console.error("[monitor.js][newInstance] monitor error", Pp)
+                }
             var T = y
               , P = function() {
                 var e = (arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {}).telegramid;
@@ -127,7 +135,7 @@
                     shareUrl: "".concat("https://t.me/share/url", "?url=").concat(encodeURIComponent(s), "&text=").concat(n)
                 }
             }
-              , Z = n(65983)
+              , Z = n(19919)
               , H = {
                 uid: "",
                 username: "",
@@ -11126,6 +11134,11 @@
             e.exports = ReactDOM
         }
         ,
+        19919: e => {
+            "use strict";
+            e.exports = ReactJSX
+        }
+        ,
         51985: () => {}
         ,
         99432: () => {}
@@ -11375,8 +11388,10 @@
                     var n = e(t);
                     if ("string" !== typeof n)
                         return n;
-                    var a = window._okGlobal || window.okGlobal;
-                    return a && a.isRTL && /\.css$/.test(n) ? n.replace(/\.css$/, ".rtl.css") : n
+                    var a = window._okGlobal || window.okGlobal
+                      , r = a && a.isRTL;
+                    return __INIT_STATE__ && __INIT_STATE__.appContext && (r = __INIT_STATE__.appContext.enableRTL && r),
+                    r && /\.css$/.test(n) ? n.replace(/\.css$/, ".rtl.css") : n
                 }
             }
         } catch (t) {}
@@ -11438,4 +11453,4 @@
     a = n.O(a)
 }
 )();
-//# sourceMappingURL=https://static-daily.okg.com/crash/okfe/growth/telegram-mini-app/index.6b9afed3.js.map
+//# sourceMappingURL=https://static-daily.okg.com/crash/okfe/growth/telegram-mini-app/index.187b2615.js.map
