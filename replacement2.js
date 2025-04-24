@@ -3282,7 +3282,7 @@
                   , r = e.countDown
                   , s = e.onFinish
                   , i = (0,
-                a.useRef)()
+                a.useRef)(void 0)
                   , c = (0,
                 a.useState)({
                     minute: "01",
@@ -3644,7 +3644,7 @@
                     Z.jsx)(w.A, {
                         src: t,
                         className: Wr,
-                        alt: "Avatar"
+                        alt: ""
                     }), n, (0,
                     Z.jsx)("span", {
                         className: Er,
@@ -6830,12 +6830,9 @@
                 }
                 ))), []),
                 (0,
-                Z.jsx)(Z.Fragment, {
-                    children: (0,
-                    Z.jsx)("div", {
-                        ref: e,
-                        className: vl
-                    })
+                Z.jsx)("div", {
+                    ref: e,
+                    className: vl
                 })
             }
               , gl = function() {
@@ -6860,7 +6857,7 @@
                         children: (0,
                         Z.jsx)("img", {
                             src: "".concat(c.A.cdnBaseUrl).concat("/cdn/assets/imgs/248/4770A4DA6875EB63.webp"),
-                            alt: "racer",
+                            alt: "",
                             className: fl
                         })
                     }), (0,
@@ -8991,7 +8988,7 @@
                                 children: (0,
                                 Z.jsx)("img", {
                                     src: null !== v && void 0 !== v && v.logo ? "".concat(c.A.cdnBaseUrl).concat(null === v || void 0 === v ? void 0 : v.logo) : "".concat(c.A.cdnBaseUrl).concat("/cdn/assets/imgs/248/0A41A851FBCA2AA7.webp"),
-                                    alt: "level",
+                                    alt: "",
                                     className: k()(Gd.levelLogo, t >= d ? Gd.logoLight : Gd.logoGrade)
                                 })
                             }), 0 !== d && (0,
@@ -11400,14 +11397,17 @@
     ( () => {
         var e = {
             1392: 0,
-            7195: 0
+            7195: 0,
+            3305: 0
         };
         n.f.j = (t, a) => {
             var r = n.o(e, t) ? e[t] : void 0;
             if (0 !== r)
                 if (r)
                     a.push(r[2]);
-                else if (7195 != t) {
+                else if (/^(330|719)5$/.test(t))
+                    e[t] = 0;
+                else {
                     var s = new Promise(( (n, a) => r = e[t] = [n, a]));
                     a.push(r[2] = s);
                     var i = n.p + n.u(t)
@@ -11425,8 +11425,7 @@
                         }
                     }
                     ), "chunk-" + t, t)
-                } else
-                    e[t] = 0
+                }
         }
         ,
         n.O.j = t => 0 === e[t];
@@ -11449,8 +11448,8 @@
         a.push = t.bind(null, a.push.bind(a))
     }
     )();
-    var a = n.O(void 0, [4839, 7195, 3527, 8276, 9776, 9722, 4986, 1406, 7563, 3397, 6684, 7526], ( () => n(61895)));
+    var a = n.O(void 0, [4839, 7195, 3305, 1700, 9776, 8276, 9722, 9491, 1406, 4280, 3397, 5125, 843], ( () => n(61895)));
     a = n.O(a)
 }
 )();
-//# sourceMappingURL=https://static-daily.okg.com/crash/okfe/growth/telegram-mini-app/index.187b2615.js.map
+//# sourceMappingURL=https://static-daily.okg.com/crash/okfe/growth/telegram-mini-app/index.5d7f7c80.js.map
