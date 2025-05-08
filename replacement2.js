@@ -38,7 +38,7 @@
               , g = n(4536)
               , j = n(105)
               , N = n(89111)
-              , A = (n(64365),
+              , A = (n(86746),
             n(62674),
             n(56609))
               , b = n(20376)
@@ -2094,7 +2094,7 @@
                         })]
                     })]
                 })
-            }, Zt = n(44977), Ht = n(14636), Yt = n(53986), zt = ["title", "titleId"];
+            }, Zt = n(4962), Ht = n(14636), Yt = n(53986), zt = ["title", "titleId"];
             function Kt() {
                 return Kt = Object.assign ? Object.assign.bind() : function(e) {
                     for (var t = 1; t < arguments.length; t++) {
@@ -7316,7 +7316,7 @@
                     Z.jsx)(Ll, {})
                 })
             }
-              , Dl = n(33397);
+              , Dl = n(3901);
             n(48558);
             const Fl = "InviteBanner_bannerContainer__30zHC"
               , Ul = "InviteBanner_bannerIcon__U6pI0"
@@ -11448,8 +11448,8 @@
         a.push = t.bind(null, a.push.bind(a))
     }
     )();
-    var a = n.O(void 0, [4839, 7195, 3305, 1700, 9776, 8276, 9722, 9491, 1406, 4280, 3397, 5125, 843], ( () => n(61895)));
+    var a = n.O(void 0, [2705, 7195, 3305, 1700, 9776, 8276, 9722, 9491, 659, 4280, 3901, 6004, 4224], ( () => n(61895)));
     a = n.O(a)
 }
 )();
-//# sourceMappingURL=https://static-daily.okg.com/crash/okfe/growth/telegram-mini-app/index.5d7f7c80.js.map
+//# sourceMappingURL=https://static-daily.okg.com/crash/okfe/growth/telegram-mini-app/index.32512570.js.map
