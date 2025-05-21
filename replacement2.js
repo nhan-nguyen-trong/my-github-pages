@@ -11448,8 +11448,8 @@
         a.push = t.bind(null, a.push.bind(a))
     }
     )();
-    var a = n.O(void 0, [6185, 874, 7195, 3305, 1700, 9776, 8276, 9722, 321, 659, 4280, 3901, 6004, 2], ( () => n(61895)));
+    var a = n.O(void 0, [6185, 874, 7195, 3305, 1700, 9776, 8276, 9722, 321, 924, 9138, 3901, 6004, 3532], ( () => n(61895)));
     a = n.O(a)
 }
 )();
-//# sourceMappingURL=https://static-daily.okg.com/crash/okfe/growth/telegram-mini-app/index.8c8a5a08.js.map
+//# sourceMappingURL=https://static-daily.okg.com/crash/okfe/growth/telegram-mini-app/index.3f24c074.js.map
