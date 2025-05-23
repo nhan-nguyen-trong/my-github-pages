@@ -11397,15 +11397,16 @@
     ( () => {
         var e = {
             1392: 0,
-            7195: 0,
-            3305: 0
+            8337: 0,
+            644: 0,
+            8939: 0
         };
         n.f.j = (t, a) => {
             var r = n.o(e, t) ? e[t] : void 0;
             if (0 !== r)
                 if (r)
                     a.push(r[2]);
-                else if (/^(330|719)5$/.test(t))
+                else if (/^(644|8337|8939)$/.test(t))
                     e[t] = 0;
                 else {
                     var s = new Promise(( (n, a) => r = e[t] = [n, a]));
@@ -11448,8 +11449,8 @@
         a.push = t.bind(null, a.push.bind(a))
     }
     )();
-    var a = n.O(void 0, [6185, 874, 7195, 3305, 1700, 9776, 8276, 9722, 321, 924, 9138, 3901, 6004, 3532], ( () => n(61895)));
+    var a = n.O(void 0, [6185, 874, 8337, 644, 8939, 4647, 9776, 8276, 9795, 6163, 924, 9138, 3901, 9993, 6004, 6942], ( () => n(61895)));
     a = n.O(a)
 }
 )();
-//# sourceMappingURL=https://static-daily.okg.com/crash/okfe/growth/telegram-mini-app/index.3f24c074.js.map
+//# sourceMappingURL=https://static-daily.okg.com/crash/okfe/growth/telegram-mini-app/index.0a7bfbe7.js.map
